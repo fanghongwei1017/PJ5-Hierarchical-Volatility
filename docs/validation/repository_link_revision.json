@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "change": "Append project repository address after bibliography.",
+  "repository_url": "https://github.com/fanghongwei1017/PJ5-Hierarchical-Volatility",
+  "clickable_uri_verified": true,
+  "previous_commit": "93d34afa6db867f3f05f38d3e94bf222b193c06d",
+  "pages": 19,
+  "changed_pages": [
+    19
+  ],
+  "pixel_difference_boxes_at_scale_1_5": {
+    "19": [
+      84,
+      711,
+      808,
+      1186
+    ]
+  },
+  "existing_report_content_unchanged": true,
+  "member_name": "戴晴琴",
+  "contribution_percentages": {
+    "algorithm": 30,
+    "presentation": 70
+  },
+  "scientific_experiments_rerun": false,
+  "report_tex_sha256": "ef72fe69175f8cb22778537be57e0a5ddc1672885e79c858e26d722239a0886c",
+  "report_pdf_sha256": "26a4533d1977b39391b5fe38c43464a43d93c4f0ff5b80101cf3155b30c6c9de",
+  "scope": "Repository link, PDF page rendering and submission hashes; scientific code and results unchanged."
+}

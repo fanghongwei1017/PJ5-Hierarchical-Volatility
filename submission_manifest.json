@@ -2,8 +2,8 @@
   "format_version": 1,
   "submission_date": "2026-11-15",
   "project": "A股收益的分层波动模型：静态拟合与条件背景更新",
-  "file_count": 443,
-  "total_bytes": 204343956,
+  "file_count": 444,
+  "total_bytes": 204350733,
   "scope": "Tracked submission files. This manifest excludes itself, .git and generated verification/build output.",
   "files": {
     ".gitattributes": {
@@ -31,8 +31,8 @@
       "sha256": "8c99d692d6783c1a4acf1ee2ea579f4f6947d5ec03e33e43788c4421464ea264"
     },
     "docs/submission_provenance.json": {
-      "bytes": 3558,
-      "sha256": "21cc6eaceb8f13f07bbcc0a5960b24b9dd7ce9e181e10ae5f0759aa232106f6b"
+      "bytes": 4058,
+      "sha256": "dbb9c542f3a899d8ab726d98ac875e2180e547db56ed4e034e49d92f720a667a"
     },
     "docs/validation/conditional_portable_check.json": {
       "bytes": 24046,
@@ -47,12 +47,16 @@
       "sha256": "1d8c926ab07d278581748cd40047dfc2553e4b083fb563171ebf455555bcddbe"
     },
     "docs/validation/package_checks.json": {
-      "bytes": 2076,
-      "sha256": "d72610b2d0f48f172ab219e011b01f781539e2fefac8bbd0ef50657ccdc1b7b2"
+      "bytes": 2080,
+      "sha256": "cadb0deb46d9e7df6fe766b6b38e8860c77b363353d032d5f690111a2aa41f4a"
     },
     "docs/validation/report_final_review.json": {
       "bytes": 11872,
       "sha256": "eff324f592241bc90d94360b05cb032fa273112c449d75f6f5992fd43d6abc0c"
+    },
+    "docs/validation/repository_link_revision.json": {
+      "bytes": 956,
+      "sha256": "1f4bb48b6a577c94604674002576e1bd7db77bf12af582b8181ff72eb6b6e96a"
     },
     "environment.yml": {
       "bytes": 172,
@@ -463,12 +467,12 @@
       "sha256": "3141f37ed0e3ed0905237e191a8aabf04877759d90fb15f176ca48aab081a023"
     },
     "reports/report.pdf": {
-      "bytes": 782071,
-      "sha256": "f68b7c64a72c342c9c2fc215c75e38399628557a5b713f39985a5ef0e18cf753"
+      "bytes": 787251,
+      "sha256": "26a4533d1977b39391b5fe38c43464a43d93c4f0ff5b80101cf3155b30c6c9de"
     },
     "reports/report.tex": {
-      "bytes": 52378,
-      "sha256": "6d6da06ee644e0f1a6a25348f2dc3a10578118440abdc5717e4ac4a66e4366be"
+      "bytes": 52515,
+      "sha256": "ef72fe69175f8cb22778537be57e0a5ddc1672885e79c858e26d722239a0886c"
     },
     "requirements.txt": {
       "bytes": 55,

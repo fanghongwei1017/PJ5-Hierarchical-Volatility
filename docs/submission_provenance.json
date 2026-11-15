@@ -48,10 +48,10 @@
   "experiment_files_unchanged": true,
   "current_documents": {
     "reports/report.pdf": {
-      "sha256": "f68b7c64a72c342c9c2fc215c75e38399628557a5b713f39985a5ef0e18cf753"
+      "sha256": "26a4533d1977b39391b5fe38c43464a43d93c4f0ff5b80101cf3155b30c6c9de"
     },
     "reports/report.tex": {
-      "sha256": "6d6da06ee644e0f1a6a25348f2dc3a10578118440abdc5717e4ac4a66e4366be"
+      "sha256": "ef72fe69175f8cb22778537be57e0a5ddc1672885e79c858e26d722239a0886c"
     },
     "reports/data_supplement.pdf": {
       "sha256": "7069639a059de7d64a7b6d3b3fb5c8b6a12db98e09a438b46e6a8720a09e533c"
@@ -72,11 +72,19 @@
       "change": "Correct member name to 戴晴琴; retain algorithm 30% and presentation 70%.",
       "validation": "docs/validation/member_name_revision.json",
       "previous_commit": "5baeecdd10ef9e6e7ccf5867192f247045b8a0f1"
+    },
+    {
+      "date": "2026-11-15",
+      "change": "Append clickable project repository address after the bibliography.",
+      "repository_url": "https://github.com/fanghongwei1017/PJ5-Hierarchical-Volatility",
+      "validation": "docs/validation/repository_link_revision.json",
+      "previous_commit": "93d34afa6db867f3f05f38d3e94bf222b193c06d"
     }
   ],
   "validation_scope": {
     "docs/validation/report_final_review.json": "Historical review before the name correction.",
     "docs/validation/package_checks.json": "Initial package verification before the name correction.",
-    "docs/validation/member_name_revision.json": "Current report name correction and page comparison."
+    "docs/validation/member_name_revision.json": "Historical member-name correction before the repository link was appended.",
+    "docs/validation/repository_link_revision.json": "Current report repository link and final-page comparison."
   }
 }
