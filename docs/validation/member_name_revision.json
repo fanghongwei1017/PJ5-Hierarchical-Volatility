@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "change": "Correct team member name to 戴晴琴",
+  "previous_commit": "5baeecdd10ef9e6e7ccf5867192f247045b8a0f1",
+  "pages": 19,
+  "changed_pages": [
+    19
+  ],
+  "pixel_difference_boxes_at_scale_1_5": {
+    "19": [
+      329,
+      768,
+      346,
+      784
+    ]
+  },
+  "contribution_percentages": {
+    "algorithm": 30,
+    "presentation": 70
+  },
+  "tex_change_is_single_name_replacement": true,
+  "pdf_text_checked": true,
+  "scientific_experiments_rerun": false,
+  "report_tex_sha256": "6d6da06ee644e0f1a6a25348f2dc3a10578118440abdc5717e4ac4a66e4366be",
+  "report_pdf_sha256": "f68b7c64a72c342c9c2fc215c75e38399628557a5b713f39985a5ef0e18cf753",
+  "scope": "Member name, PDF page rendering and submission hashes; numerical experiment files unchanged."
+}

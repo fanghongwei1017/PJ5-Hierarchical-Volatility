@@ -41,7 +41,42 @@
       "file_count": 140
     }
   ],
-  "copied_without_modification": true,
+  "copied_without_modification": false,
   "raw_market_bars_included": false,
-  "data_scope": "Empirical return inputs, screening statistics, model outputs and provenance."
+  "data_scope": "Empirical return inputs, screening statistics, model outputs and provenance.",
+  "approved_documents_scope": "Initial imported submission before the member-name correction; retained as historical provenance.",
+  "experiment_files_unchanged": true,
+  "current_documents": {
+    "reports/report.pdf": {
+      "sha256": "f68b7c64a72c342c9c2fc215c75e38399628557a5b713f39985a5ef0e18cf753"
+    },
+    "reports/report.tex": {
+      "sha256": "6d6da06ee644e0f1a6a25348f2dc3a10578118440abdc5717e4ac4a66e4366be"
+    },
+    "reports/data_supplement.pdf": {
+      "sha256": "7069639a059de7d64a7b6d3b3fb5c8b6a12db98e09a438b46e6a8720a09e533c"
+    },
+    "reports/data_supplement.tex": {
+      "sha256": "f2311642d7a893009021d4c0e1290ce6ccd45daecb569b3ab603167e404b7f83"
+    },
+    "reports/eight_stock_supplement.pdf": {
+      "sha256": "aa705534b721831d5a8f29cf2265811998c965037d71ad58cb3ea7557dd69011"
+    },
+    "reports/eight_stock_supplement.tex": {
+      "sha256": "9712fdcb9f3316e9c35d0b98339e49ef3d1914eda76c98abc116e917b262b902"
+    }
+  },
+  "revisions": [
+    {
+      "date": "2026-11-15",
+      "change": "Correct member name to 戴晴琴; retain algorithm 30% and presentation 70%.",
+      "validation": "docs/validation/member_name_revision.json",
+      "previous_commit": "5baeecdd10ef9e6e7ccf5867192f247045b8a0f1"
+    }
+  ],
+  "validation_scope": {
+    "docs/validation/report_final_review.json": "Historical review before the name correction.",
+    "docs/validation/package_checks.json": "Initial package verification before the name correction.",
+    "docs/validation/member_name_revision.json": "Current report name correction and page comparison."
+  }
 }
