@@ -1,0 +1,53 @@
+\begin{tikzpicture}
+\begin{groupplot}[group style={group size=2 by 4,horizontal sep=1.05cm,vertical sep=1.45cm},
+width=7.45cm,height=4.45cm,
+grid=major,grid style={gray!15},unbounded coords=jump,
+tick label style={font=\scriptsize},title style={font=\small},label style={font=\small},
+legend style={font=\footnotesize,draw=none,at={(1.12,1.23)},anchor=south,legend columns=4,column sep=.6em},
+legend cell align=left,
+ymode=log,ymin=0.00001,ymax=5,ylabel={概率密度},ytick={0.00001,0.001,0.1,1}]
+\nextgroupplot[title={(a) 中国平安 601318.SH},xmin=-4.595921659771838,xmax=4.595921659771838]
+\addplot[black!70,only marks,mark=*,mark size=.85pt] table[x=x,y=plot_density,col sep=comma]{eight_conditional_601318_test_hist.csv};
+\addlegendentry{经验密度}
+\addplot[orange!85!black,line width=.8pt] table[x=x,y=static_N8,col sep=comma]{eight_conditional_601318_test_density.csv};
+\addlegendentry{静态似然八层}
+\addplot[blue!70!black,line width=.8pt] table[x=x,y=dynamic_N8,col sep=comma]{eight_conditional_601318_test_density.csv};
+\addlegendentry{条件八层}
+\addplot[violet!85!black,dashdotted,line width=.8pt] table[x=x,y=dynamic_Gaussian,col sep=comma]{eight_conditional_601318_test_density.csv};
+\addlegendentry{同规则高斯}
+\nextgroupplot[title={(b) 贵州茅台 600519.SH},xmin=-5.0124536266210145,xmax=5.0124536266210145,ylabel={}]
+\addplot[black!70,only marks,mark=*,mark size=.85pt] table[x=x,y=plot_density,col sep=comma]{eight_conditional_600519_test_hist.csv};
+\addplot[orange!85!black,line width=.8pt] table[x=x,y=static_N8,col sep=comma]{eight_conditional_600519_test_density.csv};
+\addplot[blue!70!black,line width=.8pt] table[x=x,y=dynamic_N8,col sep=comma]{eight_conditional_600519_test_density.csv};
+\addplot[violet!85!black,dashdotted,line width=.8pt] table[x=x,y=dynamic_Gaussian,col sep=comma]{eight_conditional_600519_test_density.csv};
+\nextgroupplot[title={(c) 中信证券 600030.SH},xmin=-5.660159476299526,xmax=5.660159476299526]
+\addplot[black!70,only marks,mark=*,mark size=.85pt] table[x=x,y=plot_density,col sep=comma]{eight_conditional_600030_test_hist.csv};
+\addplot[orange!85!black,line width=.8pt] table[x=x,y=static_N8,col sep=comma]{eight_conditional_600030_test_density.csv};
+\addplot[blue!70!black,line width=.8pt] table[x=x,y=dynamic_N8,col sep=comma]{eight_conditional_600030_test_density.csv};
+\addplot[violet!85!black,dashdotted,line width=.8pt] table[x=x,y=dynamic_Gaussian,col sep=comma]{eight_conditional_600030_test_density.csv};
+\nextgroupplot[title={(d) 伊利股份 600887.SH},xmin=-4.8198806302473765,xmax=4.8198806302473765,ylabel={}]
+\addplot[black!70,only marks,mark=*,mark size=.85pt] table[x=x,y=plot_density,col sep=comma]{eight_conditional_600887_test_hist.csv};
+\addplot[orange!85!black,line width=.8pt] table[x=x,y=static_N8,col sep=comma]{eight_conditional_600887_test_density.csv};
+\addplot[blue!70!black,line width=.8pt] table[x=x,y=dynamic_N8,col sep=comma]{eight_conditional_600887_test_density.csv};
+\addplot[violet!85!black,dashdotted,line width=.8pt] table[x=x,y=dynamic_Gaussian,col sep=comma]{eight_conditional_600887_test_density.csv};
+\nextgroupplot[title={(e) 招商银行 600036.SH},xmin=-4.728278701608616,xmax=4.728278701608616]
+\addplot[black!70,only marks,mark=*,mark size=.85pt] table[x=x,y=plot_density,col sep=comma]{eight_conditional_600036_test_hist.csv};
+\addplot[orange!85!black,line width=.8pt] table[x=x,y=static_N8,col sep=comma]{eight_conditional_600036_test_density.csv};
+\addplot[blue!70!black,line width=.8pt] table[x=x,y=dynamic_N8,col sep=comma]{eight_conditional_600036_test_density.csv};
+\addplot[violet!85!black,dashdotted,line width=.8pt] table[x=x,y=dynamic_Gaussian,col sep=comma]{eight_conditional_600036_test_density.csv};
+\nextgroupplot[title={(f) 华友钴业 603799.SH},xmin=-5.120680785735817,xmax=5.120680785735817,ylabel={}]
+\addplot[black!70,only marks,mark=*,mark size=.85pt] table[x=x,y=plot_density,col sep=comma]{eight_conditional_603799_test_hist.csv};
+\addplot[orange!85!black,line width=.8pt] table[x=x,y=static_N8,col sep=comma]{eight_conditional_603799_test_density.csv};
+\addplot[blue!70!black,line width=.8pt] table[x=x,y=dynamic_N8,col sep=comma]{eight_conditional_603799_test_density.csv};
+\addplot[violet!85!black,dashdotted,line width=.8pt] table[x=x,y=dynamic_Gaussian,col sep=comma]{eight_conditional_603799_test_density.csv};
+\nextgroupplot[title={(g) 方大炭素 600516.SH},xmin=-6.00372101828073,xmax=6.00372101828073,xlabel={归一化收益 $x$}]
+\addplot[black!70,only marks,mark=*,mark size=.85pt] table[x=x,y=plot_density,col sep=comma]{eight_conditional_600516_test_hist.csv};
+\addplot[orange!85!black,line width=.8pt] table[x=x,y=static_N8,col sep=comma]{eight_conditional_600516_test_density.csv};
+\addplot[blue!70!black,line width=.8pt] table[x=x,y=dynamic_N8,col sep=comma]{eight_conditional_600516_test_density.csv};
+\addplot[violet!85!black,dashdotted,line width=.8pt] table[x=x,y=dynamic_Gaussian,col sep=comma]{eight_conditional_600516_test_density.csv};
+\nextgroupplot[title={(h) 中国建筑 601668.SH},xmin=-5.1961255383408735,xmax=5.1961255383408735,ylabel={},xlabel={归一化收益 $x$}]
+\addplot[black!70,only marks,mark=*,mark size=.85pt] table[x=x,y=plot_density,col sep=comma]{eight_conditional_601668_test_hist.csv};
+\addplot[orange!85!black,line width=.8pt] table[x=x,y=static_N8,col sep=comma]{eight_conditional_601668_test_density.csv};
+\addplot[blue!70!black,line width=.8pt] table[x=x,y=dynamic_N8,col sep=comma]{eight_conditional_601668_test_density.csv};
+\addplot[violet!85!black,dashdotted,line width=.8pt] table[x=x,y=dynamic_Gaussian,col sep=comma]{eight_conditional_601668_test_density.csv};
+\end{groupplot}\end{tikzpicture}

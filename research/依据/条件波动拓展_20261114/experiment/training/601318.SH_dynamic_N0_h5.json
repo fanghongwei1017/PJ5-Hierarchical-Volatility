@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "symbol": "601318.SH",
+  "dynamic": true,
+  "h": 5,
+  "name": "601318.SH_dynamic_N0_h5",
+  "scale": 0.0022112908251285352,
+  "training_days": 519,
+  "training_returns": 23874,
+  "valid_returns": 3128,
+  "valid_mean_log_score": -1.0809825354661202,
+  "parameter": {
+    "family": "Gaussian",
+    "N": null,
+    "beta": null,
+    "c": 1.0463179960271867,
+    "mean_train_log_score": -1.4379016859401326,
+    "optimizer_success": true,
+    "parameter_boundary": false,
+    "starts": [],
+    "elapsed_seconds": 0.001721800013910979
+  },
+  "input_sha256": {
+    "protocol": "655baf8a43f518e4ad3f5b980a922433b7308c4c4da20dbbb367b3350609f1a8",
+    "historical": "19cb546b021bf458ecf5c08dd0763be3d8b3ec68aad63a9602fc0687b2af6c80"
+  },
+  "training_start": "20170406",
+  "training_end": "20190522",
+  "elapsed_seconds": 0.04132370001752861
+}

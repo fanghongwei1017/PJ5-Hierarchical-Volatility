@@ -1,0 +1,58 @@
+{
+  "status": "passed",
+  "symbol": "600516.SH",
+  "dynamic": true,
+  "h": 5,
+  "name": "600516.SH_dynamic_N1_h5",
+  "scale": 0.003953080521400052,
+  "training_days": 517,
+  "training_returns": 23782,
+  "valid_returns": 3128,
+  "valid_mean_log_score": -0.8987023922010622,
+  "parameter": {
+    "family": "hierarchy",
+    "N": 1,
+    "beta": 0.6934495090041267,
+    "c": 1.1060471910999727,
+    "mean_train_log_score": -1.2749004172624079,
+    "optimizer_success": true,
+    "parameter_boundary": false,
+    "starts": [
+      {
+        "success": true,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "iterations": 11,
+        "evaluations": 36,
+        "beta": 0.6934507992330226,
+        "c": 1.1060462665861708,
+        "negative_mean_log_likelihood": 1.2749004172624145
+      },
+      {
+        "success": true,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "iterations": 9,
+        "evaluations": 33,
+        "beta": 0.6934507306021834,
+        "c": 1.1060492210922395,
+        "negative_mean_log_likelihood": 1.2749004172633016
+      },
+      {
+        "success": true,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "iterations": 14,
+        "evaluations": 51,
+        "beta": 0.6934495090041267,
+        "c": 1.1060471910999727,
+        "negative_mean_log_likelihood": 1.2749004172624079
+      }
+    ],
+    "elapsed_seconds": 0.7346904000150971
+  },
+  "input_sha256": {
+    "protocol": "655baf8a43f518e4ad3f5b980a922433b7308c4c4da20dbbb367b3350609f1a8",
+    "historical": "c519a682e6a4462909e49c38af8e78a3d1f156d937ed922b1e62e36b5fe75da1"
+  },
+  "training_start": "20170406",
+  "training_end": "20190522",
+  "elapsed_seconds": 0.7790795000037178
+}

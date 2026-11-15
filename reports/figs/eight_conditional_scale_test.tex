@@ -1,0 +1,44 @@
+\begin{tikzpicture}
+\begin{groupplot}[group style={group size=2 by 4,horizontal sep=1.05cm,vertical sep=1.45cm},
+width=7.45cm,height=4.45cm,
+grid=major,grid style={gray!15},unbounded coords=jump,
+tick label style={font=\scriptsize},title style={font=\small},label style={font=\small},
+legend style={font=\footnotesize,draw=none,at={(1.12,1.23)},anchor=south,legend columns=4,column sep=.6em},
+legend cell align=left,
+ymin=0,ylabel={波动强度},scaled y ticks=false]
+\nextgroupplot[title={(a) 中国平安 601318.SH},xmin=0,xmax=68,ymax=1.0800000000000001,xtick={0,17,34,51,68},xticklabels={09-11,10-14,11-06,11-29,12-24}]
+\addplot[gray!70!black,line width=.5pt,no marks] table[x=day_index,y=R_d,col sep=comma]{eight_conditional_601318_test_scale.csv};
+\addlegendentry{收盘后观测 $R_d$}
+\addplot[blue!70!black,line width=.8pt,no marks] table[x=day_index,y=predicted_variance,col sep=comma]{eight_conditional_601318_test_scale.csv};
+\addlegendentry{开盘前预报 $cq_d$}
+\addplot[orange!85!black,dashed,line width=.8pt] coordinates {(0,1) (68,1)};
+\addlegendentry{固定背景 $v_0=1$}
+\nextgroupplot[title={(b) 贵州茅台 600519.SH},xmin=0,xmax=68,ymax=1.8954455083495421,xtick={0,17,34,51,68},xticklabels={09-11,10-14,11-06,11-29,12-24},ylabel={}]
+\addplot[gray!70!black,line width=.5pt,no marks] table[x=day_index,y=R_d,col sep=comma]{eight_conditional_600519_test_scale.csv};
+\addplot[blue!70!black,line width=.8pt,no marks] table[x=day_index,y=predicted_variance,col sep=comma]{eight_conditional_600519_test_scale.csv};
+\addplot[orange!85!black,dashed,line width=.8pt] coordinates {(0,1) (68,1)};
+\nextgroupplot[title={(c) 中信证券 600030.SH},xmin=0,xmax=67,ymax=1.8342792018575214,xtick={0,16,33,50,67},xticklabels={09-11,10-11,11-06,11-29,12-24}]
+\addplot[gray!70!black,line width=.5pt,no marks] table[x=day_index,y=R_d,col sep=comma]{eight_conditional_600030_test_scale.csv};
+\addplot[blue!70!black,line width=.8pt,no marks] table[x=day_index,y=predicted_variance,col sep=comma]{eight_conditional_600030_test_scale.csv};
+\addplot[orange!85!black,dashed,line width=.8pt] coordinates {(0,1) (67,1)};
+\nextgroupplot[title={(d) 伊利股份 600887.SH},xmin=0,xmax=68,ymax=1.5364969817666234,xtick={0,17,34,51,68},xticklabels={09-11,10-14,11-06,11-29,12-24},ylabel={}]
+\addplot[gray!70!black,line width=.5pt,no marks] table[x=day_index,y=R_d,col sep=comma]{eight_conditional_600887_test_scale.csv};
+\addplot[blue!70!black,line width=.8pt,no marks] table[x=day_index,y=predicted_variance,col sep=comma]{eight_conditional_600887_test_scale.csv};
+\addplot[orange!85!black,dashed,line width=.8pt] coordinates {(0,1) (68,1)};
+\nextgroupplot[title={(e) 招商银行 600036.SH},xmin=0,xmax=68,ymax=1.3295361690930771,xtick={0,17,34,51,68},xticklabels={09-11,10-14,11-06,11-29,12-24}]
+\addplot[gray!70!black,line width=.5pt,no marks] table[x=day_index,y=R_d,col sep=comma]{eight_conditional_600036_test_scale.csv};
+\addplot[blue!70!black,line width=.8pt,no marks] table[x=day_index,y=predicted_variance,col sep=comma]{eight_conditional_600036_test_scale.csv};
+\addplot[orange!85!black,dashed,line width=.8pt] coordinates {(0,1) (68,1)};
+\nextgroupplot[title={(f) 华友钴业 603799.SH},xmin=0,xmax=68,ymax=2.8005366175905007,xtick={0,17,34,51,68},xticklabels={09-11,10-14,11-06,11-29,12-24},ylabel={}]
+\addplot[gray!70!black,line width=.5pt,no marks] table[x=day_index,y=R_d,col sep=comma]{eight_conditional_603799_test_scale.csv};
+\addplot[blue!70!black,line width=.8pt,no marks] table[x=day_index,y=predicted_variance,col sep=comma]{eight_conditional_603799_test_scale.csv};
+\addplot[orange!85!black,dashed,line width=.8pt] coordinates {(0,1) (68,1)};
+\nextgroupplot[title={(g) 方大炭素 600516.SH},xmin=0,xmax=68,ymax=3.0746623306574792,xtick={0,17,34,51,68},xticklabels={09-11,10-14,11-06,11-29,12-24},xlabel={观测交易日}]
+\addplot[gray!70!black,line width=.5pt,no marks] table[x=day_index,y=R_d,col sep=comma]{eight_conditional_600516_test_scale.csv};
+\addplot[blue!70!black,line width=.8pt,no marks] table[x=day_index,y=predicted_variance,col sep=comma]{eight_conditional_600516_test_scale.csv};
+\addplot[orange!85!black,dashed,line width=.8pt] coordinates {(0,1) (68,1)};
+\nextgroupplot[title={(h) 中国建筑 601668.SH},xmin=0,xmax=68,ymax=1.7688298790030172,xtick={0,17,34,51,68},xticklabels={09-11,10-14,11-06,11-29,12-24},ylabel={},xlabel={观测交易日}]
+\addplot[gray!70!black,line width=.5pt,no marks] table[x=day_index,y=R_d,col sep=comma]{eight_conditional_601668_test_scale.csv};
+\addplot[blue!70!black,line width=.8pt,no marks] table[x=day_index,y=predicted_variance,col sep=comma]{eight_conditional_601668_test_scale.csv};
+\addplot[orange!85!black,dashed,line width=.8pt] coordinates {(0,1) (68,1)};
+\end{groupplot}\end{tikzpicture}

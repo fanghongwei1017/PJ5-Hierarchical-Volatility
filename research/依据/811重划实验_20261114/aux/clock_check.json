@@ -1,0 +1,762 @@
+{
+  "status": "passed",
+  "symbol": "601318.SH",
+  "frequency_minutes": 5,
+  "source_rows": 33626,
+  "source_trading_days": 731,
+  "inputs": {
+    "source_file": "依据/811重划实验_20261114/data/historical/returns_601318.SH_5min.csv.gz",
+    "source_sha256": "19cb546b021bf458ecf5c08dd0763be3d8b3ec68aad63a9602fc0687b2af6c80",
+    "split_sha256": "2766be1763ef0a812c63a58a65689a59222750fe48895730fab94c68902b802a",
+    "selected_sha256": "739637c8d6997d355150e3466c5d725b6be2c63b33df031814251a707224d021",
+    "runtime_sha256": "4f51ce606c52b760114d992b4802e20155b2cdad8b85d91b747def66f512e245",
+    "script_sha256": "71172a47f4d4631897eb69ea2e8bc8c724f3610ce96b01075834c2624f274e88"
+  },
+  "new_parameter_fits": 0,
+  "design": "Retrospective paired-date check after the 8:1:1 re-split; not a new blind test",
+  "difference_definition": "corr(abs(previous PM last),abs(current AM first)) - corr(abs(current AM last),abs(current PM first))",
+  "bootstrap_design": "Circular moving blocks on full scope date grid; common draws for both correlations; gap==1 selected after resampling",
+  "seed": 20261110,
+  "bootstrap_replicates_per_length": 2000,
+  "block_lengths_trading_days": [
+    1,
+    5,
+    10,
+    20
+  ],
+  "max_raw_vs_deseasonalized_point_or_bootstrap_difference": 4.440892098500626e-16,
+  "scopes": {
+    "all_sample_exploratory": {
+      "n_base_paired_dates": 730,
+      "first_current_date": "20170104",
+      "last_current_date": "20191231",
+      "calendar_day_gap_counts": {
+        "1": 577,
+        "10": 3,
+        "3": 134,
+        "4": 7,
+        "5": 5,
+        "6": 1,
+        "8": 3
+      },
+      "calendar_close_to_next_open_minutes_counts": {
+        "1110": 577,
+        "11190": 3,
+        "14070": 3,
+        "3990": 134,
+        "5430": 7,
+        "6870": 5,
+        "8310": 1
+      },
+      "endpoint_time_of_day": {
+        "lunch_before_am_last": [
+          "11:25:00"
+        ],
+        "lunch_after_pm_first": [
+          "13:05:00"
+        ],
+        "night_before_prev_pm_last": [
+          "14:55:00"
+        ],
+        "night_after_am_first": [
+          "09:35:00"
+        ]
+      },
+      "endpoint_scale_values": {
+        "lunch_before_am_last": [
+          0.8570126441376502
+        ],
+        "lunch_after_pm_first": [
+          0.9483402610308125
+        ],
+        "night_before_prev_pm_last": [
+          0.825670966398852
+        ],
+        "night_after_am_first": [
+          2.0847403808132006
+        ]
+      },
+      "subsets": {
+        "all_calendar_gaps": {
+          "raw": {
+            "point": {
+              "n_common_dates": 730,
+              "lunch_pearson": 0.1849932696687915,
+              "night_pearson": 0.15415171823235846,
+              "difference_night_minus_lunch": -0.03084155143643305
+            },
+            "bootstrap": [
+              {
+                "n_boot_requested": 2000,
+                "n_boot_valid_difference": 2000,
+                "n_boot_invalid_difference": 0,
+                "n_boot_insufficient_pairs": 0,
+                "n_boot_zero_variance_lunch": 0,
+                "n_boot_zero_variance_night": 0,
+                "resampled_pair_count_min": 730,
+                "resampled_pair_count_max": 730,
+                "difference_ci95": [
+                  -0.14089278699458488,
+                  0.07590455937378278
+                ],
+                "difference_bootstrap_se": 0.055210495412582716,
+                "block_trading_days": 1,
+                "seed": 20261110
+              },
+              {
+                "n_boot_requested": 2000,
+                "n_boot_valid_difference": 2000,
+                "n_boot_invalid_difference": 0,
+                "n_boot_insufficient_pairs": 0,
+                "n_boot_zero_variance_lunch": 0,
+                "n_boot_zero_variance_night": 0,
+                "resampled_pair_count_min": 730,
+                "resampled_pair_count_max": 730,
+                "difference_ci95": [
+                  -0.1402357846267168,
+                  0.07903653112104808
+                ],
+                "difference_bootstrap_se": 0.05521570035833985,
+                "block_trading_days": 5,
+                "seed": 20261110
+              },
+              {
+                "n_boot_requested": 2000,
+                "n_boot_valid_difference": 2000,
+                "n_boot_invalid_difference": 0,
+                "n_boot_insufficient_pairs": 0,
+                "n_boot_zero_variance_lunch": 0,
+                "n_boot_zero_variance_night": 0,
+                "resampled_pair_count_min": 730,
+                "resampled_pair_count_max": 730,
+                "difference_ci95": [
+                  -0.14580653056194473,
+                  0.07430842100228685
+                ],
+                "difference_bootstrap_se": 0.05605479026512663,
+                "block_trading_days": 10,
+                "seed": 20261110
+              },
+              {
+                "n_boot_requested": 2000,
+                "n_boot_valid_difference": 2000,
+                "n_boot_invalid_difference": 0,
+                "n_boot_insufficient_pairs": 0,
+                "n_boot_zero_variance_lunch": 0,
+                "n_boot_zero_variance_night": 0,
+                "resampled_pair_count_min": 730,
+                "resampled_pair_count_max": 730,
+                "difference_ci95": [
+                  -0.1403404983880401,
+                  0.06647213626767197
+                ],
+                "difference_bootstrap_se": 0.05301638001120952,
+                "block_trading_days": 20,
+                "seed": 20261110
+              }
+            ]
+          },
+          "deseasonalized": {
+            "point": {
+              "n_common_dates": 730,
+              "lunch_pearson": 0.18499326966879157,
+              "night_pearson": 0.1541517182323585,
+              "difference_night_minus_lunch": -0.03084155143643308
+            },
+            "bootstrap": [
+              {
+                "n_boot_requested": 2000,
+                "n_boot_valid_difference": 2000,
+                "n_boot_invalid_difference": 0,
+                "n_boot_insufficient_pairs": 0,
+                "n_boot_zero_variance_lunch": 0,
+                "n_boot_zero_variance_night": 0,
+                "resampled_pair_count_min": 730,
+                "resampled_pair_count_max": 730,
+                "difference_ci95": [
+                  -0.14089278699458488,
+                  0.07590455937378278
+                ],
+                "difference_bootstrap_se": 0.05521049541258272,
+                "block_trading_days": 1,
+                "seed": 20261110
+              },
+              {
+                "n_boot_requested": 2000,
+                "n_boot_valid_difference": 2000,
+                "n_boot_invalid_difference": 0,
+                "n_boot_insufficient_pairs": 0,
+                "n_boot_zero_variance_lunch": 0,
+                "n_boot_zero_variance_night": 0,
+                "resampled_pair_count_min": 730,
+                "resampled_pair_count_max": 730,
+                "difference_ci95": [
+                  -0.14023578462671676,
+                  0.07903653112104805
+                ],
+                "difference_bootstrap_se": 0.05521570035833985,
+                "block_trading_days": 5,
+                "seed": 20261110
+              },
+              {
+                "n_boot_requested": 2000,
+                "n_boot_valid_difference": 2000,
+                "n_boot_invalid_difference": 0,
+                "n_boot_insufficient_pairs": 0,
+                "n_boot_zero_variance_lunch": 0,
+                "n_boot_zero_variance_night": 0,
+                "resampled_pair_count_min": 730,
+                "resampled_pair_count_max": 730,
+                "difference_ci95": [
+                  -0.14580653056194473,
+                  0.07430842100228698
+                ],
+                "difference_bootstrap_se": 0.056054790265126636,
+                "block_trading_days": 10,
+                "seed": 20261110
+              },
+              {
+                "n_boot_requested": 2000,
+                "n_boot_valid_difference": 2000,
+                "n_boot_invalid_difference": 0,
+                "n_boot_insufficient_pairs": 0,
+                "n_boot_zero_variance_lunch": 0,
+                "n_boot_zero_variance_night": 0,
+                "resampled_pair_count_min": 730,
+                "resampled_pair_count_max": 730,
+                "difference_ci95": [
+                  -0.14034049838804005,
+                  0.06647213626767197
+                ],
+                "difference_bootstrap_se": 0.05301638001120952,
+                "block_trading_days": 20,
+                "seed": 20261110
+              }
+            ]
+          }
+        },
+        "calendar_day_gap_eq_1": {
+          "raw": {
+            "point": {
+              "n_common_dates": 577,
+              "lunch_pearson": 0.20772051463640534,
+              "night_pearson": 0.179937198402262,
+              "difference_night_minus_lunch": -0.027783316234143346
+            },
+            "bootstrap": [
+              {
+                "n_boot_requested": 2000,
+                "n_boot_valid_difference": 2000,
+                "n_boot_invalid_difference": 0,
+                "n_boot_insufficient_pairs": 0,
+                "n_boot_zero_variance_lunch": 0,
+                "n_boot_zero_variance_night": 0,
+                "resampled_pair_count_min": 535,
+                "resampled_pair_count_max": 614,
+                "difference_ci95": [
+                  -0.15337382242130593,
+                  0.09222881330857485
+                ],
+                "difference_bootstrap_se": 0.06271675098140775,
+                "block_trading_days": 1,
+                "seed": 20261110
+              },
+              {
+                "n_boot_requested": 2000,
+                "n_boot_valid_difference": 2000,
+                "n_boot_invalid_difference": 0,
+                "n_boot_insufficient_pairs": 0,
+                "n_boot_zero_variance_lunch": 0,
+                "n_boot_zero_variance_night": 0,
+                "resampled_pair_count_min": 568,
+                "resampled_pair_count_max": 583,
+                "difference_ci95": [
+                  -0.15447865616276654,
+                  0.10753833222195526
+                ],
+                "difference_bootstrap_se": 0.06627092535946255,
+                "block_trading_days": 5,
+                "seed": 20261110
+              },
+              {
+                "n_boot_requested": 2000,
+                "n_boot_valid_difference": 2000,
+                "n_boot_invalid_difference": 0,
+                "n_boot_insufficient_pairs": 0,
+                "n_boot_zero_variance_lunch": 0,
+                "n_boot_zero_variance_night": 0,
+                "resampled_pair_count_min": 567,
+                "resampled_pair_count_max": 584,
+                "difference_ci95": [
+                  -0.16585977815726713,
+                  0.09891790430673099
+                ],
+                "difference_bootstrap_se": 0.06824258817984005,
+                "block_trading_days": 10,
+                "seed": 20261110
+              },
+              {
+                "n_boot_requested": 2000,
+                "n_boot_valid_difference": 2000,
+                "n_boot_invalid_difference": 0,
+                "n_boot_insufficient_pairs": 0,
+                "n_boot_zero_variance_lunch": 0,
+                "n_boot_zero_variance_night": 0,
+                "resampled_pair_count_min": 568,
+                "resampled_pair_count_max": 583,
+                "difference_ci95": [
+                  -0.1681039643125754,
+                  0.0911563352311214
+                ],
+                "difference_bootstrap_se": 0.06522638942888116,
+                "block_trading_days": 20,
+                "seed": 20261110
+              }
+            ]
+          },
+          "deseasonalized": {
+            "point": {
+              "n_common_dates": 577,
+              "lunch_pearson": 0.2077205146364053,
+              "night_pearson": 0.179937198402262,
+              "difference_night_minus_lunch": -0.027783316234143318
+            },
+            "bootstrap": [
+              {
+                "n_boot_requested": 2000,
+                "n_boot_valid_difference": 2000,
+                "n_boot_invalid_difference": 0,
+                "n_boot_insufficient_pairs": 0,
+                "n_boot_zero_variance_lunch": 0,
+                "n_boot_zero_variance_night": 0,
+                "resampled_pair_count_min": 535,
+                "resampled_pair_count_max": 614,
+                "difference_ci95": [
+                  -0.15337382242130598,
+                  0.09222881330857491
+                ],
+                "difference_bootstrap_se": 0.06271675098140775,
+                "block_trading_days": 1,
+                "seed": 20261110
+              },
+              {
+                "n_boot_requested": 2000,
+                "n_boot_valid_difference": 2000,
+                "n_boot_invalid_difference": 0,
+                "n_boot_insufficient_pairs": 0,
+                "n_boot_zero_variance_lunch": 0,
+                "n_boot_zero_variance_night": 0,
+                "resampled_pair_count_min": 568,
+                "resampled_pair_count_max": 583,
+                "difference_ci95": [
+                  -0.15447865616276651,
+                  0.10753833222195518
+                ],
+                "difference_bootstrap_se": 0.06627092535946257,
+                "block_trading_days": 5,
+                "seed": 20261110
+              },
+              {
+                "n_boot_requested": 2000,
+                "n_boot_valid_difference": 2000,
+                "n_boot_invalid_difference": 0,
+                "n_boot_insufficient_pairs": 0,
+                "n_boot_zero_variance_lunch": 0,
+                "n_boot_zero_variance_night": 0,
+                "resampled_pair_count_min": 567,
+                "resampled_pair_count_max": 584,
+                "difference_ci95": [
+                  -0.16585977815726702,
+                  0.09891790430673099
+                ],
+                "difference_bootstrap_se": 0.06824258817984005,
+                "block_trading_days": 10,
+                "seed": 20261110
+              },
+              {
+                "n_boot_requested": 2000,
+                "n_boot_valid_difference": 2000,
+                "n_boot_invalid_difference": 0,
+                "n_boot_insufficient_pairs": 0,
+                "n_boot_zero_variance_lunch": 0,
+                "n_boot_zero_variance_night": 0,
+                "resampled_pair_count_min": 568,
+                "resampled_pair_count_max": 583,
+                "difference_ci95": [
+                  -0.16810396431257535,
+                  0.0911563352311214
+                ],
+                "difference_bootstrap_se": 0.06522638942888116,
+                "block_trading_days": 20,
+                "seed": 20261110
+              }
+            ]
+          }
+        }
+      }
+    },
+    "test_with_both_days_in_test": {
+      "n_base_paired_dates": 68,
+      "first_current_date": "20190912",
+      "last_current_date": "20191224",
+      "calendar_day_gap_counts": {
+        "1": 53,
+        "3": 13,
+        "4": 1,
+        "8": 1
+      },
+      "calendar_close_to_next_open_minutes_counts": {
+        "1110": 53,
+        "11190": 1,
+        "3990": 13,
+        "5430": 1
+      },
+      "endpoint_time_of_day": {
+        "lunch_before_am_last": [
+          "11:25:00"
+        ],
+        "lunch_after_pm_first": [
+          "13:05:00"
+        ],
+        "night_before_prev_pm_last": [
+          "14:55:00"
+        ],
+        "night_after_am_first": [
+          "09:35:00"
+        ]
+      },
+      "endpoint_scale_values": {
+        "lunch_before_am_last": [
+          0.8570126441376502
+        ],
+        "lunch_after_pm_first": [
+          0.9483402610308125
+        ],
+        "night_before_prev_pm_last": [
+          0.825670966398852
+        ],
+        "night_after_am_first": [
+          2.0847403808132006
+        ]
+      },
+      "subsets": {
+        "all_calendar_gaps": {
+          "raw": {
+            "point": {
+              "n_common_dates": 68,
+              "lunch_pearson": 0.014782148917746223,
+              "night_pearson": 0.025283667084629525,
+              "difference_night_minus_lunch": 0.010501518166883302
+            },
+            "bootstrap": [
+              {
+                "n_boot_requested": 2000,
+                "n_boot_valid_difference": 2000,
+                "n_boot_invalid_difference": 0,
+                "n_boot_insufficient_pairs": 0,
+                "n_boot_zero_variance_lunch": 0,
+                "n_boot_zero_variance_night": 0,
+                "resampled_pair_count_min": 68,
+                "resampled_pair_count_max": 68,
+                "difference_ci95": [
+                  -0.35785923686974447,
+                  0.39549936786126555
+                ],
+                "difference_bootstrap_se": 0.19787243238224386,
+                "block_trading_days": 1,
+                "seed": 20261110
+              },
+              {
+                "n_boot_requested": 2000,
+                "n_boot_valid_difference": 2000,
+                "n_boot_invalid_difference": 0,
+                "n_boot_insufficient_pairs": 0,
+                "n_boot_zero_variance_lunch": 0,
+                "n_boot_zero_variance_night": 0,
+                "resampled_pair_count_min": 68,
+                "resampled_pair_count_max": 68,
+                "difference_ci95": [
+                  -0.4167629507324888,
+                  0.4167494986969169
+                ],
+                "difference_bootstrap_se": 0.21770299518469516,
+                "block_trading_days": 5,
+                "seed": 20261110
+              },
+              {
+                "n_boot_requested": 2000,
+                "n_boot_valid_difference": 2000,
+                "n_boot_invalid_difference": 0,
+                "n_boot_insufficient_pairs": 0,
+                "n_boot_zero_variance_lunch": 0,
+                "n_boot_zero_variance_night": 0,
+                "resampled_pair_count_min": 68,
+                "resampled_pair_count_max": 68,
+                "difference_ci95": [
+                  -0.40047242835896035,
+                  0.3991226287355459
+                ],
+                "difference_bootstrap_se": 0.2075359252684617,
+                "block_trading_days": 10,
+                "seed": 20261110
+              },
+              {
+                "n_boot_requested": 2000,
+                "n_boot_valid_difference": 2000,
+                "n_boot_invalid_difference": 0,
+                "n_boot_insufficient_pairs": 0,
+                "n_boot_zero_variance_lunch": 0,
+                "n_boot_zero_variance_night": 0,
+                "resampled_pair_count_min": 68,
+                "resampled_pair_count_max": 68,
+                "difference_ci95": [
+                  -0.26101291596355164,
+                  0.35641930172635666
+                ],
+                "difference_bootstrap_se": 0.1580790903707955,
+                "block_trading_days": 20,
+                "seed": 20261110
+              }
+            ]
+          },
+          "deseasonalized": {
+            "point": {
+              "n_common_dates": 68,
+              "lunch_pearson": 0.014782148917746216,
+              "night_pearson": 0.0252836670846296,
+              "difference_night_minus_lunch": 0.010501518166883385
+            },
+            "bootstrap": [
+              {
+                "n_boot_requested": 2000,
+                "n_boot_valid_difference": 2000,
+                "n_boot_invalid_difference": 0,
+                "n_boot_insufficient_pairs": 0,
+                "n_boot_zero_variance_lunch": 0,
+                "n_boot_zero_variance_night": 0,
+                "resampled_pair_count_min": 68,
+                "resampled_pair_count_max": 68,
+                "difference_ci95": [
+                  -0.35785923686974436,
+                  0.3954993678612655
+                ],
+                "difference_bootstrap_se": 0.19787243238224386,
+                "block_trading_days": 1,
+                "seed": 20261110
+              },
+              {
+                "n_boot_requested": 2000,
+                "n_boot_valid_difference": 2000,
+                "n_boot_invalid_difference": 0,
+                "n_boot_insufficient_pairs": 0,
+                "n_boot_zero_variance_lunch": 0,
+                "n_boot_zero_variance_night": 0,
+                "resampled_pair_count_min": 68,
+                "resampled_pair_count_max": 68,
+                "difference_ci95": [
+                  -0.41676295073248876,
+                  0.4167494986969169
+                ],
+                "difference_bootstrap_se": 0.21770299518469516,
+                "block_trading_days": 5,
+                "seed": 20261110
+              },
+              {
+                "n_boot_requested": 2000,
+                "n_boot_valid_difference": 2000,
+                "n_boot_invalid_difference": 0,
+                "n_boot_insufficient_pairs": 0,
+                "n_boot_zero_variance_lunch": 0,
+                "n_boot_zero_variance_night": 0,
+                "resampled_pair_count_min": 68,
+                "resampled_pair_count_max": 68,
+                "difference_ci95": [
+                  -0.4004724283589604,
+                  0.3991226287355459
+                ],
+                "difference_bootstrap_se": 0.2075359252684617,
+                "block_trading_days": 10,
+                "seed": 20261110
+              },
+              {
+                "n_boot_requested": 2000,
+                "n_boot_valid_difference": 2000,
+                "n_boot_invalid_difference": 0,
+                "n_boot_insufficient_pairs": 0,
+                "n_boot_zero_variance_lunch": 0,
+                "n_boot_zero_variance_night": 0,
+                "resampled_pair_count_min": 68,
+                "resampled_pair_count_max": 68,
+                "difference_ci95": [
+                  -0.26101291596355164,
+                  0.35641930172635683
+                ],
+                "difference_bootstrap_se": 0.1580790903707955,
+                "block_trading_days": 20,
+                "seed": 20261110
+              }
+            ]
+          }
+        },
+        "calendar_day_gap_eq_1": {
+          "raw": {
+            "point": {
+              "n_common_dates": 53,
+              "lunch_pearson": 0.023196206714358965,
+              "night_pearson": 0.0688004818969368,
+              "difference_night_minus_lunch": 0.045604275182577834
+            },
+            "bootstrap": [
+              {
+                "n_boot_requested": 2000,
+                "n_boot_valid_difference": 2000,
+                "n_boot_invalid_difference": 0,
+                "n_boot_insufficient_pairs": 0,
+                "n_boot_zero_variance_lunch": 0,
+                "n_boot_zero_variance_night": 0,
+                "resampled_pair_count_min": 43,
+                "resampled_pair_count_max": 63,
+                "difference_ci95": [
+                  -0.36287885343608567,
+                  0.43063687493939296
+                ],
+                "difference_bootstrap_se": 0.20504211553032012,
+                "block_trading_days": 1,
+                "seed": 20261110
+              },
+              {
+                "n_boot_requested": 2000,
+                "n_boot_valid_difference": 2000,
+                "n_boot_invalid_difference": 0,
+                "n_boot_insufficient_pairs": 0,
+                "n_boot_zero_variance_lunch": 0,
+                "n_boot_zero_variance_night": 0,
+                "resampled_pair_count_min": 48,
+                "resampled_pair_count_max": 55,
+                "difference_ci95": [
+                  -0.3754999466876385,
+                  0.42361322801143464
+                ],
+                "difference_bootstrap_se": 0.2006413348167545,
+                "block_trading_days": 5,
+                "seed": 20261110
+              },
+              {
+                "n_boot_requested": 2000,
+                "n_boot_valid_difference": 2000,
+                "n_boot_invalid_difference": 0,
+                "n_boot_insufficient_pairs": 0,
+                "n_boot_zero_variance_lunch": 0,
+                "n_boot_zero_variance_night": 0,
+                "resampled_pair_count_min": 49,
+                "resampled_pair_count_max": 55,
+                "difference_ci95": [
+                  -0.3505997497183383,
+                  0.39620105817792367
+                ],
+                "difference_bootstrap_se": 0.1874933118893646,
+                "block_trading_days": 10,
+                "seed": 20261110
+              },
+              {
+                "n_boot_requested": 2000,
+                "n_boot_valid_difference": 2000,
+                "n_boot_invalid_difference": 0,
+                "n_boot_insufficient_pairs": 0,
+                "n_boot_zero_variance_lunch": 0,
+                "n_boot_zero_variance_night": 0,
+                "resampled_pair_count_min": 49,
+                "resampled_pair_count_max": 55,
+                "difference_ci95": [
+                  -0.1612199872638416,
+                  0.2891012435015399
+                ],
+                "difference_bootstrap_se": 0.11723810997616865,
+                "block_trading_days": 20,
+                "seed": 20261110
+              }
+            ]
+          },
+          "deseasonalized": {
+            "point": {
+              "n_common_dates": 53,
+              "lunch_pearson": 0.023196206714358947,
+              "night_pearson": 0.06880048189693685,
+              "difference_night_minus_lunch": 0.04560427518257791
+            },
+            "bootstrap": [
+              {
+                "n_boot_requested": 2000,
+                "n_boot_valid_difference": 2000,
+                "n_boot_invalid_difference": 0,
+                "n_boot_insufficient_pairs": 0,
+                "n_boot_zero_variance_lunch": 0,
+                "n_boot_zero_variance_night": 0,
+                "resampled_pair_count_min": 43,
+                "resampled_pair_count_max": 63,
+                "difference_ci95": [
+                  -0.36287885343608567,
+                  0.4306368749393929
+                ],
+                "difference_bootstrap_se": 0.20504211553032012,
+                "block_trading_days": 1,
+                "seed": 20261110
+              },
+              {
+                "n_boot_requested": 2000,
+                "n_boot_valid_difference": 2000,
+                "n_boot_invalid_difference": 0,
+                "n_boot_insufficient_pairs": 0,
+                "n_boot_zero_variance_lunch": 0,
+                "n_boot_zero_variance_night": 0,
+                "resampled_pair_count_min": 48,
+                "resampled_pair_count_max": 55,
+                "difference_ci95": [
+                  -0.37549994668763864,
+                  0.42361322801143475
+                ],
+                "difference_bootstrap_se": 0.2006413348167545,
+                "block_trading_days": 5,
+                "seed": 20261110
+              },
+              {
+                "n_boot_requested": 2000,
+                "n_boot_valid_difference": 2000,
+                "n_boot_invalid_difference": 0,
+                "n_boot_insufficient_pairs": 0,
+                "n_boot_zero_variance_lunch": 0,
+                "n_boot_zero_variance_night": 0,
+                "resampled_pair_count_min": 49,
+                "resampled_pair_count_max": 55,
+                "difference_ci95": [
+                  -0.35059974971833835,
+                  0.3962010581779237
+                ],
+                "difference_bootstrap_se": 0.1874933118893646,
+                "block_trading_days": 10,
+                "seed": 20261110
+              },
+              {
+                "n_boot_requested": 2000,
+                "n_boot_valid_difference": 2000,
+                "n_boot_invalid_difference": 0,
+                "n_boot_insufficient_pairs": 0,
+                "n_boot_zero_variance_lunch": 0,
+                "n_boot_zero_variance_night": 0,
+                "resampled_pair_count_min": 49,
+                "resampled_pair_count_max": 55,
+                "difference_ci95": [
+                  -0.16121998726384154,
+                  0.28910124350153993
+                ],
+                "difference_bootstrap_se": 0.11723810997616865,
+                "block_trading_days": 20,
+                "seed": 20261110
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

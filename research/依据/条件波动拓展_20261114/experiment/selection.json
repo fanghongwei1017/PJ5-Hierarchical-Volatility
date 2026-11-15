@@ -1,0 +1,45 @@
+{
+  "status": "passed",
+  "selected_h": 5,
+  "selection_source": "primary valid only; largest mean log score; fixed candidate order breaks exact ties",
+  "candidates": [
+    {
+      "h": 5,
+      "valid_mean_log_score": -1.0380437009905952,
+      "beta": 13.279079374653554,
+      "c": 1.0471020665559885
+    },
+    {
+      "h": 10,
+      "valid_mean_log_score": -1.0485603265511247,
+      "beta": 12.552064645891264,
+      "c": 1.0637005290564074
+    },
+    {
+      "h": 20,
+      "valid_mean_log_score": -1.0684137615507414,
+      "beta": 11.788263055444071,
+      "c": 1.0901666628082596
+    },
+    {
+      "h": 40,
+      "valid_mean_log_score": -1.0872805082723236,
+      "beta": 11.351758753471199,
+      "c": 1.1069232787350727
+    },
+    {
+      "h": 60,
+      "valid_mean_log_score": -1.0958766539129032,
+      "beta": 11.254890418312916,
+      "c": 1.1129904178768315
+    }
+  ],
+  "candidate_sha256": {
+    "601318.SH_dynamic_N8_h5": "c507c62cc91f3cff0ea4f4ca4b8e74550c8819fa17ed1b9755dde2988b8f5a23",
+    "601318.SH_dynamic_N8_h10": "04ba7ff8439790ee6de9e40e41f3b5d18ac810097caea81f67b56c9e0f34ccac",
+    "601318.SH_dynamic_N8_h20": "655a8115ca13e2d6a57a41c2f1cbc5a80ce394cbb993e07a485d954dc0cb649c",
+    "601318.SH_dynamic_N8_h40": "6c0716a312710e5c9100d0afb89540f8f334da8cfd0e93a8e0a868c14d610d98",
+    "601318.SH_dynamic_N8_h60": "c6f2d88dcd6f05dce7e56e49294167a29d90769b9c32a38722c1e1e76c251405"
+  },
+  "protocol_sha256": "655baf8a43f518e4ad3f5b980a922433b7308c4c4da20dbbb367b3350609f1a8"
+}

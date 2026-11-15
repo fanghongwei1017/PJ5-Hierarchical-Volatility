@@ -1,0 +1,69 @@
+﻿\begin{tikzpicture}[
+  block/.style={draw=black!65,rounded corners=2pt,align=left,font=\footnotesize,
+    inner sep=6pt,line width=0.55pt},
+  wide/.style={block,text width=14.4cm,anchor=north},
+  half/.style={block,text width=6.65cm,anchor=north},
+  flow/.style={-{Stealth[length=2.0mm]},line width=0.8pt,black!70}]
+\node[wide,fill=blue!5] (returns) at (0,0) {
+\textbf{1\quad 明确观测对象：日内 5 分钟收益}\\[3pt]
+按日期以 $8:1:1$ 划分训练、验证与测试样本，上午、下午分别聚合价格。\\
+$r_t=\ln(C_t/C_{t-1})$，$x_t=r_t/s_{\rm tr}$；$s_{\rm tr}$ 仅由训练段确定。\\
+午休、隔夜与缺失区间不接入日内收益，零收益保留。};
+\node[half,fill=blue!5,minimum height=5.2cm] (observed)
+  at ([xshift=-3.9cm,yshift=-0.45cm]returns.south) {
+\textbf{2A\quad 从数据构造两类观测}\\[5pt]
+\textbf{收益侧：}由 $\{x_t\}$ 形成经验收益密度 $\widehat P(x)$。\\[5pt]
+\textbf{背景侧：}在同一交易时段内，用最近 $M$ 个收益的样本方差 $\widehat v_{t,M}$，
+构造经验背景密度 $\widehat f_M(v)$。\\[5pt]
+$M\in\{3,5,8,12,20,30\}$；不足窗口长度的位置留空。\\[5pt]
+$\widehat v_{t,M}$ 是有误差的观测估计，不等同于真实背景。};
+\node[half,fill=orange!8,minimum height=5.2cm] (theory)
+  at ([xshift=3.9cm,yshift=-0.45cm]returns.south) {
+\textbf{2B\quad 为波动背景建立分层模型}\\[5pt]
+慢背景到快背景：$v_0\to v_1\to\cdots\to v_N$。\\[3pt]
+$\mathrm dv_i=-\gamma_i(v_i-v_{i-1})\mathrm dt+\kappa_i v_i\mathrm dW_i$。\\[5pt]
+设 $\beta_i=2\gamma_i/\kappa_i^2=\beta$、$v_0=1$；在时间尺度充分分离的近似下，
+$v_i\mid v_{i-1}$ 服从逆伽马分布。\\[5pt]
+逐层积分得到 $f_N(v;\beta)$，再与条件高斯混合：\\[3pt]
+$P_N(x;\beta)=\int_0^\infty\mathcal N(x;0,v)f_N(v;\beta)\,\mathrm dv$。};
+\node[wide,fill=green!6] (window)
+  at ([xshift=3.9cm,yshift=-0.45cm]observed.south) {
+\textbf{3\quad 仅用训练段选择观测窗口 $M^*$}\\[3pt]
+将窗口方差代入高斯混合，得到 $\widehat P_M(x)$；用计数加权的对数密度误差比较
+$\widehat P_M$ 与 $\widehat P$，选择误差最小的 $M$。另用累计概率距离检查准则的影响。};
+\node[wide,fill=green!6] (fit) at ([yshift=-0.45cm]window.south) {
+\textbf{4\quad 给定候选层数 $N$，联合估计形状参数 $\beta$}\\[3pt]
+固定 $M^*$、训练尺度及分箱，同时比较 $P_N$ 与 $\widehat P$、$f_N$ 与 $\widehat f_{M^*}$，
+求 $E_N=\min_{\beta>0}E(N,\beta)$。\\
+$M$ 决定局部方差的估计窗口，$N$ 决定模型层数，二者分别选择。};
+\node[half,fill=gray!6,minimum height=2.2cm] (numeric)
+  at ([xshift=-3.9cm,yshift=-0.45cm]fit.south) {
+\textbf{5A\quad 检查数值精度}\\[4pt]
+用单层闭式、独立积分与卷积相互核对；加密网格、扩大积分区间，检查计算精度。};
+\node[half,fill=gray!6,minimum height=2.2cm] (depth)
+  at ([xshift=3.9cm,yshift=-0.45cm]fit.south) {
+\textbf{5B\quad 检查层数是否可辨识}\\[4pt]
+先搜索 1--32 层，再按倍增节点扩展，与大层数极限比较；区分内部最低点与误差平台。};
+\node[wide,fill=green!6] (conditional)
+  at ([xshift=3.9cm,yshift=-0.45cm]numeric.south) {
+\textbf{6\quad 条件扩展：用过去波动更新慢背景}\\[3pt]
+$R_d=m_d^{-1}\sum_k x_{d,k}^2$，$q_{d+1}=\lambda q_d+(1-\lambda)R_d$，$v_{0,d}=cq_d$。\\
+训练段估计 $\beta,c$；主例验证段选择 $\lambda=2^{-1/h}$，此后固定用于八股。\\
+对比相同训练样本的静态似然模型，以及共享更新规则的高斯和单层模型。};
+\node[wide,fill=blue!5] (test) at ([yshift=-0.45cm]conditional.south) {
+\textbf{7\quad 固定参数，逐日评价后续行情}\\[3pt]
+对 2019 年留出段和 2026 年数据采用同一处理规则及训练尺度，比较高斯、单层及多层模型的
+逐点对数评分；以交易日块重抽样给出差值区间。\\
+静态模型固定背景；条件模型只用过去日收益递推 $v_{0,d}=cq_d$，形状和更新权重保持固定。};
+\draw[flow] (returns.south) -- ++(0,-0.2) -| (observed.north);
+\draw[flow] (returns.south) -- ++(0,-0.2) -| (theory.north);
+\draw[flow] (observed.south) -- ++(0,-0.2) -| (window.north);
+\coordinate (bypass) at (8.0,0);
+\draw[flow] (theory.east) -- (bypass|-theory.east) -- (bypass|-fit.east) -- (fit.east);
+\draw[flow] (window.south) -- (fit.north);
+\draw[flow] (fit.south) -- ++(0,-0.2) -| (numeric.north);
+\draw[flow] (fit.south) -- ++(0,-0.2) -| (depth.north);
+\draw[flow] (numeric.south) -- ++(0,-0.2) -| (conditional.north);
+\draw[flow] (depth.south) -- ++(0,-0.2) -| (conditional.north);
+\draw[flow] (conditional.south) -- (test.north);
+\end{tikzpicture}

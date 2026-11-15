@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "source_sha256": {
+    "20261115_条件波动拓展版\\report.tex": "05849517b4fad628fb573e3e03c8cdb02674874b836d523e9f49d84e5b166310",
+    "依据\\条件波动拓展_20261114\\report_metrics\\calibration_summary.csv": "57dfc343215ccc61661a762e390abb3a419df9181928c32dfbcb71f129bbd6bb",
+    "依据\\条件波动拓展_20261114\\report_metrics\\summary.json": "fab04e9b1242157608900e2ff7d41f75f61594874c3d9947ee88be2d35403c55",
+    "依据\\条件波动拓展_20261114\\experiment\\601318.SH.evaluation.json": "dcfacd81bb3d2c4f67d215eafa61d385b85b4b37cb985a5997994376532d5d72",
+    "依据\\条件波动拓展_20261114\\experiment\\600519.SH.evaluation.json": "ba1532434dadc5d2cc7fe04fc449c25469cbc5311967c984223c3c253939f26d",
+    "依据\\条件波动拓展_20261114\\experiment\\600030.SH.evaluation.json": "51ba3fa9e2ed204b2fd0ce42bfdeac8fb7e6b5ec04ca4f3dfc8f5c982d094c04",
+    "依据\\条件波动拓展_20261114\\experiment\\600887.SH.evaluation.json": "44a177648e68a52e6f2ee4762952f0fac3bdcb0dee42b1cf06db33bea29a94b0",
+    "依据\\条件波动拓展_20261114\\experiment\\600036.SH.evaluation.json": "2b5a3aa66f37b14313540bd40be3bfdd9630781a906da54f1a80515582d89358",
+    "依据\\条件波动拓展_20261114\\experiment\\603799.SH.evaluation.json": "7df70c18f6aaac167817b756248c1df602f49ade5ead278b2449ca6114ad2001",
+    "依据\\条件波动拓展_20261114\\experiment\\600516.SH.evaluation.json": "1049a53f2d9ce26d4e67c84fc02385d6d381ecd6a159c87ba94af3d0abfceca2",
+    "依据\\条件波动拓展_20261114\\experiment\\601668.SH.evaluation.json": "40aa4f3c4a668c87eb1dff80593f746b9bcb7a021c69462da28fb7f30fdaf214",
+    "依据\\条件波动拓展_20261114\\experiment\\601668.SH.point_scores.csv.gz": "d86ba6f9171ae5c81629204f4e279ab4943ee64ac1cab7956dc72ad9a651ff88",
+    "依据\\条件波动拓展_20261114\\experiment\\600516.SH.point_scores.csv.gz": "3c1dc0217d07503b50160bfd76b496f5ed98741e5792466def932fc2a3ce1df8"
+  },
+  "output_sha256": {
+    "report.tex": "9e1d9f75d64bfe4af926856e9e614d3c11f4eab7ded739c59d9687cff108d851",
+    "eight_stock_supplement.tex": "9712fdcb9f3316e9c35d0b98339e49ef3d1914eda76c98abc116e917b262b902"
+  },
+  "new_model_fits": false,
+  "all_eight_preexisting_evaluations_verified": true
+}

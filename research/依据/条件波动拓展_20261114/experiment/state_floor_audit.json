@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "floor": 1e-12,
+  "stocks": [
+    {
+      "symbol": "600030.SH",
+      "minimum_q": 0.15902496976651673,
+      "floor_triggered": false
+    },
+    {
+      "symbol": "600036.SH",
+      "minimum_q": 0.11304315535277297,
+      "floor_triggered": false
+    },
+    {
+      "symbol": "600516.SH",
+      "minimum_q": 0.15799791678398953,
+      "floor_triggered": false
+    },
+    {
+      "symbol": "600519.SH",
+      "minimum_q": 0.19689552622132014,
+      "floor_triggered": false
+    },
+    {
+      "symbol": "600887.SH",
+      "minimum_q": 0.12416570804563815,
+      "floor_triggered": false
+    },
+    {
+      "symbol": "601318.SH",
+      "minimum_q": 0.11169960446683191,
+      "floor_triggered": false
+    },
+    {
+      "symbol": "601668.SH",
+      "minimum_q": 0.32034608070382614,
+      "floor_triggered": false
+    },
+    {
+      "symbol": "603799.SH",
+      "minimum_q": 0.3366342247669794,
+      "floor_triggered": false
+    }
+  ]
+}

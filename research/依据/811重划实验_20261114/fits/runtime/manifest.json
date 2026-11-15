@@ -1,0 +1,36 @@
+{
+  "source": "C:\\Users\\lenovo\\OneDrive - Errington Primary\\Desktop\\1111交接\\工作文件\\depth_extension_20261114.py",
+  "source_sha256": "a43f6cf0a7eb87356ef625f9a834e25882e35713a9cf50ec2c6d63f81f4c1414",
+  "frozen_function_names": [
+    "Objective",
+    "fit",
+    "grid",
+    "limit_grid",
+    "logpdf"
+  ],
+  "files": {
+    "fit_engine.py": "dfa5ab634c27665e5fe89f64c28f61747e556ce264b11ee34358a4ef73511596",
+    "pj5_h/status.py": "2a5f602cf14456ea84fda098f5456164b5cffe36a25f2754b452690887e15c00",
+    "pj5_h/__init__.py": "59ed08c96a7ebac7b985efbd1bcbfded5da324a92f9a7cc55a0b80267b120fb0",
+    "pj5_h/data/bars.py": "8c6763565460e846cf3526ba516f0842a728bf1e79921eb76bef5741db26d6fc",
+    "pj5_h/data/build.py": "baa227ac92ae3b8a6744d33b3cd70317364f0f11de0b4b8a9925ede53826027b",
+    "pj5_h/data/manifest.py": "8d99f9f99f5783338196b59dd1d972f3432ce62689a30245783761ee1c5f8e33",
+    "pj5_h/data/seasonality.py": "7193ecfa8832a1988e0f490985e2d0b90a8b12447e0ddd9806c044022262553e",
+    "pj5_h/data/sessions.py": "647ac10829cee2865cc458fcec41915f087ee7f7d3482625e4c94be80a9fd167",
+    "pj5_h/data/__init__.py": "a6cc58b3d2d97fd4cb916808051e93348b77b1a6892abe7652a119ba05ebc9ff",
+    "pj5_h/inference/binning.py": "b675f550a11e08980226eee0f4cae5eae2025e645aa456c9988d504f9c78a5ed",
+    "pj5_h/inference/fit.py": "3778697efca074f94525ada6007e91cfe8f256290e39bb1cf16fd651a53fe10c",
+    "pj5_h/inference/score.py": "e3108a0c5937783d51a9afe22dcb5d45b89769461bd290ca7d013f73c47df4b7",
+    "pj5_h/inference/__init__.py": "38b90ef9721cac724e9b4681eaa2637afeeffacc5bd66b575afa108b66236425",
+    "pj5_h/models/cascade.py": "6de3cedc23470525071056331f9abbbd6c2cc5eae3fea440dca0f0bca8d2fc71",
+    "pj5_h/models/meijer.py": "5f40fa700bb1416d8af2044b26dbb605094f7a013e8c7996cac89cbb32661f2b",
+    "pj5_h/models/__init__.py": "5f49ea1c91a613140bb04413b90143c993d36dc69d21a9f5718c88d7febf166e",
+    "pj5_h/reporting/figures.py": "905ed50c5980ace86b3a5cdfc693b81fb297cb06cc240d92d0883bbeceee8467",
+    "pj5_h/sde/clock.py": "160af4fadde6d2d6722c3ea01711b822ddad10b9baeca700d2d920c734ac229a",
+    "pj5_h/sde/convergence.py": "6cb7845cf0d03b247e0c87dd9a81910455d465a5f83d1edb402d90ab9195a070",
+    "pj5_h/sde/integrator.py": "bc07ab368db658370e1dc5cce3c7e6188b5b8aed0082ab6c96b1b6847808ea7b",
+    "pj5_h/sde/metrics.py": "af551d7a107084b73c87c83affc1e1353bdd488f89486c7a2dd6dbd93ca124ff",
+    "pj5_h/sde/simulate.py": "f0cf4b24a9bac6f8fbdc0bfb21fa5051d5b7d9bf724964cf80bb91aad88e21b6",
+    "pj5_h/sde/__init__.py": "065d9c320f1ba83257ad472d88b626122de395d59b4522e8111d844e211e230d"
+  }
+}

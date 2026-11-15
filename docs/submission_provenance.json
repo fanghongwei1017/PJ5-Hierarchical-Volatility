@@ -1,0 +1,47 @@
+{
+  "submission_date": "2026-11-15",
+  "project": "A股收益的分层波动模型：静态拟合与条件背景更新",
+  "approved_documents": {
+    "reports/report.pdf": {
+      "source": "20261115_参考文献精简版/report.pdf",
+      "sha256": "a6bb5855d823d2e834c2a4e8051e4fc59e6c9ce39084ec152cd5c67f5d5aa6d5"
+    },
+    "reports/report.tex": {
+      "source": "20261115_参考文献精简版/report.tex",
+      "sha256": "d8a2dd8dd8b7c6f09f689f2cfa088fdfa720112cef94b9a247c885764f84c642"
+    },
+    "reports/data_supplement.pdf": {
+      "source": "20261114_811重划版/data_supplement.pdf",
+      "sha256": "7069639a059de7d64a7b6d3b3fb5c8b6a12db98e09a438b46e6a8720a09e533c"
+    },
+    "reports/data_supplement.tex": {
+      "source": "20261114_811重划版/data_supplement.tex",
+      "sha256": "f2311642d7a893009021d4c0e1290ce6ccd45daecb569b3ab603167e404b7f83"
+    },
+    "reports/eight_stock_supplement.pdf": {
+      "source": "20261115_八股对照版/eight_stock_supplement.pdf",
+      "sha256": "aa705534b721831d5a8f29cf2265811998c965037d71ad58cb3ea7557dd69011"
+    },
+    "reports/eight_stock_supplement.tex": {
+      "source": "20261115_八股对照版/eight_stock_supplement.tex",
+      "sha256": "9712fdcb9f3316e9c35d0b98339e49ef3d1914eda76c98abc116e917b262b902"
+    }
+  },
+  "source_archives": [
+    {
+      "archive": "实验复算_811_20261114.zip",
+      "bytes": 120380808,
+      "sha256": "0687c7604c02cbe65ba084aa656cd2242b1cd27371bfb3fedf342c69392fea9c",
+      "file_count": 196
+    },
+    {
+      "archive": "条件波动拓展复算_20261115.zip",
+      "bytes": 62681027,
+      "sha256": "a6e6dd4cac0081f93e26f42f372b2a2626529e9520a36fe9e1f252ecd5b5ed20",
+      "file_count": 140
+    }
+  ],
+  "copied_without_modification": true,
+  "raw_market_bars_included": false,
+  "data_scope": "Empirical return inputs, screening statistics, model outputs and provenance."
+}

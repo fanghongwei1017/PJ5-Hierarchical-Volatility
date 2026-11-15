@@ -1,0 +1,27 @@
+\begin{tikzpicture}
+\begin{groupplot}[group style={group size=2 by 1,horizontal sep=1.25cm},
+width=.45\linewidth,height=5.8cm,ymode=log,ymin=0.00001,ymax=2.5,
+xlabel={归一化收益 $x$},ylabel={概率密度},
+grid=major,grid style={gray!15},unbounded coords=jump,
+tick label style={font=\small},title style={font=\small},
+legend style={font=\scriptsize,draw=none,at={(1.15,1.17)},anchor=south,legend columns=3,column sep=.6em},
+legend cell align=left,
+xmin=-4.595921659771838,xmax=4.595921659771838]
+\nextgroupplot[title={(a) 2019年测试段}]
+\addplot[black!70,only marks,mark=*,mark size=1pt] table[x=x,y=plot_density,col sep=comma]{conditional_hist_test.csv};
+\addlegendentry{经验密度}
+\addplot[gray!75!black,dashed,thick] table[x=x,y=oldjoint_N8,col sep=comma]{conditional_density_test.csv};
+\addlegendentry{联合八层}
+\addplot[orange!85!black,thick] table[x=x,y=static_N8,col sep=comma]{conditional_density_test.csv};
+\addlegendentry{似然八层}
+\addplot[blue!70!black,thick] table[x=x,y=dynamic_N8,col sep=comma]{conditional_density_test.csv};
+\addlegendentry{条件八层}
+\addplot[violet!85!black,dashdotted,thick] table[x=x,y=dynamic_Gaussian,col sep=comma]{conditional_density_test.csv};
+\addlegendentry{同规则高斯}
+\nextgroupplot[title={(b) 2026年全期},ylabel={}]
+\addplot[black!70,only marks,mark=*,mark size=1pt] table[x=x,y=plot_density,col sep=comma]{conditional_hist_2026.csv};
+\addplot[gray!75!black,dashed,thick] table[x=x,y=oldjoint_N8,col sep=comma]{conditional_density_2026.csv};
+\addplot[orange!85!black,thick] table[x=x,y=static_N8,col sep=comma]{conditional_density_2026.csv};
+\addplot[blue!70!black,thick] table[x=x,y=dynamic_N8,col sep=comma]{conditional_density_2026.csv};
+\addplot[violet!85!black,dashdotted,thick] table[x=x,y=dynamic_Gaussian,col sep=comma]{conditional_density_2026.csv};
+\end{groupplot}\end{tikzpicture}

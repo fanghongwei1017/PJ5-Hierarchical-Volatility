@@ -1,0 +1,55 @@
+{
+  "status": "passed",
+  "script_sha256": "f3f36038974d8cd6dbd2bb09b9b344ab4c3bf81c6c2eabab095fc802b3c18cb1",
+  "tested_script_sha256": "e9ce4727d60530a08f23a9fae01da3c7484f8c28809a103e9b3a567bf9475194",
+  "source_sha256": "19cb546b021bf458ecf5c08dd0763be3d8b3ec68aad63a9602fc0687b2af6c80",
+  "scope": "first 90 actual training days; perturbation checks are algorithm diagnostics, not market evidence",
+  "training_warmup": 60,
+  "causality_future_and_same_day": true,
+  "negative_controls_detect_leakage_and_missing_jacobian": true,
+  "purge_excluded_from_state": true,
+  "historical_state_continuous_across_block_labels": true,
+  "independent_state_max_error": 5.551115123125783e-17,
+  "density_checks": [
+    {
+      "N": 1,
+      "beta": 0.3,
+      "logpdf_error": 2.220446049250313e-16,
+      "scale_transform_error": 4.440892098500626e-16,
+      "cdf_error": 2.220446049250313e-16,
+      "normalization_truncated_integral_error": 2.331854154213886e-09
+    },
+    {
+      "N": 1,
+      "beta": 8.0,
+      "logpdf_error": 8.881784197001252e-16,
+      "scale_transform_error": 2.220446049250313e-16,
+      "cdf_error": 1.4988010832439613e-15,
+      "normalization_truncated_integral_error": 8.346176527673776e-09
+    },
+    {
+      "N": 8,
+      "beta": 1.0,
+      "logpdf_error": 1.455224664381749e-08,
+      "scale_transform_error": 4.440892098500626e-16,
+      "cdf_error": 2.8251210260066273e-09,
+      "normalization_truncated_integral_error": 1.8210766228321518e-09
+    },
+    {
+      "N": 8,
+      "beta": 8.0,
+      "logpdf_error": 6.938015606472447e-08,
+      "scale_transform_error": 1.1102230246251565e-16,
+      "cdf_error": 1.3213014335433648e-08,
+      "normalization_truncated_integral_error": 1.4087502275828001e-09
+    },
+    {
+      "N": 8,
+      "beta": 32.0,
+      "logpdf_error": 1.3659142528155144e-07,
+      "scale_transform_error": 2.220446049250313e-16,
+      "cdf_error": 1.8338552565388966e-08,
+      "normalization_truncated_integral_error": 2.380783459265956e-09
+    }
+  ]
+}

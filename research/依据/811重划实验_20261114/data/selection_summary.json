@@ -1,0 +1,56 @@
+{
+  "status": "passed",
+  "source_root": "E:\\data\\A股分钟数据\\sh",
+  "raw_files_unchanged": true,
+  "n_stocks": 1573,
+  "n_dates": 731,
+  "stock_day_files": 996288,
+  "n_training_days": 584,
+  "training_dates": [
+    "20170103",
+    "20190529"
+  ],
+  "reused_training_days": 438,
+  "added_training_days": 146,
+  "reused_training_files": 562717,
+  "additional_training_files": 211558,
+  "training_files_scanned": 774275,
+  "training_rows_scanned": 175980062,
+  "additional_training_rows_scanned": 48020013,
+  "additional_archived_rows_reconciled": 167669,
+  "additional_turnover_max_abs_difference": 0.0,
+  "funnel": {
+    "available_2017_2019": 1573,
+    "training_presence_80": 1225,
+    "training_presence_95": 952,
+    "complete_90_and_positive_amount": 158,
+    "selected": 8
+  },
+  "missing_terminal_days": 33,
+  "selected_symbols": [
+    "601318.SH",
+    "600519.SH",
+    "600030.SH",
+    "600887.SH",
+    "600036.SH",
+    "603799.SH",
+    "600516.SH",
+    "601668.SH"
+  ],
+  "old_selected_symbols": [
+    "601318.SH",
+    "600519.SH",
+    "600887.SH",
+    "600030.SH",
+    "603799.SH",
+    "600516.SH",
+    "601668.SH",
+    "600036.SH"
+  ],
+  "input_sha256": {
+    "C:\\Users\\lenovo\\OneDrive - Errington Primary\\Desktop\\1111交接\\依据\\完整股票数据_20261114\\training_stock_days.csv.gz": "8ecccb082ecc94bdd3e97163311392cd2590f6268562e7f3b068eecb3f1b78f7",
+    "C:\\Users\\lenovo\\OneDrive - Errington Primary\\Desktop\\1111交接\\依据\\811重划实验_20261114\\data\\additional_training_stock_days.csv.gz": "45ae55c6cc36ab4945250941a138306618cd4fda1ba4480b04190f537ad75f5d",
+    "E:\\Users\\lenovo\\Downloads\\PJ5-research-main\\PJ5-research-main\\h-theory-reproduction\\data_catalog\\coverage_by_symbol_day.csv.gz": "c2eea31e38a87c494563dd901d57f1ab0bde768062c2594bd51a4d7870b4b98e"
+  },
+  "elapsed_seconds": 108.69728700001724
+}

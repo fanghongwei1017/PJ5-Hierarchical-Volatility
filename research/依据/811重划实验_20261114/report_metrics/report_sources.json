@@ -1,0 +1,81 @@
+{
+  "status": "passed",
+  "inputs": {
+    "依据\\811重划实验_20261114\\fits\\601318.SH_5min_raw.base.json": "5d92d4266b3f65bfb79defc3399a93f1bd01abad4a529fa29e43ea2316e0095b",
+    "依据\\811重划实验_20261114\\fits\\601318.SH_5min_raw.depth.json": "37d6f7a2f2581e424616d89c8192eb148b367524e9a30a8ca5d5d4d39f51a710",
+    "依据\\811重划实验_20261114\\fits\\601318.SH_5min_raw.evaluation.json": "5f65fe07d05c249e99e6a6599a46de0b627fa41aeba831c78c82c8c8799faffc",
+    "依据\\811重划实验_20261114\\fits\\601318.SH_5min_raw.validation.json": "f6d67d6602b0c573afa801dd61790fee3ed44b0068b3ba7c57583ac7aa3dabec",
+    "依据\\811重划实验_20261114\\fits\\600519.SH_5min_raw.base.json": "1bd8f7a79057acfe24f11bd23650fee17cfbfb4fb353ec2939afcf949527fb2b",
+    "依据\\811重划实验_20261114\\fits\\600519.SH_5min_raw.depth.json": "a5fd0a5c04c2c1fd46e96abafe2a881c6826a6ad0efac185b4b1ffed8cc46bdb",
+    "依据\\811重划实验_20261114\\fits\\600519.SH_5min_raw.evaluation.json": "c99ebf556ecbc14f6c03a57aa25c7309c6f1da2c12a2b02aa490f79116d77393",
+    "依据\\811重划实验_20261114\\fits\\600519.SH_5min_raw.validation.json": "0fc87fea4942b66617b89f2d1f84e2b53fe7316dc8792b419f189b7a683c9191",
+    "依据\\811重划实验_20261114\\fits\\600030.SH_5min_raw.base.json": "b909a7d252dc0479a1c168b83d1796bb4e0e834c948834eebda6b54520f91f69",
+    "依据\\811重划实验_20261114\\fits\\600030.SH_5min_raw.depth.json": "0c0821c44b54201571f58bc956d20346b16d2948eaa4541b8d52d00e3d8d5f57",
+    "依据\\811重划实验_20261114\\fits\\600030.SH_5min_raw.evaluation.json": "9b08eab7f5777ffc7e026a50067ac96401d28d1bf83d79dccac44e30e258b767",
+    "依据\\811重划实验_20261114\\fits\\600030.SH_5min_raw.validation.json": "44bd867df11be031f7b17df60b3491b248f82b3c241978c6602d17298cc3beb9",
+    "依据\\811重划实验_20261114\\fits\\600887.SH_5min_raw.base.json": "f3e973b9e5889676a9ec3009363803f35b3f2b218bc1f49ce9498cda48a97e52",
+    "依据\\811重划实验_20261114\\fits\\600887.SH_5min_raw.depth.json": "de7df1578861874831ed230548a08369ae295e99f7fc6271030b7604f34476ef",
+    "依据\\811重划实验_20261114\\fits\\600887.SH_5min_raw.evaluation.json": "e60476cc1c9f0e22bcf165964875dde8385da280a0b5514643360ea677b4efa9",
+    "依据\\811重划实验_20261114\\fits\\600887.SH_5min_raw.validation.json": "c54f0e23b694eee88a5a9838641d73014496a9dcecfe06579da72275451dc7bb",
+    "依据\\811重划实验_20261114\\fits\\600036.SH_5min_raw.base.json": "4d554b03d8d30ce7c3adbe13ec7e50081823c502bcfe458e39f28fa84bfe5708",
+    "依据\\811重划实验_20261114\\fits\\600036.SH_5min_raw.depth.json": "93fc361cda73adde4c68410f6f2b43adb3c4d7cc4bed339cd3b88b4e7b91b851",
+    "依据\\811重划实验_20261114\\fits\\600036.SH_5min_raw.evaluation.json": "bbf3a0ed8f868ef0d9605b6d39a8fb84ced30ccbdda5c495ef04e6fc66813d9e",
+    "依据\\811重划实验_20261114\\fits\\600036.SH_5min_raw.validation.json": "0b137fd4e4cea1bdf5054518dcbed82efb9e2861e3ed5292b50708f943c206b7",
+    "依据\\811重划实验_20261114\\fits\\603799.SH_5min_raw.base.json": "f5fc4ec0e91b6b73cccf226565d58c2db2af1ce7aae3fc461180ec69104dc73a",
+    "依据\\811重划实验_20261114\\fits\\603799.SH_5min_raw.depth.json": "0270e813f9fe8fc735546e78950a7eee3b515380d81144df28e55ae276f79b46",
+    "依据\\811重划实验_20261114\\fits\\603799.SH_5min_raw.evaluation.json": "c1398f685dcc92cc37e999b07cbc451c8666ecc06a24ad7f1fe880379f88b8f9",
+    "依据\\811重划实验_20261114\\fits\\603799.SH_5min_raw.validation.json": "1b0ace6ecbdb42973410eabe4e4806dd188d15f48317c386a2ac0b50efde4e69",
+    "依据\\811重划实验_20261114\\fits\\600516.SH_5min_raw.base.json": "85712e4eae05271868593956f3846a54307e3f73b4b83d76f0f756bf41cf0bd8",
+    "依据\\811重划实验_20261114\\fits\\600516.SH_5min_raw.depth.json": "24a9d175bc7346b2e0ecfd5ffe947f49ecc349bbe2a686989de63811108f2022",
+    "依据\\811重划实验_20261114\\fits\\600516.SH_5min_raw.evaluation.json": "2ee3a97e75b0dfdb0a2ea219e202790b914b8206033c19e648a8f5c154e3f027",
+    "依据\\811重划实验_20261114\\fits\\600516.SH_5min_raw.validation.json": "efa6191ece61a694c072e898a3905485d2c0e781ac664efe3563fed918c2df1e",
+    "依据\\811重划实验_20261114\\fits\\601668.SH_5min_raw.base.json": "7fe74959c7ac2e63d5e0e9cc05a97ca4dae3625e5fc877cfa840dba7e8301e5f",
+    "依据\\811重划实验_20261114\\fits\\601668.SH_5min_raw.depth.json": "0ac644ace273c16242f7a1c3e523d4353d0124f8356f2e708f3df3c3e4fe09f3",
+    "依据\\811重划实验_20261114\\fits\\601668.SH_5min_raw.evaluation.json": "4b6e9fc41ae67ffbc07b971e1dfa3bb3140e6bbd7c7294abc1971657f521b358",
+    "依据\\811重划实验_20261114\\fits\\601668.SH_5min_raw.validation.json": "2a99beeece755dfbad6f0431ef57bc1938114859b5138fd3a4bdfcfcc3f7a9d1",
+    "依据\\811重划实验_20261114\\fits\\601318.SH_5min_deseasonalized.base.json": "e4b50bfa600cfc93e0500c544f3d9fbedbcaf66c018f20fd954e7a9f7fbff469",
+    "依据\\811重划实验_20261114\\fits\\601318.SH_5min_deseasonalized.depth.json": "1353a994360a50a45efd6142763421c28c5828eb6adebed71c245a21687528cb",
+    "依据\\811重划实验_20261114\\fits\\601318.SH_5min_deseasonalized.evaluation.json": "7418ed56e7f0a2f52415b6a249a7c8c5bf4b84286b5a259d33e8adc738e90689",
+    "依据\\811重划实验_20261114\\fits\\601318.SH_5min_deseasonalized.validation.json": "5f4111c9ca9955ca776f2eb94cd7025c84574a6e5a30c5f363974aa17b98bafc",
+    "依据\\811重划实验_20261114\\fits\\601318.SH_5min_raw_nonzero.base.json": "3c4f5a487d0ffda5a34cdb822d4e5bc55664572a61be9a9e4778a70f821ad350",
+    "依据\\811重划实验_20261114\\fits\\601318.SH_5min_raw_nonzero.depth.json": "956a18b0556442ce9e9e83dd13df78f7f4cbd7db8f74f7d005d1ae3bb31e3452",
+    "依据\\811重划实验_20261114\\fits\\601318.SH_5min_raw_nonzero.evaluation.json": "094303efa41619e895c756fca1a6f094fded9d767f000defcd47d0b2ae9d2641",
+    "依据\\811重划实验_20261114\\fits\\601318.SH_5min_raw_nonzero.validation.json": "46ab6c16ea6e0c3ac581428715d226f78f52dc8bc8e594f08e1875bbcb4d33e9",
+    "依据\\811重划实验_20261114\\fits\\601318.SH_1min_raw.base.json": "c57b2efe9a9ba1df7c1c4954eab859f161693568526e8d450d16a86e39350c78",
+    "依据\\811重划实验_20261114\\fits\\601318.SH_1min_raw.depth.json": "4dd27f6937b73148f5e9cbeb970d68d29867cacfa8eac30b88e031dd27fd5d47",
+    "依据\\811重划实验_20261114\\fits\\601318.SH_1min_raw.evaluation.json": "6c8f27c2c4941fe3b79bbd6869352706b317a4c3b00ef80a6c1e23f547b0773d",
+    "依据\\811重划实验_20261114\\fits\\601318.SH_1min_raw.validation.json": "0376145a489aab9f3cd565b6b213d95b4ebaf14dd94072c188acd330dce34d58",
+    "依据\\811重划实验_20261114\\fits\\601318.SH_15min_raw.base.json": "e143ed766a3f842b08708e9a8b65c2a88f7b3133adcdeedeeb059e07cc40683e",
+    "依据\\811重划实验_20261114\\fits\\601318.SH_15min_raw.depth.json": "fadd3874a47eaf1445130a285d537d97cdda7e051c1ac4f347c354a2005f3fc7",
+    "依据\\811重划实验_20261114\\fits\\601318.SH_15min_raw.evaluation.json": "b16ba71158905bb25d2d2e977737d95a533f5456de6a614236301f4abc20c05b",
+    "依据\\811重划实验_20261114\\fits\\601318.SH_15min_raw.validation.json": "d5c14345a21793179bed447e85ea5c8abaf582b5997ed0082d580c7a4768a852",
+    "依据\\811重划实验_20261114\\data\\split_manifest.json": "2766be1763ef0a812c63a58a65689a59222750fe48895730fab94c68902b802a",
+    "依据\\811重划实验_20261114\\data\\selection_summary.json": "1c913aaa8167c4d718cdca51bbc7ab92ffc6e1281b5d92522c369bd64c8b4e3c",
+    "依据\\811重划实验_20261114\\data\\final_manifest.json": "6221c5939b21375e2bc8bab17957b3ed5885ba83dc932b72bc077bbace5916c8",
+    "依据\\811重划实验_20261114\\aux\\clock_summary.csv": "55361a23943bd9508f5fdcb1111f7990057a161d219449fe59154a2edf777771",
+    "依据\\811重划实验_20261114\\aux\\training_reselection.json": "0df7d09478c46aa3fd0931b190d7563673c6df0836f47abb43651a63fd713091",
+    "依据\\811重划实验_20261114\\aux\\seasonality_check.json": "6655ed8fc9f766d63cd3e513725bc1a5150577d43a35cfd9a2c1f7787087172f",
+    "依据\\811重划实验_20261114\\aux\\independent_validation.json": "b9ff8cad382b7d83860936025916c1081aef633c537f2c5999fd16260fb0df57",
+    "依据\\811重划实验_20261114\\fits\\validation_summary.json": "cab28d93f94c7f6073fd9af343c6e8062d89942ddab6d698cf05bec566a7a552"
+  },
+  "report_sha256": "7b591ab922eac493437e7abc56f93fbf2a2b6a0ab64b514176ec6852d5aad370",
+  "internal_minima": [
+    {
+      "key": "600030.SH_5min_raw",
+      "N": 9
+    },
+    {
+      "key": "603799.SH_5min_raw",
+      "N": 7
+    },
+    {
+      "key": "600516.SH_5min_raw",
+      "N": 32
+    },
+    {
+      "key": "601668.SH_5min_raw",
+      "N": 8
+    }
+  ],
+  "retrospective": true
+}

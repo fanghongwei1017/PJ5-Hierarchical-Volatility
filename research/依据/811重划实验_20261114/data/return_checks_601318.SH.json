@@ -1,0 +1,455 @@
+{
+  "symbol": "601318.SH",
+  "status": "passed",
+  "raw_reconstruction_checks": [
+    {
+      "symbol": "601318.SH",
+      "frequency": 5,
+      "date": "20170103",
+      "n": 46,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency": 5,
+      "date": "20181022",
+      "n": 46,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency": 5,
+      "date": "20181023",
+      "n": 46,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency": 5,
+      "date": "20190522",
+      "n": 46,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency": 5,
+      "date": "20190523",
+      "n": 46,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency": 5,
+      "date": "20190529",
+      "n": 46,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency": 5,
+      "date": "20190530",
+      "n": 46,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency": 5,
+      "date": "20190903",
+      "n": 46,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency": 5,
+      "date": "20190904",
+      "n": 46,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency": 5,
+      "date": "20190910",
+      "n": 46,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency": 5,
+      "date": "20190911",
+      "n": 46,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency": 5,
+      "date": "20191224",
+      "n": 46,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency": 5,
+      "date": "20191225",
+      "n": 46,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency": 5,
+      "date": "20191231",
+      "n": 46,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency": 1,
+      "date": "20170103",
+      "n": 238,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency": 1,
+      "date": "20181022",
+      "n": 236,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency": 1,
+      "date": "20181023",
+      "n": 236,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency": 1,
+      "date": "20190522",
+      "n": 236,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency": 1,
+      "date": "20190523",
+      "n": 236,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency": 1,
+      "date": "20190529",
+      "n": 236,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency": 1,
+      "date": "20190530",
+      "n": 236,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency": 1,
+      "date": "20190903",
+      "n": 236,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency": 1,
+      "date": "20190904",
+      "n": 236,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency": 1,
+      "date": "20190910",
+      "n": 235,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency": 1,
+      "date": "20190911",
+      "n": 236,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency": 1,
+      "date": "20191224",
+      "n": 236,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency": 1,
+      "date": "20191225",
+      "n": 236,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency": 1,
+      "date": "20191231",
+      "n": 236,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency": 15,
+      "date": "20170103",
+      "n": 14,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency": 15,
+      "date": "20181022",
+      "n": 14,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency": 15,
+      "date": "20181023",
+      "n": 14,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency": 15,
+      "date": "20190522",
+      "n": 14,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency": 15,
+      "date": "20190523",
+      "n": 14,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency": 15,
+      "date": "20190529",
+      "n": 14,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency": 15,
+      "date": "20190530",
+      "n": 14,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency": 15,
+      "date": "20190903",
+      "n": 14,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency": 15,
+      "date": "20190904",
+      "n": 14,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency": 15,
+      "date": "20190910",
+      "n": 14,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency": 15,
+      "date": "20190911",
+      "n": 14,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency": 15,
+      "date": "20191224",
+      "n": 14,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency": 15,
+      "date": "20191225",
+      "n": 14,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency": 15,
+      "date": "20191231",
+      "n": 14,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency": 5,
+      "date": "20260105",
+      "n": 46,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency": 5,
+      "date": "20260511",
+      "n": 46,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency": 5,
+      "date": "20260831",
+      "n": 46,
+      "max_reconstruction_error": 0.0
+    }
+  ],
+  "input_sha256": {
+    "C:\\Users\\lenovo\\OneDrive - Errington Primary\\Desktop\\1111交接\\依据\\2026时间外验证\\historical_inputs\\returns_601318.SH_5min.csv.gz": "f3fbd996142a38a84f11549b93188a8341429bd44d9cbe6458025aa0b67df838",
+    "E:\\Users\\lenovo\\Downloads\\PJ5-research-main\\PJ5-research-main\\h-theory-reproduction\\derived\\minute\\returns_601318.SH_1min.csv.gz": "5281b1fb2e90362e48aabb24116ffdc038056aadc77c23a20d10208b8b09df06",
+    "E:\\Users\\lenovo\\Downloads\\PJ5-research-main\\PJ5-research-main\\h-theory-reproduction\\derived\\minute\\returns_601318.SH_15min.csv.gz": "12f552021a9110322385ac76686df27da2bdd0912a9761f69e8ed17a39332591",
+    "C:\\Users\\lenovo\\OneDrive - Errington Primary\\Desktop\\1111交接\\依据\\2026时间外验证\\returns_and_scores_601318.SH.csv.gz": "8a9d77143e894c9686711497b7438f7fef16302a2cf79066c554cd72f92efbdf"
+  },
+  "counts": [
+    {
+      "symbol": "601318.SH",
+      "frequency": 5,
+      "period": "historical",
+      "n": 33626,
+      "days": 731,
+      "blocks": {
+        "train": {
+          "n": 26634,
+          "days": 579,
+          "first": "20170103",
+          "last": "20190522"
+        },
+        "valid": {
+          "n": 3128,
+          "days": 68,
+          "first": "20190530",
+          "last": "20190903"
+        },
+        "test": {
+          "n": 3174,
+          "days": 69,
+          "first": "20190911",
+          "last": "20191224"
+        },
+        "purge": {
+          "n": 690,
+          "days": 15,
+          "first": "20190523",
+          "last": "20191231"
+        }
+      },
+      "train_sd": 0.0022112908251285352,
+      "price_error": 0.0,
+      "source": "cached_raw_only",
+      "path": "C:\\Users\\lenovo\\OneDrive - Errington Primary\\Desktop\\1111交接\\依据\\811重划实验_20261114\\data\\historical\\returns_601318.SH_5min.csv.gz",
+      "sha256": "19cb546b021bf458ecf5c08dd0763be3d8b3ec68aad63a9602fc0687b2af6c80"
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency": 1,
+      "period": "historical",
+      "n": 173282,
+      "days": 731,
+      "blocks": {
+        "train": {
+          "n": 137427,
+          "days": 579,
+          "first": "20170103",
+          "last": "20190522"
+        },
+        "valid": {
+          "n": 16042,
+          "days": 68,
+          "first": "20190530",
+          "last": "20190903"
+        },
+        "test": {
+          "n": 16275,
+          "days": 69,
+          "first": "20190911",
+          "last": "20191224"
+        },
+        "purge": {
+          "n": 3538,
+          "days": 15,
+          "first": "20190523",
+          "last": "20191231"
+        }
+      },
+      "train_sd": 0.0010122240685895053,
+      "price_error": 0.0,
+      "source": "cached_raw_only",
+      "path": "C:\\Users\\lenovo\\OneDrive - Errington Primary\\Desktop\\1111交接\\依据\\811重划实验_20261114\\data\\historical\\returns_601318.SH_1min.csv.gz",
+      "sha256": "50a098bd2d03533faf6883c5eb27829d98b8f165026434655721d6aa2b309de5"
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency": 15,
+      "period": "historical",
+      "n": 10234,
+      "days": 731,
+      "blocks": {
+        "train": {
+          "n": 8106,
+          "days": 579,
+          "first": "20170103",
+          "last": "20190522"
+        },
+        "valid": {
+          "n": 952,
+          "days": 68,
+          "first": "20190530",
+          "last": "20190903"
+        },
+        "test": {
+          "n": 966,
+          "days": 69,
+          "first": "20190911",
+          "last": "20191224"
+        },
+        "purge": {
+          "n": 210,
+          "days": 15,
+          "first": "20190523",
+          "last": "20191231"
+        }
+      },
+      "train_sd": 0.0036551900637032558,
+      "price_error": 0.0,
+      "source": "cached_raw_only",
+      "path": "C:\\Users\\lenovo\\OneDrive - Errington Primary\\Desktop\\1111交接\\依据\\811重划实验_20261114\\data\\historical\\returns_601318.SH_15min.csv.gz",
+      "sha256": "ace4da739bd6bd95e547c1bb907b5728296d9cbd3ece1f767b49dedfd8416a84"
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency": 5,
+      "period": "oos2026",
+      "n": 7360,
+      "days": 160,
+      "first": "20260105",
+      "last": "20260831",
+      "price_error": 0.0,
+      "path": "C:\\Users\\lenovo\\OneDrive - Errington Primary\\Desktop\\1111交接\\依据\\811重划实验_20261114\\data\\oos2026\\returns_601318.SH_5min.csv.gz",
+      "sha256": "e48c7174d6efea9bcd0cc50a6257a1656786ceaff1e7481a607af75f4c7e4bd5"
+    }
+  ]
+}

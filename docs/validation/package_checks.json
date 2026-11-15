@@ -1,0 +1,78 @@
+{
+  "static_check": {
+    "status": "passed",
+    "checks": [
+      {
+        "script": "fit_validate.py",
+        "exit_code": 0,
+        "seconds": 31.502
+      },
+      {
+        "script": "aux_validate.py",
+        "exit_code": 0,
+        "seconds": 3.11
+      }
+    ]
+  },
+  "typeset_check": {
+    "status": "passed",
+    "checks": [
+      {
+        "document": "report",
+        "passes": 2,
+        "exit_code": 0,
+        "seconds": 48.796
+      },
+      {
+        "document": "data_supplement",
+        "passes": 2,
+        "exit_code": 0,
+        "seconds": 10.219
+      },
+      {
+        "document": "eight_stock_supplement",
+        "passes": 2,
+        "exit_code": 0,
+        "seconds": 47.137
+      }
+    ]
+  },
+  "figures_check": {
+    "status": "passed",
+    "exit_code": 0,
+    "seconds": 23.782
+  },
+  "pixel_and_figure_check": {
+    "status": "passed",
+    "reports": [
+      {
+        "document": "report",
+        "pages": 19,
+        "pixel_identical_pages": 19,
+        "render_scale": 1,
+        "layout_warnings": []
+      },
+      {
+        "document": "data_supplement",
+        "pages": 25,
+        "pixel_identical_pages": 25,
+        "render_scale": 1,
+        "layout_warnings": []
+      },
+      {
+        "document": "eight_stock_supplement",
+        "pages": 4,
+        "pixel_identical_pages": 4,
+        "render_scale": 1,
+        "layout_warnings": []
+      }
+    ],
+    "regenerated_eight_stock_figure_files": 52,
+    "figure_files_byte_identical": true
+  },
+  "status": "passed",
+  "date": "2026-11-15",
+  "new_fitting_performed": false,
+  "conditional_check": "conditional_portable_check.json",
+  "scope": "Reorganized package: static and auxiliary independent validators, conditional package verification, eight-stock figure regeneration, and isolated XeLaTeX compilation with all-page pixel comparison. No new model training."
+}

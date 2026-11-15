@@ -1,0 +1,557 @@
+{
+  "status": "passed",
+  "versions": {
+    "python": "3.13.9",
+    "numpy": "2.3.5",
+    "scipy": "1.16.3",
+    "pandas": "2.3.3"
+  },
+  "selected_h": 5,
+  "elapsed_seconds": 34.165997300005984,
+  "used_input_files_verified": 16,
+  "payload_files_verified": 139,
+  "payload_sha256": "e0ca842ddf88551cbcea26f49046cf48762b7752c9b1d2a3369cdcb317283ea7",
+  "scope": "Unzipped copy: independent preflight, h validation selection, all eight state/normalization/row masks and parameter provenance, archived audit identity; no retraining and no rerun of full score/CDF/bootstrap audit.",
+  "guard": {
+    "kind": "Python open audit hook; not OS isolation",
+    "read_roots": [
+      "extracted package",
+      "Python installation"
+    ],
+    "write_root": "new verification output directory only",
+    "outside_read_negative_control_rejected": true,
+    "unexpected_rejected_opens": 0,
+    "package_open_paths": [
+      ".package_verification_20261115T113054/preflight.json",
+      "依据/811重划实验_20261114/data/final_manifest.json",
+      "依据/811重划实验_20261114/data/historical/returns_600030.SH_5min.csv.gz",
+      "依据/811重划实验_20261114/data/historical/returns_600036.SH_5min.csv.gz",
+      "依据/811重划实验_20261114/data/historical/returns_600516.SH_5min.csv.gz",
+      "依据/811重划实验_20261114/data/historical/returns_600519.SH_5min.csv.gz",
+      "依据/811重划实验_20261114/data/historical/returns_600887.SH_5min.csv.gz",
+      "依据/811重划实验_20261114/data/historical/returns_601318.SH_5min.csv.gz",
+      "依据/811重划实验_20261114/data/historical/returns_601668.SH_5min.csv.gz",
+      "依据/811重划实验_20261114/data/historical/returns_603799.SH_5min.csv.gz",
+      "依据/811重划实验_20261114/data/oos2026/returns_600030.SH_5min.csv.gz",
+      "依据/811重划实验_20261114/data/oos2026/returns_600036.SH_5min.csv.gz",
+      "依据/811重划实验_20261114/data/oos2026/returns_600516.SH_5min.csv.gz",
+      "依据/811重划实验_20261114/data/oos2026/returns_600519.SH_5min.csv.gz",
+      "依据/811重划实验_20261114/data/oos2026/returns_600887.SH_5min.csv.gz",
+      "依据/811重划实验_20261114/data/oos2026/returns_601318.SH_5min.csv.gz",
+      "依据/811重划实验_20261114/data/oos2026/returns_601668.SH_5min.csv.gz",
+      "依据/811重划实验_20261114/data/oos2026/returns_603799.SH_5min.csv.gz",
+      "依据/811重划实验_20261114/data/selected_8.csv",
+      "依据/811重划实验_20261114/data/split_manifest.json",
+      "依据/811重划实验_20261114/fits/600030.SH_5min_raw.base.json",
+      "依据/811重划实验_20261114/fits/600036.SH_5min_raw.base.json",
+      "依据/811重划实验_20261114/fits/600516.SH_5min_raw.base.json",
+      "依据/811重划实验_20261114/fits/600519.SH_5min_raw.base.json",
+      "依据/811重划实验_20261114/fits/600887.SH_5min_raw.base.json",
+      "依据/811重划实验_20261114/fits/601318.SH_5min_raw.base.json",
+      "依据/811重划实验_20261114/fits/601668.SH_5min_raw.base.json",
+      "依据/811重划实验_20261114/fits/603799.SH_5min_raw.base.json",
+      "依据/811重划实验_20261114/fits/runtime/fit_engine.py",
+      "依据/条件波动拓展_20261114/README_复算.md",
+      "依据/条件波动拓展_20261114/delivery_manifest.json",
+      "依据/条件波动拓展_20261114/experiment/600030.SH.evaluation.json",
+      "依据/条件波动拓展_20261114/experiment/600030.SH.point_scores.csv.gz",
+      "依据/条件波动拓展_20261114/experiment/600030.SH.states.json",
+      "依据/条件波动拓展_20261114/experiment/600030.SH.validation.json",
+      "依据/条件波动拓展_20261114/experiment/600036.SH.evaluation.json",
+      "依据/条件波动拓展_20261114/experiment/600036.SH.point_scores.csv.gz",
+      "依据/条件波动拓展_20261114/experiment/600036.SH.states.json",
+      "依据/条件波动拓展_20261114/experiment/600036.SH.validation.json",
+      "依据/条件波动拓展_20261114/experiment/600516.SH.evaluation.json",
+      "依据/条件波动拓展_20261114/experiment/600516.SH.point_scores.csv.gz",
+      "依据/条件波动拓展_20261114/experiment/600516.SH.states.json",
+      "依据/条件波动拓展_20261114/experiment/600516.SH.validation.json",
+      "依据/条件波动拓展_20261114/experiment/600519.SH.evaluation.json",
+      "依据/条件波动拓展_20261114/experiment/600519.SH.point_scores.csv.gz",
+      "依据/条件波动拓展_20261114/experiment/600519.SH.states.json",
+      "依据/条件波动拓展_20261114/experiment/600519.SH.validation.json",
+      "依据/条件波动拓展_20261114/experiment/600887.SH.evaluation.json",
+      "依据/条件波动拓展_20261114/experiment/600887.SH.point_scores.csv.gz",
+      "依据/条件波动拓展_20261114/experiment/600887.SH.states.json",
+      "依据/条件波动拓展_20261114/experiment/600887.SH.validation.json",
+      "依据/条件波动拓展_20261114/experiment/601318.SH.evaluation.json",
+      "依据/条件波动拓展_20261114/experiment/601318.SH.point_scores.csv.gz",
+      "依据/条件波动拓展_20261114/experiment/601318.SH.states.json",
+      "依据/条件波动拓展_20261114/experiment/601318.SH.validation.json",
+      "依据/条件波动拓展_20261114/experiment/601668.SH.evaluation.json",
+      "依据/条件波动拓展_20261114/experiment/601668.SH.point_scores.csv.gz",
+      "依据/条件波动拓展_20261114/experiment/601668.SH.states.json",
+      "依据/条件波动拓展_20261114/experiment/601668.SH.validation.json",
+      "依据/条件波动拓展_20261114/experiment/603799.SH.evaluation.json",
+      "依据/条件波动拓展_20261114/experiment/603799.SH.point_scores.csv.gz",
+      "依据/条件波动拓展_20261114/experiment/603799.SH.states.json",
+      "依据/条件波动拓展_20261114/experiment/603799.SH.validation.json",
+      "依据/条件波动拓展_20261114/experiment/paired_score_summary.csv",
+      "依据/条件波动拓展_20261114/experiment/preflight_tests.json",
+      "依据/条件波动拓展_20261114/experiment/protocol.json",
+      "依据/条件波动拓展_20261114/experiment/runtime/__pycache__/fit_engine.cpython-313.pyc",
+      "依据/条件波动拓展_20261114/experiment/runtime/fit_engine.py",
+      "依据/条件波动拓展_20261114/experiment/selection.json",
+      "依据/条件波动拓展_20261114/experiment/state_floor_audit.json",
+      "依据/条件波动拓展_20261114/experiment/summarize_results.py",
+      "依据/条件波动拓展_20261114/experiment/summary.json",
+      "依据/条件波动拓展_20261114/experiment/training/600030.SH_dynamic_N0_h5.json",
+      "依据/条件波动拓展_20261114/experiment/training/600030.SH_dynamic_N1_h5.json",
+      "依据/条件波动拓展_20261114/experiment/training/600030.SH_dynamic_N8_h5.json",
+      "依据/条件波动拓展_20261114/experiment/training/600030.SH_static_N0.json",
+      "依据/条件波动拓展_20261114/experiment/training/600030.SH_static_N1.json",
+      "依据/条件波动拓展_20261114/experiment/training/600030.SH_static_N8.json",
+      "依据/条件波动拓展_20261114/experiment/training/600036.SH_dynamic_N0_h5.json",
+      "依据/条件波动拓展_20261114/experiment/training/600036.SH_dynamic_N1_h5.json",
+      "依据/条件波动拓展_20261114/experiment/training/600036.SH_dynamic_N8_h5.json",
+      "依据/条件波动拓展_20261114/experiment/training/600036.SH_static_N0.json",
+      "依据/条件波动拓展_20261114/experiment/training/600036.SH_static_N1.json",
+      "依据/条件波动拓展_20261114/experiment/training/600036.SH_static_N8.json",
+      "依据/条件波动拓展_20261114/experiment/training/600516.SH_dynamic_N0_h5.json",
+      "依据/条件波动拓展_20261114/experiment/training/600516.SH_dynamic_N1_h5.json",
+      "依据/条件波动拓展_20261114/experiment/training/600516.SH_dynamic_N8_h5.json",
+      "依据/条件波动拓展_20261114/experiment/training/600516.SH_static_N0.json",
+      "依据/条件波动拓展_20261114/experiment/training/600516.SH_static_N1.json",
+      "依据/条件波动拓展_20261114/experiment/training/600516.SH_static_N8.json",
+      "依据/条件波动拓展_20261114/experiment/training/600519.SH_dynamic_N0_h5.json",
+      "依据/条件波动拓展_20261114/experiment/training/600519.SH_dynamic_N1_h5.json",
+      "依据/条件波动拓展_20261114/experiment/training/600519.SH_dynamic_N8_h5.json",
+      "依据/条件波动拓展_20261114/experiment/training/600519.SH_static_N0.json",
+      "依据/条件波动拓展_20261114/experiment/training/600519.SH_static_N1.json",
+      "依据/条件波动拓展_20261114/experiment/training/600519.SH_static_N8.json",
+      "依据/条件波动拓展_20261114/experiment/training/600887.SH_dynamic_N0_h5.json",
+      "依据/条件波动拓展_20261114/experiment/training/600887.SH_dynamic_N1_h5.json",
+      "依据/条件波动拓展_20261114/experiment/training/600887.SH_dynamic_N8_h5.json",
+      "依据/条件波动拓展_20261114/experiment/training/600887.SH_static_N0.json",
+      "依据/条件波动拓展_20261114/experiment/training/600887.SH_static_N1.json",
+      "依据/条件波动拓展_20261114/experiment/training/600887.SH_static_N8.json",
+      "依据/条件波动拓展_20261114/experiment/training/601318.SH_dynamic_N0_h5.json",
+      "依据/条件波动拓展_20261114/experiment/training/601318.SH_dynamic_N1_h5.json",
+      "依据/条件波动拓展_20261114/experiment/training/601318.SH_dynamic_N8_h10.json",
+      "依据/条件波动拓展_20261114/experiment/training/601318.SH_dynamic_N8_h20.json",
+      "依据/条件波动拓展_20261114/experiment/training/601318.SH_dynamic_N8_h40.json",
+      "依据/条件波动拓展_20261114/experiment/training/601318.SH_dynamic_N8_h5.json",
+      "依据/条件波动拓展_20261114/experiment/training/601318.SH_dynamic_N8_h60.json",
+      "依据/条件波动拓展_20261114/experiment/training/601318.SH_static_N0.json",
+      "依据/条件波动拓展_20261114/experiment/training/601318.SH_static_N1.json",
+      "依据/条件波动拓展_20261114/experiment/training/601318.SH_static_N8.json",
+      "依据/条件波动拓展_20261114/experiment/training/601668.SH_dynamic_N0_h5.json",
+      "依据/条件波动拓展_20261114/experiment/training/601668.SH_dynamic_N1_h5.json",
+      "依据/条件波动拓展_20261114/experiment/training/601668.SH_dynamic_N8_h5.json",
+      "依据/条件波动拓展_20261114/experiment/training/601668.SH_static_N0.json",
+      "依据/条件波动拓展_20261114/experiment/training/601668.SH_static_N1.json",
+      "依据/条件波动拓展_20261114/experiment/training/601668.SH_static_N8.json",
+      "依据/条件波动拓展_20261114/experiment/training/603799.SH_dynamic_N0_h5.json",
+      "依据/条件波动拓展_20261114/experiment/training/603799.SH_dynamic_N1_h5.json",
+      "依据/条件波动拓展_20261114/experiment/training/603799.SH_dynamic_N8_h5.json",
+      "依据/条件波动拓展_20261114/experiment/training/603799.SH_static_N0.json",
+      "依据/条件波动拓展_20261114/experiment/training/603799.SH_static_N1.json",
+      "依据/条件波动拓展_20261114/experiment/training/603799.SH_static_N8.json",
+      "依据/条件波动拓展_20261114/experiment/validate_csv_schema.py",
+      "依据/条件波动拓展_20261114/validation/600030.SH.json",
+      "依据/条件波动拓展_20261114/validation/600036.SH.json",
+      "依据/条件波动拓展_20261114/validation/600516.SH.json",
+      "依据/条件波动拓展_20261114/validation/600519.SH.json",
+      "依据/条件波动拓展_20261114/validation/600887.SH.json",
+      "依据/条件波动拓展_20261114/validation/601318.SH.json",
+      "依据/条件波动拓展_20261114/validation/601668.SH.json",
+      "依据/条件波动拓展_20261114/validation/603799.SH.json",
+      "依据/条件波动拓展_20261114/validation/brief_summary.json",
+      "依据/条件波动拓展_20261114/validation/coverage_preflight.json",
+      "依据/条件波动拓展_20261114/validation/coverage_scope.json",
+      "依据/条件波动拓展_20261114/validation/independent_validation.json",
+      "依据/条件波动拓展_20261114/validation/preflight.json",
+      "依据/条件波动拓展_20261114/validation/test_package_contract.py",
+      "工作文件/条件波动拓展_20261114/__pycache__/extension_fit.cpython-313.pyc",
+      "工作文件/条件波动拓展_20261114/__pycache__/extension_validate.cpython-313.pyc",
+      "工作文件/条件波动拓展_20261114/extension_fit.py",
+      "工作文件/条件波动拓展_20261114/extension_validate.py",
+      "工作文件/条件波动拓展_20261114/package_extension.py"
+    ]
+  },
+  "cases": [
+    {
+      "symbol": "601318.SH",
+      "returns_checked": 40296,
+      "counts": {
+        "train_fit": {
+          "returns": 23874,
+          "days": 519,
+          "complete_5min_days": 519,
+          "meets_original_gate": true,
+          "first_date": "20170406",
+          "last_date": "20190522"
+        },
+        "valid": {
+          "returns": 3128,
+          "days": 68,
+          "complete_5min_days": 68,
+          "meets_original_gate": false,
+          "first_date": "20190530",
+          "last_date": "20190903"
+        },
+        "test": {
+          "returns": 3174,
+          "days": 69,
+          "complete_5min_days": 69,
+          "meets_original_gate": false,
+          "first_date": "20190911",
+          "last_date": "20191224"
+        },
+        "2026_all": {
+          "returns": 7360,
+          "days": 160,
+          "complete_5min_days": 160,
+          "meets_original_gate": true,
+          "first_date": "20260105",
+          "last_date": "20260831"
+        },
+        "2026_after20": {
+          "returns": 6440,
+          "days": 140,
+          "complete_5min_days": 140,
+          "meets_original_gate": true,
+          "first_date": "20260202",
+          "last_date": "20260831"
+        }
+      },
+      "state_max_error": 4.440892098500626e-16,
+      "parameter_models_checked": 9
+    },
+    {
+      "symbol": "600519.SH",
+      "returns_checked": 40296,
+      "counts": {
+        "train_fit": {
+          "returns": 23874,
+          "days": 519,
+          "complete_5min_days": 519,
+          "meets_original_gate": true,
+          "first_date": "20170406",
+          "last_date": "20190522"
+        },
+        "valid": {
+          "returns": 3128,
+          "days": 68,
+          "complete_5min_days": 68,
+          "meets_original_gate": false,
+          "first_date": "20190530",
+          "last_date": "20190903"
+        },
+        "test": {
+          "returns": 3174,
+          "days": 69,
+          "complete_5min_days": 69,
+          "meets_original_gate": false,
+          "first_date": "20190911",
+          "last_date": "20191224"
+        },
+        "2026_all": {
+          "returns": 7360,
+          "days": 160,
+          "complete_5min_days": 160,
+          "meets_original_gate": true,
+          "first_date": "20260105",
+          "last_date": "20260831"
+        },
+        "2026_after20": {
+          "returns": 6440,
+          "days": 140,
+          "complete_5min_days": 140,
+          "meets_original_gate": true,
+          "first_date": "20260202",
+          "last_date": "20260831"
+        }
+      },
+      "state_max_error": 4.440892098500626e-16,
+      "parameter_models_checked": 8
+    },
+    {
+      "symbol": "600030.SH",
+      "returns_checked": 39790,
+      "counts": {
+        "train_fit": {
+          "returns": 23414,
+          "days": 509,
+          "complete_5min_days": 509,
+          "meets_original_gate": true,
+          "first_date": "20170406",
+          "last_date": "20190522"
+        },
+        "valid": {
+          "returns": 3128,
+          "days": 68,
+          "complete_5min_days": 68,
+          "meets_original_gate": false,
+          "first_date": "20190530",
+          "last_date": "20190903"
+        },
+        "test": {
+          "returns": 3128,
+          "days": 68,
+          "complete_5min_days": 68,
+          "meets_original_gate": false,
+          "first_date": "20190911",
+          "last_date": "20191224"
+        },
+        "2026_all": {
+          "returns": 7360,
+          "days": 160,
+          "complete_5min_days": 160,
+          "meets_original_gate": true,
+          "first_date": "20260105",
+          "last_date": "20260831"
+        },
+        "2026_after20": {
+          "returns": 6440,
+          "days": 140,
+          "complete_5min_days": 140,
+          "meets_original_gate": true,
+          "first_date": "20260202",
+          "last_date": "20260831"
+        }
+      },
+      "state_max_error": 8.881784197001252e-16,
+      "parameter_models_checked": 8
+    },
+    {
+      "symbol": "600887.SH",
+      "returns_checked": 40112,
+      "counts": {
+        "train_fit": {
+          "returns": 23690,
+          "days": 515,
+          "complete_5min_days": 515,
+          "meets_original_gate": true,
+          "first_date": "20170406",
+          "last_date": "20190522"
+        },
+        "valid": {
+          "returns": 3128,
+          "days": 68,
+          "complete_5min_days": 68,
+          "meets_original_gate": false,
+          "first_date": "20190530",
+          "last_date": "20190903"
+        },
+        "test": {
+          "returns": 3174,
+          "days": 69,
+          "complete_5min_days": 69,
+          "meets_original_gate": false,
+          "first_date": "20190911",
+          "last_date": "20191224"
+        },
+        "2026_all": {
+          "returns": 7360,
+          "days": 160,
+          "complete_5min_days": 160,
+          "meets_original_gate": true,
+          "first_date": "20260105",
+          "last_date": "20260831"
+        },
+        "2026_after20": {
+          "returns": 6440,
+          "days": 140,
+          "complete_5min_days": 140,
+          "meets_original_gate": true,
+          "first_date": "20260202",
+          "last_date": "20260831"
+        }
+      },
+      "state_max_error": 4.440892098500626e-16,
+      "parameter_models_checked": 8
+    },
+    {
+      "symbol": "600036.SH",
+      "returns_checked": 40296,
+      "counts": {
+        "train_fit": {
+          "returns": 23874,
+          "days": 519,
+          "complete_5min_days": 519,
+          "meets_original_gate": true,
+          "first_date": "20170406",
+          "last_date": "20190522"
+        },
+        "valid": {
+          "returns": 3128,
+          "days": 68,
+          "complete_5min_days": 68,
+          "meets_original_gate": false,
+          "first_date": "20190530",
+          "last_date": "20190903"
+        },
+        "test": {
+          "returns": 3174,
+          "days": 69,
+          "complete_5min_days": 69,
+          "meets_original_gate": false,
+          "first_date": "20190911",
+          "last_date": "20191224"
+        },
+        "2026_all": {
+          "returns": 7360,
+          "days": 160,
+          "complete_5min_days": 160,
+          "meets_original_gate": true,
+          "first_date": "20260105",
+          "last_date": "20260831"
+        },
+        "2026_after20": {
+          "returns": 6440,
+          "days": 140,
+          "complete_5min_days": 140,
+          "meets_original_gate": true,
+          "first_date": "20260202",
+          "last_date": "20260831"
+        }
+      },
+      "state_max_error": 4.440892098500626e-16,
+      "parameter_models_checked": 8
+    },
+    {
+      "symbol": "603799.SH",
+      "returns_checked": 34500,
+      "counts": {
+        "train_fit": {
+          "returns": 23368,
+          "days": 508,
+          "complete_5min_days": 508,
+          "meets_original_gate": true,
+          "first_date": "20170406",
+          "last_date": "20190522"
+        },
+        "valid": {
+          "returns": 3128,
+          "days": 68,
+          "complete_5min_days": 68,
+          "meets_original_gate": false,
+          "first_date": "20190530",
+          "last_date": "20190903"
+        },
+        "test": {
+          "returns": 3174,
+          "days": 69,
+          "complete_5min_days": 69,
+          "meets_original_gate": false,
+          "first_date": "20190911",
+          "last_date": "20191224"
+        },
+        "2026_all": {
+          "returns": 2070,
+          "days": 45,
+          "complete_5min_days": 45,
+          "meets_original_gate": false,
+          "first_date": "20260630",
+          "last_date": "20260831"
+        },
+        "2026_after20": {
+          "returns": 1150,
+          "days": 25,
+          "complete_5min_days": 25,
+          "meets_original_gate": false,
+          "first_date": "20260728",
+          "last_date": "20260831"
+        }
+      },
+      "state_max_error": 4.440892098500626e-16,
+      "parameter_models_checked": 8
+    },
+    {
+      "symbol": "600516.SH",
+      "returns_checked": 40204,
+      "counts": {
+        "train_fit": {
+          "returns": 23782,
+          "days": 517,
+          "complete_5min_days": 517,
+          "meets_original_gate": true,
+          "first_date": "20170406",
+          "last_date": "20190522"
+        },
+        "valid": {
+          "returns": 3128,
+          "days": 68,
+          "complete_5min_days": 68,
+          "meets_original_gate": false,
+          "first_date": "20190530",
+          "last_date": "20190903"
+        },
+        "test": {
+          "returns": 3174,
+          "days": 69,
+          "complete_5min_days": 69,
+          "meets_original_gate": false,
+          "first_date": "20190911",
+          "last_date": "20191224"
+        },
+        "2026_all": {
+          "returns": 7360,
+          "days": 160,
+          "complete_5min_days": 160,
+          "meets_original_gate": true,
+          "first_date": "20260105",
+          "last_date": "20260831"
+        },
+        "2026_after20": {
+          "returns": 6440,
+          "days": 140,
+          "complete_5min_days": 140,
+          "meets_original_gate": true,
+          "first_date": "20260202",
+          "last_date": "20260831"
+        }
+      },
+      "state_max_error": 8.881784197001252e-16,
+      "parameter_models_checked": 8
+    },
+    {
+      "symbol": "601668.SH",
+      "returns_checked": 40296,
+      "counts": {
+        "train_fit": {
+          "returns": 23874,
+          "days": 519,
+          "complete_5min_days": 519,
+          "meets_original_gate": true,
+          "first_date": "20170406",
+          "last_date": "20190522"
+        },
+        "valid": {
+          "returns": 3128,
+          "days": 68,
+          "complete_5min_days": 68,
+          "meets_original_gate": false,
+          "first_date": "20190530",
+          "last_date": "20190903"
+        },
+        "test": {
+          "returns": 3174,
+          "days": 69,
+          "complete_5min_days": 69,
+          "meets_original_gate": false,
+          "first_date": "20190911",
+          "last_date": "20191224"
+        },
+        "2026_all": {
+          "returns": 7360,
+          "days": 160,
+          "complete_5min_days": 160,
+          "meets_original_gate": true,
+          "first_date": "20260105",
+          "last_date": "20260831"
+        },
+        "2026_after20": {
+          "returns": 6440,
+          "days": 140,
+          "complete_5min_days": 140,
+          "meets_original_gate": true,
+          "first_date": "20260202",
+          "last_date": "20260831"
+        }
+      },
+      "state_max_error": 4.440892098500626e-16,
+      "parameter_models_checked": 8
+    }
+  ]
+}

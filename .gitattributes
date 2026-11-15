@@ -1,0 +1,6 @@
+# Frozen sources and data are hashed byte for byte; disable newline conversion.
+* -text
+*.pdf binary
+*.gz binary
+*.png binary
+*.zip binary

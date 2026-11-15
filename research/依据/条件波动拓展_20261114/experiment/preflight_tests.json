@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "causality_future_change": true,
+  "causality_same_day_change": true,
+  "purge_ignored": true,
+  "daily_q_constant": true,
+  "scope": "first 35 real training days only",
+  "numerical_checks": [
+    {
+      "N": 1,
+      "beta": 0.5,
+      "max_log_density_error": 0.0
+    },
+    {
+      "N": 8,
+      "beta": 1.0,
+      "max_log_density_error": 1.4482586657704744e-08
+    },
+    {
+      "N": 8,
+      "beta": 8.0,
+      "max_log_density_error": 6.460908164029888e-08
+    },
+    {
+      "N": 8,
+      "beta": 32.0,
+      "max_log_density_error": 2.3645677416084254e-07
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "status": "passed",
+  "symbol": "600516.SH",
+  "evaluation_sha256": "1049a53f2d9ce26d4e67c84fc02385d6d381ecd6a159c87ba94af3d0abfceca2",
+  "density_checks": [
+    {
+      "model": "static_N1",
+      "max_probe_log_density_error": 0.0,
+      "mean_log_score_error_by_block": {
+        "train": 2.220446049250313e-16,
+        "valid": 1.1102230246251565e-16,
+        "test": 2.220446049250313e-16,
+        "2026": 4.440892098500626e-16
+      },
+      "max_point_log_density_error": 8.881784197001252e-16
+    },
+    {
+      "model": "static_N8",
+      "max_probe_log_density_error": 5.6875535614508976e-08,
+      "mean_log_score_error_by_block": {
+        "train": 1.722491038691487e-10,
+        "valid": 4.947980913883043e-10,
+        "test": 1.1867958837896708e-09,
+        "2026": 4.288547295061562e-10
+      },
+      "max_point_log_density_error": 5.987892581771348e-08
+    },
+    {
+      "model": "dynamic_N1",
+      "max_probe_log_density_error": 0.0,
+      "mean_log_score_error_by_block": {
+        "train": 0.0,
+        "valid": 0.0,
+        "test": 0.0,
+        "2026": 2.220446049250313e-16
+      },
+      "max_point_log_density_error": 1.7763568394002505e-15
+    },
+    {
+      "model": "dynamic_N8",
+      "max_probe_log_density_error": 7.684931713214382e-08,
+      "mean_log_score_error_by_block": {
+        "train": 3.440854268177418e-10,
+        "valid": 3.243960655652245e-12,
+        "test": 1.94313898305154e-10,
+        "2026": 1.0155343233009262e-10
+      },
+      "max_point_log_density_error": 7.691915993035536e-08
+    },
+    {
+      "model": "oldjoint_N1",
+      "max_probe_log_density_error": 0.0,
+      "mean_log_score_error_by_block": {
+        "train": 0.0,
+        "valid": 0.0,
+        "test": 0.0,
+        "2026": 0.0
+      },
+      "max_point_log_density_error": 0.0
+    }
+  ],
+  "state_max_abs_error": 4.440892098500626e-16,
+  "all_new_optimizer_success": true,
+  "new_parameter_boundaries": [],
+  "reader_schema": {
+    "trading_date": "str",
+    "block": "str",
+    "low_memory": false
+  },
+  "validation_entry_sha256": "cf4871712431eadad1f5dc9a0097abb434ddc7f928965b3ab8459ad288918e5e"
+}

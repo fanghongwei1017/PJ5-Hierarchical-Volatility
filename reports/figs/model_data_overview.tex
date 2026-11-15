@@ -1,0 +1,43 @@
+\begin{tikzpicture}
+\begin{groupplot}[group style={group size=1 by 3,vertical sep=1.0cm},
+width=0.94\linewidth,height=5.3cm,xmin=0,xmax=239,
+xtick={23.5,71.5,119.5,167.5,215.5},xticklabels={01-03,01-04,01-05,01-06,01-09},
+grid=major,grid style={gray!15},unbounded coords=jump,
+tick label style={font=\small},title style={font=\small},
+scaled y ticks=false,yticklabel style={/pgf/number format/fixed}]
+\nextgroupplot[title={(a) 5 分钟收盘价},ylabel={价格（元）},ymin=35.25,ymax=36.05,xticklabels=\empty]
+\addplot[blue!70!black,thick] table[x=index,y=price,col sep=comma]{model_data_overview.csv};
+\draw[gray!35,densely dotted] (axis cs:23.5,35.25) -- (axis cs:23.5,36.05);
+\draw[gray!35,densely dotted] (axis cs:47.5,35.25) -- (axis cs:47.5,36.05);
+\draw[gray!35,densely dotted] (axis cs:71.5,35.25) -- (axis cs:71.5,36.05);
+\draw[gray!35,densely dotted] (axis cs:95.5,35.25) -- (axis cs:95.5,36.05);
+\draw[gray!35,densely dotted] (axis cs:119.5,35.25) -- (axis cs:119.5,36.05);
+\draw[gray!35,densely dotted] (axis cs:143.5,35.25) -- (axis cs:143.5,36.05);
+\draw[gray!35,densely dotted] (axis cs:167.5,35.25) -- (axis cs:167.5,36.05);
+\draw[gray!35,densely dotted] (axis cs:191.5,35.25) -- (axis cs:191.5,36.05);
+\draw[gray!35,densely dotted] (axis cs:215.5,35.25) -- (axis cs:215.5,36.05);
+\nextgroupplot[title={(b) 归一化收益 $x_t=r_t/s_{\rm tr}$},ylabel={$x_t$（无量纲）},ymin=-3.5,ymax=3.5,xticklabels=\empty]
+\addplot[gray!65,dashed] coordinates {(0,0) (239,0)};
+\addplot[blue!70!black,thick] table[x=index,y=x,col sep=comma]{model_data_overview.csv};
+\draw[gray!35,densely dotted] (axis cs:23.5,-3.5) -- (axis cs:23.5,3.5);
+\draw[gray!35,densely dotted] (axis cs:47.5,-3.5) -- (axis cs:47.5,3.5);
+\draw[gray!35,densely dotted] (axis cs:71.5,-3.5) -- (axis cs:71.5,3.5);
+\draw[gray!35,densely dotted] (axis cs:95.5,-3.5) -- (axis cs:95.5,3.5);
+\draw[gray!35,densely dotted] (axis cs:119.5,-3.5) -- (axis cs:119.5,3.5);
+\draw[gray!35,densely dotted] (axis cs:143.5,-3.5) -- (axis cs:143.5,3.5);
+\draw[gray!35,densely dotted] (axis cs:167.5,-3.5) -- (axis cs:167.5,3.5);
+\draw[gray!35,densely dotted] (axis cs:191.5,-3.5) -- (axis cs:191.5,3.5);
+\draw[gray!35,densely dotted] (axis cs:215.5,-3.5) -- (axis cs:215.5,3.5);
+\nextgroupplot[title={(c) 8 个收益估计的局部方差 $\widehat v_{t,8}$},ylabel={方差（无量纲）},ymin=0,ymax=2.6,xlabel={交易日期（2017 年，休市间隔压缩）}]
+\addplot[orange!85!black,thick] table[x=index,y=vhat,col sep=comma]{model_data_overview.csv};
+\draw[gray!35,densely dotted] (axis cs:23.5,0) -- (axis cs:23.5,2.6);
+\draw[gray!35,densely dotted] (axis cs:47.5,0) -- (axis cs:47.5,2.6);
+\draw[gray!35,densely dotted] (axis cs:71.5,0) -- (axis cs:71.5,2.6);
+\draw[gray!35,densely dotted] (axis cs:95.5,0) -- (axis cs:95.5,2.6);
+\draw[gray!35,densely dotted] (axis cs:119.5,0) -- (axis cs:119.5,2.6);
+\draw[gray!35,densely dotted] (axis cs:143.5,0) -- (axis cs:143.5,2.6);
+\draw[gray!35,densely dotted] (axis cs:167.5,0) -- (axis cs:167.5,2.6);
+\draw[gray!35,densely dotted] (axis cs:191.5,0) -- (axis cs:191.5,2.6);
+\draw[gray!35,densely dotted] (axis cs:215.5,0) -- (axis cs:215.5,2.6);
+\end{groupplot}
+\end{tikzpicture}

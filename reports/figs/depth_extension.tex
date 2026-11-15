@@ -1,0 +1,22 @@
+\begin{tikzpicture}
+\begin{axis}[width=.48\linewidth,height=6cm,xmode=log,log basis x=2,
+xlabel={层数 $N$},ylabel={联合误差},title={中国平安：接近极限},
+xtick={1,8,64,512,4096},xticklabels={1,8,64,512,4096},
+grid=major,grid style={gray!20},legend style={font=\scriptsize,at={(.98,.98)},anchor=north east}]
+\addplot[blue!70!black,thick,mark=*,mark size=1pt] table[x=N,y=error,col sep=comma]{depth_primary.csv};
+\addlegendentry{已测层数}
+\addplot[orange!80!black,dashed,thick] table[x=N,y=limit,col sep=comma]{depth_primary.csv};
+\addlegendentry{大层数极限}
+\end{axis}
+\end{tikzpicture}\hfill
+\begin{tikzpicture}
+\begin{axis}[width=.48\linewidth,height=6cm,
+xmin=4,xmax=20,ymin=0.31863588566678397,ymax=0.3513031598087171,
+xlabel={层数 $N$},ylabel={联合误差},title={中信证券：9 层最低},
+xtick={4,9,14,20},scaled y ticks=false,yticklabel style={/pgf/number format/fixed,/pgf/number format/precision=3},
+restrict x to domain=4:20,unbounded coords=jump,grid=major,grid style={gray!20}]
+\addplot[blue!70!black,thick,mark=*,mark size=1.4pt] table[x=N,y=error,col sep=comma]{depth_internal.csv};
+\addplot[orange!80!black,dashed,thick] table[x=N,y=limit,col sep=comma]{depth_internal.csv};
+\addplot[only marks,red!80!black,mark=*,mark size=2.8pt] coordinates {(9,0.3224051865293147)};
+\end{axis}
+\end{tikzpicture}

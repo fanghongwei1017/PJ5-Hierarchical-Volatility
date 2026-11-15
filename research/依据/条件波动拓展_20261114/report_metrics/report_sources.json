@@ -1,0 +1,63 @@
+{
+  "status": "passed",
+  "report_sha256": "05849517b4fad628fb573e3e03c8cdb02674874b836d523e9f49d84e5b166310",
+  "source_sha256": {
+    "依据\\条件波动拓展_20261114\\experiment\\protocol.json": "655baf8a43f518e4ad3f5b980a922433b7308c4c4da20dbbb367b3350609f1a8",
+    "依据\\条件波动拓展_20261114\\experiment\\selection.json": "ff665352f2f842de807609c94669fcaf863167ee5dfe8ee84fdeef9d3cbcddaf",
+    "依据\\条件波动拓展_20261114\\validation\\independent_validation.json": "d162b081dfafa5a4a7f40854b8d60261811ba9be46659d83fb37bda2269aea8e",
+    "依据\\条件波动拓展_20261114\\experiment\\601318.SH.point_scores.csv.gz": "c3163090e6effefc7695c044eb148c9d54c3365307365c72cff22423faf3afeb",
+    "20261115_条件波动拓展版\\report_base.tex": "34aeca48d3c90f26a4ad4ba89ce46bdc334fb94d7768e177cfabc9f4056b2c0a",
+    "依据\\条件波动拓展_20261114\\experiment\\601318.SH.evaluation.json": "dcfacd81bb3d2c4f67d215eafa61d385b85b4b37cb985a5997994376532d5d72",
+    "依据\\条件波动拓展_20261114\\experiment\\600519.SH.evaluation.json": "ba1532434dadc5d2cc7fe04fc449c25469cbc5311967c984223c3c253939f26d",
+    "依据\\条件波动拓展_20261114\\experiment\\600030.SH.evaluation.json": "51ba3fa9e2ed204b2fd0ce42bfdeac8fb7e6b5ec04ca4f3dfc8f5c982d094c04",
+    "依据\\条件波动拓展_20261114\\experiment\\600887.SH.evaluation.json": "44a177648e68a52e6f2ee4762952f0fac3bdcb0dee42b1cf06db33bea29a94b0",
+    "依据\\条件波动拓展_20261114\\experiment\\600036.SH.evaluation.json": "2b5a3aa66f37b14313540bd40be3bfdd9630781a906da54f1a80515582d89358",
+    "依据\\条件波动拓展_20261114\\experiment\\603799.SH.evaluation.json": "7df70c18f6aaac167817b756248c1df602f49ade5ead278b2449ca6114ad2001",
+    "依据\\条件波动拓展_20261114\\experiment\\600516.SH.evaluation.json": "1049a53f2d9ce26d4e67c84fc02385d6d381ecd6a159c87ba94af3d0abfceca2",
+    "依据\\条件波动拓展_20261114\\experiment\\601668.SH.evaluation.json": "40aa4f3c4a668c87eb1dff80593f746b9bcb7a021c69462da28fb7f30fdaf214"
+  },
+  "primary_coverage": {
+    "test/oldjoint_N8": {
+      "0.9": 98.5192186515438,
+      "0.95": 99.65343415248897,
+      "0.99": 100.0
+    },
+    "test/static_N8": {
+      "0.9": 98.86578449905483,
+      "0.95": 99.7164461247637,
+      "0.99": 100.0
+    },
+    "test/dynamic_N8": {
+      "0.9": 91.30434782608695,
+      "0.95": 95.43163201008191,
+      "0.99": 99.36988027725268
+    },
+    "test/dynamic_Gaussian": {
+      "0.9": 91.80844360428482,
+      "0.95": 94.77000630119723,
+      "0.99": 98.26717076244486
+    },
+    "2026_all/oldjoint_N8": {
+      "0.9": 91.65760869565217,
+      "0.95": 96.15489130434783,
+      "0.99": 99.1304347826087
+    },
+    "2026_all/static_N8": {
+      "0.9": 92.89402173913044,
+      "0.95": 96.50815217391305,
+      "0.99": 99.10326086956522
+    },
+    "2026_all/dynamic_N8": {
+      "0.9": 91.35869565217392,
+      "0.95": 95.36684782608695,
+      "0.99": 98.92663043478261
+    },
+    "2026_all/dynamic_Gaussian": {
+      "0.9": 91.88858695652173,
+      "0.95": 94.82336956521739,
+      "0.99": 97.62228260869566
+    }
+  },
+  "retrospective": true,
+  "independent_validation_passed": true
+}

@@ -1,0 +1,126 @@
+{
+  "status": "passed",
+  "periods": {
+    "test": {
+      "n": 3174,
+      "days": 69,
+      "empirical_inside_bins": 3174,
+      "empirical_outside_bins": 0,
+      "empirical_mass_in_displayed_bins": 0.9999999999999999,
+      "daily_min_q": 0.2069462085002306,
+      "daily_max_q": 0.4360840361039303,
+      "models": {
+        "oldjoint_N8": {
+          "sample_weight_sum": 0.9999999999999997,
+          "repeated_observation_mixture_abs_error": 1.1102230246251565e-16,
+          "high_precision_mixture_max_log_error": 7.840837756845076e-08,
+          "saved_point_log_score_max_error": 0.0,
+          "plotted_probability_mass_trapezoid": 0.9972764817738051,
+          "mixture_second_moment": 1.0
+        },
+        "static_N8": {
+          "sample_weight_sum": 0.9999999999999997,
+          "repeated_observation_mixture_abs_error": 6.661338147750939e-16,
+          "high_precision_mixture_max_log_error": 1.0968876651418213e-07,
+          "saved_point_log_score_max_error": 0.0,
+          "plotted_probability_mass_trapezoid": 0.997840207809759,
+          "mixture_second_moment": 1.1006399597052456
+        },
+        "dynamic_N8": {
+          "sample_weight_sum": 0.9999999999999997,
+          "repeated_observation_mixture_abs_error": 1.3552527156068805e-20,
+          "high_precision_mixture_max_log_error": 1.1727541604500402e-08,
+          "saved_point_log_score_max_error": 0.0,
+          "plotted_probability_mass_trapezoid": 0.9999601236698258,
+          "mixture_second_moment": 0.3287402780986932
+        },
+        "dynamic_Gaussian": {
+          "sample_weight_sum": 0.9999999999999997,
+          "repeated_observation_mixture_abs_error": 1.1102230246251565e-16,
+          "high_precision_mixture_max_log_error": 3.552713678800501e-15,
+          "saved_point_log_score_max_error": 0.0,
+          "plotted_probability_mass_trapezoid": 0.999999999999192,
+          "mixture_second_moment": 0.32849411722104827
+        }
+      }
+    },
+    "2026": {
+      "n": 7360,
+      "days": 160,
+      "empirical_inside_bins": 7347,
+      "empirical_outside_bins": 13,
+      "empirical_mass_in_displayed_bins": 0.998233695652174,
+      "daily_min_q": 0.3580822138577377,
+      "daily_max_q": 1.6270026370390955,
+      "models": {
+        "oldjoint_N8": {
+          "sample_weight_sum": 0.9999999999999999,
+          "repeated_observation_mixture_abs_error": 1.1102230246251565e-15,
+          "high_precision_mixture_max_log_error": 7.840838067707523e-08,
+          "saved_point_log_score_max_error": 0.0,
+          "plotted_probability_mass_trapezoid": 0.9972764817738049,
+          "mixture_second_moment": 1.0
+        },
+        "static_N8": {
+          "sample_weight_sum": 0.9999999999999999,
+          "repeated_observation_mixture_abs_error": 1.4988010832439613e-15,
+          "high_precision_mixture_max_log_error": 1.0968876829053897e-07,
+          "saved_point_log_score_max_error": 0.0,
+          "plotted_probability_mass_trapezoid": 0.9978402078097586,
+          "mixture_second_moment": 1.1006399597052456
+        },
+        "dynamic_N8": {
+          "sample_weight_sum": 0.9999999999999999,
+          "repeated_observation_mixture_abs_error": 1.1102230246251565e-16,
+          "high_precision_mixture_max_log_error": 1.1265144372885061e-08,
+          "saved_point_log_score_max_error": 0.0,
+          "plotted_probability_mass_trapezoid": 0.9985416748946258,
+          "mixture_second_moment": 0.8980233550598734
+        },
+        "dynamic_Gaussian": {
+          "sample_weight_sum": 0.9999999999999999,
+          "repeated_observation_mixture_abs_error": 1.1102230246251565e-16,
+          "high_precision_mixture_max_log_error": 4.440892098500626e-16,
+          "saved_point_log_score_max_error": 0.0,
+          "plotted_probability_mass_trapezoid": 0.9999540680148657,
+          "mixture_second_moment": 0.8973509147416205
+        }
+      }
+    }
+  },
+  "source_sha256": {
+    "600030.SH.evaluation.json": "51ba3fa9e2ed204b2fd0ce42bfdeac8fb7e6b5ec04ca4f3dfc8f5c982d094c04",
+    "600030.SH.point_scores.csv.gz": "6628bb6d09bdd7f24ea66238e7355c307164630712cd5147b2599bde951ca963",
+    "600036.SH.evaluation.json": "2b5a3aa66f37b14313540bd40be3bfdd9630781a906da54f1a80515582d89358",
+    "600036.SH.point_scores.csv.gz": "35de73b0fe26d43cbc19011753f5c857d735894201d2ab040a2c7daebb10715e",
+    "600516.SH.evaluation.json": "1049a53f2d9ce26d4e67c84fc02385d6d381ecd6a159c87ba94af3d0abfceca2",
+    "600516.SH.point_scores.csv.gz": "3c1dc0217d07503b50160bfd76b496f5ed98741e5792466def932fc2a3ce1df8",
+    "600519.SH.evaluation.json": "ba1532434dadc5d2cc7fe04fc449c25469cbc5311967c984223c3c253939f26d",
+    "600519.SH.point_scores.csv.gz": "6fd5fb860a0094dc44fb2974ea6be84751fdf63cc0dc12fe836d4dd6e781a19a",
+    "600887.SH.evaluation.json": "44a177648e68a52e6f2ee4762952f0fac3bdcb0dee42b1cf06db33bea29a94b0",
+    "600887.SH.point_scores.csv.gz": "b5a1e8054c173036b7f9ae0937c0009b2e3a1e76f89ab1a9dbcac6445eda2682",
+    "601318.SH.evaluation.json": "dcfacd81bb3d2c4f67d215eafa61d385b85b4b37cb985a5997994376532d5d72",
+    "601318.SH.point_scores.csv.gz": "c3163090e6effefc7695c044eb148c9d54c3365307365c72cff22423faf3afeb",
+    "601668.SH.evaluation.json": "40aa4f3c4a668c87eb1dff80593f746b9bcb7a021c69462da28fb7f30fdaf214",
+    "601668.SH.point_scores.csv.gz": "d86ba6f9171ae5c81629204f4e279ab4943ee64ac1cab7956dc72ad9a651ff88",
+    "603799.SH.evaluation.json": "7df70c18f6aaac167817b756248c1df602f49ade5ead278b2449ca6114ad2001",
+    "603799.SH.point_scores.csv.gz": "87aff4b061e18a1fa574a21598e14e8259edea74a0e438f0af6f2cde7292f6a6",
+    "selection.json": "ff665352f2f842de807609c94669fcaf863167ee5dfe8ee84fdeef9d3cbcddaf",
+    "frozen_fit.py": "e9ce4727d60530a08f23a9fae01da3c7484f8c28809a103e9b3a567bf9475194",
+    "original_80_bins_base.json": "5d92d4266b3f65bfb79defc3399a93f1bd01abad4a529fa29e43ea2316e0095b"
+  },
+  "output_sha256": {
+    "conditional_density.tex": "ab29eaabd5585a48175875ec0fc8f0871991cfa483abf827307829d46d4881c8",
+    "conditional_density_2026.csv": "a93f6df069753cb0393ee249d2592bbce568adfe8bb20ef0c4a17e3916cc6813",
+    "conditional_density_test.csv": "07f985392d24eaad7ac0111d59ce3a4858686916bad9db0c6d83b6cdb46690cb",
+    "conditional_hist_2026.csv": "07dd405768644628aa4d97472af7a2412699b46220a1c9ba45787659bec1ae82",
+    "conditional_hist_test.csv": "ee131263b5338cc22ba11b1ce7934e9135ebcdcb8edb00192f15ea9c0f346084",
+    "conditional_scale.tex": "a9b8589506cefa5131b6986d7da103f2affe7d3c8bd6bd83729f44f261dfff60",
+    "conditional_variance_2026.csv": "45bfbabf59de881dfe2c1f188631cd7d46a5c8697848630f20726444493a7389",
+    "conditional_variance_test.csv": "0016288fcac6b4257638241ad721c4e2603b3d88214179229cae0e79a3e8a1f3"
+  },
+  "script_sha256": "78d2430ac88fef9b05230ff395b69104e7e7b4055d7914ad8631e5dc87da79e4",
+  "mean_prediction_definition": "sum_d(n_d/n) p(x|q_d); density display only; scores use the forecast known before each day",
+  "variance_definition": "R_d is mean(x^2) observed after day d, not the latent variance; c*q_d is known before day d",
+  "empirical_bins": "original 80 training bins; density denominator includes all period observations; empty plotted bins are NaN"
+}

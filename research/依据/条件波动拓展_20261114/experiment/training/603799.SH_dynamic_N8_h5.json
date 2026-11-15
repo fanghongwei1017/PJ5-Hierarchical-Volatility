@@ -1,0 +1,58 @@
+{
+  "status": "passed",
+  "symbol": "603799.SH",
+  "dynamic": true,
+  "h": 5,
+  "name": "603799.SH_dynamic_N8_h5",
+  "scale": 0.0045113135421956515,
+  "training_days": 508,
+  "training_returns": 23368,
+  "valid_returns": 3128,
+  "valid_mean_log_score": -1.1031446398739737,
+  "parameter": {
+    "family": "hierarchy",
+    "N": 8,
+    "beta": 9.566542576836907,
+    "c": 1.001034382970326,
+    "mean_train_log_score": -1.3321460431923398,
+    "optimizer_success": true,
+    "parameter_boundary": false,
+    "starts": [
+      {
+        "success": true,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "iterations": 12,
+        "evaluations": 60,
+        "beta": 9.566542576836907,
+        "c": 1.001034382970326,
+        "negative_mean_log_likelihood": 1.3321460431923398
+      },
+      {
+        "success": true,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "iterations": 7,
+        "evaluations": 24,
+        "beta": 9.564319774473582,
+        "c": 1.0010958986760117,
+        "negative_mean_log_likelihood": 1.3321460438486852
+      },
+      {
+        "success": true,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "iterations": 29,
+        "evaluations": 522,
+        "beta": 9.565841356826205,
+        "c": 1.0010556225644183,
+        "negative_mean_log_likelihood": 1.3321460431952237
+      }
+    ],
+    "elapsed_seconds": 25.90573639998911
+  },
+  "input_sha256": {
+    "protocol": "655baf8a43f518e4ad3f5b980a922433b7308c4c4da20dbbb367b3350609f1a8",
+    "historical": "c4d7b1d3db4728c5ae7b8eb794e0c704b6ee155c98bc36b379a02b1f26d5441e"
+  },
+  "training_start": "20170406",
+  "training_end": "20190522",
+  "elapsed_seconds": 26.064396900008433
+}

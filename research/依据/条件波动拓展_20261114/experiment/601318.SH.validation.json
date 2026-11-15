@@ -1,0 +1,76 @@
+{
+  "status": "passed",
+  "symbol": "601318.SH",
+  "evaluation_sha256": "dcfacd81bb3d2c4f67d215eafa61d385b85b4b37cb985a5997994376532d5d72",
+  "density_checks": [
+    {
+      "model": "static_N1",
+      "max_probe_log_density_error": 0.0,
+      "mean_log_score_error_by_block": {
+        "train": 0.0,
+        "valid": 0.0,
+        "test": 2.220446049250313e-16,
+        "2026": 0.0
+      },
+      "max_point_log_density_error": 1.7763568394002505e-15
+    },
+    {
+      "model": "static_N8",
+      "max_probe_log_density_error": 1.0737361577639604e-07,
+      "mean_log_score_error_by_block": {
+        "train": 4.420708243912941e-10,
+        "valid": 7.621598907547877e-10,
+        "test": 4.152389543321533e-10,
+        "2026": 4.3621595224863086e-10
+      },
+      "max_point_log_density_error": 1.130726268172566e-07
+    },
+    {
+      "model": "dynamic_N1",
+      "max_probe_log_density_error": 0.0,
+      "mean_log_score_error_by_block": {
+        "train": 0.0,
+        "valid": 0.0,
+        "test": 0.0,
+        "2026": 0.0
+      },
+      "max_point_log_density_error": 8.881784197001252e-16
+    },
+    {
+      "model": "dynamic_N8",
+      "max_probe_log_density_error": 1.1276882894151186e-07,
+      "mean_log_score_error_by_block": {
+        "train": 7.540768010017018e-11,
+        "valid": 1.6777368383458224e-09,
+        "test": 1.1870316951601012e-09,
+        "2026": 1.0746696865737704e-09
+      },
+      "max_point_log_density_error": 1.305495986869687e-07
+    },
+    {
+      "model": "oldjoint_N1",
+      "max_probe_log_density_error": 0.0,
+      "mean_log_score_error_by_block": {
+        "train": 0.0,
+        "valid": 0.0,
+        "test": 0.0,
+        "2026": 0.0
+      },
+      "max_point_log_density_error": 0.0
+    },
+    {
+      "model": "oldjoint_N8",
+      "max_probe_log_density_error": 7.909133969974391e-08,
+      "mean_log_score_error_by_block": {
+        "train": 4.142419740560399e-11,
+        "valid": 9.829388414317464e-10,
+        "test": 1.0157645835562334e-09,
+        "2026": 1.187587805873136e-10
+      },
+      "max_point_log_density_error": 7.90845402498519e-08
+    }
+  ],
+  "state_max_abs_error": 4.440892098500626e-16,
+  "all_new_optimizer_success": true,
+  "new_parameter_boundaries": []
+}

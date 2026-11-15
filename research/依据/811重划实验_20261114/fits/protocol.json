@@ -1,0 +1,204 @@
+{
+  "version": 1,
+  "runner_sha256": "4dc063895f9755ba4411351eab8aa1d8671da72a8dec2bdfefb58d296478e556",
+  "split": "8:1:1 chronological; each nominal block drops its final 5 days",
+  "split_sha256": "2766be1763ef0a812c63a58a65689a59222750fe48895730fab94c68902b802a",
+  "selected_sha256": "739637c8d6997d355150e3466c5d725b6be2c63b33df031814251a707224d021",
+  "design": "Retrospective re-split and refit; all historical and 2026 outcomes were previously viewed; not a new blind test.",
+  "cases": [
+    {
+      "symbol": "601318.SH",
+      "frequency_minutes": 5,
+      "variant": "raw",
+      "base_n_max": 8,
+      "primary": true
+    },
+    {
+      "symbol": "600519.SH",
+      "frequency_minutes": 5,
+      "variant": "raw",
+      "base_n_max": 5,
+      "primary": false
+    },
+    {
+      "symbol": "600030.SH",
+      "frequency_minutes": 5,
+      "variant": "raw",
+      "base_n_max": 5,
+      "primary": false
+    },
+    {
+      "symbol": "600887.SH",
+      "frequency_minutes": 5,
+      "variant": "raw",
+      "base_n_max": 5,
+      "primary": false
+    },
+    {
+      "symbol": "600036.SH",
+      "frequency_minutes": 5,
+      "variant": "raw",
+      "base_n_max": 5,
+      "primary": false
+    },
+    {
+      "symbol": "603799.SH",
+      "frequency_minutes": 5,
+      "variant": "raw",
+      "base_n_max": 5,
+      "primary": false
+    },
+    {
+      "symbol": "600516.SH",
+      "frequency_minutes": 5,
+      "variant": "raw",
+      "base_n_max": 5,
+      "primary": false
+    },
+    {
+      "symbol": "601668.SH",
+      "frequency_minutes": 5,
+      "variant": "raw",
+      "base_n_max": 5,
+      "primary": false
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency_minutes": 5,
+      "variant": "deseasonalized",
+      "base_n_max": 5,
+      "primary": false
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency_minutes": 5,
+      "variant": "raw_nonzero",
+      "base_n_max": 5,
+      "primary": false
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency_minutes": 1,
+      "variant": "raw",
+      "base_n_max": 5,
+      "primary": false
+    },
+    {
+      "symbol": "601318.SH",
+      "frequency_minutes": 15,
+      "variant": "raw",
+      "base_n_max": 5,
+      "primary": false
+    }
+  ],
+  "M_grid": [
+    3,
+    5,
+    8,
+    12,
+    20,
+    30
+  ],
+  "N_grid": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    64,
+    128,
+    256,
+    512,
+    1024,
+    2048,
+    4096,
+    8192
+  ],
+  "base_fit": {
+    "beta_bounds": [
+      0.05,
+      20.0
+    ],
+    "log_beta_tolerance": 0.002,
+    "optimizer": "original bounded one-dimensional search"
+  },
+  "mle_fit": {
+    "beta_bounds": [
+      0.05,
+      20.0
+    ],
+    "log_beta_tolerance": 1e-05
+  },
+  "depth_fit": {
+    "beta_bounds": "[0.05,max(20,4*N)]",
+    "log_grid": 49,
+    "tolerance": 1e-07,
+    "plateau": "2 consecutive doubling changes each absolute<1e-4 and relative<0.001; relative distance to independently fitted limit<0.001"
+  },
+  "limit_fit": {
+    "tau_bounds": [
+      0.0001,
+      100.0
+    ]
+  },
+  "numerical_check": {
+    "grid": 262144,
+    "integration_points": 16384,
+    "domain_multiplier": 2.0,
+    "log_parameter_grid_points": 97,
+    "max_error": 2e-06,
+    "independent": "analytic characteristic inversion"
+  },
+  "bootstrap": {
+    "unit": "observed whole trading day",
+    "method": "paired circular moving blocks; return-count weighting",
+    "block_days": [
+      1,
+      5,
+      10
+    ],
+    "replicates": 2000,
+    "seed": 20261114
+  },
+  "sample_gate": {
+    "days": 60,
+    "returns": 5000,
+    "not_relaxed_for_811": true
+  },
+  "raw_nonzero_window": "remove exactly zero raw returns, then use retained observations within each original session; timestamps retained, no cross-session windows",
+  "versions": {
+    "python": "3.13.9",
+    "numpy": "2.3.5",
+    "scipy": "1.16.3",
+    "pandas": "2.3.3"
+  },
+  "runtime_manifest_sha256": "4f51ce606c52b760114d992b4802e20155b2cdad8b85d91b747def66f512e245",
+  "created_utc": "2026-11-14T15:15:24.182446+00:00"
+}

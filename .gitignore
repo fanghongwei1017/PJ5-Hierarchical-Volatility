@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.log
+*.aux
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+.package_verification_*/
+portable_validation_*/
+.venv/
+.env
+.env.*
+.DS_Store
+.vscode/
+build/

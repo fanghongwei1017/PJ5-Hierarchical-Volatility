@@ -1,0 +1,12 @@
+symbol,trading_date,session_id,frequency_minutes,bar_start,bar_end,reason,n_missing_labels,n_required_labels,n_bars_used,detail
+603799.SH,20180313,,15,,,empty_day_no_minute_bars,0,0,0,file carries 0 minute bars and 1 terminal row(s)
+603799.SH,20190409,,15,,,empty_day_no_minute_bars,0,0,0,file carries 0 minute bars and 1 terminal row(s)
+603799.SH,20190410,,15,,,empty_day_no_minute_bars,0,0,0,file carries 0 minute bars and 1 terminal row(s)
+603799.SH,20190411,,15,,,empty_day_no_minute_bars,0,0,0,file carries 0 minute bars and 1 terminal row(s)
+603799.SH,20190412,,15,,,empty_day_no_minute_bars,0,0,0,file carries 0 minute bars and 1 terminal row(s)
+603799.SH,20190415,,15,,,empty_day_no_minute_bars,0,0,0,file carries 0 minute bars and 1 terminal row(s)
+603799.SH,20190416,,15,,,empty_day_no_minute_bars,0,0,0,file carries 0 minute bars and 1 terminal row(s)
+603799.SH,20190417,,15,,,empty_day_no_minute_bars,0,0,0,file carries 0 minute bars and 1 terminal row(s)
+603799.SH,20190418,,15,,,empty_day_no_minute_bars,0,0,0,file carries 0 minute bars and 1 terminal row(s)
+603799.SH,20190419,,15,,,empty_day_no_minute_bars,0,0,0,file carries 0 minute bars and 1 terminal row(s)
+603799.SH,20191231,,15,,,empty_day_no_minute_bars,0,0,0,file carries 0 minute bars and 1 terminal row(s)

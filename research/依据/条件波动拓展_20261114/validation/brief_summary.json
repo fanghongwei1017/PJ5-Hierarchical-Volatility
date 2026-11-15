@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "cases": 8,
+  "h": 5,
+  "input_files": 32,
+  "max_state_error": 8.881784197001252e-16,
+  "max_cdf_error": 1.981269226458693e-08,
+  "max_point_pit_error": 2.018271327841603e-08,
+  "max_ci_error": 1.6653345369377348e-16,
+  "minimum_q": 0.11169960446683191,
+  "floor_triggered": false,
+  "failed_starts": [
+    [
+      "601668.SH",
+      "dynamic_N8",
+      1
+    ]
+  ],
+  "boundary_models": []
+}

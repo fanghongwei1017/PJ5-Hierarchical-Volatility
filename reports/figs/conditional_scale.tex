@@ -1,0 +1,20 @@
+\begin{tikzpicture}
+\begin{groupplot}[group style={group size=2 by 1,horizontal sep=1.25cm},
+width=.45\linewidth,height=5.8cm,ymin=0,
+xlabel={观测交易日},ylabel={波动强度（训练尺度）},
+grid=major,grid style={gray!15},
+tick label style={font=\small},title style={font=\small},
+legend style={font=\scriptsize,draw=none,at={(1.15,1.17)},anchor=south,legend columns=3,column sep=.6em},
+legend cell align=left]
+\nextgroupplot[title={(a) 2019年测试段},xmin=0,xmax=68,ymax=1.1,xtick={0,17,34,51,68},xticklabels={09-11,10-14,11-06,11-29,12-24}]
+\addplot[gray!70!black,line width=.55pt,no marks] table[x=day_index,y=R_d,col sep=comma]{conditional_variance_test.csv};
+\addlegendentry{收盘后观测 $R_d$}
+\addplot[blue!70!black,thick,no marks] table[x=day_index,y=predicted_variance,col sep=comma]{conditional_variance_test.csv};
+\addlegendentry{开盘前预报 $c q_d$}
+\addplot[orange!80!black,dashed,thick] coordinates {(0,1) (68,1)};
+\addlegendentry{固定背景 $v_0=1$}
+\nextgroupplot[title={(b) 2026年全期},xmin=0,xmax=159,ymax=3.998483749152063,xtick={0,39,79,119,159},xticklabels={01-05,03-09,05-08,07-06,08-31},ylabel={}]
+\addplot[gray!70!black,line width=.55pt,no marks] table[x=day_index,y=R_d,col sep=comma]{conditional_variance_2026.csv};
+\addplot[blue!70!black,thick,no marks] table[x=day_index,y=predicted_variance,col sep=comma]{conditional_variance_2026.csv};
+\addplot[orange!80!black,dashed,thick] coordinates {(0,1) (159,1)};
+\end{groupplot}\end{tikzpicture}

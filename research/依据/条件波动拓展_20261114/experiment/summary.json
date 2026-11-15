@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "stocks": 8,
+  "selected_h": 5,
+  "new_selected_parameters_on_boundaries": 0,
+  "unused_failed_optimizer_starts": [
+    {
+      "training_case": "601668.SH_dynamic_N8_h5",
+      "start_index": 1,
+      "success": false,
+      "message": "ABNORMAL: ",
+      "iterations": 9,
+      "evaluations": 159,
+      "beta": 11.828206596478788,
+      "c": 1.0035262971026924,
+      "negative_mean_log_likelihood": 1.3316413279674464
+    }
+  ],
+  "max_probe_log_density_error": 1.1903036600813266e-07,
+  "max_point_log_density_error": 1.305495986869687e-07,
+  "max_mean_log_score_error": 3.8100744781388585e-09,
+  "source_sha256": {
+    "600030.SH.evaluation.json": "51ba3fa9e2ed204b2fd0ce42bfdeac8fb7e6b5ec04ca4f3dfc8f5c982d094c04",
+    "600030.SH.validation.json": "f3f4835e5dfc87fbbdc2749c014c48a65661c3d7a24377a93727421e991db315",
+    "600036.SH.evaluation.json": "2b5a3aa66f37b14313540bd40be3bfdd9630781a906da54f1a80515582d89358",
+    "600036.SH.validation.json": "d184b9a76bca3b933a8d0f067b3b189f5fa48b7dce90001e96d4366cccf99994",
+    "600516.SH.evaluation.json": "1049a53f2d9ce26d4e67c84fc02385d6d381ecd6a159c87ba94af3d0abfceca2",
+    "600516.SH.validation.json": "707a3bc713664771d8238e8aa48db62e3acdcdcb819f8c126f4b99f39661e08a",
+    "600519.SH.evaluation.json": "ba1532434dadc5d2cc7fe04fc449c25469cbc5311967c984223c3c253939f26d",
+    "600519.SH.validation.json": "51716b738afdfb711ebcd9c258dc15f4f662c2acd320c478f15d588f95f54013",
+    "600887.SH.evaluation.json": "44a177648e68a52e6f2ee4762952f0fac3bdcb0dee42b1cf06db33bea29a94b0",
+    "600887.SH.validation.json": "6b69e22821270bfd6fa4b9537b209a2fa93fee5483b64fed4975afba7ba1a725",
+    "601318.SH.evaluation.json": "dcfacd81bb3d2c4f67d215eafa61d385b85b4b37cb985a5997994376532d5d72",
+    "601318.SH.validation.json": "9682c4b8ab9a69984b71bb6895819debd62e93191a4a6f24637d6d87c150125e",
+    "601668.SH.evaluation.json": "40aa4f3c4a668c87eb1dff80593f746b9bcb7a021c69462da28fb7f30fdaf214",
+    "601668.SH.validation.json": "faa414a49b4fce69d35adbe608f048cc6f695ed4860f4a4f9aefaa6a603ed940",
+    "603799.SH.evaluation.json": "7df70c18f6aaac167817b756248c1df602f49ade5ead278b2449ca6114ad2001",
+    "603799.SH.validation.json": "e03d261ce55c95db2091e971239e27e5c4c3ce5be91cd03170c2b71f6d800b87"
+  },
+  "summary_script_sha256": "aaa74c2c81effb2d41fc643cf1f0e4ad7426f5fc4cc2a91e656acffbf8ac8541",
+  "scope": "Own high-precision density/state validation; independent validation is reported separately."
+}

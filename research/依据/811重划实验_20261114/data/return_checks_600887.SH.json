@@ -1,0 +1,257 @@
+{
+  "symbol": "600887.SH",
+  "status": "passed",
+  "raw_reconstruction_checks": [
+    {
+      "symbol": "600887.SH",
+      "frequency": 5,
+      "date": "20170103",
+      "n": 46,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "600887.SH",
+      "frequency": 5,
+      "date": "20181022",
+      "n": 46,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "600887.SH",
+      "frequency": 5,
+      "date": "20181023",
+      "n": 46,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "600887.SH",
+      "frequency": 5,
+      "date": "20190522",
+      "n": 46,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "600887.SH",
+      "frequency": 5,
+      "date": "20190523",
+      "n": 46,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "600887.SH",
+      "frequency": 5,
+      "date": "20190529",
+      "n": 46,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "600887.SH",
+      "frequency": 5,
+      "date": "20190530",
+      "n": 46,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "600887.SH",
+      "frequency": 5,
+      "date": "20190903",
+      "n": 46,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "600887.SH",
+      "frequency": 5,
+      "date": "20190904",
+      "n": 46,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "600887.SH",
+      "frequency": 5,
+      "date": "20190910",
+      "n": 46,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "600887.SH",
+      "frequency": 5,
+      "date": "20190911",
+      "n": 46,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "600887.SH",
+      "frequency": 5,
+      "date": "20191224",
+      "n": 46,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "600887.SH",
+      "frequency": 5,
+      "date": "20191225",
+      "n": 46,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "600887.SH",
+      "frequency": 5,
+      "date": "20191231",
+      "n": 46,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "600887.SH",
+      "frequency": 5,
+      "date": "20260105",
+      "n": 46,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "600887.SH",
+      "frequency": 5,
+      "date": "20260511",
+      "n": 46,
+      "max_reconstruction_error": 0.0
+    },
+    {
+      "symbol": "600887.SH",
+      "frequency": 5,
+      "date": "20260831",
+      "n": 46,
+      "max_reconstruction_error": 0.0
+    }
+  ],
+  "input_sha256": {
+    "C:\\Users\\lenovo\\OneDrive - Errington Primary\\Desktop\\1111交接\\依据\\2026时间外验证\\historical_inputs\\returns_600887.SH_5min.csv.gz": "49fbbebb7b4f434902a42876532a276997cb3343ee22865ae9463111dd35f7f5",
+    "C:\\Users\\lenovo\\OneDrive - Errington Primary\\Desktop\\1111交接\\依据\\2026时间外验证\\returns_and_scores_600887.SH.csv.gz": "d4aa0cbdb1d5b1286e81c4d0505cee0a3b6c00d5d5d1de7d7c0e14976f538e2c"
+  },
+  "counts": [
+    {
+      "symbol": "600887.SH",
+      "frequency": 5,
+      "period": "historical",
+      "n": 33442,
+      "days": 727,
+      "blocks": {
+        "train": {
+          "n": 26450,
+          "days": 575,
+          "first": "20170103",
+          "last": "20190522"
+        },
+        "valid": {
+          "n": 3128,
+          "days": 68,
+          "first": "20190530",
+          "last": "20190903"
+        },
+        "test": {
+          "n": 3174,
+          "days": 69,
+          "first": "20190911",
+          "last": "20191224"
+        },
+        "purge": {
+          "n": 690,
+          "days": 15,
+          "first": "20190523",
+          "last": "20191231"
+        }
+      },
+      "train_sd": 0.0026950580426951367,
+      "price_error": 0.0,
+      "source": "cached_raw_only",
+      "path": "C:\\Users\\lenovo\\OneDrive - Errington Primary\\Desktop\\1111交接\\依据\\811重划实验_20261114\\data\\historical\\returns_600887.SH_5min.csv.gz",
+      "sha256": "408c6e6580bc8c3420733b9645c4ad2cc58323f0c292027c0d1656e846114236"
+    },
+    {
+      "symbol": "600887.SH",
+      "frequency": 1,
+      "period": "historical",
+      "n": 172290,
+      "days": 727,
+      "blocks": {
+        "train": {
+          "n": 136453,
+          "days": 575,
+          "first": "20170103",
+          "last": "20190522"
+        },
+        "valid": {
+          "n": 16032,
+          "days": 68,
+          "first": "20190530",
+          "last": "20190903"
+        },
+        "test": {
+          "n": 16269,
+          "days": 69,
+          "first": "20190911",
+          "last": "20191224"
+        },
+        "purge": {
+          "n": 3536,
+          "days": 15,
+          "first": "20190523",
+          "last": "20191231"
+        }
+      },
+      "train_sd": 0.0012982246897172863,
+      "price_error": 0.0,
+      "source": "rebuilt_from_raw",
+      "path": "C:\\Users\\lenovo\\OneDrive - Errington Primary\\Desktop\\1111交接\\依据\\811重划实验_20261114\\data\\historical\\returns_600887.SH_1min.csv.gz",
+      "sha256": "7a983efc87d076da4b2cfa8ee00682933577d34c10a3d8ed954c508258c21480"
+    },
+    {
+      "symbol": "600887.SH",
+      "frequency": 15,
+      "period": "historical",
+      "n": 10178,
+      "days": 727,
+      "blocks": {
+        "train": {
+          "n": 8050,
+          "days": 575,
+          "first": "20170103",
+          "last": "20190522"
+        },
+        "valid": {
+          "n": 952,
+          "days": 68,
+          "first": "20190530",
+          "last": "20190903"
+        },
+        "test": {
+          "n": 966,
+          "days": 69,
+          "first": "20190911",
+          "last": "20191224"
+        },
+        "purge": {
+          "n": 210,
+          "days": 15,
+          "first": "20190523",
+          "last": "20191231"
+        }
+      },
+      "train_sd": 0.004300328446201428,
+      "price_error": 0.0,
+      "source": "rebuilt_from_raw",
+      "path": "C:\\Users\\lenovo\\OneDrive - Errington Primary\\Desktop\\1111交接\\依据\\811重划实验_20261114\\data\\historical\\returns_600887.SH_15min.csv.gz",
+      "sha256": "c8efb251d2df032174308851899e716db9a3aac1ffb8ac4924690a8809c2ae63"
+    },
+    {
+      "symbol": "600887.SH",
+      "frequency": 5,
+      "period": "oos2026",
+      "n": 7360,
+      "days": 160,
+      "first": "20260105",
+      "last": "20260831",
+      "price_error": 0.0,
+      "path": "C:\\Users\\lenovo\\OneDrive - Errington Primary\\Desktop\\1111交接\\依据\\811重划实验_20261114\\data\\oos2026\\returns_600887.SH_5min.csv.gz",
+      "sha256": "685e949756529213f620623cfe5d74cc6396184bcc3ec67165ffb03a469f49ad"
+    }
+  ]
+}

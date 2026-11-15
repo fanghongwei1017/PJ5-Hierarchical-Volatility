@@ -1,0 +1,15 @@
+\begin{tikzpicture}
+\begin{groupplot}[group style={group size=2 by 1,horizontal sep=1.5cm},width=.455\linewidth,height=6.2cm,
+  grid=major,grid style={gray!15},tick label style={font=\small},label style={font=\small},title style={font=\small}]
+\nextgroupplot[xmin=-2,xmax=102,ymin=-2,ymax=102,xlabel={训练期有记录日比例（\%）},ylabel={有记录日中的完整日比例（\%）},title={(a) 全部 1573 只股票}]
+\addplot[only marks,mark=*,mark size=.65pt,gray!55] table[x=presence_pct,y=complete_pct,col sep=comma]{universe_all.csv};
+\addplot[only marks,mark=*,mark size=1pt,blue!65] table[x=presence_pct,y=complete_pct,col sep=comma]{universe_eligible.csv};
+\addplot[only marks,mark=star,mark size=2pt,orange!90!black] table[x=presence_pct,y=complete_pct,col sep=comma]{universe_selected.csv};
+\draw[dashed,black!65] (axis cs:95,0)--(axis cs:95,100);
+\draw[dashed,black!65] (axis cs:0,90)--(axis cs:100,90);
+\nextgroupplot[xmin=1,xmax=158,ymode=log,xlabel={合格候选的成交额排名},ylabel={日成交额中位数（亿元）},title={(b) 158 只合格候选的排序}]
+\addplot[thick,blue!65,no marks] table[x=eligible_rank,y=amount_yi,col sep=comma]{universe_eligible.csv};
+\addplot[only marks,mark=*,mark size=1.7pt,orange!90!black] table[x=eligible_rank,y=amount_yi,col sep=comma]{universe_selected.csv};
+\draw[dashed,black!65] (axis cs:8,.01)--(axis cs:8,100);
+\end{groupplot}
+\end{tikzpicture}

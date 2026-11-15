@@ -1,0 +1,14 @@
+{
+  "N": 1,
+  "beta": 1.1203393474307124,
+  "negative_mean_log_likelihood": 1.3665355211730457,
+  "success": true,
+  "beta_bounds": [
+    0.05,
+    20.0
+  ],
+  "log_beta_tolerance": 1e-05,
+  "evaluations": 13,
+  "base_sha256": "5d92d4266b3f65bfb79defc3399a93f1bd01abad4a529fa29e43ea2316e0095b",
+  "elapsed_seconds": 0.07745509999222122
+}

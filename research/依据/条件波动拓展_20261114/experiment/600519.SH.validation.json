@@ -1,0 +1,65 @@
+{
+  "status": "passed",
+  "symbol": "600519.SH",
+  "evaluation_sha256": "ba1532434dadc5d2cc7fe04fc449c25469cbc5311967c984223c3c253939f26d",
+  "density_checks": [
+    {
+      "model": "static_N1",
+      "max_probe_log_density_error": 0.0,
+      "mean_log_score_error_by_block": {
+        "train": 0.0,
+        "valid": 0.0,
+        "test": 0.0,
+        "2026": 0.0
+      },
+      "max_point_log_density_error": 0.0
+    },
+    {
+      "model": "static_N8",
+      "max_probe_log_density_error": 7.606710950014417e-08,
+      "mean_log_score_error_by_block": {
+        "train": 5.962887961175056e-10,
+        "valid": 1.3816106037012332e-09,
+        "test": 1.1825223023009812e-09,
+        "2026": 3.9148462249727345e-11
+      },
+      "max_point_log_density_error": 8.066994361399793e-08
+    },
+    {
+      "model": "dynamic_N1",
+      "max_probe_log_density_error": 0.0,
+      "mean_log_score_error_by_block": {
+        "train": 0.0,
+        "valid": 0.0,
+        "test": 0.0,
+        "2026": 0.0
+      },
+      "max_point_log_density_error": 8.881784197001252e-16
+    },
+    {
+      "model": "dynamic_N8",
+      "max_probe_log_density_error": 7.802443491300437e-08,
+      "mean_log_score_error_by_block": {
+        "train": 1.8569501492038398e-10,
+        "valid": 1.533659865771142e-10,
+        "test": 1.4596297503999267e-09,
+        "2026": 2.474495053306214e-10
+      },
+      "max_point_log_density_error": 9.427433056430345e-08
+    },
+    {
+      "model": "oldjoint_N1",
+      "max_probe_log_density_error": 0.0,
+      "mean_log_score_error_by_block": {
+        "train": 0.0,
+        "valid": 0.0,
+        "test": 0.0,
+        "2026": 0.0
+      },
+      "max_point_log_density_error": 0.0
+    }
+  ],
+  "state_max_abs_error": 4.440892098500626e-16,
+  "all_new_optimizer_success": true,
+  "new_parameter_boundaries": []
+}

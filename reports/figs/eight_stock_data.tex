@@ -1,0 +1,31 @@
+\begin{tikzpicture}
+\begin{groupplot}[group style={group size=2 by 4,horizontal sep=1.7cm,vertical sep=1.25cm},
+width=.44\linewidth,height=4.3cm,xmin=0,xmax=929,ymin=0,unbounded coords=jump,
+xtick={0,244,487,770},xticklabels={2017,2018,2019,2026},
+tick label style={font=\scriptsize},title style={font=\small},label style={font=\small},
+grid=major,grid style={gray!15},ylabel={日内标准差（\%）}]
+\nextgroupplot[title={中国平安 601318.SH}]
+\addplot[blue!75,line width=.45pt,no marks] table[x=x,y=vol_pct,col sep=comma]{panel_vol_601318_old.csv};
+\addplot[orange!85!black,line width=.55pt,no marks] table[x=x,y=vol_pct,col sep=comma]{panel_vol_601318_new.csv};
+\nextgroupplot[title={贵州茅台 600519.SH}]
+\addplot[blue!75,line width=.45pt,no marks] table[x=x,y=vol_pct,col sep=comma]{panel_vol_600519_old.csv};
+\addplot[orange!85!black,line width=.55pt,no marks] table[x=x,y=vol_pct,col sep=comma]{panel_vol_600519_new.csv};
+\nextgroupplot[title={中信证券 600030.SH}]
+\addplot[blue!75,line width=.45pt,no marks] table[x=x,y=vol_pct,col sep=comma]{panel_vol_600030_old.csv};
+\addplot[orange!85!black,line width=.55pt,no marks] table[x=x,y=vol_pct,col sep=comma]{panel_vol_600030_new.csv};
+\nextgroupplot[title={伊利股份 600887.SH}]
+\addplot[blue!75,line width=.45pt,no marks] table[x=x,y=vol_pct,col sep=comma]{panel_vol_600887_old.csv};
+\addplot[orange!85!black,line width=.55pt,no marks] table[x=x,y=vol_pct,col sep=comma]{panel_vol_600887_new.csv};
+\nextgroupplot[title={招商银行 600036.SH}]
+\addplot[blue!75,line width=.45pt,no marks] table[x=x,y=vol_pct,col sep=comma]{panel_vol_600036_old.csv};
+\addplot[orange!85!black,line width=.55pt,no marks] table[x=x,y=vol_pct,col sep=comma]{panel_vol_600036_new.csv};
+\nextgroupplot[title={华友钴业 603799.SH}]
+\addplot[blue!75,line width=.45pt,no marks] table[x=x,y=vol_pct,col sep=comma]{panel_vol_603799_old.csv};
+\addplot[orange!85!black,line width=.55pt,no marks] table[x=x,y=vol_pct,col sep=comma]{panel_vol_603799_new.csv};
+\nextgroupplot[title={方大炭素 600516.SH}]
+\addplot[blue!75,line width=.45pt,no marks] table[x=x,y=vol_pct,col sep=comma]{panel_vol_600516_old.csv};
+\addplot[orange!85!black,line width=.55pt,no marks] table[x=x,y=vol_pct,col sep=comma]{panel_vol_600516_new.csv};
+\nextgroupplot[title={中国建筑 601668.SH}]
+\addplot[blue!75,line width=.45pt,no marks] table[x=x,y=vol_pct,col sep=comma]{panel_vol_601668_old.csv};
+\addplot[orange!85!black,line width=.55pt,no marks] table[x=x,y=vol_pct,col sep=comma]{panel_vol_601668_new.csv};
+\end{groupplot}\end{tikzpicture}

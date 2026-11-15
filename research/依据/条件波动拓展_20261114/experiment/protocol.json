@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "script_sha256": "e9ce4727d60530a08f23a9fae01da3c7484f8c28809a103e9b3a567bf9475194",
+  "runtime_sha256": "dfa5ab634c27665e5fe89f64c28f61747e556ce264b11ee34358a4ef73511596",
+  "split_sha256": "2766be1763ef0a812c63a58a65689a59222750fe48895730fab94c68902b802a",
+  "selection_sha256": "739637c8d6997d355150e3466c5d725b6be2c63b33df031814251a707224d021",
+  "versions": {
+    "python": "3.13.9",
+    "numpy": "2.3.5",
+    "scipy": "1.16.3",
+    "pandas": "2.3.3"
+  },
+  "design": "Retrospective extension; old historical and 2026 results were already viewed; not a blind test.",
+  "primary": "601318.SH",
+  "symbols": [
+    "601318.SH",
+    "600519.SH",
+    "600030.SH",
+    "600887.SH",
+    "600036.SH",
+    "603799.SH",
+    "600516.SH",
+    "601668.SH"
+  ],
+  "h_grid_observed_update_days": [
+    5,
+    10,
+    20,
+    40,
+    60
+  ],
+  "N_grid": [
+    1,
+    8
+  ],
+  "update": "q[d+1]=2**(-1/h)*q[d]+(1-2**(-1/h))*mean(x[d]**2); next retained observed day only",
+  "purge": "not fitted, not scored, not used to update q; missing days do not decay q",
+  "initial_q": 1.0,
+  "2026_initial_q": 1.0,
+  "training_warmup_observed_days": 60,
+  "training_mask": "same first 60 retained observed training days excluded for every new static/dynamic estimator",
+  "parameter_selection": "primary conditional N8 training likelihood; choose h using valid log score only; transfer same h to all stocks and all dynamic families",
+  "shape_bounds": [
+    0.05,
+    64.0
+  ],
+  "background_multiplier_bounds": [
+    0.02,
+    50.0
+  ],
+  "MLE": "zero location; estimate beta and c from training residuals; Gaussian c is mean squared residual",
+  "optimizer": "three log-parameter starts, L-BFGS-B ftol=1e-11 gtol=1e-6 maxiter=300; boundaries recorded and notified",
+  "shape_starts": {
+    "1": [
+      0.3,
+      2.0,
+      16.0
+    ],
+    "8": [
+      1.0,
+      8.0,
+      32.0
+    ]
+  },
+  "logabs_interpolation": {
+    "size": 2049,
+    "range": [
+      1e-08,
+      10000.0
+    ],
+    "method": "PCHIP log-density"
+  },
+  "density_engine": {
+    "fft_points": 65536,
+    "quadrature_points": 4096,
+    "verification_fft": 262144,
+    "verification_quadrature": 16384
+  },
+  "score": "log p_N(x/sqrt(c*q); beta,v0=1)-0.5*log(c*q)",
+  "evaluation": "train_fit,valid,test,2026_all,2026_after20; reference old joint uses original full training data",
+  "CI": {
+    "repetitions": 2000,
+    "seed": 20261114,
+    "block_days": [
+      1,
+      5,
+      10
+    ]
+  },
+  "coverage_levels": [
+    0.005,
+    0.01,
+    0.025,
+    0.05,
+    0.95,
+    0.975,
+    0.99,
+    0.995
+  ],
+  "created_utc": "2026-11-14T16:00:51.459602+00:00"
+}

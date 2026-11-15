@@ -1,0 +1,17 @@
+\begin{tikzpicture}
+\begin{axis}[width=14.7cm,height=6.4cm,xmin=-0.024978058690203538,xmax=0.14013656325378201,ymin=0.5,ymax=3.5,
+ ytick={1,2,3},yticklabels={5--8 月,1--4 月,2026 年全期},
+ xlabel={平均对数评分差（纳特/条）},xmajorgrids=true,grid style={gray!18},
+ tick label style={font=\small},xticklabel style={/pgf/number format/fixed,/pgf/number format/precision=2},
+ label style={font=\small},
+ legend style={at={(0.5,1.03)},anchor=south,legend columns=2,font=\small,draw=none,column sep=1em},
+ clip=false]
+\addplot[gray,dashed,forget plot] coordinates {(0,0.5)(0,3.5)};
+\addplot[blue!70!black,only marks,mark=*,error bars/.cd,x dir=both,x explicit]
+ table[x=value,y=y,x error minus=minus,x error plus=plus,col sep=comma]{figs/oos_2026_1.csv};
+\addlegendentry{单层减八层}
+\addplot[orange!85!black,only marks,mark=square*,error bars/.cd,x dir=both,x explicit]
+ table[x=value,y=y,x error minus=minus,x error plus=plus,col sep=comma]{figs/oos_2026_2.csv};
+\addlegendentry{八层减高斯}
+\end{axis}
+\end{tikzpicture}

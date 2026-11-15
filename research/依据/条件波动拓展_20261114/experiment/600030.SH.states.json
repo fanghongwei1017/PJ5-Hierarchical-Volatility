@@ -1,0 +1,6061 @@
+{
+  "historical": [
+    {
+      "trading_date": "20170103",
+      "q_before": 1.0,
+      "mean_x2_after_observation": 0.16150338311708481,
+      "q_next": 0.891457085266401,
+      "n": 46
+    },
+    {
+      "trading_date": "20170104",
+      "q_before": 0.891457085266401,
+      "mean_x2_after_observation": 0.09957378441491782,
+      "q_next": 0.7889482380359707,
+      "n": 46
+    },
+    {
+      "trading_date": "20170105",
+      "q_before": 0.7889482380359707,
+      "mean_x2_after_observation": 0.08374868039196774,
+      "q_next": 0.697660552535132,
+      "n": 46
+    },
+    {
+      "trading_date": "20170106",
+      "q_before": 0.697660552535132,
+      "mean_x2_after_observation": 0.13793829753882236,
+      "q_next": 0.6252048219152365,
+      "n": 46
+    },
+    {
+      "trading_date": "20170109",
+      "q_before": 0.6252048219152365,
+      "mean_x2_after_observation": 0.12166967912530426,
+      "q_next": 0.560022481320474,
+      "n": 46
+    },
+    {
+      "trading_date": "20170110",
+      "q_before": 0.560022481320474,
+      "mean_x2_after_observation": 0.23212567205932635,
+      "q_next": 0.5175764240646202,
+      "n": 46
+    },
+    {
+      "trading_date": "20170111",
+      "q_before": 0.5175764240646202,
+      "mean_x2_after_observation": 0.16154020780167197,
+      "q_next": 0.47148773642320224,
+      "n": 46
+    },
+    {
+      "trading_date": "20170112",
+      "q_before": 0.47148773642320224,
+      "mean_x2_after_observation": 0.163385637874909,
+      "q_next": 0.43160409331884364,
+      "n": 46
+    },
+    {
+      "trading_date": "20170113",
+      "q_before": 0.43160409331884364,
+      "mean_x2_after_observation": 0.45188334789570567,
+      "q_next": 0.4342292314005929,
+      "n": 46
+    },
+    {
+      "trading_date": "20170116",
+      "q_before": 0.4342292314005929,
+      "mean_x2_after_observation": 1.34364153520918,
+      "q_next": 0.5519521418601885,
+      "n": 46
+    },
+    {
+      "trading_date": "20170117",
+      "q_before": 0.5519521418601885,
+      "mean_x2_after_observation": 0.31435573733925926,
+      "q_next": 0.5211954211320879,
+      "n": 46
+    },
+    {
+      "trading_date": "20170118",
+      "q_before": 0.5211954211320879,
+      "mean_x2_after_observation": 0.23215568836862702,
+      "q_next": 0.4837793905408191,
+      "n": 46
+    },
+    {
+      "trading_date": "20170119",
+      "q_before": 0.4837793905408191,
+      "mean_x2_after_observation": 0.2551159374490312,
+      "q_next": 0.454179035343324,
+      "n": 46
+    },
+    {
+      "trading_date": "20170120",
+      "q_before": 0.454179035343324,
+      "mean_x2_after_observation": 0.13895416328526392,
+      "q_next": 0.4133733532203568,
+      "n": 46
+    },
+    {
+      "trading_date": "20170123",
+      "q_before": 0.4133733532203568,
+      "mean_x2_after_observation": 0.2583234014688341,
+      "q_next": 0.39330222430515904,
+      "n": 46
+    },
+    {
+      "trading_date": "20170124",
+      "q_before": 0.39330222430515904,
+      "mean_x2_after_observation": 0.2554330997887242,
+      "q_next": 0.37545514379765,
+      "n": 46
+    },
+    {
+      "trading_date": "20170125",
+      "q_before": 0.37545514379765,
+      "mean_x2_after_observation": 0.08850636455746609,
+      "q_next": 0.33830978596214334,
+      "n": 46
+    },
+    {
+      "trading_date": "20170126",
+      "q_before": 0.33830978596214334,
+      "mean_x2_after_observation": 0.09451583435726713,
+      "q_next": 0.3067507962550801,
+      "n": 46
+    },
+    {
+      "trading_date": "20170203",
+      "q_before": 0.3067507962550801,
+      "mean_x2_after_observation": 0.1769831815676105,
+      "q_next": 0.28995245163138156,
+      "n": 46
+    },
+    {
+      "trading_date": "20170206",
+      "q_before": 0.28995245163138156,
+      "mean_x2_after_observation": 0.23374751978843625,
+      "q_next": 0.2826767548643326,
+      "n": 46
+    },
+    {
+      "trading_date": "20170207",
+      "q_before": 0.2826767548643326,
+      "mean_x2_after_observation": 0.07723033292412908,
+      "q_next": 0.2560818312713464,
+      "n": 46
+    },
+    {
+      "trading_date": "20170208",
+      "q_before": 0.2560818312713464,
+      "mean_x2_after_observation": 0.3353191911352806,
+      "q_next": 0.266339062871635,
+      "n": 46
+    },
+    {
+      "trading_date": "20170209",
+      "q_before": 0.266339062871635,
+      "mean_x2_after_observation": 0.2112539014757507,
+      "q_next": 0.2592083197581957,
+      "n": 46
+    },
+    {
+      "trading_date": "20170210",
+      "q_before": 0.2592083197581957,
+      "mean_x2_after_observation": 0.4342777205267182,
+      "q_next": 0.281870955071766,
+      "n": 46
+    },
+    {
+      "trading_date": "20170213",
+      "q_before": 0.281870955071766,
+      "mean_x2_after_observation": 0.3091435464228254,
+      "q_next": 0.2854013766596156,
+      "n": 46
+    },
+    {
+      "trading_date": "20170214",
+      "q_before": 0.2854013766596156,
+      "mean_x2_after_observation": 0.21623015704268997,
+      "q_next": 0.2764472012440845,
+      "n": 46
+    },
+    {
+      "trading_date": "20170215",
+      "q_before": 0.2764472012440845,
+      "mean_x2_after_observation": 0.2500267848826663,
+      "q_next": 0.27302709322861707,
+      "n": 46
+    },
+    {
+      "trading_date": "20170216",
+      "q_before": 0.27302709322861707,
+      "mean_x2_after_observation": 0.2718756897583795,
+      "q_next": 0.27287804469797594,
+      "n": 46
+    },
+    {
+      "trading_date": "20170217",
+      "q_before": 0.27287804469797594,
+      "mean_x2_after_observation": 0.93738767788351,
+      "q_next": 0.3588984423981425,
+      "n": 46
+    },
+    {
+      "trading_date": "20170220",
+      "q_before": 0.3588984423981425,
+      "mean_x2_after_observation": 0.2755586903318745,
+      "q_next": 0.34811015843812343,
+      "n": 46
+    },
+    {
+      "trading_date": "20170221",
+      "q_before": 0.34811015843812343,
+      "mean_x2_after_observation": 0.3240576034258873,
+      "q_next": 0.34499656874050044,
+      "n": 46
+    },
+    {
+      "trading_date": "20170222",
+      "q_before": 0.34499656874050044,
+      "mean_x2_after_observation": 0.17507632307267973,
+      "q_next": 0.3230004886542168,
+      "n": 46
+    },
+    {
+      "trading_date": "20170223",
+      "q_before": 0.3230004886542168,
+      "mean_x2_after_observation": 0.2176015207755463,
+      "q_next": 0.309356651633153,
+      "n": 46
+    },
+    {
+      "trading_date": "20170224",
+      "q_before": 0.309356651633153,
+      "mean_x2_after_observation": 0.15693512949090108,
+      "q_next": 0.28962577145029117,
+      "n": 46
+    },
+    {
+      "trading_date": "20170227",
+      "q_before": 0.28962577145029117,
+      "mean_x2_after_observation": 0.12887143891868708,
+      "q_next": 0.2688162136563675,
+      "n": 46
+    },
+    {
+      "trading_date": "20170228",
+      "q_before": 0.2688162136563675,
+      "mean_x2_after_observation": 0.08275094617033807,
+      "q_next": 0.24473016959014499,
+      "n": 46
+    },
+    {
+      "trading_date": "20170301",
+      "q_before": 0.24473016959014499,
+      "mean_x2_after_observation": 0.1660006101996858,
+      "q_next": 0.23453867247510568,
+      "n": 46
+    },
+    {
+      "trading_date": "20170302",
+      "q_before": 0.23453867247510568,
+      "mean_x2_after_observation": 0.3035878832624479,
+      "q_next": 0.24347705391637434,
+      "n": 46
+    },
+    {
+      "trading_date": "20170303",
+      "q_before": 0.24347705391637434,
+      "mean_x2_after_observation": 0.20438568109975314,
+      "q_next": 0.2384166977252815,
+      "n": 46
+    },
+    {
+      "trading_date": "20170306",
+      "q_before": 0.2384166977252815,
+      "mean_x2_after_observation": 0.11804325038765703,
+      "q_next": 0.22283442277332235,
+      "n": 46
+    },
+    {
+      "trading_date": "20170307",
+      "q_before": 0.22283442277332235,
+      "mean_x2_after_observation": 0.11123106569516343,
+      "q_next": 0.20838743106529314,
+      "n": 46
+    },
+    {
+      "trading_date": "20170308",
+      "q_before": 0.20838743106529314,
+      "mean_x2_after_observation": 0.1051276250934783,
+      "q_next": 0.1950205073480902,
+      "n": 46
+    },
+    {
+      "trading_date": "20170309",
+      "q_before": 0.1950205073480902,
+      "mean_x2_after_observation": 0.27289926484742244,
+      "q_next": 0.2051018686375765,
+      "n": 46
+    },
+    {
+      "trading_date": "20170310",
+      "q_before": 0.2051018686375765,
+      "mean_x2_after_observation": 0.08789257431252952,
+      "q_next": 0.1899291915107404,
+      "n": 46
+    },
+    {
+      "trading_date": "20170313",
+      "q_before": 0.1899291915107404,
+      "mean_x2_after_observation": 0.22665964773387495,
+      "q_next": 0.19468392837870152,
+      "n": 46
+    },
+    {
+      "trading_date": "20170314",
+      "q_before": 0.19468392837870152,
+      "mean_x2_after_observation": 0.12765730183599255,
+      "q_next": 0.18600736932858677,
+      "n": 46
+    },
+    {
+      "trading_date": "20170315",
+      "q_before": 0.18600736932858677,
+      "mean_x2_after_observation": 0.12038928846519736,
+      "q_next": 0.17751314572323162,
+      "n": 46
+    },
+    {
+      "trading_date": "20170316",
+      "q_before": 0.17751314572323162,
+      "mean_x2_after_observation": 0.29760346587496633,
+      "q_next": 0.1930587700204618,
+      "n": 46
+    },
+    {
+      "trading_date": "20170317",
+      "q_before": 0.1930587700204618,
+      "mean_x2_after_observation": 0.15683013628286674,
+      "q_next": 0.1883689937905791,
+      "n": 46
+    },
+    {
+      "trading_date": "20170320",
+      "q_before": 0.1883689937905791,
+      "mean_x2_after_observation": 0.11702621528508074,
+      "q_next": 0.17913371130015296,
+      "n": 46
+    },
+    {
+      "trading_date": "20170321",
+      "q_before": 0.17913371130015296,
+      "mean_x2_after_observation": 0.12274663855536877,
+      "q_next": 0.17183443649596017,
+      "n": 46
+    },
+    {
+      "trading_date": "20170322",
+      "q_before": 0.17183443649596017,
+      "mean_x2_after_observation": 0.1517310921077135,
+      "q_next": 0.1692320698890376,
+      "n": 46
+    },
+    {
+      "trading_date": "20170323",
+      "q_before": 0.1692320698890376,
+      "mean_x2_after_observation": 0.1526059469163634,
+      "q_next": 0.16707982763565557,
+      "n": 46
+    },
+    {
+      "trading_date": "20170324",
+      "q_before": 0.16707982763565557,
+      "mean_x2_after_observation": 0.32899917790286987,
+      "q_next": 0.18804019631920404,
+      "n": 46
+    },
+    {
+      "trading_date": "20170327",
+      "q_before": 0.18804019631920404,
+      "mean_x2_after_observation": 0.16762441087765245,
+      "q_next": 0.185397384393928,
+      "n": 46
+    },
+    {
+      "trading_date": "20170328",
+      "q_before": 0.185397384393928,
+      "mean_x2_after_observation": 0.16497972461906862,
+      "q_next": 0.1827543298372611,
+      "n": 46
+    },
+    {
+      "trading_date": "20170329",
+      "q_before": 0.1827543298372611,
+      "mean_x2_after_observation": 0.12251654704395391,
+      "q_next": 0.17495658278637705,
+      "n": 46
+    },
+    {
+      "trading_date": "20170330",
+      "q_before": 0.17495658278637705,
+      "mean_x2_after_observation": 0.2105103048893635,
+      "q_next": 0.1795589920853348,
+      "n": 46
+    },
+    {
+      "trading_date": "20170331",
+      "q_before": 0.1795589920853348,
+      "mean_x2_after_observation": 0.10671347096871174,
+      "q_next": 0.17012918041038763,
+      "n": 46
+    },
+    {
+      "trading_date": "20170405",
+      "q_before": 0.17012918041038763,
+      "mean_x2_after_observation": 0.1823000236717702,
+      "q_next": 0.17170468921478477,
+      "n": 46
+    },
+    {
+      "trading_date": "20170406",
+      "q_before": 0.17170468921478477,
+      "mean_x2_after_observation": 0.14481087349524985,
+      "q_next": 0.16822329991907314,
+      "n": 46
+    },
+    {
+      "trading_date": "20170407",
+      "q_before": 0.16822329991907314,
+      "mean_x2_after_observation": 0.12013998342998464,
+      "q_next": 0.16199894168470647,
+      "n": 46
+    },
+    {
+      "trading_date": "20170410",
+      "q_before": 0.16199894168470647,
+      "mean_x2_after_observation": 0.16810814034630958,
+      "q_next": 0.16278977401016306,
+      "n": 46
+    },
+    {
+      "trading_date": "20170411",
+      "q_before": 0.16278977401016306,
+      "mean_x2_after_observation": 0.26924329282981985,
+      "q_next": 0.17657012205651307,
+      "n": 46
+    },
+    {
+      "trading_date": "20170412",
+      "q_before": 0.17657012205651307,
+      "mean_x2_after_observation": 0.4245865696118248,
+      "q_next": 0.20867571148584454,
+      "n": 46
+    },
+    {
+      "trading_date": "20170413",
+      "q_before": 0.20867571148584454,
+      "mean_x2_after_observation": 0.12591861490792572,
+      "q_next": 0.19796285195058472,
+      "n": 46
+    },
+    {
+      "trading_date": "20170414",
+      "q_before": 0.19796285195058472,
+      "mean_x2_after_observation": 0.3556174687538812,
+      "q_next": 0.21837115328953685,
+      "n": 46
+    },
+    {
+      "trading_date": "20170417",
+      "q_before": 0.21837115328953685,
+      "mean_x2_after_observation": 0.3058586229569718,
+      "q_next": 0.22969635695663373,
+      "n": 46
+    },
+    {
+      "trading_date": "20170418",
+      "q_before": 0.22969635695663373,
+      "mean_x2_after_observation": 0.12995373014913075,
+      "q_next": 0.21678473010103755,
+      "n": 46
+    },
+    {
+      "trading_date": "20170419",
+      "q_before": 0.21678473010103755,
+      "mean_x2_after_observation": 0.4447900229136895,
+      "q_next": 0.24629988682113763,
+      "n": 46
+    },
+    {
+      "trading_date": "20170420",
+      "q_before": 0.24629988682113763,
+      "mean_x2_after_observation": 0.2318843572438214,
+      "q_next": 0.24443380463756598,
+      "n": 46
+    },
+    {
+      "trading_date": "20170421",
+      "q_before": 0.24443380463756598,
+      "mean_x2_after_observation": 0.21356736109593397,
+      "q_next": 0.2404381609080497,
+      "n": 46
+    },
+    {
+      "trading_date": "20170424",
+      "q_before": 0.2404381609080497,
+      "mean_x2_after_observation": 0.3380608545496178,
+      "q_next": 0.2530753636094657,
+      "n": 46
+    },
+    {
+      "trading_date": "20170425",
+      "q_before": 0.2530753636094657,
+      "mean_x2_after_observation": 0.11309850625486653,
+      "q_next": 0.23495543827333404,
+      "n": 46
+    },
+    {
+      "trading_date": "20170426",
+      "q_before": 0.23495543827333404,
+      "mean_x2_after_observation": 0.2857265932863974,
+      "q_next": 0.24152773569058025,
+      "n": 46
+    },
+    {
+      "trading_date": "20170427",
+      "q_before": 0.24152773569058025,
+      "mean_x2_after_observation": 0.24353573884237276,
+      "q_next": 0.2417876705674794,
+      "n": 46
+    },
+    {
+      "trading_date": "20170428",
+      "q_before": 0.2417876705674794,
+      "mean_x2_after_observation": 0.21727577388566863,
+      "q_next": 0.2386146193494754,
+      "n": 46
+    },
+    {
+      "trading_date": "20170502",
+      "q_before": 0.2386146193494754,
+      "mean_x2_after_observation": 0.09331756983852296,
+      "q_next": 0.21980599813554744,
+      "n": 46
+    },
+    {
+      "trading_date": "20170503",
+      "q_before": 0.21980599813554744,
+      "mean_x2_after_observation": 0.182509410980425,
+      "q_next": 0.21497797593733983,
+      "n": 46
+    },
+    {
+      "trading_date": "20170504",
+      "q_before": 0.21497797593733983,
+      "mean_x2_after_observation": 0.061870621852047655,
+      "q_next": 0.1951583151957779,
+      "n": 46
+    },
+    {
+      "trading_date": "20170505",
+      "q_before": 0.1951583151957779,
+      "mean_x2_after_observation": 1.4714455354924214,
+      "q_next": 0.36037297693553394,
+      "n": 46
+    },
+    {
+      "trading_date": "20170508",
+      "q_before": 0.36037297693553394,
+      "mean_x2_after_observation": 0.5768265714962072,
+      "q_next": 0.38839277282394224,
+      "n": 46
+    },
+    {
+      "trading_date": "20170509",
+      "q_before": 0.38839277282394224,
+      "mean_x2_after_observation": 0.26635028383391945,
+      "q_next": 0.3725944413702448,
+      "n": 46
+    },
+    {
+      "trading_date": "20170510",
+      "q_before": 0.3725944413702448,
+      "mean_x2_after_observation": 0.14940664314456137,
+      "q_next": 0.34370290661075176,
+      "n": 46
+    },
+    {
+      "trading_date": "20170511",
+      "q_before": 0.34370290661075176,
+      "mean_x2_after_observation": 0.700581572075924,
+      "q_next": 0.38990064882684927,
+      "n": 46
+    },
+    {
+      "trading_date": "20170512",
+      "q_before": 0.38990064882684927,
+      "mean_x2_after_observation": 0.45712747106446233,
+      "q_next": 0.3986031230968999,
+      "n": 46
+    },
+    {
+      "trading_date": "20170515",
+      "q_before": 0.3986031230968999,
+      "mean_x2_after_observation": 0.237325608714011,
+      "q_next": 0.37772583970703366,
+      "n": 46
+    },
+    {
+      "trading_date": "20170516",
+      "q_before": 0.37772583970703366,
+      "mean_x2_after_observation": 0.21796309097220765,
+      "q_next": 0.35704464187704754,
+      "n": 46
+    },
+    {
+      "trading_date": "20170517",
+      "q_before": 0.35704464187704754,
+      "mean_x2_after_observation": 0.3406570420914163,
+      "q_next": 0.354923276315869,
+      "n": 46
+    },
+    {
+      "trading_date": "20170518",
+      "q_before": 0.354923276315869,
+      "mean_x2_after_observation": 0.19885949710387751,
+      "q_next": 0.33472090800699866,
+      "n": 46
+    },
+    {
+      "trading_date": "20170519",
+      "q_before": 0.33472090800699866,
+      "mean_x2_after_observation": 0.1406820622922039,
+      "q_next": 0.3096026887305482,
+      "n": 46
+    },
+    {
+      "trading_date": "20170522",
+      "q_before": 0.3096026887305482,
+      "mean_x2_after_observation": 0.3006156457490428,
+      "q_next": 0.30843932107895883,
+      "n": 46
+    },
+    {
+      "trading_date": "20170523",
+      "q_before": 0.30843932107895883,
+      "mean_x2_after_observation": 0.3906215641337018,
+      "q_next": 0.3190777661494563,
+      "n": 46
+    },
+    {
+      "trading_date": "20170524",
+      "q_before": 0.3190777661494563,
+      "mean_x2_after_observation": 0.38363722897357677,
+      "q_next": 0.32743495224594354,
+      "n": 46
+    },
+    {
+      "trading_date": "20170525",
+      "q_before": 0.32743495224594354,
+      "mean_x2_after_observation": 1.2780760599346177,
+      "q_next": 0.450494908143791,
+      "n": 46
+    },
+    {
+      "trading_date": "20170526",
+      "q_before": 0.450494908143791,
+      "mean_x2_after_observation": 0.9922100369594794,
+      "q_next": 0.5206196264229495,
+      "n": 46
+    },
+    {
+      "trading_date": "20170531",
+      "q_before": 0.5206196264229495,
+      "mean_x2_after_observation": 1.333611233353256,
+      "q_next": 0.6258609319850565,
+      "n": 46
+    },
+    {
+      "trading_date": "20170601",
+      "q_before": 0.6258609319850565,
+      "mean_x2_after_observation": 0.3914486596342128,
+      "q_next": 0.5955163953727642,
+      "n": 46
+    },
+    {
+      "trading_date": "20170602",
+      "q_before": 0.5955163953727642,
+      "mean_x2_after_observation": 0.4849875561547875,
+      "q_next": 0.5812084993964639,
+      "n": 46
+    },
+    {
+      "trading_date": "20170605",
+      "q_before": 0.5812084993964639,
+      "mean_x2_after_observation": 0.3829678994972129,
+      "q_next": 0.5555463654076673,
+      "n": 46
+    },
+    {
+      "trading_date": "20170606",
+      "q_before": 0.5555463654076673,
+      "mean_x2_after_observation": 0.1587463485586012,
+      "q_next": 0.5041808267424673,
+      "n": 46
+    },
+    {
+      "trading_date": "20170607",
+      "q_before": 0.5041808267424673,
+      "mean_x2_after_observation": 0.43032130823071635,
+      "q_next": 0.49461975367590166,
+      "n": 46
+    },
+    {
+      "trading_date": "20170608",
+      "q_before": 0.49461975367590166,
+      "mean_x2_after_observation": 0.16965611840638345,
+      "q_next": 0.4525533941410188,
+      "n": 46
+    },
+    {
+      "trading_date": "20170609",
+      "q_before": 0.4525533941410188,
+      "mean_x2_after_observation": 0.7265237131574616,
+      "q_next": 0.4880186976112785,
+      "n": 46
+    },
+    {
+      "trading_date": "20170612",
+      "q_before": 0.4880186976112785,
+      "mean_x2_after_observation": 0.6038598357842415,
+      "q_next": 0.5030142676949043,
+      "n": 46
+    },
+    {
+      "trading_date": "20170613",
+      "q_before": 0.5030142676949043,
+      "mean_x2_after_observation": 0.27694053528285406,
+      "q_next": 0.4737491503806216,
+      "n": 46
+    },
+    {
+      "trading_date": "20170614",
+      "q_before": 0.4737491503806216,
+      "mean_x2_after_observation": 0.25812119968729463,
+      "q_next": 0.4458362336257593,
+      "n": 46
+    },
+    {
+      "trading_date": "20170615",
+      "q_before": 0.4458362336257593,
+      "mean_x2_after_observation": 0.2632326716999012,
+      "q_next": 0.42219830539433567,
+      "n": 46
+    },
+    {
+      "trading_date": "20170616",
+      "q_before": 0.42219830539433567,
+      "mean_x2_after_observation": 0.14452650395545338,
+      "q_next": 0.3862538471095219,
+      "n": 46
+    },
+    {
+      "trading_date": "20170619",
+      "q_before": 0.3862538471095219,
+      "mean_x2_after_observation": 0.7575333735960411,
+      "q_next": 0.4343157726728835,
+      "n": 46
+    },
+    {
+      "trading_date": "20170620",
+      "q_before": 0.4343157726728835,
+      "mean_x2_after_observation": 0.24211376772327234,
+      "q_next": 0.4094353313988008,
+      "n": 46
+    },
+    {
+      "trading_date": "20170621",
+      "q_before": 0.4094353313988008,
+      "mean_x2_after_observation": 0.6666727006965224,
+      "q_next": 0.44273456395357774,
+      "n": 46
+    },
+    {
+      "trading_date": "20170622",
+      "q_before": 0.44273456395357774,
+      "mean_x2_after_observation": 0.6281838537882785,
+      "q_next": 0.4667408700598136,
+      "n": 46
+    },
+    {
+      "trading_date": "20170623",
+      "q_before": 0.4667408700598136,
+      "mean_x2_after_observation": 0.7337212941985678,
+      "q_next": 0.5013013355755371,
+      "n": 46
+    },
+    {
+      "trading_date": "20170626",
+      "q_before": 0.5013013355755371,
+      "mean_x2_after_observation": 0.6344288619220582,
+      "q_next": 0.5185346188708747,
+      "n": 46
+    },
+    {
+      "trading_date": "20170627",
+      "q_before": 0.5185346188708747,
+      "mean_x2_after_observation": 0.4434628980092719,
+      "q_next": 0.5088166268929496,
+      "n": 46
+    },
+    {
+      "trading_date": "20170628",
+      "q_before": 0.5088166268929496,
+      "mean_x2_after_observation": 0.4868328763104831,
+      "q_next": 0.5059708427634108,
+      "n": 46
+    },
+    {
+      "trading_date": "20170629",
+      "q_before": 0.5059708427634108,
+      "mean_x2_after_observation": 0.40674387985021354,
+      "q_next": 0.493125968308461,
+      "n": 46
+    },
+    {
+      "trading_date": "20170630",
+      "q_before": 0.493125968308461,
+      "mean_x2_after_observation": 0.4590644033590145,
+      "q_next": 0.4887167179125027,
+      "n": 46
+    },
+    {
+      "trading_date": "20170703",
+      "q_before": 0.4887167179125027,
+      "mean_x2_after_observation": 0.26801428498796126,
+      "q_next": 0.4601469122912459,
+      "n": 46
+    },
+    {
+      "trading_date": "20170704",
+      "q_before": 0.4601469122912459,
+      "mean_x2_after_observation": 0.24502234065251888,
+      "q_next": 0.4322991576714501,
+      "n": 46
+    },
+    {
+      "trading_date": "20170705",
+      "q_before": 0.4322991576714501,
+      "mean_x2_after_observation": 0.27943201060951744,
+      "q_next": 0.41251059159375436,
+      "n": 46
+    },
+    {
+      "trading_date": "20170706",
+      "q_before": 0.41251059159375436,
+      "mean_x2_after_observation": 0.33002167023345774,
+      "q_next": 0.4018324471893537,
+      "n": 46
+    },
+    {
+      "trading_date": "20170707",
+      "q_before": 0.4018324471893537,
+      "mean_x2_after_observation": 0.4451103057288048,
+      "q_next": 0.40743474159903564,
+      "n": 46
+    },
+    {
+      "trading_date": "20170710",
+      "q_before": 0.40743474159903564,
+      "mean_x2_after_observation": 0.42498798443450997,
+      "q_next": 0.4097069989964141,
+      "n": 46
+    },
+    {
+      "trading_date": "20170711",
+      "q_before": 0.4097069989964141,
+      "mean_x2_after_observation": 0.6792434960180725,
+      "q_next": 0.4445983467070037,
+      "n": 46
+    },
+    {
+      "trading_date": "20170712",
+      "q_before": 0.4445983467070037,
+      "mean_x2_after_observation": 0.5995230024717602,
+      "q_next": 0.4646532561272933,
+      "n": 46
+    },
+    {
+      "trading_date": "20170713",
+      "q_before": 0.4646532561272933,
+      "mean_x2_after_observation": 0.8492289336933024,
+      "q_next": 0.5144363609582245,
+      "n": 46
+    },
+    {
+      "trading_date": "20170714",
+      "q_before": 0.5144363609582245,
+      "mean_x2_after_observation": 0.33005851210290116,
+      "q_next": 0.4905687522832306,
+      "n": 46
+    },
+    {
+      "trading_date": "20170717",
+      "q_before": 0.4905687522832306,
+      "mean_x2_after_observation": 1.708749797624689,
+      "q_next": 0.648261602406021,
+      "n": 46
+    },
+    {
+      "trading_date": "20170718",
+      "q_before": 0.648261602406021,
+      "mean_x2_after_observation": 0.8104879379437099,
+      "q_next": 0.6692617101599089,
+      "n": 46
+    },
+    {
+      "trading_date": "20170719",
+      "q_before": 0.6692617101599089,
+      "mean_x2_after_observation": 1.7605588140454151,
+      "q_next": 0.8105295055344588,
+      "n": 46
+    },
+    {
+      "trading_date": "20170720",
+      "q_before": 0.8105295055344588,
+      "mean_x2_after_observation": 0.7465277641881282,
+      "q_next": 0.8022445161691091,
+      "n": 46
+    },
+    {
+      "trading_date": "20170721",
+      "q_before": 0.8022445161691091,
+      "mean_x2_after_observation": 0.7202850999995626,
+      "q_next": 0.7916349159133828,
+      "n": 46
+    },
+    {
+      "trading_date": "20170724",
+      "q_before": 0.7916349159133828,
+      "mean_x2_after_observation": 0.49407651393715646,
+      "q_next": 0.7531161483910549,
+      "n": 46
+    },
+    {
+      "trading_date": "20170725",
+      "q_before": 0.7531161483910549,
+      "mean_x2_after_observation": 0.6386529369326033,
+      "q_next": 0.7382989501444417,
+      "n": 46
+    },
+    {
+      "trading_date": "20170726",
+      "q_before": 0.7382989501444417,
+      "mean_x2_after_observation": 0.6849379066193423,
+      "q_next": 0.7313913931181866,
+      "n": 46
+    },
+    {
+      "trading_date": "20170727",
+      "q_before": 0.7313913931181866,
+      "mean_x2_after_observation": 0.48953698068217855,
+      "q_next": 0.7000834756639984,
+      "n": 46
+    },
+    {
+      "trading_date": "20170728",
+      "q_before": 0.7000834756639984,
+      "mean_x2_after_observation": 0.26818729158196886,
+      "q_next": 0.6441747579200262,
+      "n": 46
+    },
+    {
+      "trading_date": "20170731",
+      "q_before": 0.6441747579200262,
+      "mean_x2_after_observation": 0.3393575368918954,
+      "q_next": 0.6047163403602939,
+      "n": 46
+    },
+    {
+      "trading_date": "20170801",
+      "q_before": 0.6047163403602939,
+      "mean_x2_after_observation": 0.5638880449731113,
+      "q_next": 0.5994311405208437,
+      "n": 46
+    },
+    {
+      "trading_date": "20170802",
+      "q_before": 0.5994311405208437,
+      "mean_x2_after_observation": 0.6959970535372506,
+      "q_next": 0.6119315435656131,
+      "n": 46
+    },
+    {
+      "trading_date": "20170803",
+      "q_before": 0.6119315435656131,
+      "mean_x2_after_observation": 0.5501706622518451,
+      "q_next": 0.6039366322692109,
+      "n": 46
+    },
+    {
+      "trading_date": "20170804",
+      "q_before": 0.6039366322692109,
+      "mean_x2_after_observation": 0.9068826742283463,
+      "q_next": 0.6431528267524897,
+      "n": 46
+    },
+    {
+      "trading_date": "20170807",
+      "q_before": 0.6431528267524897,
+      "mean_x2_after_observation": 0.3074504299008544,
+      "q_next": 0.5996963405799045,
+      "n": 46
+    },
+    {
+      "trading_date": "20170808",
+      "q_before": 0.5996963405799045,
+      "mean_x2_after_observation": 0.5280198795433996,
+      "q_next": 0.5904178630738016,
+      "n": 46
+    },
+    {
+      "trading_date": "20170809",
+      "q_before": 0.5904178630738016,
+      "mean_x2_after_observation": 0.18796799886458904,
+      "q_next": 0.5383209548503677,
+      "n": 46
+    },
+    {
+      "trading_date": "20170810",
+      "q_before": 0.5383209548503677,
+      "mean_x2_after_observation": 0.38785102496988627,
+      "q_next": 0.5188427071864676,
+      "n": 46
+    },
+    {
+      "trading_date": "20170811",
+      "q_before": 0.5188427071864676,
+      "mean_x2_after_observation": 0.6192070369616415,
+      "q_next": 0.531834813141026,
+      "n": 46
+    },
+    {
+      "trading_date": "20170814",
+      "q_before": 0.531834813141026,
+      "mean_x2_after_observation": 0.39787990988097194,
+      "q_next": 0.5144944263702897,
+      "n": 46
+    },
+    {
+      "trading_date": "20170815",
+      "q_before": 0.5144944263702897,
+      "mean_x2_after_observation": 0.20632212353293608,
+      "q_next": 0.4746016953602581,
+      "n": 46
+    },
+    {
+      "trading_date": "20170816",
+      "q_before": 0.4746016953602581,
+      "mean_x2_after_observation": 0.27095795318743676,
+      "q_next": 0.44824012764771703,
+      "n": 46
+    },
+    {
+      "trading_date": "20170817",
+      "q_before": 0.44824012764771703,
+      "mean_x2_after_observation": 0.16203994277191347,
+      "q_next": 0.4111916749309991,
+      "n": 46
+    },
+    {
+      "trading_date": "20170818",
+      "q_before": 0.4111916749309991,
+      "mean_x2_after_observation": 0.1556956853677668,
+      "q_next": 0.37811786300193934,
+      "n": 46
+    },
+    {
+      "trading_date": "20170821",
+      "q_before": 0.37811786300193934,
+      "mean_x2_after_observation": 0.24064566039683702,
+      "q_next": 0.3603221638122677,
+      "n": 46
+    },
+    {
+      "trading_date": "20170822",
+      "q_before": 0.3603221638122677,
+      "mean_x2_after_observation": 0.23357271047117462,
+      "q_next": 0.34391451847473903,
+      "n": 46
+    },
+    {
+      "trading_date": "20170823",
+      "q_before": 0.34391451847473903,
+      "mean_x2_after_observation": 0.630539557397488,
+      "q_next": 0.38101796830851536,
+      "n": 46
+    },
+    {
+      "trading_date": "20170824",
+      "q_before": 0.38101796830851536,
+      "mean_x2_after_observation": 0.23982737564143222,
+      "q_next": 0.3627409256198751,
+      "n": 46
+    },
+    {
+      "trading_date": "20170825",
+      "q_before": 0.3627409256198751,
+      "mean_x2_after_observation": 0.797131752910047,
+      "q_next": 0.41897257352191847,
+      "n": 46
+    },
+    {
+      "trading_date": "20170828",
+      "q_before": 0.41897257352191847,
+      "mean_x2_after_observation": 3.355148498113377,
+      "q_next": 0.7990588930237648,
+      "n": 46
+    },
+    {
+      "trading_date": "20170829",
+      "q_before": 0.7990588930237648,
+      "mean_x2_after_observation": 0.7160006832857424,
+      "q_next": 0.7883070545595454,
+      "n": 46
+    },
+    {
+      "trading_date": "20170830",
+      "q_before": 0.7883070545595454,
+      "mean_x2_after_observation": 0.9033541762973395,
+      "q_next": 0.8031998396629052,
+      "n": 46
+    },
+    {
+      "trading_date": "20170831",
+      "q_before": 0.8031998396629052,
+      "mean_x2_after_observation": 0.6986694403543315,
+      "q_next": 0.7896684383539792,
+      "n": 46
+    },
+    {
+      "trading_date": "20170901",
+      "q_before": 0.7896684383539792,
+      "mean_x2_after_observation": 0.7095790522192711,
+      "q_next": 0.7793009124328819,
+      "n": 46
+    },
+    {
+      "trading_date": "20170904",
+      "q_before": 0.7793009124328819,
+      "mean_x2_after_observation": 0.6684811129558212,
+      "q_next": 0.7649553518149399,
+      "n": 46
+    },
+    {
+      "trading_date": "20170905",
+      "q_before": 0.7649553518149399,
+      "mean_x2_after_observation": 0.42342280249659187,
+      "q_next": 0.720744155689641,
+      "n": 46
+    },
+    {
+      "trading_date": "20170906",
+      "q_before": 0.720744155689641,
+      "mean_x2_after_observation": 0.5362576678662833,
+      "q_next": 0.6968624837614309,
+      "n": 46
+    },
+    {
+      "trading_date": "20170907",
+      "q_before": 0.6968624837614309,
+      "mean_x2_after_observation": 0.4435043197343922,
+      "q_next": 0.6640654121438025,
+      "n": 46
+    },
+    {
+      "trading_date": "20170908",
+      "q_before": 0.6640654121438025,
+      "mean_x2_after_observation": 0.3614042260618233,
+      "q_next": 0.6248860920933634,
+      "n": 46
+    },
+    {
+      "trading_date": "20170911",
+      "q_before": 0.6248860920933634,
+      "mean_x2_after_observation": 0.3435756819262814,
+      "q_next": 0.5884706179582984,
+      "n": 46
+    },
+    {
+      "trading_date": "20170912",
+      "q_before": 0.5884706179582984,
+      "mean_x2_after_observation": 0.6452803770770326,
+      "q_next": 0.5958246092755014,
+      "n": 46
+    },
+    {
+      "trading_date": "20170913",
+      "q_before": 0.5958246092755014,
+      "mean_x2_after_observation": 0.27232809025106997,
+      "q_next": 0.5539481671121241,
+      "n": 46
+    },
+    {
+      "trading_date": "20170914",
+      "q_before": 0.5539481671121241,
+      "mean_x2_after_observation": 0.44496556293695555,
+      "q_next": 0.5398404303911271,
+      "n": 46
+    },
+    {
+      "trading_date": "20170915",
+      "q_before": 0.5398404303911271,
+      "mean_x2_after_observation": 0.6164518474902261,
+      "q_next": 0.5497577351796911,
+      "n": 46
+    },
+    {
+      "trading_date": "20170918",
+      "q_before": 0.5497577351796911,
+      "mean_x2_after_observation": 0.5460004713298716,
+      "q_next": 0.5492713594907841,
+      "n": 46
+    },
+    {
+      "trading_date": "20170919",
+      "q_before": 0.5492713594907841,
+      "mean_x2_after_observation": 0.4787000106853573,
+      "q_next": 0.5401359381404889,
+      "n": 46
+    },
+    {
+      "trading_date": "20170920",
+      "q_before": 0.5401359381404889,
+      "mean_x2_after_observation": 0.30578523751840303,
+      "q_next": 0.5097993719538012,
+      "n": 46
+    },
+    {
+      "trading_date": "20170921",
+      "q_before": 0.5097993719538012,
+      "mean_x2_after_observation": 0.3808367840190624,
+      "q_next": 0.4931052375897752,
+      "n": 46
+    },
+    {
+      "trading_date": "20170922",
+      "q_before": 0.4931052375897752,
+      "mean_x2_after_observation": 0.4299452389943386,
+      "q_next": 0.48492921134937833,
+      "n": 46
+    },
+    {
+      "trading_date": "20170925",
+      "q_before": 0.48492921134937833,
+      "mean_x2_after_observation": 0.4752467229965668,
+      "q_next": 0.483675818686215,
+      "n": 46
+    },
+    {
+      "trading_date": "20170926",
+      "q_before": 0.483675818686215,
+      "mean_x2_after_observation": 0.17258677733309918,
+      "q_next": 0.44340551751830537,
+      "n": 46
+    },
+    {
+      "trading_date": "20170927",
+      "q_before": 0.44340551751830537,
+      "mean_x2_after_observation": 0.24650502420151388,
+      "q_next": 0.4179168595717314,
+      "n": 46
+    },
+    {
+      "trading_date": "20170928",
+      "q_before": 0.4179168595717314,
+      "mean_x2_after_observation": 0.1180732763838948,
+      "q_next": 0.37910227662879425,
+      "n": 46
+    },
+    {
+      "trading_date": "20170929",
+      "q_before": 0.37910227662879425,
+      "mean_x2_after_observation": 0.30329129031802365,
+      "q_next": 0.36928858715489976,
+      "n": 46
+    },
+    {
+      "trading_date": "20171009",
+      "q_before": 0.36928858715489976,
+      "mean_x2_after_observation": 0.6377497149692009,
+      "q_next": 0.40404072892734827,
+      "n": 46
+    },
+    {
+      "trading_date": "20171010",
+      "q_before": 0.40404072892734827,
+      "mean_x2_after_observation": 0.4640334606363627,
+      "q_next": 0.41180675425340696,
+      "n": 46
+    },
+    {
+      "trading_date": "20171011",
+      "q_before": 0.41180675425340696,
+      "mean_x2_after_observation": 0.12013881897942402,
+      "q_next": 0.37405050432760734,
+      "n": 46
+    },
+    {
+      "trading_date": "20171012",
+      "q_before": 0.37405050432760734,
+      "mean_x2_after_observation": 0.1287168288805794,
+      "q_next": 0.34229219823649804,
+      "n": 46
+    },
+    {
+      "trading_date": "20171013",
+      "q_before": 0.34229219823649804,
+      "mean_x2_after_observation": 0.23099802260128072,
+      "q_next": 0.32788522989209695,
+      "n": 46
+    },
+    {
+      "trading_date": "20171016",
+      "q_before": 0.32788522989209695,
+      "mean_x2_after_observation": 0.3744558490137213,
+      "q_next": 0.333913770304342,
+      "n": 46
+    },
+    {
+      "trading_date": "20171017",
+      "q_before": 0.333913770304342,
+      "mean_x2_after_observation": 0.1577220498380503,
+      "q_next": 0.31110585133809376,
+      "n": 46
+    },
+    {
+      "trading_date": "20171018",
+      "q_before": 0.31110585133809376,
+      "mean_x2_after_observation": 0.3309426621237003,
+      "q_next": 0.3136737153202919,
+      "n": 46
+    },
+    {
+      "trading_date": "20171019",
+      "q_before": 0.3136737153202919,
+      "mean_x2_after_observation": 0.22941666371607589,
+      "q_next": 0.30276668745179675,
+      "n": 46
+    },
+    {
+      "trading_date": "20171020",
+      "q_before": 0.30276668745179675,
+      "mean_x2_after_observation": 0.24765205272484464,
+      "q_next": 0.29563212903225294,
+      "n": 46
+    },
+    {
+      "trading_date": "20171023",
+      "q_before": 0.29563212903225294,
+      "mean_x2_after_observation": 0.11972566950314756,
+      "q_next": 0.2728611369336371,
+      "n": 46
+    },
+    {
+      "trading_date": "20171024",
+      "q_before": 0.2728611369336371,
+      "mean_x2_after_observation": 0.26792679484093807,
+      "q_next": 0.272222389129233,
+      "n": 46
+    },
+    {
+      "trading_date": "20171025",
+      "q_before": 0.272222389129233,
+      "mean_x2_after_observation": 0.1732542370251086,
+      "q_next": 0.2594110175877306,
+      "n": 46
+    },
+    {
+      "trading_date": "20171026",
+      "q_before": 0.2594110175877306,
+      "mean_x2_after_observation": 0.6571804792681968,
+      "q_next": 0.31090205034027085,
+      "n": 46
+    },
+    {
+      "trading_date": "20171027",
+      "q_before": 0.31090205034027085,
+      "mean_x2_after_observation": 0.26297191198431824,
+      "q_next": 0.3046975209289539,
+      "n": 46
+    },
+    {
+      "trading_date": "20171030",
+      "q_before": 0.3046975209289539,
+      "mean_x2_after_observation": 1.2363373492387701,
+      "q_next": 0.42529777191455526,
+      "n": 46
+    },
+    {
+      "trading_date": "20171031",
+      "q_before": 0.42529777191455526,
+      "mean_x2_after_observation": 0.37232448883873975,
+      "q_next": 0.418440410260036,
+      "n": 46
+    },
+    {
+      "trading_date": "20171101",
+      "q_before": 0.418440410260036,
+      "mean_x2_after_observation": 0.38508482437922514,
+      "q_next": 0.41412254845683727,
+      "n": 46
+    },
+    {
+      "trading_date": "20171102",
+      "q_before": 0.41412254845683727,
+      "mean_x2_after_observation": 1.0910227601136258,
+      "q_next": 0.5017468995605429,
+      "n": 46
+    },
+    {
+      "trading_date": "20171103",
+      "q_before": 0.5017468995605429,
+      "mean_x2_after_observation": 0.6173351382032779,
+      "q_next": 0.5167097319424381,
+      "n": 46
+    },
+    {
+      "trading_date": "20171106",
+      "q_before": 0.5167097319424381,
+      "mean_x2_after_observation": 0.2543571595760434,
+      "q_next": 0.48274833923179544,
+      "n": 46
+    },
+    {
+      "trading_date": "20171107",
+      "q_before": 0.48274833923179544,
+      "mean_x2_after_observation": 0.538831514954918,
+      "q_next": 0.49000827473771813,
+      "n": 46
+    },
+    {
+      "trading_date": "20171108",
+      "q_before": 0.49000827473771813,
+      "mean_x2_after_observation": 1.5577732808349745,
+      "q_next": 0.6282298533091186,
+      "n": 46
+    },
+    {
+      "trading_date": "20171109",
+      "q_before": 0.6282298533091186,
+      "mean_x2_after_observation": 0.577634852256314,
+      "q_next": 0.621680358922801,
+      "n": 46
+    },
+    {
+      "trading_date": "20171110",
+      "q_before": 0.621680358922801,
+      "mean_x2_after_observation": 0.8023880457235116,
+      "q_next": 0.6450728671872135,
+      "n": 46
+    },
+    {
+      "trading_date": "20171113",
+      "q_before": 0.6450728671872135,
+      "mean_x2_after_observation": 0.45209707457169146,
+      "q_next": 0.6200922595356502,
+      "n": 46
+    },
+    {
+      "trading_date": "20171114",
+      "q_before": 0.6200922595356502,
+      "mean_x2_after_observation": 0.6374532031380397,
+      "q_next": 0.6223396239056272,
+      "n": 46
+    },
+    {
+      "trading_date": "20171115",
+      "q_before": 0.6223396239056272,
+      "mean_x2_after_observation": 0.6322411714886453,
+      "q_next": 0.6236213736627456,
+      "n": 46
+    },
+    {
+      "trading_date": "20171116",
+      "q_before": 0.6236213736627456,
+      "mean_x2_after_observation": 0.4806208384025258,
+      "q_next": 0.6051100349249574,
+      "n": 46
+    },
+    {
+      "trading_date": "20171117",
+      "q_before": 0.6051100349249574,
+      "mean_x2_after_observation": 0.8295395418278161,
+      "q_next": 0.6341623081732611,
+      "n": 46
+    },
+    {
+      "trading_date": "20171120",
+      "q_before": 0.6341623081732611,
+      "mean_x2_after_observation": 2.191997061875513,
+      "q_next": 0.8358231395177389,
+      "n": 46
+    },
+    {
+      "trading_date": "20171121",
+      "q_before": 0.8358231395177389,
+      "mean_x2_after_observation": 8.105787118471005,
+      "q_next": 1.7769158814507073,
+      "n": 46
+    },
+    {
+      "trading_date": "20171122",
+      "q_before": 1.7769158814507073,
+      "mean_x2_after_observation": 3.3179047101261325,
+      "q_next": 1.9763960172897066,
+      "n": 46
+    },
+    {
+      "trading_date": "20171123",
+      "q_before": 1.9763960172897066,
+      "mean_x2_after_observation": 1.9055588430752541,
+      "q_next": 1.9672261849899515,
+      "n": 46
+    },
+    {
+      "trading_date": "20171124",
+      "q_before": 1.9672261849899515,
+      "mean_x2_after_observation": 1.7727005991802016,
+      "q_next": 1.942044957482388,
+      "n": 46
+    },
+    {
+      "trading_date": "20171127",
+      "q_before": 1.942044957482388,
+      "mean_x2_after_observation": 2.2144613290076665,
+      "q_next": 1.9773091033252488,
+      "n": 46
+    },
+    {
+      "trading_date": "20171128",
+      "q_before": 1.9773091033252488,
+      "mean_x2_after_observation": 1.081975317806846,
+      "q_next": 1.861408649127943,
+      "n": 46
+    },
+    {
+      "trading_date": "20171129",
+      "q_before": 1.861408649127943,
+      "mean_x2_after_observation": 1.0705656863236188,
+      "q_next": 1.759034473071699,
+      "n": 46
+    },
+    {
+      "trading_date": "20171130",
+      "q_before": 1.759034473071699,
+      "mean_x2_after_observation": 2.7479267164654173,
+      "q_next": 1.887046016939848,
+      "n": 46
+    },
+    {
+      "trading_date": "20171201",
+      "q_before": 1.887046016939848,
+      "mean_x2_after_observation": 1.8675277248415159,
+      "q_next": 1.8845193850222972,
+      "n": 46
+    },
+    {
+      "trading_date": "20171204",
+      "q_before": 1.8845193850222972,
+      "mean_x2_after_observation": 1.1855077655911193,
+      "q_next": 1.7940327246374672,
+      "n": 46
+    },
+    {
+      "trading_date": "20171205",
+      "q_before": 1.7940327246374672,
+      "mean_x2_after_observation": 1.00932318431775,
+      "q_next": 1.6924525166669224,
+      "n": 46
+    },
+    {
+      "trading_date": "20171206",
+      "q_before": 1.6924525166669224,
+      "mean_x2_after_observation": 0.8486574198382663,
+      "q_next": 1.5832237166889604,
+      "n": 46
+    },
+    {
+      "trading_date": "20171207",
+      "q_before": 1.5832237166889604,
+      "mean_x2_after_observation": 0.6447756355295684,
+      "q_next": 1.461742141207044,
+      "n": 46
+    },
+    {
+      "trading_date": "20171208",
+      "q_before": 1.461742141207044,
+      "mean_x2_after_observation": 0.6006792221544739,
+      "q_next": 1.3502780313690936,
+      "n": 46
+    },
+    {
+      "trading_date": "20171211",
+      "q_before": 1.3502780313690936,
+      "mean_x2_after_observation": 0.4523896067921732,
+      "q_next": 1.234046880584681,
+      "n": 46
+    },
+    {
+      "trading_date": "20171212",
+      "q_before": 1.234046880584681,
+      "mean_x2_after_observation": 0.3452450930784422,
+      "q_next": 1.1189919898506004,
+      "n": 46
+    },
+    {
+      "trading_date": "20171213",
+      "q_before": 1.1189919898506004,
+      "mean_x2_after_observation": 0.5197091771979703,
+      "q_next": 1.0414151673264032,
+      "n": 46
+    },
+    {
+      "trading_date": "20171214",
+      "q_before": 1.0414151673264032,
+      "mean_x2_after_observation": 0.5150742866359426,
+      "q_next": 0.9732806368068011,
+      "n": 46
+    },
+    {
+      "trading_date": "20171215",
+      "q_before": 0.9732806368068011,
+      "mean_x2_after_observation": 0.5193944251025681,
+      "q_next": 0.914525322374032,
+      "n": 46
+    },
+    {
+      "trading_date": "20171218",
+      "q_before": 0.914525322374032,
+      "mean_x2_after_observation": 0.7198947248025812,
+      "q_next": 0.8893305011530689,
+      "n": 46
+    },
+    {
+      "trading_date": "20171219",
+      "q_before": 0.8893305011530689,
+      "mean_x2_after_observation": 0.33095252817230014,
+      "q_next": 0.8170487870828563,
+      "n": 46
+    },
+    {
+      "trading_date": "20171220",
+      "q_before": 0.8170487870828563,
+      "mean_x2_after_observation": 0.5969478578179991,
+      "q_next": 0.7885568457715209,
+      "n": 46
+    },
+    {
+      "trading_date": "20171221",
+      "q_before": 0.7885568457715209,
+      "mean_x2_after_observation": 0.686222795300419,
+      "q_next": 0.7753097605824106,
+      "n": 46
+    },
+    {
+      "trading_date": "20171222",
+      "q_before": 0.7753097605824106,
+      "mean_x2_after_observation": 0.23818949420767171,
+      "q_next": 0.705779844657965,
+      "n": 46
+    },
+    {
+      "trading_date": "20171225",
+      "q_before": 0.705779844657965,
+      "mean_x2_after_observation": 0.49943138943621773,
+      "q_next": 0.6790681533647949,
+      "n": 46
+    },
+    {
+      "trading_date": "20171226",
+      "q_before": 0.6790681533647949,
+      "mean_x2_after_observation": 0.7722638302840761,
+      "q_next": 0.6911322812452322,
+      "n": 46
+    },
+    {
+      "trading_date": "20171227",
+      "q_before": 0.6911322812452322,
+      "mean_x2_after_observation": 0.47615932452596355,
+      "q_next": 0.6633041530913562,
+      "n": 46
+    },
+    {
+      "trading_date": "20171228",
+      "q_before": 0.6633041530913562,
+      "mean_x2_after_observation": 0.6308565322590469,
+      "q_next": 0.6591038268522328,
+      "n": 46
+    },
+    {
+      "trading_date": "20171229",
+      "q_before": 0.6591038268522328,
+      "mean_x2_after_observation": 0.6608961230299666,
+      "q_next": 0.659335838582847,
+      "n": 46
+    },
+    {
+      "trading_date": "20180102",
+      "q_before": 0.659335838582847,
+      "mean_x2_after_observation": 0.482288251281214,
+      "q_next": 0.6364171281368702,
+      "n": 46
+    },
+    {
+      "trading_date": "20180103",
+      "q_before": 0.6364171281368702,
+      "mean_x2_after_observation": 0.7437777393411796,
+      "q_next": 0.6503148987814519,
+      "n": 46
+    },
+    {
+      "trading_date": "20180104",
+      "q_before": 0.6503148987814519,
+      "mean_x2_after_observation": 0.35957753810576043,
+      "q_next": 0.612679111213212,
+      "n": 46
+    },
+    {
+      "trading_date": "20180105",
+      "q_before": 0.612679111213212,
+      "mean_x2_after_observation": 1.415053157808523,
+      "q_next": 0.7165459795707844,
+      "n": 46
+    },
+    {
+      "trading_date": "20180108",
+      "q_before": 0.7165459795707844,
+      "mean_x2_after_observation": 1.7589760155783423,
+      "q_next": 0.8514879605351637,
+      "n": 46
+    },
+    {
+      "trading_date": "20180109",
+      "q_before": 0.8514879605351637,
+      "mean_x2_after_observation": 0.8020403510357963,
+      "q_next": 0.8450869953391174,
+      "n": 46
+    },
+    {
+      "trading_date": "20180110",
+      "q_before": 0.8450869953391174,
+      "mean_x2_after_observation": 1.6388463574110919,
+      "q_next": 0.9478386976377623,
+      "n": 46
+    },
+    {
+      "trading_date": "20180111",
+      "q_before": 0.9478386976377623,
+      "mean_x2_after_observation": 0.8735277851132429,
+      "q_next": 0.9382191918705123,
+      "n": 46
+    },
+    {
+      "trading_date": "20180112",
+      "q_before": 0.9382191918705123,
+      "mean_x2_after_observation": 0.6706437544778495,
+      "q_next": 0.9035817022242388,
+      "n": 46
+    },
+    {
+      "trading_date": "20180115",
+      "q_before": 0.9035817022242388,
+      "mean_x2_after_observation": 1.8605350945655246,
+      "q_next": 1.0274587798146815,
+      "n": 46
+    },
+    {
+      "trading_date": "20180116",
+      "q_before": 1.0274587798146815,
+      "mean_x2_after_observation": 2.009559188067642,
+      "q_next": 1.1545911244496738,
+      "n": 46
+    },
+    {
+      "trading_date": "20180117",
+      "q_before": 1.1545911244496738,
+      "mean_x2_after_observation": 3.8417050902958447,
+      "q_next": 1.5024365136875786,
+      "n": 46
+    },
+    {
+      "trading_date": "20180118",
+      "q_before": 1.5024365136875786,
+      "mean_x2_after_observation": 2.962854743754464,
+      "q_next": 1.6914868309218083,
+      "n": 46
+    },
+    {
+      "trading_date": "20180119",
+      "q_before": 1.6914868309218083,
+      "mean_x2_after_observation": 3.6012518916802274,
+      "q_next": 1.938704842273729,
+      "n": 46
+    },
+    {
+      "trading_date": "20180122",
+      "q_before": 1.938704842273729,
+      "mean_x2_after_observation": 1.2413482485640628,
+      "q_next": 1.848432424036279,
+      "n": 46
+    },
+    {
+      "trading_date": "20180123",
+      "q_before": 1.848432424036279,
+      "mean_x2_after_observation": 2.630547653089805,
+      "q_next": 1.9496767998747808,
+      "n": 46
+    },
+    {
+      "trading_date": "20180124",
+      "q_before": 1.9496767998747808,
+      "mean_x2_after_observation": 3.9034675388401627,
+      "q_next": 2.2025939104710988,
+      "n": 46
+    },
+    {
+      "trading_date": "20180125",
+      "q_before": 2.2025939104710988,
+      "mean_x2_after_observation": 2.302254859726335,
+      "q_next": 2.215494964213563,
+      "n": 46
+    },
+    {
+      "trading_date": "20180126",
+      "q_before": 2.215494964213563,
+      "mean_x2_after_observation": 1.9393065028862098,
+      "q_next": 2.179742523470627,
+      "n": 46
+    },
+    {
+      "trading_date": "20180129",
+      "q_before": 2.179742523470627,
+      "mean_x2_after_observation": 1.359352829551028,
+      "q_next": 2.07354353971507,
+      "n": 46
+    },
+    {
+      "trading_date": "20180130",
+      "q_before": 2.07354353971507,
+      "mean_x2_after_observation": 1.6589138933268566,
+      "q_next": 2.0198699655493884,
+      "n": 46
+    },
+    {
+      "trading_date": "20180131",
+      "q_before": 2.0198699655493884,
+      "mean_x2_after_observation": 1.6163700548300084,
+      "q_next": 1.9676371293967005,
+      "n": 46
+    },
+    {
+      "trading_date": "20180201",
+      "q_before": 1.9676371293967005,
+      "mean_x2_after_observation": 1.4477223064575908,
+      "q_next": 1.9003344484332374,
+      "n": 46
+    },
+    {
+      "trading_date": "20180202",
+      "q_before": 1.9003344484332374,
+      "mean_x2_after_observation": 1.8756710426347079,
+      "q_next": 1.8971417844454188,
+      "n": 46
+    },
+    {
+      "trading_date": "20180205",
+      "q_before": 1.8971417844454188,
+      "mean_x2_after_observation": 1.4248161137376036,
+      "q_next": 1.8359994924315117,
+      "n": 46
+    },
+    {
+      "trading_date": "20180206",
+      "q_before": 1.8359994924315117,
+      "mean_x2_after_observation": 2.300129199439795,
+      "q_next": 1.896080821561269,
+      "n": 46
+    },
+    {
+      "trading_date": "20180207",
+      "q_before": 1.896080821561269,
+      "mean_x2_after_observation": 4.3385943474592406,
+      "q_next": 2.2122628216303593,
+      "n": 46
+    },
+    {
+      "trading_date": "20180208",
+      "q_before": 2.2122628216303593,
+      "mean_x2_after_observation": 2.132703434420684,
+      "q_next": 2.2019639037715613,
+      "n": 46
+    },
+    {
+      "trading_date": "20180209",
+      "q_before": 2.2019639037715613,
+      "mean_x2_after_observation": 7.33514234554869,
+      "q_next": 2.8664509615600897,
+      "n": 46
+    },
+    {
+      "trading_date": "20180212",
+      "q_before": 2.8664509615600897,
+      "mean_x2_after_observation": 0.859700653881019,
+      "q_next": 2.6066782646257045,
+      "n": 46
+    },
+    {
+      "trading_date": "20180213",
+      "q_before": 2.6066782646257045,
+      "mean_x2_after_observation": 0.9055517395737671,
+      "q_next": 2.3864683941957097,
+      "n": 46
+    },
+    {
+      "trading_date": "20180214",
+      "q_before": 2.3864683941957097,
+      "mean_x2_after_observation": 0.6891920171518522,
+      "q_next": 2.166756923256587,
+      "n": 46
+    },
+    {
+      "trading_date": "20180222",
+      "q_before": 2.166756923256587,
+      "mean_x2_after_observation": 0.5696886747961575,
+      "q_next": 1.9600173381157389,
+      "n": 46
+    },
+    {
+      "trading_date": "20180223",
+      "q_before": 1.9600173381157389,
+      "mean_x2_after_observation": 1.5617969588336482,
+      "q_next": 1.9084679343336683,
+      "n": 46
+    },
+    {
+      "trading_date": "20180226",
+      "q_before": 1.9084679343336683,
+      "mean_x2_after_observation": 1.5637450210468036,
+      "q_next": 1.8638437473897647,
+      "n": 46
+    },
+    {
+      "trading_date": "20180227",
+      "q_before": 1.8638437473897647,
+      "mean_x2_after_observation": 0.4293935359120771,
+      "q_next": 1.6781549755342222,
+      "n": 46
+    },
+    {
+      "trading_date": "20180228",
+      "q_before": 1.6781549755342222,
+      "mean_x2_after_observation": 1.1272342038768637,
+      "q_next": 1.6068385919747126,
+      "n": 46
+    },
+    {
+      "trading_date": "20180301",
+      "q_before": 1.6068385919747126,
+      "mean_x2_after_observation": 0.7393630022209672,
+      "q_next": 1.4945443655267276,
+      "n": 46
+    },
+    {
+      "trading_date": "20180302",
+      "q_before": 1.4945443655267276,
+      "mean_x2_after_observation": 0.3922454022848165,
+      "q_next": 1.3518523856557958,
+      "n": 46
+    },
+    {
+      "trading_date": "20180305",
+      "q_before": 1.3518523856557958,
+      "mean_x2_after_observation": 0.46769476732311116,
+      "q_next": 1.2373986800051893,
+      "n": 46
+    },
+    {
+      "trading_date": "20180306",
+      "q_before": 1.2373986800051893,
+      "mean_x2_after_observation": 0.7161255857689285,
+      "q_next": 1.1699201715874188,
+      "n": 46
+    },
+    {
+      "trading_date": "20180307",
+      "q_before": 1.1699201715874188,
+      "mean_x2_after_observation": 0.5988963480873121,
+      "q_next": 1.0960014592908365,
+      "n": 46
+    },
+    {
+      "trading_date": "20180308",
+      "q_before": 1.0960014592908365,
+      "mean_x2_after_observation": 0.475170665526378,
+      "q_next": 1.0156352627496072,
+      "n": 46
+    },
+    {
+      "trading_date": "20180309",
+      "q_before": 1.0156352627496072,
+      "mean_x2_after_observation": 0.844955741506917,
+      "q_next": 0.9935408948678538,
+      "n": 46
+    },
+    {
+      "trading_date": "20180312",
+      "q_before": 0.9935408948678538,
+      "mean_x2_after_observation": 0.8614605522759733,
+      "q_next": 0.9764431689196799,
+      "n": 46
+    },
+    {
+      "trading_date": "20180313",
+      "q_before": 0.9764431689196799,
+      "mean_x2_after_observation": 0.5654236210323628,
+      "q_next": 0.9232369199713849,
+      "n": 46
+    },
+    {
+      "trading_date": "20180314",
+      "q_before": 0.9232369199713849,
+      "mean_x2_after_observation": 0.6592569729456383,
+      "q_next": 0.889064864527783,
+      "n": 46
+    },
+    {
+      "trading_date": "20180315",
+      "q_before": 0.889064864527783,
+      "mean_x2_after_observation": 1.109846406455745,
+      "q_next": 0.9176449107649708,
+      "n": 46
+    },
+    {
+      "trading_date": "20180316",
+      "q_before": 0.9176449107649708,
+      "mean_x2_after_observation": 0.6275318466252899,
+      "q_next": 0.8800899380316537,
+      "n": 46
+    },
+    {
+      "trading_date": "20180319",
+      "q_before": 0.8800899380316537,
+      "mean_x2_after_observation": 1.0888239605041534,
+      "q_next": 0.907110439661653,
+      "n": 46
+    },
+    {
+      "trading_date": "20180320",
+      "q_before": 0.907110439661653,
+      "mean_x2_after_observation": 1.0474091341015683,
+      "q_next": 0.9252720266271892,
+      "n": 46
+    },
+    {
+      "trading_date": "20180321",
+      "q_before": 0.9252720266271892,
+      "mean_x2_after_observation": 0.8525970537181521,
+      "q_next": 0.9158642923216449,
+      "n": 46
+    },
+    {
+      "trading_date": "20180322",
+      "q_before": 0.9158642923216449,
+      "mean_x2_after_observation": 1.4055203312100055,
+      "q_next": 0.9792499907343943,
+      "n": 46
+    },
+    {
+      "trading_date": "20180323",
+      "q_before": 0.9792499907343943,
+      "mean_x2_after_observation": 2.009018990281785,
+      "q_next": 1.1125530076609178,
+      "n": 46
+    },
+    {
+      "trading_date": "20180326",
+      "q_before": 1.1125530076609178,
+      "mean_x2_after_observation": 1.5433073934459187,
+      "q_next": 1.1683139202585102,
+      "n": 46
+    },
+    {
+      "trading_date": "20180327",
+      "q_before": 1.1683139202585102,
+      "mean_x2_after_observation": 0.980017314121068,
+      "q_next": 1.1439390306607666,
+      "n": 46
+    },
+    {
+      "trading_date": "20180328",
+      "q_before": 1.1439390306607666,
+      "mean_x2_after_observation": 0.9088631264356788,
+      "q_next": 1.1135085872761747,
+      "n": 46
+    },
+    {
+      "trading_date": "20180329",
+      "q_before": 1.1135085872761747,
+      "mean_x2_after_observation": 2.4720941672611003,
+      "q_next": 1.2893767253192319,
+      "n": 46
+    },
+    {
+      "trading_date": "20180330",
+      "q_before": 1.2893767253192319,
+      "mean_x2_after_observation": 0.6742785534602451,
+      "q_next": 1.2097526134545022,
+      "n": 46
+    },
+    {
+      "trading_date": "20180402",
+      "q_before": 1.2097526134545022,
+      "mean_x2_after_observation": 2.3426970838237824,
+      "q_next": 1.3564116369605768,
+      "n": 46
+    },
+    {
+      "trading_date": "20180403",
+      "q_before": 1.3564116369605768,
+      "mean_x2_after_observation": 1.5193777910041957,
+      "q_next": 1.3775075138033204,
+      "n": 46
+    },
+    {
+      "trading_date": "20180404",
+      "q_before": 1.3775075138033204,
+      "mean_x2_after_observation": 0.9989767865535935,
+      "q_next": 1.3285069243857348,
+      "n": 46
+    },
+    {
+      "trading_date": "20180409",
+      "q_before": 1.3285069243857348,
+      "mean_x2_after_observation": 0.9446974354736671,
+      "q_next": 1.278823002244465,
+      "n": 46
+    },
+    {
+      "trading_date": "20180410",
+      "q_before": 1.278823002244465,
+      "mean_x2_after_observation": 1.3903665224857917,
+      "q_next": 1.2932622481076723,
+      "n": 46
+    },
+    {
+      "trading_date": "20180411",
+      "q_before": 1.2932622481076723,
+      "mean_x2_after_observation": 0.6905086257662635,
+      "q_next": 1.2152361312243563,
+      "n": 46
+    },
+    {
+      "trading_date": "20180412",
+      "q_before": 1.2152361312243563,
+      "mean_x2_after_observation": 0.38313746465000387,
+      "q_next": 1.10752142755426,
+      "n": 46
+    },
+    {
+      "trading_date": "20180413",
+      "q_before": 1.10752142755426,
+      "mean_x2_after_observation": 0.43494928641629965,
+      "q_next": 1.0204573427412313,
+      "n": 46
+    },
+    {
+      "trading_date": "20180416",
+      "q_before": 1.0204573427412313,
+      "mean_x2_after_observation": 0.9340902299149599,
+      "q_next": 1.0092771686361304,
+      "n": 46
+    },
+    {
+      "trading_date": "20180417",
+      "q_before": 1.0092771686361304,
+      "mean_x2_after_observation": 1.0109084048021912,
+      "q_next": 1.009488331238958,
+      "n": 46
+    },
+    {
+      "trading_date": "20180418",
+      "q_before": 1.009488331238958,
+      "mean_x2_after_observation": 1.1155560769131454,
+      "q_next": 1.0232187411689315,
+      "n": 46
+    },
+    {
+      "trading_date": "20180419",
+      "q_before": 1.0232187411689315,
+      "mean_x2_after_observation": 0.9343538581871776,
+      "q_next": 1.0117152321241876,
+      "n": 46
+    },
+    {
+      "trading_date": "20180420",
+      "q_before": 1.0117152321241876,
+      "mean_x2_after_observation": 0.9225224151383524,
+      "q_next": 1.0001692722073394,
+      "n": 46
+    },
+    {
+      "trading_date": "20180423",
+      "q_before": 1.0001692722073394,
+      "mean_x2_after_observation": 1.0568933918476666,
+      "q_next": 1.007512177542303,
+      "n": 46
+    },
+    {
+      "trading_date": "20180424",
+      "q_before": 1.007512177542303,
+      "mean_x2_after_observation": 0.9096403355987133,
+      "q_next": 0.9948427227335346,
+      "n": 46
+    },
+    {
+      "trading_date": "20180425",
+      "q_before": 0.9948427227335346,
+      "mean_x2_after_observation": 0.3677359908562438,
+      "q_next": 0.9136641095388107,
+      "n": 46
+    },
+    {
+      "trading_date": "20180426",
+      "q_before": 0.9136641095388107,
+      "mean_x2_after_observation": 0.49708407947281863,
+      "q_next": 0.8597380593046844,
+      "n": 46
+    },
+    {
+      "trading_date": "20180427",
+      "q_before": 0.8597380593046844,
+      "mean_x2_after_observation": 0.986454261569184,
+      "q_next": 0.8761414003090783,
+      "n": 46
+    },
+    {
+      "trading_date": "20180502",
+      "q_before": 0.8761414003090783,
+      "mean_x2_after_observation": 0.3327265307987883,
+      "q_next": 0.8057966515544611,
+      "n": 46
+    },
+    {
+      "trading_date": "20180503",
+      "q_before": 0.8057966515544611,
+      "mean_x2_after_observation": 0.8180584899762459,
+      "q_next": 0.8073839396311151,
+      "n": 46
+    },
+    {
+      "trading_date": "20180504",
+      "q_before": 0.8073839396311151,
+      "mean_x2_after_observation": 0.52275295223646,
+      "q_next": 0.770538618644409,
+      "n": 46
+    },
+    {
+      "trading_date": "20180507",
+      "q_before": 0.770538618644409,
+      "mean_x2_after_observation": 0.41524085296861063,
+      "q_next": 0.7245455230155312,
+      "n": 46
+    },
+    {
+      "trading_date": "20180508",
+      "q_before": 0.7245455230155312,
+      "mean_x2_after_observation": 0.6449032519457183,
+      "q_next": 0.7142358758877265,
+      "n": 46
+    },
+    {
+      "trading_date": "20180509",
+      "q_before": 0.7142358758877265,
+      "mean_x2_after_observation": 0.3797745203659877,
+      "q_next": 0.6709400418162226,
+      "n": 46
+    },
+    {
+      "trading_date": "20180510",
+      "q_before": 0.6709400418162226,
+      "mean_x2_after_observation": 0.4987431068561067,
+      "q_next": 0.6486492455835017,
+      "n": 46
+    },
+    {
+      "trading_date": "20180511",
+      "q_before": 0.6486492455835017,
+      "mean_x2_after_observation": 0.5703471839031687,
+      "q_next": 0.6385130878062304,
+      "n": 46
+    },
+    {
+      "trading_date": "20180514",
+      "q_before": 0.6385130878062304,
+      "mean_x2_after_observation": 0.4753760684486456,
+      "q_next": 0.6173950925448418,
+      "n": 46
+    },
+    {
+      "trading_date": "20180515",
+      "q_before": 0.6173950925448418,
+      "mean_x2_after_observation": 0.31693504719936616,
+      "q_next": 0.578500708922849,
+      "n": 46
+    },
+    {
+      "trading_date": "20180516",
+      "q_before": 0.578500708922849,
+      "mean_x2_after_observation": 0.40616774981840387,
+      "q_next": 0.5561923044412665,
+      "n": 46
+    },
+    {
+      "trading_date": "20180517",
+      "q_before": 0.5561923044412665,
+      "mean_x2_after_observation": 0.20176591597661273,
+      "q_next": 0.510312008101528,
+      "n": 46
+    },
+    {
+      "trading_date": "20180518",
+      "q_before": 0.510312008101528,
+      "mean_x2_after_observation": 0.6761625828666241,
+      "q_next": 0.5317812715818837,
+      "n": 46
+    },
+    {
+      "trading_date": "20180521",
+      "q_before": 0.5317812715818837,
+      "mean_x2_after_observation": 0.47179343301483095,
+      "q_next": 0.5240158796702957,
+      "n": 46
+    },
+    {
+      "trading_date": "20180522",
+      "q_before": 0.5240158796702957,
+      "mean_x2_after_observation": 0.31796556133389686,
+      "q_next": 0.49734278202899457,
+      "n": 46
+    },
+    {
+      "trading_date": "20180523",
+      "q_before": 0.49734278202899457,
+      "mean_x2_after_observation": 0.3834730546372709,
+      "q_next": 0.482602409960512,
+      "n": 46
+    },
+    {
+      "trading_date": "20180524",
+      "q_before": 0.482602409960512,
+      "mean_x2_after_observation": 0.3840256182448716,
+      "q_next": 0.46984169980084706,
+      "n": 46
+    },
+    {
+      "trading_date": "20180525",
+      "q_before": 0.46984169980084706,
+      "mean_x2_after_observation": 0.439250957297918,
+      "q_next": 0.46588174541548955,
+      "n": 46
+    },
+    {
+      "trading_date": "20180528",
+      "q_before": 0.46588174541548955,
+      "mean_x2_after_observation": 0.6389528104989131,
+      "q_next": 0.48828569730027854,
+      "n": 46
+    },
+    {
+      "trading_date": "20180529",
+      "q_before": 0.48828569730027854,
+      "mean_x2_after_observation": 0.5161449022015347,
+      "q_next": 0.49189205568176403,
+      "n": 46
+    },
+    {
+      "trading_date": "20180530",
+      "q_before": 0.49189205568176403,
+      "mean_x2_after_observation": 1.1323938328629226,
+      "q_next": 0.5748046499456965,
+      "n": 46
+    },
+    {
+      "trading_date": "20180531",
+      "q_before": 0.5748046499456965,
+      "mean_x2_after_observation": 0.6135375864710779,
+      "q_next": 0.5798186067607941,
+      "n": 46
+    },
+    {
+      "trading_date": "20180601",
+      "q_before": 0.5798186067607941,
+      "mean_x2_after_observation": 1.8002406835459794,
+      "q_next": 0.7378015571416108,
+      "n": 46
+    },
+    {
+      "trading_date": "20180604",
+      "q_before": 0.7378015571416108,
+      "mean_x2_after_observation": 0.431650707324202,
+      "q_next": 0.6981705020863342,
+      "n": 46
+    },
+    {
+      "trading_date": "20180605",
+      "q_before": 0.6981705020863342,
+      "mean_x2_after_observation": 0.3894648812389249,
+      "q_next": 0.6582087333603168,
+      "n": 46
+    },
+    {
+      "trading_date": "20180606",
+      "q_before": 0.6582087333603168,
+      "mean_x2_after_observation": 0.5050172699349161,
+      "q_next": 0.6383781847120563,
+      "n": 46
+    },
+    {
+      "trading_date": "20180607",
+      "q_before": 0.6383781847120563,
+      "mean_x2_after_observation": 0.6659415462654437,
+      "q_next": 0.6419462463388076,
+      "n": 46
+    },
+    {
+      "trading_date": "20180608",
+      "q_before": 0.6419462463388076,
+      "mean_x2_after_observation": 0.8022568875568881,
+      "q_next": 0.6626983685421253,
+      "n": 46
+    },
+    {
+      "trading_date": "20180611",
+      "q_before": 0.6626983685421253,
+      "mean_x2_after_observation": 0.6711814712078927,
+      "q_next": 0.66379650140371,
+      "n": 46
+    },
+    {
+      "trading_date": "20180612",
+      "q_before": 0.66379650140371,
+      "mean_x2_after_observation": 0.6456635698185376,
+      "q_next": 0.6614492036242196,
+      "n": 46
+    },
+    {
+      "trading_date": "20180613",
+      "q_before": 0.6614492036242196,
+      "mean_x2_after_observation": 0.2940147005634493,
+      "q_next": 0.6138850141774344,
+      "n": 46
+    },
+    {
+      "trading_date": "20180614",
+      "q_before": 0.6138850141774344,
+      "mean_x2_after_observation": 0.5534908177300728,
+      "q_next": 0.6060670194671403,
+      "n": 46
+    },
+    {
+      "trading_date": "20180615",
+      "q_before": 0.6060670194671403,
+      "mean_x2_after_observation": 0.6958469109837924,
+      "q_next": 0.617688975851306,
+      "n": 46
+    },
+    {
+      "trading_date": "20180619",
+      "q_before": 0.617688975851306,
+      "mean_x2_after_observation": 3.6989630509550584,
+      "q_next": 1.0165581692037429,
+      "n": 46
+    },
+    {
+      "trading_date": "20180620",
+      "q_before": 1.0165581692037429,
+      "mean_x2_after_observation": 1.4798257558463672,
+      "q_next": 1.0765278973377945,
+      "n": 46
+    },
+    {
+      "trading_date": "20180621",
+      "q_before": 1.0765278973377945,
+      "mean_x2_after_observation": 2.122757530470413,
+      "q_next": 1.2119617340097146,
+      "n": 46
+    },
+    {
+      "trading_date": "20180622",
+      "q_before": 1.2119617340097146,
+      "mean_x2_after_observation": 1.0003896404184303,
+      "q_next": 1.1845738456720634,
+      "n": 46
+    },
+    {
+      "trading_date": "20180625",
+      "q_before": 1.1845738456720634,
+      "mean_x2_after_observation": 1.2239255036155794,
+      "q_next": 1.189667895626215,
+      "n": 46
+    },
+    {
+      "trading_date": "20180626",
+      "q_before": 1.189667895626215,
+      "mean_x2_after_observation": 1.835753709777684,
+      "q_next": 1.2733033403304876,
+      "n": 46
+    },
+    {
+      "trading_date": "20180627",
+      "q_before": 1.2733033403304876,
+      "mean_x2_after_observation": 0.8141539372086717,
+      "q_next": 1.2138667087334476,
+      "n": 46
+    },
+    {
+      "trading_date": "20180628",
+      "q_before": 1.2138667087334476,
+      "mean_x2_after_observation": 1.656062919122125,
+      "q_next": 1.2711087590808505,
+      "n": 46
+    },
+    {
+      "trading_date": "20180629",
+      "q_before": 1.2711087590808505,
+      "mean_x2_after_observation": 0.7761050173276077,
+      "q_next": 1.2070308035445825,
+      "n": 46
+    },
+    {
+      "trading_date": "20180702",
+      "q_before": 1.2070308035445825,
+      "mean_x2_after_observation": 0.9736250944211476,
+      "q_next": 1.176816565975085,
+      "n": 46
+    },
+    {
+      "trading_date": "20180703",
+      "q_before": 1.176816565975085,
+      "mean_x2_after_observation": 1.6578026300931952,
+      "q_next": 1.2390799410375886,
+      "n": 46
+    },
+    {
+      "trading_date": "20180704",
+      "q_before": 1.2390799410375886,
+      "mean_x2_after_observation": 0.8084618950196311,
+      "q_next": 1.1833366775460403,
+      "n": 46
+    },
+    {
+      "trading_date": "20180705",
+      "q_before": 1.1833366775460403,
+      "mean_x2_after_observation": 1.359003450646412,
+      "q_next": 1.206076642371471,
+      "n": 46
+    },
+    {
+      "trading_date": "20180706",
+      "q_before": 1.206076642371471,
+      "mean_x2_after_observation": 1.3880101611787523,
+      "q_next": 1.2296278338986275,
+      "n": 46
+    },
+    {
+      "trading_date": "20180709",
+      "q_before": 1.2296278338986275,
+      "mean_x2_after_observation": 0.2704074850925435,
+      "q_next": 1.1054573000707846,
+      "n": 46
+    },
+    {
+      "trading_date": "20180710",
+      "q_before": 1.1054573000707846,
+      "mean_x2_after_observation": 0.3903136633329264,
+      "q_next": 1.0128823591327076,
+      "n": 46
+    },
+    {
+      "trading_date": "20180711",
+      "q_before": 1.0128823591327076,
+      "mean_x2_after_observation": 0.33855406720611825,
+      "q_next": 0.9255909415893238,
+      "n": 46
+    },
+    {
+      "trading_date": "20180712",
+      "q_before": 0.9255909415893238,
+      "mean_x2_after_observation": 0.6234263377642073,
+      "q_next": 0.8864759038323127,
+      "n": 46
+    },
+    {
+      "trading_date": "20180713",
+      "q_before": 0.8864759038323127,
+      "mean_x2_after_observation": 0.42879804638997815,
+      "q_next": 0.8272297629945657,
+      "n": 46
+    },
+    {
+      "trading_date": "20180716",
+      "q_before": 0.8272297629945657,
+      "mean_x2_after_observation": 0.6110675281724839,
+      "q_next": 0.7992476834601963,
+      "n": 46
+    },
+    {
+      "trading_date": "20180717",
+      "q_before": 0.7992476834601963,
+      "mean_x2_after_observation": 0.2786602909430671,
+      "q_next": 0.7318579387437144,
+      "n": 46
+    },
+    {
+      "trading_date": "20180718",
+      "q_before": 0.7318579387437144,
+      "mean_x2_after_observation": 0.3394535335002446,
+      "q_next": 0.6810614095248279,
+      "n": 46
+    },
+    {
+      "trading_date": "20180719",
+      "q_before": 0.6810614095248279,
+      "mean_x2_after_observation": 0.547564934947623,
+      "q_next": 0.6637803660888555,
+      "n": 46
+    },
+    {
+      "trading_date": "20180720",
+      "q_before": 0.6637803660888555,
+      "mean_x2_after_observation": 1.3096864522409748,
+      "q_next": 0.7473925451048525,
+      "n": 46
+    },
+    {
+      "trading_date": "20180723",
+      "q_before": 0.7473925451048525,
+      "mean_x2_after_observation": 1.426991894291318,
+      "q_next": 0.8353662980413612,
+      "n": 46
+    },
+    {
+      "trading_date": "20180724",
+      "q_before": 0.8353662980413612,
+      "mean_x2_after_observation": 1.323524684232577,
+      "q_next": 0.8985581261560871,
+      "n": 46
+    },
+    {
+      "trading_date": "20180725",
+      "q_before": 0.8985581261560871,
+      "mean_x2_after_observation": 0.5106709904842779,
+      "q_next": 0.8483463549386916,
+      "n": 46
+    },
+    {
+      "trading_date": "20180726",
+      "q_before": 0.8483463549386916,
+      "mean_x2_after_observation": 0.6999770448070821,
+      "q_next": 0.8291400313180121,
+      "n": 46
+    },
+    {
+      "trading_date": "20180727",
+      "q_before": 0.8291400313180121,
+      "mean_x2_after_observation": 0.31580993057711054,
+      "q_next": 0.7626897389339585,
+      "n": 46
+    },
+    {
+      "trading_date": "20180730",
+      "q_before": 0.7626897389339585,
+      "mean_x2_after_observation": 0.7012691286467304,
+      "q_next": 0.7547388755302685,
+      "n": 46
+    },
+    {
+      "trading_date": "20180731",
+      "q_before": 0.7547388755302685,
+      "mean_x2_after_observation": 0.4490250928863032,
+      "q_next": 0.7151643985743961,
+      "n": 46
+    },
+    {
+      "trading_date": "20180801",
+      "q_before": 0.7151643985743961,
+      "mean_x2_after_observation": 0.4693469811060812,
+      "q_next": 0.6833434723511213,
+      "n": 46
+    },
+    {
+      "trading_date": "20180802",
+      "q_before": 0.6833434723511213,
+      "mean_x2_after_observation": 0.977617927485477,
+      "q_next": 0.7214371348046036,
+      "n": 46
+    },
+    {
+      "trading_date": "20180803",
+      "q_before": 0.7214371348046036,
+      "mean_x2_after_observation": 0.4024528908940379,
+      "q_next": 0.6801448041129691,
+      "n": 46
+    },
+    {
+      "trading_date": "20180806",
+      "q_before": 0.6801448041129691,
+      "mean_x2_after_observation": 0.8357880294234489,
+      "q_next": 0.7002927319561851,
+      "n": 46
+    },
+    {
+      "trading_date": "20180807",
+      "q_before": 0.7002927319561851,
+      "mean_x2_after_observation": 0.47584081744276874,
+      "q_next": 0.6712375580553169,
+      "n": 46
+    },
+    {
+      "trading_date": "20180808",
+      "q_before": 0.6712375580553169,
+      "mean_x2_after_observation": 0.4820494508385099,
+      "q_next": 0.6467472641450288,
+      "n": 46
+    },
+    {
+      "trading_date": "20180809",
+      "q_before": 0.6467472641450288,
+      "mean_x2_after_observation": 0.48777614158255406,
+      "q_next": 0.6261685418771337,
+      "n": 46
+    },
+    {
+      "trading_date": "20180810",
+      "q_before": 0.6261685418771337,
+      "mean_x2_after_observation": 0.3814514699009435,
+      "q_next": 0.594490054757994,
+      "n": 46
+    },
+    {
+      "trading_date": "20180813",
+      "q_before": 0.594490054757994,
+      "mean_x2_after_observation": 0.39598714760678155,
+      "q_next": 0.5687939652431877,
+      "n": 46
+    },
+    {
+      "trading_date": "20180814",
+      "q_before": 0.5687939652431877,
+      "mean_x2_after_observation": 0.3799150741648215,
+      "q_next": 0.5443436991878404,
+      "n": 46
+    },
+    {
+      "trading_date": "20180815",
+      "q_before": 0.5443436991878404,
+      "mean_x2_after_observation": 0.4099140932017366,
+      "q_next": 0.5269418624166153,
+      "n": 46
+    },
+    {
+      "trading_date": "20180816",
+      "q_before": 0.5269418624166153,
+      "mean_x2_after_observation": 1.6659329529283495,
+      "q_next": 0.6743836174940926,
+      "n": 46
+    },
+    {
+      "trading_date": "20180817",
+      "q_before": 0.6743836174940926,
+      "mean_x2_after_observation": 0.5048590501733843,
+      "q_next": 0.6524387577469586,
+      "n": 46
+    },
+    {
+      "trading_date": "20180820",
+      "q_before": 0.6524387577469586,
+      "mean_x2_after_observation": 0.9295053837436484,
+      "q_next": 0.6883048764116736,
+      "n": 46
+    },
+    {
+      "trading_date": "20180821",
+      "q_before": 0.6883048764116736,
+      "mean_x2_after_observation": 0.44674326578125007,
+      "q_next": 0.6570348619862842,
+      "n": 46
+    },
+    {
+      "trading_date": "20180822",
+      "q_before": 0.6570348619862842,
+      "mean_x2_after_observation": 0.23392258335722224,
+      "q_next": 0.6022632158552588,
+      "n": 46
+    },
+    {
+      "trading_date": "20180823",
+      "q_before": 0.6022632158552588,
+      "mean_x2_after_observation": 0.7223764284183233,
+      "q_next": 0.6178118035622403,
+      "n": 46
+    },
+    {
+      "trading_date": "20180824",
+      "q_before": 0.6178118035622403,
+      "mean_x2_after_observation": 0.8775520507932688,
+      "q_next": 0.6514350322556224,
+      "n": 46
+    },
+    {
+      "trading_date": "20180827",
+      "q_before": 0.6514350322556224,
+      "mean_x2_after_observation": 0.3980763132588982,
+      "q_next": 0.6186378887974808,
+      "n": 46
+    },
+    {
+      "trading_date": "20180828",
+      "q_before": 0.6186378887974808,
+      "mean_x2_after_observation": 0.3671823291454679,
+      "q_next": 0.58608710824447,
+      "n": 46
+    },
+    {
+      "trading_date": "20180829",
+      "q_before": 0.58608710824447,
+      "mean_x2_after_observation": 0.23432054681240685,
+      "q_next": 0.5405511250158301,
+      "n": 46
+    },
+    {
+      "trading_date": "20180830",
+      "q_before": 0.5405511250158301,
+      "mean_x2_after_observation": 0.23451068044081372,
+      "q_next": 0.5009343618569905,
+      "n": 46
+    },
+    {
+      "trading_date": "20180831",
+      "q_before": 0.5009343618569905,
+      "mean_x2_after_observation": 0.36209664457745705,
+      "q_next": 0.4829618975619029,
+      "n": 46
+    },
+    {
+      "trading_date": "20180903",
+      "q_before": 0.4829618975619029,
+      "mean_x2_after_observation": 0.48943213253481904,
+      "q_next": 0.48379946583448863,
+      "n": 46
+    },
+    {
+      "trading_date": "20180904",
+      "q_before": 0.48379946583448863,
+      "mean_x2_after_observation": 0.5098882298727887,
+      "q_next": 0.4871766416435469,
+      "n": 46
+    },
+    {
+      "trading_date": "20180905",
+      "q_before": 0.4871766416435469,
+      "mean_x2_after_observation": 0.49890802220813874,
+      "q_next": 0.4886952622493921,
+      "n": 46
+    },
+    {
+      "trading_date": "20180906",
+      "q_before": 0.4886952622493921,
+      "mean_x2_after_observation": 0.3385316661446961,
+      "q_next": 0.4692566693202108,
+      "n": 46
+    },
+    {
+      "trading_date": "20180907",
+      "q_before": 0.4692566693202108,
+      "mean_x2_after_observation": 0.5476847045751023,
+      "q_next": 0.4794091343057483,
+      "n": 46
+    },
+    {
+      "trading_date": "20180910",
+      "q_before": 0.4794091343057483,
+      "mean_x2_after_observation": 0.700008646406045,
+      "q_next": 0.5079656168842815,
+      "n": 46
+    },
+    {
+      "trading_date": "20180911",
+      "q_before": 0.5079656168842815,
+      "mean_x2_after_observation": 0.38481520835067756,
+      "q_next": 0.4920238658697543,
+      "n": 46
+    },
+    {
+      "trading_date": "20180912",
+      "q_before": 0.4920238658697543,
+      "mean_x2_after_observation": 0.5176834893960965,
+      "q_next": 0.4953454896812728,
+      "n": 46
+    },
+    {
+      "trading_date": "20180913",
+      "q_before": 0.4953454896812728,
+      "mean_x2_after_observation": 0.4404001060987312,
+      "q_next": 0.48823284072703443,
+      "n": 46
+    },
+    {
+      "trading_date": "20180914",
+      "q_before": 0.48823284072703443,
+      "mean_x2_after_observation": 0.34154070141369913,
+      "q_next": 0.4692436259240367,
+      "n": 46
+    },
+    {
+      "trading_date": "20180917",
+      "q_before": 0.4692436259240367,
+      "mean_x2_after_observation": 0.40791616508143563,
+      "q_next": 0.46130482066348294,
+      "n": 46
+    },
+    {
+      "trading_date": "20180918",
+      "q_before": 0.46130482066348294,
+      "mean_x2_after_observation": 0.4195860083642585,
+      "q_next": 0.4559043439113936,
+      "n": 46
+    },
+    {
+      "trading_date": "20180919",
+      "q_before": 0.4559043439113936,
+      "mean_x2_after_observation": 0.45829601818068894,
+      "q_next": 0.45621394479833305,
+      "n": 46
+    },
+    {
+      "trading_date": "20180920",
+      "q_before": 0.45621394479833305,
+      "mean_x2_after_observation": 0.484360387380893,
+      "q_next": 0.4598574859358634,
+      "n": 46
+    },
+    {
+      "trading_date": "20180921",
+      "q_before": 0.4598574859358634,
+      "mean_x2_after_observation": 0.8372462668961317,
+      "q_next": 0.5087102510495325,
+      "n": 46
+    },
+    {
+      "trading_date": "20180925",
+      "q_before": 0.5087102510495325,
+      "mean_x2_after_observation": 0.2580135164729241,
+      "q_next": 0.47625769997508943,
+      "n": 46
+    },
+    {
+      "trading_date": "20180926",
+      "q_before": 0.47625769997508943,
+      "mean_x2_after_observation": 0.8198464788190275,
+      "q_next": 0.5207350738542098,
+      "n": 46
+    },
+    {
+      "trading_date": "20180927",
+      "q_before": 0.5207350738542098,
+      "mean_x2_after_observation": 0.5474768441004612,
+      "q_next": 0.5241967809490515,
+      "n": 46
+    },
+    {
+      "trading_date": "20180928",
+      "q_before": 0.5241967809490515,
+      "mean_x2_after_observation": 0.45527632444895305,
+      "q_next": 0.5152750666777398,
+      "n": 46
+    },
+    {
+      "trading_date": "20181008",
+      "q_before": 0.5152750666777398,
+      "mean_x2_after_observation": 0.6084160725698781,
+      "q_next": 0.5273321174245095,
+      "n": 46
+    },
+    {
+      "trading_date": "20181009",
+      "q_before": 0.5273321174245095,
+      "mean_x2_after_observation": 0.39815059173325407,
+      "q_next": 0.5106096416912291,
+      "n": 46
+    },
+    {
+      "trading_date": "20181010",
+      "q_before": 0.5106096416912291,
+      "mean_x2_after_observation": 0.5109946251250266,
+      "q_next": 0.5106594775798745,
+      "n": 46
+    },
+    {
+      "trading_date": "20181011",
+      "q_before": 0.5106594775798745,
+      "mean_x2_after_observation": 1.3576071180642533,
+      "q_next": 0.6202963725582541,
+      "n": 46
+    },
+    {
+      "trading_date": "20181012",
+      "q_before": 0.6202963725582541,
+      "mean_x2_after_observation": 2.429658795965419,
+      "q_next": 0.8545173190614714,
+      "n": 46
+    },
+    {
+      "trading_date": "20181015",
+      "q_before": 0.8545173190614714,
+      "mean_x2_after_observation": 0.8762907482549869,
+      "q_next": 0.8573358772056837,
+      "n": 46
+    },
+    {
+      "trading_date": "20181016",
+      "q_before": 0.8573358772056837,
+      "mean_x2_after_observation": 1.0711196303754373,
+      "q_next": 0.8850100636299487,
+      "n": 46
+    },
+    {
+      "trading_date": "20181017",
+      "q_before": 0.8850100636299487,
+      "mean_x2_after_observation": 1.3507467407090332,
+      "q_next": 0.9452994141301712,
+      "n": 46
+    },
+    {
+      "trading_date": "20181018",
+      "q_before": 0.9452994141301712,
+      "mean_x2_after_observation": 0.6497222435241885,
+      "q_next": 0.9070371158927013,
+      "n": 46
+    },
+    {
+      "trading_date": "20181019",
+      "q_before": 0.9070371158927013,
+      "mean_x2_after_observation": 1.8591092651734002,
+      "q_next": 1.0302823193185362,
+      "n": 46
+    },
+    {
+      "trading_date": "20181022",
+      "q_before": 1.0302823193185362,
+      "mean_x2_after_observation": 4.223849404679311,
+      "q_next": 1.4436877795945273,
+      "n": 46
+    },
+    {
+      "trading_date": "20181023",
+      "q_before": 1.4436877795945273,
+      "mean_x2_after_observation": 2.9927196699394814,
+      "q_next": 1.6442090852360216,
+      "n": 46
+    },
+    {
+      "trading_date": "20181024",
+      "q_before": 1.6442090852360216,
+      "mean_x2_after_observation": 2.652599660226726,
+      "q_next": 1.7747446771460658,
+      "n": 46
+    },
+    {
+      "trading_date": "20181025",
+      "q_before": 1.7747446771460658,
+      "mean_x2_after_observation": 4.456138280399998,
+      "q_next": 2.1218495686686634,
+      "n": 46
+    },
+    {
+      "trading_date": "20181026",
+      "q_before": 2.1218495686686634,
+      "mean_x2_after_observation": 1.9071977563387763,
+      "q_next": 2.094063012475093,
+      "n": 46
+    },
+    {
+      "trading_date": "20181029",
+      "q_before": 2.094063012475093,
+      "mean_x2_after_observation": 1.7555428896717988,
+      "q_next": 2.05024177326528,
+      "n": 46
+    },
+    {
+      "trading_date": "20181030",
+      "q_before": 2.05024177326528,
+      "mean_x2_after_observation": 3.9058738865372913,
+      "q_next": 2.290452305057965,
+      "n": 46
+    },
+    {
+      "trading_date": "20181031",
+      "q_before": 2.290452305057965,
+      "mean_x2_after_observation": 1.6645889498339794,
+      "q_next": 2.2094346462706222,
+      "n": 46
+    },
+    {
+      "trading_date": "20181101",
+      "q_before": 2.2094346462706222,
+      "mean_x2_after_observation": 3.6403307196167565,
+      "q_next": 2.394663336947067,
+      "n": 46
+    },
+    {
+      "trading_date": "20181102",
+      "q_before": 2.394663336947067,
+      "mean_x2_after_observation": 1.2966127153366114,
+      "q_next": 2.2525213025072532,
+      "n": 46
+    },
+    {
+      "trading_date": "20181105",
+      "q_before": 2.2525213025072532,
+      "mean_x2_after_observation": 1.1338040855140143,
+      "q_next": 2.1077039889365508,
+      "n": 46
+    },
+    {
+      "trading_date": "20181106",
+      "q_before": 2.1077039889365508,
+      "mean_x2_after_observation": 1.336388721220148,
+      "q_next": 2.007857662009563,
+      "n": 46
+    },
+    {
+      "trading_date": "20181107",
+      "q_before": 2.007857662009563,
+      "mean_x2_after_observation": 0.7511297206012856,
+      "q_next": 1.8451749379042401,
+      "n": 46
+    },
+    {
+      "trading_date": "20181108",
+      "q_before": 1.8451749379042401,
+      "mean_x2_after_observation": 1.1097786872767212,
+      "q_next": 1.7499783075063655,
+      "n": 46
+    },
+    {
+      "trading_date": "20181109",
+      "q_before": 1.7499783075063655,
+      "mean_x2_after_observation": 0.7400803716507419,
+      "q_next": 1.6192475885814481,
+      "n": 46
+    },
+    {
+      "trading_date": "20181112",
+      "q_before": 1.6192475885814481,
+      "mean_x2_after_observation": 0.47877819413629064,
+      "q_next": 1.471614467892512,
+      "n": 46
+    },
+    {
+      "trading_date": "20181113",
+      "q_before": 1.471614467892512,
+      "mean_x2_after_observation": 1.7574174993586396,
+      "q_next": 1.5086115093240622,
+      "n": 46
+    },
+    {
+      "trading_date": "20181114",
+      "q_before": 1.5086115093240622,
+      "mean_x2_after_observation": 0.36862489928151343,
+      "q_next": 1.3610408848040931,
+      "n": 46
+    },
+    {
+      "trading_date": "20181115",
+      "q_before": 1.3610408848040931,
+      "mean_x2_after_observation": 0.9696123764359867,
+      "q_next": 1.3103706848860033,
+      "n": 46
+    },
+    {
+      "trading_date": "20181116",
+      "q_before": 1.3103706848860033,
+      "mean_x2_after_observation": 1.401432735362573,
+      "q_next": 1.3221586160252952,
+      "n": 46
+    },
+    {
+      "trading_date": "20181119",
+      "q_before": 1.3221586160252952,
+      "mean_x2_after_observation": 1.6565710012335126,
+      "q_next": 1.3654481109172985,
+      "n": 46
+    },
+    {
+      "trading_date": "20181120",
+      "q_before": 1.3654481109172985,
+      "mean_x2_after_observation": 1.2307273987835714,
+      "q_next": 1.3480085906192425,
+      "n": 46
+    },
+    {
+      "trading_date": "20181121",
+      "q_before": 1.3480085906192425,
+      "mean_x2_after_observation": 0.7663723893224031,
+      "q_next": 1.2727161119947845,
+      "n": 46
+    },
+    {
+      "trading_date": "20181122",
+      "q_before": 1.2727161119947845,
+      "mean_x2_after_observation": 0.5269238355133781,
+      "q_next": 1.1761737219061652,
+      "n": 46
+    },
+    {
+      "trading_date": "20181123",
+      "q_before": 1.1761737219061652,
+      "mean_x2_after_observation": 0.9672797927377355,
+      "q_next": 1.1491325204444527,
+      "n": 46
+    },
+    {
+      "trading_date": "20181126",
+      "q_before": 1.1491325204444527,
+      "mean_x2_after_observation": 0.6724037100760991,
+      "q_next": 1.0874202444817604,
+      "n": 46
+    },
+    {
+      "trading_date": "20181127",
+      "q_before": 1.0874202444817604,
+      "mean_x2_after_observation": 0.7988947000870733,
+      "q_next": 1.050070775285189,
+      "n": 46
+    },
+    {
+      "trading_date": "20181128",
+      "q_before": 1.050070775285189,
+      "mean_x2_after_observation": 0.7480183878648231,
+      "q_next": 1.0109702638785618,
+      "n": 46
+    },
+    {
+      "trading_date": "20181129",
+      "q_before": 1.0109702638785618,
+      "mean_x2_after_observation": 0.7871581040293426,
+      "q_next": 0.9819979058586026,
+      "n": 46
+    },
+    {
+      "trading_date": "20181130",
+      "q_before": 0.9819979058586026,
+      "mean_x2_after_observation": 0.6841422929552923,
+      "q_next": 0.9434406645491814,
+      "n": 46
+    },
+    {
+      "trading_date": "20181203",
+      "q_before": 0.9434406645491814,
+      "mean_x2_after_observation": 0.7920499196876132,
+      "q_next": 0.9238432179046712,
+      "n": 46
+    },
+    {
+      "trading_date": "20181204",
+      "q_before": 0.9238432179046712,
+      "mean_x2_after_observation": 0.5307600666633127,
+      "q_next": 0.8729588253986929,
+      "n": 46
+    },
+    {
+      "trading_date": "20181205",
+      "q_before": 0.8729588253986929,
+      "mean_x2_after_observation": 0.6878552425110339,
+      "q_next": 0.8489972708620162,
+      "n": 46
+    },
+    {
+      "trading_date": "20181206",
+      "q_before": 0.8489972708620162,
+      "mean_x2_after_observation": 0.46816901801188787,
+      "q_next": 0.7996992680496458,
+      "n": 46
+    },
+    {
+      "trading_date": "20181207",
+      "q_before": 0.7996992680496458,
+      "mean_x2_after_observation": 0.33093084454448846,
+      "q_next": 0.7390174596823392,
+      "n": 46
+    },
+    {
+      "trading_date": "20181210",
+      "q_before": 0.7390174596823392,
+      "mean_x2_after_observation": 0.6610996253664136,
+      "q_next": 0.7289310399209568,
+      "n": 46
+    },
+    {
+      "trading_date": "20181211",
+      "q_before": 0.7289310399209568,
+      "mean_x2_after_observation": 0.2076924069772282,
+      "q_next": 0.6614569924980928,
+      "n": 46
+    },
+    {
+      "trading_date": "20181212",
+      "q_before": 0.6614569924980928,
+      "mean_x2_after_observation": 0.33554799314922334,
+      "q_next": 0.6192682561156578,
+      "n": 46
+    },
+    {
+      "trading_date": "20181213",
+      "q_before": 0.6192682561156578,
+      "mean_x2_after_observation": 0.6071712442942303,
+      "q_next": 0.617702304749574,
+      "n": 46
+    },
+    {
+      "trading_date": "20181214",
+      "q_before": 0.617702304749574,
+      "mean_x2_after_observation": 0.43171116226800604,
+      "q_next": 0.5936258561234247,
+      "n": 46
+    },
+    {
+      "trading_date": "20181217",
+      "q_before": 0.5936258561234247,
+      "mean_x2_after_observation": 0.3535415861433889,
+      "q_next": 0.5625470826130478,
+      "n": 46
+    },
+    {
+      "trading_date": "20181218",
+      "q_before": 0.5625470826130478,
+      "mean_x2_after_observation": 0.5137141549794727,
+      "q_next": 0.5562256876382804,
+      "n": 46
+    },
+    {
+      "trading_date": "20181219",
+      "q_before": 0.5562256876382804,
+      "mean_x2_after_observation": 0.3519371421217462,
+      "q_next": 0.5297806504961109,
+      "n": 46
+    },
+    {
+      "trading_date": "20181220",
+      "q_before": 0.5297806504961109,
+      "mean_x2_after_observation": 1.41544266639832,
+      "q_next": 0.6444290995646711,
+      "n": 46
+    },
+    {
+      "trading_date": "20181221",
+      "q_before": 0.6444290995646711,
+      "mean_x2_after_observation": 0.8862011099105993,
+      "q_next": 0.6757263501147152,
+      "n": 46
+    },
+    {
+      "trading_date": "20181224",
+      "q_before": 0.6757263501147152,
+      "mean_x2_after_observation": 0.7293389310545136,
+      "q_next": 0.682666468517613,
+      "n": 46
+    },
+    {
+      "trading_date": "20190110",
+      "q_before": 0.682666468517613,
+      "mean_x2_after_observation": 0.572282729865023,
+      "q_next": 0.6683773557277674,
+      "n": 46
+    },
+    {
+      "trading_date": "20190111",
+      "q_before": 0.6683773557277674,
+      "mean_x2_after_observation": 0.5667788221054508,
+      "q_next": 0.6552254827804186,
+      "n": 46
+    },
+    {
+      "trading_date": "20190114",
+      "q_before": 0.6552254827804186,
+      "mean_x2_after_observation": 0.3013033772222253,
+      "q_next": 0.6094104655788608,
+      "n": 46
+    },
+    {
+      "trading_date": "20190115",
+      "q_before": 0.6094104655788608,
+      "mean_x2_after_observation": 1.1342954672569021,
+      "q_next": 0.6773565333803963,
+      "n": 46
+    },
+    {
+      "trading_date": "20190116",
+      "q_before": 0.6773565333803963,
+      "mean_x2_after_observation": 0.44963668259166906,
+      "q_next": 0.6478783269695049,
+      "n": 46
+    },
+    {
+      "trading_date": "20190117",
+      "q_before": 0.6478783269695049,
+      "mean_x2_after_observation": 0.7647116027502976,
+      "q_next": 0.663002328707597,
+      "n": 46
+    },
+    {
+      "trading_date": "20190118",
+      "q_before": 0.663002328707597,
+      "mean_x2_after_observation": 0.4638227398316243,
+      "q_next": 0.6372186431246928,
+      "n": 46
+    },
+    {
+      "trading_date": "20190121",
+      "q_before": 0.6372186431246928,
+      "mean_x2_after_observation": 0.6962519823900469,
+      "q_next": 0.6448604756393417,
+      "n": 46
+    },
+    {
+      "trading_date": "20190122",
+      "q_before": 0.6448604756393417,
+      "mean_x2_after_observation": 0.4756876655942367,
+      "q_next": 0.622961150673391,
+      "n": 46
+    },
+    {
+      "trading_date": "20190123",
+      "q_before": 0.622961150673391,
+      "mean_x2_after_observation": 0.38439817635617696,
+      "q_next": 0.5920793080296264,
+      "n": 46
+    },
+    {
+      "trading_date": "20190124",
+      "q_before": 0.5920793080296264,
+      "mean_x2_after_observation": 0.8168278742999312,
+      "q_next": 0.6211728833333211,
+      "n": 46
+    },
+    {
+      "trading_date": "20190125",
+      "q_before": 0.6211728833333211,
+      "mean_x2_after_observation": 0.6714207677153965,
+      "q_next": 0.6276774436621423,
+      "n": 46
+    },
+    {
+      "trading_date": "20190128",
+      "q_before": 0.6276774436621423,
+      "mean_x2_after_observation": 0.633191974823312,
+      "q_next": 0.6283912966146417,
+      "n": 46
+    },
+    {
+      "trading_date": "20190129",
+      "q_before": 0.6283912966146417,
+      "mean_x2_after_observation": 0.7935648884315544,
+      "q_next": 0.6497729250336969,
+      "n": 46
+    },
+    {
+      "trading_date": "20190130",
+      "q_before": 0.6497729250336969,
+      "mean_x2_after_observation": 0.502205235603249,
+      "q_next": 0.630670370761233,
+      "n": 46
+    },
+    {
+      "trading_date": "20190131",
+      "q_before": 0.630670370761233,
+      "mean_x2_after_observation": 0.5889748495160315,
+      "q_next": 0.6252729090229672,
+      "n": 46
+    },
+    {
+      "trading_date": "20190201",
+      "q_before": 0.6252729090229672,
+      "mean_x2_after_observation": 0.6519429989160052,
+      "q_next": 0.6287253371364627,
+      "n": 46
+    },
+    {
+      "trading_date": "20190211",
+      "q_before": 0.6287253371364627,
+      "mean_x2_after_observation": 0.4625268993429827,
+      "q_next": 0.6072110429830326,
+      "n": 46
+    },
+    {
+      "trading_date": "20190212",
+      "q_before": 0.6072110429830326,
+      "mean_x2_after_observation": 0.6738069676082461,
+      "q_next": 0.6158318479125402,
+      "n": 46
+    },
+    {
+      "trading_date": "20190213",
+      "q_before": 0.6158318479125402,
+      "mean_x2_after_observation": 1.4276610926966031,
+      "q_next": 0.7209226863495701,
+      "n": 46
+    },
+    {
+      "trading_date": "20190214",
+      "q_before": 0.7209226863495701,
+      "mean_x2_after_observation": 0.8190304510823229,
+      "q_next": 0.7336226812305013,
+      "n": 46
+    },
+    {
+      "trading_date": "20190215",
+      "q_before": 0.7336226812305013,
+      "mean_x2_after_observation": 0.7982611422514152,
+      "q_next": 0.7419900935990641,
+      "n": 46
+    },
+    {
+      "trading_date": "20190218",
+      "q_before": 0.7419900935990641,
+      "mean_x2_after_observation": 1.2054620884982006,
+      "q_next": 0.8019862822667789,
+      "n": 46
+    },
+    {
+      "trading_date": "20190219",
+      "q_before": 0.8019862822667789,
+      "mean_x2_after_observation": 2.4082003751669148,
+      "q_next": 1.0099097918185285,
+      "n": 46
+    },
+    {
+      "trading_date": "20190220",
+      "q_before": 1.0099097918185285,
+      "mean_x2_after_observation": 1.595886399776989,
+      "q_next": 1.0857641336403991,
+      "n": 46
+    },
+    {
+      "trading_date": "20190221",
+      "q_before": 1.0857641336403991,
+      "mean_x2_after_observation": 2.875711312744893,
+      "q_next": 1.3174717877051676,
+      "n": 46
+    },
+    {
+      "trading_date": "20190222",
+      "q_before": 1.3174717877051676,
+      "mean_x2_after_observation": 4.986348948539985,
+      "q_next": 1.7924058695109502,
+      "n": 46
+    },
+    {
+      "trading_date": "20190225",
+      "q_before": 1.7924058695109502,
+      "mean_x2_after_observation": 7.421269486762941,
+      "q_next": 2.5210590940471613,
+      "n": 46
+    },
+    {
+      "trading_date": "20190226",
+      "q_before": 2.5210590940471613,
+      "mean_x2_after_observation": 19.530559142397188,
+      "q_next": 4.722929293920622,
+      "n": 46
+    },
+    {
+      "trading_date": "20190227",
+      "q_before": 4.722929293920622,
+      "mean_x2_after_observation": 4.989138247868243,
+      "q_next": 4.757389893054669,
+      "n": 46
+    },
+    {
+      "trading_date": "20190228",
+      "q_before": 4.757389893054669,
+      "mean_x2_after_observation": 5.74741177162631,
+      "q_next": 4.885547667560282,
+      "n": 46
+    },
+    {
+      "trading_date": "20190301",
+      "q_before": 4.885547667560282,
+      "mean_x2_after_observation": 5.264272573604843,
+      "q_next": 4.934573393313478,
+      "n": 46
+    },
+    {
+      "trading_date": "20190304",
+      "q_before": 4.934573393313478,
+      "mean_x2_after_observation": 7.8744825191616385,
+      "q_next": 5.315142973615107,
+      "n": 46
+    },
+    {
+      "trading_date": "20190305",
+      "q_before": 5.315142973615107,
+      "mean_x2_after_observation": 2.9088747771459125,
+      "q_next": 5.003652911023718,
+      "n": 46
+    },
+    {
+      "trading_date": "20190306",
+      "q_before": 5.003652911023718,
+      "mean_x2_after_observation": 9.766678974715779,
+      "q_next": 5.620223951974534,
+      "n": 46
+    },
+    {
+      "trading_date": "20190307",
+      "q_before": 5.620223951974534,
+      "mean_x2_after_observation": 11.643356237781916,
+      "q_next": 6.399915033565227,
+      "n": 46
+    },
+    {
+      "trading_date": "20190308",
+      "q_before": 6.399915033565227,
+      "mean_x2_after_observation": 5.493448710168318,
+      "q_next": 6.2825734786104634,
+      "n": 46
+    },
+    {
+      "trading_date": "20190311",
+      "q_before": 6.2825734786104634,
+      "mean_x2_after_observation": 3.4912365065218234,
+      "q_next": 5.921236479922887,
+      "n": 46
+    },
+    {
+      "trading_date": "20190312",
+      "q_before": 5.921236479922887,
+      "mean_x2_after_observation": 2.58546034406299,
+      "q_next": 5.489422138165591,
+      "n": 46
+    },
+    {
+      "trading_date": "20190313",
+      "q_before": 5.489422138165591,
+      "mean_x2_after_observation": 2.8205039495347517,
+      "q_next": 5.1439321820386,
+      "n": 46
+    },
+    {
+      "trading_date": "20190314",
+      "q_before": 5.1439321820386,
+      "mean_x2_after_observation": 2.6108945535722334,
+      "q_next": 4.8160318878839075,
+      "n": 46
+    },
+    {
+      "trading_date": "20190315",
+      "q_before": 4.8160318878839075,
+      "mean_x2_after_observation": 1.9175843042985308,
+      "q_next": 4.44082948087307,
+      "n": 46
+    },
+    {
+      "trading_date": "20190318",
+      "q_before": 4.44082948087307,
+      "mean_x2_after_observation": 2.553796152323132,
+      "q_next": 4.1965540794508405,
+      "n": 46
+    },
+    {
+      "trading_date": "20190319",
+      "q_before": 4.1965540794508405,
+      "mean_x2_after_observation": 0.7688946862482904,
+      "q_next": 3.7528455017880216,
+      "n": 46
+    },
+    {
+      "trading_date": "20190320",
+      "q_before": 3.7528455017880216,
+      "mean_x2_after_observation": 2.9204964097167365,
+      "q_next": 3.6450983806784114,
+      "n": 46
+    },
+    {
+      "trading_date": "20190321",
+      "q_before": 3.6450983806784114,
+      "mean_x2_after_observation": 2.681822131057445,
+      "q_next": 3.520402812774755,
+      "n": 46
+    },
+    {
+      "trading_date": "20190322",
+      "q_before": 3.520402812774755,
+      "mean_x2_after_observation": 1.3858766999885357,
+      "q_next": 3.2440896098448646,
+      "n": 46
+    },
+    {
+      "trading_date": "20190325",
+      "q_before": 3.2440896098448646,
+      "mean_x2_after_observation": 1.6196359536357583,
+      "q_next": 3.033804999097044,
+      "n": 46
+    },
+    {
+      "trading_date": "20190326",
+      "q_before": 3.033804999097044,
+      "mean_x2_after_observation": 1.3722266574755309,
+      "q_next": 2.818714618734779,
+      "n": 46
+    },
+    {
+      "trading_date": "20190327",
+      "q_before": 2.818714618734779,
+      "mean_x2_after_observation": 1.137213128590034,
+      "q_next": 2.601045198018814,
+      "n": 46
+    },
+    {
+      "trading_date": "20190328",
+      "q_before": 2.601045198018814,
+      "mean_x2_after_observation": 1.6812889269315598,
+      "q_next": 2.4819832668217114,
+      "n": 46
+    },
+    {
+      "trading_date": "20190329",
+      "q_before": 2.4819832668217114,
+      "mean_x2_after_observation": 2.948093717563607,
+      "q_next": 2.5423210021120397,
+      "n": 46
+    },
+    {
+      "trading_date": "20190401",
+      "q_before": 2.5423210021120397,
+      "mean_x2_after_observation": 2.3776215136937986,
+      "q_next": 2.521000746110882,
+      "n": 46
+    },
+    {
+      "trading_date": "20190402",
+      "q_before": 2.521000746110882,
+      "mean_x2_after_observation": 1.269024130688585,
+      "q_next": 2.3589330784780405,
+      "n": 46
+    },
+    {
+      "trading_date": "20190403",
+      "q_before": 2.3589330784780405,
+      "mean_x2_after_observation": 1.8491558517584437,
+      "q_next": 2.2929427036347243,
+      "n": 46
+    },
+    {
+      "trading_date": "20190404",
+      "q_before": 2.2929427036347243,
+      "mean_x2_after_observation": 2.0791691009088917,
+      "q_next": 2.2652698311797073,
+      "n": 46
+    },
+    {
+      "trading_date": "20190408",
+      "q_before": 2.2652698311797073,
+      "mean_x2_after_observation": 1.881368199186727,
+      "q_next": 2.215573981168517,
+      "n": 46
+    },
+    {
+      "trading_date": "20190409",
+      "q_before": 2.215573981168517,
+      "mean_x2_after_observation": 1.1283671981483352,
+      "q_next": 2.0748356755259216,
+      "n": 46
+    },
+    {
+      "trading_date": "20190410",
+      "q_before": 2.0748356755259216,
+      "mean_x2_after_observation": 2.1371447309913645,
+      "q_next": 2.0829015476574737,
+      "n": 46
+    },
+    {
+      "trading_date": "20190411",
+      "q_before": 2.0829015476574737,
+      "mean_x2_after_observation": 1.6302226368490118,
+      "q_next": 2.0243025176455944,
+      "n": 46
+    },
+    {
+      "trading_date": "20190412",
+      "q_before": 2.0243025176455944,
+      "mean_x2_after_observation": 1.1620667846562664,
+      "q_next": 1.9126865877041723,
+      "n": 46
+    },
+    {
+      "trading_date": "20190415",
+      "q_before": 1.9126865877041723,
+      "mean_x2_after_observation": 1.009626146495542,
+      "q_next": 1.7957859222801615,
+      "n": 46
+    },
+    {
+      "trading_date": "20190416",
+      "q_before": 1.7957859222801615,
+      "mean_x2_after_observation": 1.908418011329749,
+      "q_next": 1.8103660827624115,
+      "n": 46
+    },
+    {
+      "trading_date": "20190417",
+      "q_before": 1.8103660827624115,
+      "mean_x2_after_observation": 0.6689077133949949,
+      "q_next": 1.6626049398268747,
+      "n": 46
+    },
+    {
+      "trading_date": "20190418",
+      "q_before": 1.6626049398268747,
+      "mean_x2_after_observation": 0.6593469669630724,
+      "q_next": 1.5327337603709832,
+      "n": 46
+    },
+    {
+      "trading_date": "20190419",
+      "q_before": 1.5327337603709832,
+      "mean_x2_after_observation": 1.075727672122622,
+      "q_next": 1.473574579676991,
+      "n": 46
+    },
+    {
+      "trading_date": "20190422",
+      "q_before": 1.473574579676991,
+      "mean_x2_after_observation": 0.9898775349268002,
+      "q_next": 1.4109602696987493,
+      "n": 46
+    },
+    {
+      "trading_date": "20190423",
+      "q_before": 1.4109602696987493,
+      "mean_x2_after_observation": 2.0278057601806023,
+      "q_next": 1.490810570974951,
+      "n": 46
+    },
+    {
+      "trading_date": "20190424",
+      "q_before": 1.490810570974951,
+      "mean_x2_after_observation": 1.2348789414193295,
+      "q_next": 1.457680365694271,
+      "n": 46
+    },
+    {
+      "trading_date": "20190425",
+      "q_before": 1.457680365694271,
+      "mean_x2_after_observation": 0.9317027974216714,
+      "q_next": 1.3895928657625085,
+      "n": 46
+    },
+    {
+      "trading_date": "20190426",
+      "q_before": 1.3895928657625085,
+      "mean_x2_after_observation": 1.19023989835459,
+      "q_next": 1.3637867364263072,
+      "n": 46
+    },
+    {
+      "trading_date": "20190429",
+      "q_before": 1.3637867364263072,
+      "mean_x2_after_observation": 5.081009444795322,
+      "q_next": 1.844979122127532,
+      "n": 46
+    },
+    {
+      "trading_date": "20190430",
+      "q_before": 1.844979122127532,
+      "mean_x2_after_observation": 0.8524224379722856,
+      "q_next": 1.7164932184669686,
+      "n": 46
+    },
+    {
+      "trading_date": "20190506",
+      "q_before": 1.7164932184669686,
+      "mean_x2_after_observation": 3.6860879000304037,
+      "q_next": 1.971456140530305,
+      "n": 46
+    },
+    {
+      "trading_date": "20190507",
+      "q_before": 1.971456140530305,
+      "mean_x2_after_observation": 3.8578061287628964,
+      "q_next": 2.2156430839333767,
+      "n": 46
+    },
+    {
+      "trading_date": "20190508",
+      "q_before": 2.2156430839333767,
+      "mean_x2_after_observation": 1.5640392517411612,
+      "q_next": 2.131293334902008,
+      "n": 46
+    },
+    {
+      "trading_date": "20190509",
+      "q_before": 2.131293334902008,
+      "mean_x2_after_observation": 1.7675835472009849,
+      "q_next": 2.084211307760424,
+      "n": 46
+    },
+    {
+      "trading_date": "20190510",
+      "q_before": 2.084211307760424,
+      "mean_x2_after_observation": 5.064003863591916,
+      "q_next": 2.4699437756072133,
+      "n": 46
+    },
+    {
+      "trading_date": "20190513",
+      "q_before": 2.4699437756072133,
+      "mean_x2_after_observation": 0.7839600218785614,
+      "q_next": 2.251694128395153,
+      "n": 46
+    },
+    {
+      "trading_date": "20190514",
+      "q_before": 2.251694128395153,
+      "mean_x2_after_observation": 1.147734317536616,
+      "q_next": 2.1087871527357978,
+      "n": 46
+    },
+    {
+      "trading_date": "20190515",
+      "q_before": 2.1087871527357978,
+      "mean_x2_after_observation": 0.3991715939067894,
+      "q_next": 1.8874783816652008,
+      "n": 46
+    },
+    {
+      "trading_date": "20190516",
+      "q_before": 1.8874783816652008,
+      "mean_x2_after_observation": 0.43714121096967595,
+      "q_next": 1.699733051887972,
+      "n": 46
+    },
+    {
+      "trading_date": "20190517",
+      "q_before": 1.699733051887972,
+      "mean_x2_after_observation": 0.6724015543347542,
+      "q_next": 1.5667455682215587,
+      "n": 46
+    },
+    {
+      "trading_date": "20190520",
+      "q_before": 1.5667455682215587,
+      "mean_x2_after_observation": 1.4898133981692852,
+      "q_next": 1.5567867421438852,
+      "n": 46
+    },
+    {
+      "trading_date": "20190521",
+      "q_before": 1.5567867421438852,
+      "mean_x2_after_observation": 0.5861692654352602,
+      "q_next": 1.4311408565290165,
+      "n": 46
+    },
+    {
+      "trading_date": "20190522",
+      "q_before": 1.4311408565290165,
+      "mean_x2_after_observation": 0.5448565114638824,
+      "q_next": 1.3164118473008715,
+      "n": 46
+    },
+    {
+      "trading_date": "20190530",
+      "q_before": 1.3164118473008715,
+      "mean_x2_after_observation": 0.38118823542108105,
+      "q_next": 1.1953476775508685,
+      "n": 46
+    },
+    {
+      "trading_date": "20190531",
+      "q_before": 1.1953476775508685,
+      "mean_x2_after_observation": 0.25875252589881753,
+      "q_next": 1.0741059627499294,
+      "n": 46
+    },
+    {
+      "trading_date": "20190603",
+      "q_before": 1.0741059627499294,
+      "mean_x2_after_observation": 1.2431896274569474,
+      "q_next": 1.09599374790208,
+      "n": 46
+    },
+    {
+      "trading_date": "20190604",
+      "q_before": 1.09599374790208,
+      "mean_x2_after_observation": 0.7018959963267539,
+      "q_next": 1.04497801595439,
+      "n": 46
+    },
+    {
+      "trading_date": "20190605",
+      "q_before": 1.04497801595439,
+      "mean_x2_after_observation": 0.43999695824712703,
+      "q_next": 0.9666635588176697,
+      "n": 46
+    },
+    {
+      "trading_date": "20190606",
+      "q_before": 0.9666635588176697,
+      "mean_x2_after_observation": 0.5728509471280121,
+      "q_next": 0.9156847380675613,
+      "n": 46
+    },
+    {
+      "trading_date": "20190610",
+      "q_before": 0.9156847380675613,
+      "mean_x2_after_observation": 2.1090373156109457,
+      "q_next": 1.0701635570196708,
+      "n": 46
+    },
+    {
+      "trading_date": "20190611",
+      "q_before": 1.0701635570196708,
+      "mean_x2_after_observation": 1.2775334816701938,
+      "q_next": 1.0970074769550062,
+      "n": 46
+    },
+    {
+      "trading_date": "20190612",
+      "q_before": 1.0970074769550062,
+      "mean_x2_after_observation": 0.6021364765821794,
+      "q_next": 1.0329467047156602,
+      "n": 46
+    },
+    {
+      "trading_date": "20190613",
+      "q_before": 1.0329467047156602,
+      "mean_x2_after_observation": 0.7552762855233098,
+      "q_next": 0.9970024253618813,
+      "n": 46
+    },
+    {
+      "trading_date": "20190614",
+      "q_before": 0.9970024253618813,
+      "mean_x2_after_observation": 0.3878346059893983,
+      "q_next": 0.918145994285985,
+      "n": 46
+    },
+    {
+      "trading_date": "20190617",
+      "q_before": 0.918145994285985,
+      "mean_x2_after_observation": 0.4488877958985012,
+      "q_next": 0.8574007848360496,
+      "n": 46
+    },
+    {
+      "trading_date": "20190618",
+      "q_before": 0.8574007848360496,
+      "mean_x2_after_observation": 0.44991740789208556,
+      "q_next": 0.8046522912244604,
+      "n": 46
+    },
+    {
+      "trading_date": "20190619",
+      "q_before": 0.8046522912244604,
+      "mean_x2_after_observation": 0.7956688045265803,
+      "q_next": 0.803489383931783,
+      "n": 46
+    },
+    {
+      "trading_date": "20190620",
+      "q_before": 0.803489383931783,
+      "mean_x2_after_observation": 3.57078665289196,
+      "q_next": 1.161714456590852,
+      "n": 46
+    },
+    {
+      "trading_date": "20190621",
+      "q_before": 1.161714456590852,
+      "mean_x2_after_observation": 1.9408499331783986,
+      "q_next": 1.2625731051511158,
+      "n": 46
+    },
+    {
+      "trading_date": "20190624",
+      "q_before": 1.2625731051511158,
+      "mean_x2_after_observation": 0.9955602001432028,
+      "q_next": 1.2280084350051759,
+      "n": 46
+    },
+    {
+      "trading_date": "20190625",
+      "q_before": 1.2280084350051759,
+      "mean_x2_after_observation": 1.9763571407854277,
+      "q_next": 1.324881753426504,
+      "n": 46
+    },
+    {
+      "trading_date": "20190626",
+      "q_before": 1.324881753426504,
+      "mean_x2_after_observation": 0.6241322047590964,
+      "q_next": 1.2341701190810128,
+      "n": 46
+    },
+    {
+      "trading_date": "20190627",
+      "q_before": 1.2341701190810128,
+      "mean_x2_after_observation": 1.3455009806509408,
+      "q_next": 1.2485818363989973,
+      "n": 46
+    },
+    {
+      "trading_date": "20190628",
+      "q_before": 1.2485818363989973,
+      "mean_x2_after_observation": 0.5470028969017455,
+      "q_next": 1.1577628378777756,
+      "n": 46
+    },
+    {
+      "trading_date": "20190701",
+      "q_before": 1.1577628378777756,
+      "mean_x2_after_observation": 0.7791858574392686,
+      "q_next": 1.1087562610109565,
+      "n": 46
+    },
+    {
+      "trading_date": "20190702",
+      "q_before": 1.1087562610109565,
+      "mean_x2_after_observation": 0.19210847947794396,
+      "q_next": 0.9900967220356505,
+      "n": 46
+    },
+    {
+      "trading_date": "20190703",
+      "q_before": 0.9900967220356505,
+      "mean_x2_after_observation": 0.7931278327859888,
+      "q_next": 0.9645992102740937,
+      "n": 46
+    },
+    {
+      "trading_date": "20190704",
+      "q_before": 0.9645992102740937,
+      "mean_x2_after_observation": 0.6039390378454099,
+      "q_next": 0.9179119541116778,
+      "n": 46
+    },
+    {
+      "trading_date": "20190705",
+      "q_before": 0.9179119541116778,
+      "mean_x2_after_observation": 0.5241799746766741,
+      "q_next": 0.8669435711615145,
+      "n": 46
+    },
+    {
+      "trading_date": "20190708",
+      "q_before": 0.8669435711615145,
+      "mean_x2_after_observation": 1.0080643999030103,
+      "q_next": 0.8852115829492853,
+      "n": 46
+    },
+    {
+      "trading_date": "20190709",
+      "q_before": 0.8852115829492853,
+      "mean_x2_after_observation": 0.5056596853704469,
+      "q_next": 0.8360788036078174,
+      "n": 46
+    },
+    {
+      "trading_date": "20190710",
+      "q_before": 0.8360788036078174,
+      "mean_x2_after_observation": 0.40759247521996206,
+      "q_next": 0.7806114897626976,
+      "n": 46
+    },
+    {
+      "trading_date": "20190711",
+      "q_before": 0.7806114897626976,
+      "mean_x2_after_observation": 0.7228595295450141,
+      "q_next": 0.7731355310439738,
+      "n": 46
+    },
+    {
+      "trading_date": "20190712",
+      "q_before": 0.7731355310439738,
+      "mean_x2_after_observation": 0.7006759701442162,
+      "q_next": 0.7637556817016901,
+      "n": 46
+    },
+    {
+      "trading_date": "20190715",
+      "q_before": 0.7637556817016901,
+      "mean_x2_after_observation": 1.0430872002915546,
+      "q_next": 0.7999149894367863,
+      "n": 46
+    },
+    {
+      "trading_date": "20190716",
+      "q_before": 0.7999149894367863,
+      "mean_x2_after_observation": 0.13240456325643365,
+      "q_next": 0.7135061407737755,
+      "n": 46
+    },
+    {
+      "trading_date": "20190717",
+      "q_before": 0.7135061407737755,
+      "mean_x2_after_observation": 0.37090911675489957,
+      "q_next": 0.6691571489981077,
+      "n": 46
+    },
+    {
+      "trading_date": "20190718",
+      "q_before": 0.6691571489981077,
+      "mean_x2_after_observation": 0.26340077393200667,
+      "q_next": 0.6166322148067943,
+      "n": 46
+    },
+    {
+      "trading_date": "20190719",
+      "q_before": 0.6166322148067943,
+      "mean_x2_after_observation": 0.4388899737452824,
+      "q_next": 0.5936235818228971,
+      "n": 46
+    },
+    {
+      "trading_date": "20190722",
+      "q_before": 0.5936235818228971,
+      "mean_x2_after_observation": 0.7268440305800644,
+      "q_next": 0.61086889387195,
+      "n": 46
+    },
+    {
+      "trading_date": "20190723",
+      "q_before": 0.61086889387195,
+      "mean_x2_after_observation": 0.32500263524010703,
+      "q_next": 0.5738636677194134,
+      "n": 46
+    },
+    {
+      "trading_date": "20190724",
+      "q_before": 0.5738636677194134,
+      "mean_x2_after_observation": 0.305267610008551,
+      "q_next": 0.5390940593478606,
+      "n": 46
+    },
+    {
+      "trading_date": "20190725",
+      "q_before": 0.5390940593478606,
+      "mean_x2_after_observation": 0.3101639536009471,
+      "q_next": 0.5094591861143639,
+      "n": 46
+    },
+    {
+      "trading_date": "20190726",
+      "q_before": 0.5094591861143639,
+      "mean_x2_after_observation": 0.12067783610383405,
+      "q_next": 0.45913165935452843,
+      "n": 46
+    },
+    {
+      "trading_date": "20190729",
+      "q_before": 0.45913165935452843,
+      "mean_x2_after_observation": 0.2823956183474504,
+      "q_next": 0.4362532784008891,
+      "n": 46
+    },
+    {
+      "trading_date": "20190730",
+      "q_before": 0.4362532784008891,
+      "mean_x2_after_observation": 0.25872389597249773,
+      "q_next": 0.4132721998471469,
+      "n": 46
+    },
+    {
+      "trading_date": "20190731",
+      "q_before": 0.4132721998471469,
+      "mean_x2_after_observation": 0.18359612205446604,
+      "q_next": 0.3835407609525288,
+      "n": 46
+    },
+    {
+      "trading_date": "20190801",
+      "q_before": 0.3835407609525288,
+      "mean_x2_after_observation": 0.3271828463398112,
+      "q_next": 0.3762452606521074,
+      "n": 46
+    },
+    {
+      "trading_date": "20190802",
+      "q_before": 0.3762452606521074,
+      "mean_x2_after_observation": 0.3950610101947312,
+      "q_next": 0.3786809488315613,
+      "n": 46
+    },
+    {
+      "trading_date": "20190805",
+      "q_before": 0.3786809488315613,
+      "mean_x2_after_observation": 1.1761487862615827,
+      "q_next": 0.4819127111763356,
+      "n": 46
+    },
+    {
+      "trading_date": "20190806",
+      "q_before": 0.4819127111763356,
+      "mean_x2_after_observation": 1.7194896895007943,
+      "q_next": 0.6421163538981216,
+      "n": 46
+    },
+    {
+      "trading_date": "20190807",
+      "q_before": 0.6421163538981216,
+      "mean_x2_after_observation": 0.40648361556302776,
+      "q_next": 0.6116138286516519,
+      "n": 46
+    },
+    {
+      "trading_date": "20190808",
+      "q_before": 0.6116138286516519,
+      "mean_x2_after_observation": 0.6294953631450851,
+      "q_next": 0.6139285832192278,
+      "n": 46
+    },
+    {
+      "trading_date": "20190809",
+      "q_before": 0.6139285832192278,
+      "mean_x2_after_observation": 0.48869600518101075,
+      "q_next": 0.5977172965352064,
+      "n": 46
+    },
+    {
+      "trading_date": "20190812",
+      "q_before": 0.5977172965352064,
+      "mean_x2_after_observation": 0.4233947487166011,
+      "q_next": 0.5751513409153035,
+      "n": 46
+    },
+    {
+      "trading_date": "20190813",
+      "q_before": 0.5751513409153035,
+      "mean_x2_after_observation": 0.21298477936710739,
+      "q_next": 0.5282690835299099,
+      "n": 46
+    },
+    {
+      "trading_date": "20190814",
+      "q_before": 0.5282690835299099,
+      "mean_x2_after_observation": 0.2075344841502748,
+      "q_next": 0.48675017030877277,
+      "n": 46
+    },
+    {
+      "trading_date": "20190815",
+      "q_before": 0.48675017030877277,
+      "mean_x2_after_observation": 0.6368770756041842,
+      "q_next": 0.5061840136333599,
+      "n": 46
+    },
+    {
+      "trading_date": "20190816",
+      "q_before": 0.5061840136333599,
+      "mean_x2_after_observation": 0.5314305103161356,
+      "q_next": 0.5094521584076914,
+      "n": 46
+    },
+    {
+      "trading_date": "20190819",
+      "q_before": 0.5094521584076914,
+      "mean_x2_after_observation": 1.8178292788518327,
+      "q_next": 0.6788208396454247,
+      "n": 46
+    },
+    {
+      "trading_date": "20190820",
+      "q_before": 0.6788208396454247,
+      "mean_x2_after_observation": 0.8343935491953501,
+      "q_next": 0.6989596392631583,
+      "n": 46
+    },
+    {
+      "trading_date": "20190821",
+      "q_before": 0.6989596392631583,
+      "mean_x2_after_observation": 0.3237151668423976,
+      "q_next": 0.6503844536820477,
+      "n": 46
+    },
+    {
+      "trading_date": "20190822",
+      "q_before": 0.6503844536820477,
+      "mean_x2_after_observation": 0.3348160850625465,
+      "q_next": 0.6095343061226922,
+      "n": 46
+    },
+    {
+      "trading_date": "20190823",
+      "q_before": 0.6095343061226922,
+      "mean_x2_after_observation": 0.5950780595758397,
+      "q_next": 0.6076629531503498,
+      "n": 46
+    },
+    {
+      "trading_date": "20190826",
+      "q_before": 0.6076629531503498,
+      "mean_x2_after_observation": 0.43048841045565533,
+      "q_next": 0.5847278084002548,
+      "n": 46
+    },
+    {
+      "trading_date": "20190827",
+      "q_before": 0.5847278084002548,
+      "mean_x2_after_observation": 1.1878173953428024,
+      "q_next": 0.6627974157119408,
+      "n": 46
+    },
+    {
+      "trading_date": "20190828",
+      "q_before": 0.6627974157119408,
+      "mean_x2_after_observation": 0.1788286762137568,
+      "q_next": 0.6001479350016161,
+      "n": 46
+    },
+    {
+      "trading_date": "20190829",
+      "q_before": 0.6001479350016161,
+      "mean_x2_after_observation": 0.30386641725358765,
+      "q_next": 0.5617944594233645,
+      "n": 46
+    },
+    {
+      "trading_date": "20190830",
+      "q_before": 0.5617944594233645,
+      "mean_x2_after_observation": 0.44000371196290033,
+      "q_next": 0.5460287157688634,
+      "n": 46
+    },
+    {
+      "trading_date": "20190902",
+      "q_before": 0.5460287157688634,
+      "mean_x2_after_observation": 0.7979503110816687,
+      "q_next": 0.5786398243756478,
+      "n": 46
+    },
+    {
+      "trading_date": "20190903",
+      "q_before": 0.5786398243756478,
+      "mean_x2_after_observation": 0.4993901301158567,
+      "q_next": 0.5683809960947634,
+      "n": 46
+    },
+    {
+      "trading_date": "20190911",
+      "q_before": 0.5683809960947634,
+      "mean_x2_after_observation": 1.1856382834988488,
+      "q_next": 0.6482846042505848,
+      "n": 46
+    },
+    {
+      "trading_date": "20190912",
+      "q_before": 0.6482846042505848,
+      "mean_x2_after_observation": 0.40993555092968276,
+      "q_next": 0.6174304535592919,
+      "n": 46
+    },
+    {
+      "trading_date": "20190916",
+      "q_before": 0.6174304535592919,
+      "mean_x2_after_observation": 0.4797206996723662,
+      "q_next": 0.59960400349,
+      "n": 46
+    },
+    {
+      "trading_date": "20190917",
+      "q_before": 0.59960400349,
+      "mean_x2_after_observation": 0.765364372540049,
+      "q_next": 0.6210615898913554,
+      "n": 46
+    },
+    {
+      "trading_date": "20190918",
+      "q_before": 0.6210615898913554,
+      "mean_x2_after_observation": 0.30862908900040154,
+      "q_next": 0.5806173786430382,
+      "n": 46
+    },
+    {
+      "trading_date": "20190919",
+      "q_before": 0.5806173786430382,
+      "mean_x2_after_observation": 0.35397187288971393,
+      "q_next": 0.5512782455918053,
+      "n": 46
+    },
+    {
+      "trading_date": "20190920",
+      "q_before": 0.5512782455918053,
+      "mean_x2_after_observation": 0.5329203771315224,
+      "q_next": 0.5489018298605378,
+      "n": 46
+    },
+    {
+      "trading_date": "20190923",
+      "q_before": 0.5489018298605378,
+      "mean_x2_after_observation": 0.36233031491016904,
+      "q_next": 0.5247502523452238,
+      "n": 46
+    },
+    {
+      "trading_date": "20190924",
+      "q_before": 0.5247502523452238,
+      "mean_x2_after_observation": 0.3944326572498525,
+      "q_next": 0.5078807130675241,
+      "n": 46
+    },
+    {
+      "trading_date": "20190925",
+      "q_before": 0.5078807130675241,
+      "mean_x2_after_observation": 0.5522445169081108,
+      "q_next": 0.5136235824847293,
+      "n": 46
+    },
+    {
+      "trading_date": "20190926",
+      "q_before": 0.5136235824847293,
+      "mean_x2_after_observation": 0.5780025657641472,
+      "q_next": 0.5219574056058182,
+      "n": 46
+    },
+    {
+      "trading_date": "20190927",
+      "q_before": 0.5219574056058182,
+      "mean_x2_after_observation": 0.3286350697902128,
+      "q_next": 0.49693193813221054,
+      "n": 46
+    },
+    {
+      "trading_date": "20190930",
+      "q_before": 0.49693193813221054,
+      "mean_x2_after_observation": 0.3730329611629823,
+      "q_next": 0.4808932853553574,
+      "n": 46
+    },
+    {
+      "trading_date": "20191008",
+      "q_before": 0.4808932853553574,
+      "mean_x2_after_observation": 0.7862563168170991,
+      "q_next": 0.5204223577682678,
+      "n": 46
+    },
+    {
+      "trading_date": "20191009",
+      "q_before": 0.5204223577682678,
+      "mean_x2_after_observation": 0.6094755704854462,
+      "q_next": 0.531950245991177,
+      "n": 46
+    },
+    {
+      "trading_date": "20191010",
+      "q_before": 0.531950245991177,
+      "mean_x2_after_observation": 0.33928935688908607,
+      "q_next": 0.5070104024220434,
+      "n": 46
+    },
+    {
+      "trading_date": "20191011",
+      "q_before": 0.5070104024220434,
+      "mean_x2_after_observation": 0.967296651934871,
+      "q_next": 0.5665941981440186,
+      "n": 46
+    },
+    {
+      "trading_date": "20191014",
+      "q_before": 0.5665941981440186,
+      "mean_x2_after_observation": 0.6061995299113682,
+      "q_next": 0.5717210860317721,
+      "n": 46
+    },
+    {
+      "trading_date": "20191015",
+      "q_before": 0.5717210860317721,
+      "mean_x2_after_observation": 0.36243017024868923,
+      "q_next": 0.5446284948764136,
+      "n": 46
+    },
+    {
+      "trading_date": "20191016",
+      "q_before": 0.5446284948764136,
+      "mean_x2_after_observation": 0.496224076573585,
+      "q_next": 0.5383625701931337,
+      "n": 46
+    },
+    {
+      "trading_date": "20191017",
+      "q_before": 0.5383625701931337,
+      "mean_x2_after_observation": 0.20339586784959637,
+      "q_next": 0.49500131926020796,
+      "n": 46
+    },
+    {
+      "trading_date": "20191018",
+      "q_before": 0.49500131926020796,
+      "mean_x2_after_observation": 0.5750779198891651,
+      "q_next": 0.5053671901047877,
+      "n": 46
+    },
+    {
+      "trading_date": "20191021",
+      "q_before": 0.5053671901047877,
+      "mean_x2_after_observation": 0.6505097515126994,
+      "q_next": 0.5241558129207996,
+      "n": 46
+    },
+    {
+      "trading_date": "20191022",
+      "q_before": 0.5241558129207996,
+      "mean_x2_after_observation": 0.4188522940341732,
+      "q_next": 0.5105243317179898,
+      "n": 46
+    },
+    {
+      "trading_date": "20191023",
+      "q_before": 0.5105243317179898,
+      "mean_x2_after_observation": 0.36240104252396205,
+      "q_next": 0.49134985536909764,
+      "n": 46
+    },
+    {
+      "trading_date": "20191024",
+      "q_before": 0.49134985536909764,
+      "mean_x2_after_observation": 0.350893658692536,
+      "q_next": 0.47316787982774794,
+      "n": 46
+    },
+    {
+      "trading_date": "20191025",
+      "q_before": 0.47316787982774794,
+      "mean_x2_after_observation": 0.6226140027351302,
+      "q_next": 0.4925135962556868,
+      "n": 46
+    },
+    {
+      "trading_date": "20191028",
+      "q_before": 0.4925135962556868,
+      "mean_x2_after_observation": 0.3632624462653994,
+      "q_next": 0.4757821076961159,
+      "n": 46
+    },
+    {
+      "trading_date": "20191029",
+      "q_before": 0.4757821076961159,
+      "mean_x2_after_observation": 0.4255015814714862,
+      "q_next": 0.4692733218991631,
+      "n": 46
+    },
+    {
+      "trading_date": "20191031",
+      "q_before": 0.4692733218991631,
+      "mean_x2_after_observation": 0.7210674958245155,
+      "q_next": 0.5018679358791177,
+      "n": 46
+    },
+    {
+      "trading_date": "20191101",
+      "q_before": 0.5018679358791177,
+      "mean_x2_after_observation": 0.6594723379104505,
+      "q_next": 0.5222697369441249,
+      "n": 46
+    },
+    {
+      "trading_date": "20191104",
+      "q_before": 0.5222697369441249,
+      "mean_x2_after_observation": 0.37796167814797615,
+      "q_next": 0.5035891400211336,
+      "n": 46
+    },
+    {
+      "trading_date": "20191105",
+      "q_before": 0.5035891400211336,
+      "mean_x2_after_observation": 0.784826675901477,
+      "q_next": 0.5399951806208302,
+      "n": 46
+    },
+    {
+      "trading_date": "20191106",
+      "q_before": 0.5399951806208302,
+      "mean_x2_after_observation": 0.3540570793529603,
+      "q_next": 0.5159255981499162,
+      "n": 46
+    },
+    {
+      "trading_date": "20191107",
+      "q_before": 0.5159255981499162,
+      "mean_x2_after_observation": 0.5723741119867614,
+      "q_next": 0.5232328264688668,
+      "n": 46
+    },
+    {
+      "trading_date": "20191108",
+      "q_before": 0.5232328264688668,
+      "mean_x2_after_observation": 0.49237220070678034,
+      "q_next": 0.5192379358476356,
+      "n": 46
+    },
+    {
+      "trading_date": "20191111",
+      "q_before": 0.5192379358476356,
+      "mean_x2_after_observation": 0.5556514519575864,
+      "q_next": 0.5239516449964763,
+      "n": 46
+    },
+    {
+      "trading_date": "20191112",
+      "q_before": 0.5239516449964763,
+      "mean_x2_after_observation": 0.4922413528465166,
+      "q_next": 0.5198467655399487,
+      "n": 46
+    },
+    {
+      "trading_date": "20191113",
+      "q_before": 0.5198467655399487,
+      "mean_x2_after_observation": 0.2657216749383846,
+      "q_next": 0.4869504157092548,
+      "n": 46
+    },
+    {
+      "trading_date": "20191114",
+      "q_before": 0.4869504157092548,
+      "mean_x2_after_observation": 0.23509767918558033,
+      "q_next": 0.45434822083393545,
+      "n": 46
+    },
+    {
+      "trading_date": "20191115",
+      "q_before": 0.45434822083393545,
+      "mean_x2_after_observation": 0.47012736347320444,
+      "q_next": 0.45639082196025893,
+      "n": 46
+    },
+    {
+      "trading_date": "20191118",
+      "q_before": 0.45639082196025893,
+      "mean_x2_after_observation": 0.5174075738512107,
+      "q_next": 0.46428940612204284,
+      "n": 46
+    },
+    {
+      "trading_date": "20191119",
+      "q_before": 0.46428940612204284,
+      "mean_x2_after_observation": 0.28066769818624315,
+      "q_next": 0.44051967946314996,
+      "n": 46
+    },
+    {
+      "trading_date": "20191120",
+      "q_before": 0.44051967946314996,
+      "mean_x2_after_observation": 0.18440714273208966,
+      "q_next": 0.4073660558505135,
+      "n": 46
+    },
+    {
+      "trading_date": "20191121",
+      "q_before": 0.4073660558505135,
+      "mean_x2_after_observation": 0.2249145553657417,
+      "q_next": 0.38374781188698287,
+      "n": 46
+    },
+    {
+      "trading_date": "20191122",
+      "q_before": 0.38374781188698287,
+      "mean_x2_after_observation": 0.38629479961677626,
+      "q_next": 0.38407751801389634,
+      "n": 46
+    },
+    {
+      "trading_date": "20191125",
+      "q_before": 0.38407751801389634,
+      "mean_x2_after_observation": 0.39488250269491665,
+      "q_next": 0.3854762171944484,
+      "n": 46
+    },
+    {
+      "trading_date": "20191126",
+      "q_before": 0.3854762171944484,
+      "mean_x2_after_observation": 0.24585616530571672,
+      "q_next": 0.3674024801248862,
+      "n": 46
+    },
+    {
+      "trading_date": "20191127",
+      "q_before": 0.3674024801248862,
+      "mean_x2_after_observation": 0.3923696209629806,
+      "q_next": 0.3706344624424838,
+      "n": 46
+    },
+    {
+      "trading_date": "20191128",
+      "q_before": 0.3706344624424838,
+      "mean_x2_after_observation": 0.17167265710309,
+      "q_next": 0.3448789688157131,
+      "n": 46
+    },
+    {
+      "trading_date": "20191129",
+      "q_before": 0.3448789688157131,
+      "mean_x2_after_observation": 0.27186645523531044,
+      "q_next": 0.3354275400603959,
+      "n": 46
+    },
+    {
+      "trading_date": "20191202",
+      "q_before": 0.3354275400603959,
+      "mean_x2_after_observation": 0.3763486415633673,
+      "q_next": 0.34072475359925763,
+      "n": 46
+    },
+    {
+      "trading_date": "20191203",
+      "q_before": 0.34072475359925763,
+      "mean_x2_after_observation": 0.35869664668435264,
+      "q_next": 0.3430512050356255,
+      "n": 46
+    },
+    {
+      "trading_date": "20191204",
+      "q_before": 0.3430512050356255,
+      "mean_x2_after_observation": 0.2261234695209209,
+      "q_next": 0.3279149755381872,
+      "n": 46
+    },
+    {
+      "trading_date": "20191205",
+      "q_before": 0.3279149755381872,
+      "mean_x2_after_observation": 0.5241820670789281,
+      "q_next": 0.3533216399816441,
+      "n": 46
+    },
+    {
+      "trading_date": "20191206",
+      "q_before": 0.3533216399816441,
+      "mean_x2_after_observation": 0.22751946325517597,
+      "q_next": 0.33703661906828136,
+      "n": 46
+    },
+    {
+      "trading_date": "20191209",
+      "q_before": 0.33703661906828136,
+      "mean_x2_after_observation": 0.24672692916759087,
+      "q_next": 0.32534608058173525,
+      "n": 46
+    },
+    {
+      "trading_date": "20191210",
+      "q_before": 0.32534608058173525,
+      "mean_x2_after_observation": 0.2514200165872157,
+      "q_next": 0.31577639323991,
+      "n": 46
+    },
+    {
+      "trading_date": "20191211",
+      "q_before": 0.31577639323991,
+      "mean_x2_after_observation": 0.2306593415889422,
+      "q_next": 0.3047580388497976,
+      "n": 46
+    },
+    {
+      "trading_date": "20191212",
+      "q_before": 0.3047580388497976,
+      "mean_x2_after_observation": 0.15831331759358083,
+      "q_next": 0.2858008521749242,
+      "n": 46
+    },
+    {
+      "trading_date": "20191213",
+      "q_before": 0.2858008521749242,
+      "mean_x2_after_observation": 0.7031699793208549,
+      "q_next": 0.33982905058155327,
+      "n": 46
+    },
+    {
+      "trading_date": "20191216",
+      "q_before": 0.33982905058155327,
+      "mean_x2_after_observation": 0.8462081406031153,
+      "q_next": 0.40537953854346576,
+      "n": 46
+    },
+    {
+      "trading_date": "20191217",
+      "q_before": 0.40537953854346576,
+      "mean_x2_after_observation": 1.6984066683865937,
+      "q_next": 0.5727611721444881,
+      "n": 46
+    },
+    {
+      "trading_date": "20191218",
+      "q_before": 0.5727611721444881,
+      "mean_x2_after_observation": 1.0221064687446944,
+      "q_next": 0.6309286676749208,
+      "n": 46
+    },
+    {
+      "trading_date": "20191219",
+      "q_before": 0.6309286676749208,
+      "mean_x2_after_observation": 0.5282320197558871,
+      "q_next": 0.6176346444504257,
+      "n": 46
+    },
+    {
+      "trading_date": "20191220",
+      "q_before": 0.6176346444504257,
+      "mean_x2_after_observation": 0.7134251783314578,
+      "q_next": 0.6300346751028888,
+      "n": 46
+    },
+    {
+      "trading_date": "20191223",
+      "q_before": 0.6300346751028888,
+      "mean_x2_after_observation": 0.9970155973240031,
+      "q_next": 0.677540148765481,
+      "n": 46
+    },
+    {
+      "trading_date": "20191224",
+      "q_before": 0.677540148765481,
+      "mean_x2_after_observation": 0.23689435374661688,
+      "q_next": 0.6204987988143574,
+      "n": 46
+    }
+  ],
+  "2026": [
+    {
+      "trading_date": "20260105",
+      "q_before": 1.0,
+      "mean_x2_after_observation": 0.29801653851238064,
+      "q_next": 0.9091286363349907,
+      "n": 46
+    },
+    {
+      "trading_date": "20260106",
+      "q_before": 0.9091286363349907,
+      "mean_x2_after_observation": 1.3683689345236425,
+      "q_next": 0.9685770342472317,
+      "n": 46
+    },
+    {
+      "trading_date": "20260107",
+      "q_before": 0.9685770342472317,
+      "mean_x2_after_observation": 0.38201422521184586,
+      "q_next": 0.8926468090261579,
+      "n": 46
+    },
+    {
+      "trading_date": "20260108",
+      "q_before": 0.8926468090261579,
+      "mean_x2_after_observation": 0.26569548591715075,
+      "q_next": 0.8114883134089472,
+      "n": 46
+    },
+    {
+      "trading_date": "20260109",
+      "q_before": 0.8114883134089472,
+      "mean_x2_after_observation": 0.31811012091597984,
+      "q_next": 0.7476207843087561,
+      "n": 46
+    },
+    {
+      "trading_date": "20260112",
+      "q_before": 0.7476207843087561,
+      "mean_x2_after_observation": 0.3480018165906389,
+      "q_next": 0.6958903340414614,
+      "n": 46
+    },
+    {
+      "trading_date": "20260113",
+      "q_before": 0.6958903340414614,
+      "mean_x2_after_observation": 0.5311346959940384,
+      "q_next": 0.6745628095024349,
+      "n": 46
+    },
+    {
+      "trading_date": "20260114",
+      "q_before": 0.6745628095024349,
+      "mean_x2_after_observation": 0.5817556225798113,
+      "q_next": 0.6625489714332299,
+      "n": 46
+    },
+    {
+      "trading_date": "20260115",
+      "q_before": 0.6625489714332299,
+      "mean_x2_after_observation": 0.43472629690912984,
+      "q_next": 0.6330574545477148,
+      "n": 46
+    },
+    {
+      "trading_date": "20260116",
+      "q_before": 0.6330574545477148,
+      "mean_x2_after_observation": 0.35057844204215494,
+      "q_next": 0.5964907054982029,
+      "n": 46
+    },
+    {
+      "trading_date": "20260119",
+      "q_before": 0.5964907054982029,
+      "mean_x2_after_observation": 0.2677539867647329,
+      "q_next": 0.5539359224342748,
+      "n": 46
+    },
+    {
+      "trading_date": "20260120",
+      "q_before": 0.5539359224342748,
+      "mean_x2_after_observation": 0.1728223619584639,
+      "q_next": 0.5046009867104726,
+      "n": 46
+    },
+    {
+      "trading_date": "20260121",
+      "q_before": 0.5046009867104726,
+      "mean_x2_after_observation": 0.17216810111245526,
+      "q_next": 0.4615677369279652,
+      "n": 46
+    },
+    {
+      "trading_date": "20260122",
+      "q_before": 0.4615677369279652,
+      "mean_x2_after_observation": 0.264021653381302,
+      "q_next": 0.4359955076897929,
+      "n": 46
+    },
+    {
+      "trading_date": "20260123",
+      "q_before": 0.4359955076897929,
+      "mean_x2_after_observation": 0.18511829178658837,
+      "q_next": 0.4035195934092864,
+      "n": 46
+    },
+    {
+      "trading_date": "20260126",
+      "q_before": 0.4035195934092864,
+      "mean_x2_after_observation": 0.6924172640466625,
+      "q_next": 0.4409172341383566,
+      "n": 46
+    },
+    {
+      "trading_date": "20260127",
+      "q_before": 0.4409172341383566,
+      "mean_x2_after_observation": 0.23091908579675433,
+      "q_next": 0.4137330921266792,
+      "n": 46
+    },
+    {
+      "trading_date": "20260128",
+      "q_before": 0.4137330921266792,
+      "mean_x2_after_observation": 0.31407554044552044,
+      "q_next": 0.4008324781982658,
+      "n": 46
+    },
+    {
+      "trading_date": "20260129",
+      "q_before": 0.4008324781982658,
+      "mean_x2_after_observation": 0.3561502333373959,
+      "q_next": 0.3950483867703615,
+      "n": 46
+    },
+    {
+      "trading_date": "20260130",
+      "q_before": 0.3950483867703615,
+      "mean_x2_after_observation": 0.3768936713604862,
+      "q_next": 0.392698269087034,
+      "n": 46
+    },
+    {
+      "trading_date": "20260202",
+      "q_before": 0.392698269087034,
+      "mean_x2_after_observation": 0.40302154558851355,
+      "q_next": 0.3940346114150889,
+      "n": 46
+    },
+    {
+      "trading_date": "20260203",
+      "q_before": 0.3940346114150889,
+      "mean_x2_after_observation": 0.17215976310970132,
+      "q_next": 0.3653130372831985,
+      "n": 46
+    },
+    {
+      "trading_date": "20260204",
+      "q_before": 0.3653130372831985,
+      "mean_x2_after_observation": 0.25547957298155943,
+      "q_next": 0.35109515719811607,
+      "n": 46
+    },
+    {
+      "trading_date": "20260205",
+      "q_before": 0.35109515719811607,
+      "mean_x2_after_observation": 0.20706082138845922,
+      "q_next": 0.3324499935615391,
+      "n": 46
+    },
+    {
+      "trading_date": "20260206",
+      "q_before": 0.3324499935615391,
+      "mean_x2_after_observation": 0.15155299523724217,
+      "q_next": 0.30903297902703686,
+      "n": 46
+    },
+    {
+      "trading_date": "20260209",
+      "q_before": 0.30903297902703686,
+      "mean_x2_after_observation": 0.16095615074929537,
+      "q_next": 0.28986451701758664,
+      "n": 46
+    },
+    {
+      "trading_date": "20260210",
+      "q_before": 0.28986451701758664,
+      "mean_x2_after_observation": 0.09812976464272438,
+      "q_next": 0.2650445613261036,
+      "n": 46
+    },
+    {
+      "trading_date": "20260211",
+      "q_before": 0.2650445613261036,
+      "mean_x2_after_observation": 0.07357072300978508,
+      "q_next": 0.24025838081252718,
+      "n": 46
+    },
+    {
+      "trading_date": "20260212",
+      "q_before": 0.24025838081252718,
+      "mean_x2_after_observation": 0.05013530264632622,
+      "q_next": 0.2156470554395055,
+      "n": 46
+    },
+    {
+      "trading_date": "20260213",
+      "q_before": 0.2156470554395055,
+      "mean_x2_after_observation": 0.09010542079568289,
+      "q_next": 0.19939576155197886,
+      "n": 46
+    },
+    {
+      "trading_date": "20260224",
+      "q_before": 0.19939576155197886,
+      "mean_x2_after_observation": 0.08005194580516824,
+      "q_next": 0.18394677182946306,
+      "n": 46
+    },
+    {
+      "trading_date": "20260225",
+      "q_before": 0.18394677182946306,
+      "mean_x2_after_observation": 0.1090685233044142,
+      "q_next": 0.17425382473652268,
+      "n": 46
+    },
+    {
+      "trading_date": "20260226",
+      "q_before": 0.17425382473652268,
+      "mean_x2_after_observation": 0.05661055522703098,
+      "q_next": 0.15902496976651673,
+      "n": 46
+    },
+    {
+      "trading_date": "20260227",
+      "q_before": 0.15902496976651673,
+      "mean_x2_after_observation": 0.1845645536670589,
+      "q_next": 0.16233105451609328,
+      "n": 46
+    },
+    {
+      "trading_date": "20260302",
+      "q_before": 0.16233105451609328,
+      "mean_x2_after_observation": 0.19402089376347298,
+      "q_next": 0.16643328635590296,
+      "n": 46
+    },
+    {
+      "trading_date": "20260303",
+      "q_before": 0.16643328635590296,
+      "mean_x2_after_observation": 0.43517476642578673,
+      "q_next": 0.2012217195699153,
+      "n": 46
+    },
+    {
+      "trading_date": "20260304",
+      "q_before": 0.2012217195699153,
+      "mean_x2_after_observation": 0.45275549713565705,
+      "q_next": 0.2337826253877986,
+      "n": 46
+    },
+    {
+      "trading_date": "20260305",
+      "q_before": 0.2337826253877986,
+      "mean_x2_after_observation": 0.14497106984508906,
+      "q_next": 0.22228601954999985,
+      "n": 46
+    },
+    {
+      "trading_date": "20260306",
+      "q_before": 0.22228601954999985,
+      "mean_x2_after_observation": 0.31886059785121085,
+      "q_next": 0.23478754431100596,
+      "n": 46
+    },
+    {
+      "trading_date": "20260309",
+      "q_before": 0.23478754431100596,
+      "mean_x2_after_observation": 0.2938757957755575,
+      "q_next": 0.24243648517890912,
+      "n": 46
+    },
+    {
+      "trading_date": "20260310",
+      "q_before": 0.24243648517890912,
+      "mean_x2_after_observation": 0.2632863429278405,
+      "q_next": 0.24513548751986422,
+      "n": 46
+    },
+    {
+      "trading_date": "20260311",
+      "q_before": 0.24513548751986422,
+      "mean_x2_after_observation": 0.2375509221619089,
+      "q_next": 0.24415366980663317,
+      "n": 46
+    },
+    {
+      "trading_date": "20260312",
+      "q_before": 0.24415366980663317,
+      "mean_x2_after_observation": 0.14131054050044428,
+      "q_next": 0.23084068464908314,
+      "n": 46
+    },
+    {
+      "trading_date": "20260313",
+      "q_before": 0.23084068464908314,
+      "mean_x2_after_observation": 0.11019489038685747,
+      "q_next": 0.21522315454114632,
+      "n": 46
+    },
+    {
+      "trading_date": "20260316",
+      "q_before": 0.21522315454114632,
+      "mean_x2_after_observation": 0.16838957980098285,
+      "q_next": 0.20916057467220328,
+      "n": 46
+    },
+    {
+      "trading_date": "20260317",
+      "q_before": 0.20916057467220328,
+      "mean_x2_after_observation": 0.7066409603128733,
+      "q_next": 0.27355913036461493,
+      "n": 46
+    },
+    {
+      "trading_date": "20260318",
+      "q_before": 0.27355913036461493,
+      "mean_x2_after_observation": 0.2933888658433585,
+      "q_next": 0.2761260784523252,
+      "n": 46
+    },
+    {
+      "trading_date": "20260319",
+      "q_before": 0.2761260784523252,
+      "mean_x2_after_observation": 0.4249796831849798,
+      "q_next": 0.2953950937363087,
+      "n": 46
+    },
+    {
+      "trading_date": "20260320",
+      "q_before": 0.2953950937363087,
+      "mean_x2_after_observation": 0.21114306861980764,
+      "q_next": 0.28448871654381686,
+      "n": 46
+    },
+    {
+      "trading_date": "20260323",
+      "q_before": 0.28448871654381686,
+      "mean_x2_after_observation": 1.037308998525652,
+      "q_next": 0.38194087798561843,
+      "n": 46
+    },
+    {
+      "trading_date": "20260324",
+      "q_before": 0.38194087798561843,
+      "mean_x2_after_observation": 0.7750052357981358,
+      "q_next": 0.4328228376928195,
+      "n": 46
+    },
+    {
+      "trading_date": "20260325",
+      "q_before": 0.4328228376928195,
+      "mean_x2_after_observation": 0.2820708079297563,
+      "q_next": 0.413308072358025,
+      "n": 46
+    },
+    {
+      "trading_date": "20260326",
+      "q_before": 0.413308072358025,
+      "mean_x2_after_observation": 0.20686855019057096,
+      "q_next": 0.3865845925000308,
+      "n": 46
+    },
+    {
+      "trading_date": "20260327",
+      "q_before": 0.3865845925000308,
+      "mean_x2_after_observation": 0.2848029868054699,
+      "q_next": 0.3734090209760539,
+      "n": 46
+    },
+    {
+      "trading_date": "20260330",
+      "q_before": 0.3734090209760539,
+      "mean_x2_after_observation": 0.2377773143676107,
+      "q_next": 0.35585157295640557,
+      "n": 46
+    },
+    {
+      "trading_date": "20260331",
+      "q_before": 0.35585157295640557,
+      "mean_x2_after_observation": 0.3879666429728071,
+      "q_next": 0.3600088506797343,
+      "n": 46
+    },
+    {
+      "trading_date": "20260401",
+      "q_before": 0.3600088506797343,
+      "mean_x2_after_observation": 0.35696899944537286,
+      "q_next": 0.35961534364978265,
+      "n": 46
+    },
+    {
+      "trading_date": "20260402",
+      "q_before": 0.35961534364978265,
+      "mean_x2_after_observation": 0.1668915227561011,
+      "q_next": 0.3346673535956769,
+      "n": 46
+    },
+    {
+      "trading_date": "20260403",
+      "q_before": 0.3346673535956769,
+      "mean_x2_after_observation": 0.1882561953309187,
+      "q_next": 0.31571451163114195,
+      "n": 46
+    },
+    {
+      "trading_date": "20260407",
+      "q_before": 0.31571451163114195,
+      "mean_x2_after_observation": 0.16068401212377276,
+      "q_next": 0.2956459007979925,
+      "n": 46
+    },
+    {
+      "trading_date": "20260408",
+      "q_before": 0.2956459007979925,
+      "mean_x2_after_observation": 0.3123828872614091,
+      "q_next": 0.2978124942678022,
+      "n": 46
+    },
+    {
+      "trading_date": "20260409",
+      "q_before": 0.2978124942678022,
+      "mean_x2_after_observation": 0.09017019814566188,
+      "q_next": 0.27093331599889175,
+      "n": 46
+    },
+    {
+      "trading_date": "20260410",
+      "q_before": 0.27093331599889175,
+      "mean_x2_after_observation": 1.9762418727789832,
+      "q_next": 0.4916845480803741,
+      "n": 46
+    },
+    {
+      "trading_date": "20260413",
+      "q_before": 0.4916845480803741,
+      "mean_x2_after_observation": 0.4158107756248672,
+      "q_next": 0.48186273097541066,
+      "n": 46
+    },
+    {
+      "trading_date": "20260414",
+      "q_before": 0.48186273097541066,
+      "mean_x2_after_observation": 0.19264554122891167,
+      "q_next": 0.44442372867764834,
+      "n": 46
+    },
+    {
+      "trading_date": "20260415",
+      "q_before": 0.44442372867764834,
+      "mean_x2_after_observation": 0.12208988507072333,
+      "q_next": 0.4026977941921367,
+      "n": 46
+    },
+    {
+      "trading_date": "20260416",
+      "q_before": 0.4026977941921367,
+      "mean_x2_after_observation": 0.36614196761119167,
+      "q_next": 0.3979656630329888,
+      "n": 46
+    },
+    {
+      "trading_date": "20260417",
+      "q_before": 0.3979656630329888,
+      "mean_x2_after_observation": 0.17082290284507035,
+      "q_next": 0.3685621606752992,
+      "n": 46
+    },
+    {
+      "trading_date": "20260420",
+      "q_before": 0.3685621606752992,
+      "mean_x2_after_observation": 0.16415371634842266,
+      "q_next": 0.34210160269966944,
+      "n": 46
+    },
+    {
+      "trading_date": "20260421",
+      "q_before": 0.34210160269966944,
+      "mean_x2_after_observation": 0.1377324316316556,
+      "q_next": 0.31564612862527697,
+      "n": 46
+    },
+    {
+      "trading_date": "20260422",
+      "q_before": 0.31564612862527697,
+      "mean_x2_after_observation": 0.7312622855363599,
+      "q_next": 0.3694474060224463,
+      "n": 46
+    },
+    {
+      "trading_date": "20260423",
+      "q_before": 0.3694474060224463,
+      "mean_x2_after_observation": 0.1771139533131903,
+      "q_next": 0.3445499489099216,
+      "n": 46
+    },
+    {
+      "trading_date": "20260424",
+      "q_before": 0.3445499489099216,
+      "mean_x2_after_observation": 0.24194513105744225,
+      "q_next": 0.3312678130358143,
+      "n": 46
+    },
+    {
+      "trading_date": "20260427",
+      "q_before": 0.3312678130358143,
+      "mean_x2_after_observation": 0.6984585246437682,
+      "q_next": 0.3788004438163593,
+      "n": 46
+    },
+    {
+      "trading_date": "20260428",
+      "q_before": 0.3788004438163593,
+      "mean_x2_after_observation": 0.9041126955708788,
+      "q_next": 0.44680181889962645,
+      "n": 46
+    },
+    {
+      "trading_date": "20260429",
+      "q_before": 0.44680181889962645,
+      "mean_x2_after_observation": 0.2823029283095432,
+      "q_next": 0.42550753017432763,
+      "n": 46
+    },
+    {
+      "trading_date": "20260430",
+      "q_before": 0.42550753017432763,
+      "mean_x2_after_observation": 0.8668373328410837,
+      "q_next": 0.4826374245301719,
+      "n": 46
+    },
+    {
+      "trading_date": "20260506",
+      "q_before": 0.4826374245301719,
+      "mean_x2_after_observation": 0.5429902879484715,
+      "q_next": 0.49045006870313673,
+      "n": 46
+    },
+    {
+      "trading_date": "20260507",
+      "q_before": 0.49045006870313673,
+      "mean_x2_after_observation": 0.328759641109704,
+      "q_next": 0.46951933393075806,
+      "n": 46
+    },
+    {
+      "trading_date": "20260508",
+      "q_before": 0.46951933393075806,
+      "mean_x2_after_observation": 0.16256447711473185,
+      "q_next": 0.42978420062240463,
+      "n": 46
+    },
+    {
+      "trading_date": "20260511",
+      "q_before": 0.42978420062240463,
+      "mean_x2_after_observation": 0.6227121470330669,
+      "q_next": 0.4547586146097004,
+      "n": 46
+    },
+    {
+      "trading_date": "20260512",
+      "q_before": 0.4547586146097004,
+      "mean_x2_after_observation": 0.31664152854368804,
+      "q_next": 0.43687943561927434,
+      "n": 46
+    },
+    {
+      "trading_date": "20260513",
+      "q_before": 0.43687943561927434,
+      "mean_x2_after_observation": 0.2286390051487582,
+      "q_next": 0.4099228291958934,
+      "n": 46
+    },
+    {
+      "trading_date": "20260514",
+      "q_before": 0.4099228291958934,
+      "mean_x2_after_observation": 0.6166035283838556,
+      "q_next": 0.43667752928333836,
+      "n": 46
+    },
+    {
+      "trading_date": "20260515",
+      "q_before": 0.43667752928333836,
+      "mean_x2_after_observation": 0.4497478360499863,
+      "q_next": 0.4383694731318278,
+      "n": 46
+    },
+    {
+      "trading_date": "20260518",
+      "q_before": 0.4383694731318278,
+      "mean_x2_after_observation": 0.29958062820153064,
+      "q_next": 0.4204033353348192,
+      "n": 46
+    },
+    {
+      "trading_date": "20260519",
+      "q_before": 0.4204033353348192,
+      "mean_x2_after_observation": 0.566258110031599,
+      "q_next": 0.4392841537598881,
+      "n": 46
+    },
+    {
+      "trading_date": "20260520",
+      "q_before": 0.4392841537598881,
+      "mean_x2_after_observation": 0.3778354045358328,
+      "q_next": 0.43132964778667643,
+      "n": 46
+    },
+    {
+      "trading_date": "20260521",
+      "q_before": 0.43132964778667643,
+      "mean_x2_after_observation": 1.501499538929555,
+      "q_next": 0.5698625373725702,
+      "n": 46
+    },
+    {
+      "trading_date": "20260522",
+      "q_before": 0.5698625373725702,
+      "mean_x2_after_observation": 0.29765201252202445,
+      "q_next": 0.5346250382658007,
+      "n": 46
+    },
+    {
+      "trading_date": "20260525",
+      "q_before": 0.5346250382658007,
+      "mean_x2_after_observation": 0.3272791102169778,
+      "q_next": 0.5077842246770382,
+      "n": 46
+    },
+    {
+      "trading_date": "20260526",
+      "q_before": 0.5077842246770382,
+      "mean_x2_after_observation": 0.8893016643304049,
+      "q_next": 0.5571714423328715,
+      "n": 46
+    },
+    {
+      "trading_date": "20260527",
+      "q_before": 0.5571714423328715,
+      "mean_x2_after_observation": 0.9733208010190838,
+      "q_next": 0.611041742399481,
+      "n": 46
+    },
+    {
+      "trading_date": "20260528",
+      "q_before": 0.611041742399481,
+      "mean_x2_after_observation": 0.48664403098870107,
+      "q_next": 0.5949385287301041,
+      "n": 46
+    },
+    {
+      "trading_date": "20260529",
+      "q_before": 0.5949385287301041,
+      "mean_x2_after_observation": 1.6891113245044576,
+      "q_next": 0.7365785807997992,
+      "n": 46
+    },
+    {
+      "trading_date": "20260601",
+      "q_before": 0.7365785807997992,
+      "mean_x2_after_observation": 0.44316155091251214,
+      "q_next": 0.6985959115615655,
+      "n": 46
+    },
+    {
+      "trading_date": "20260602",
+      "q_before": 0.6985959115615655,
+      "mean_x2_after_observation": 0.7693634593475468,
+      "q_next": 0.7077567307593754,
+      "n": 46
+    },
+    {
+      "trading_date": "20260603",
+      "q_before": 0.7077567307593754,
+      "mean_x2_after_observation": 0.6970869590620083,
+      "q_next": 0.7063755348233923,
+      "n": 46
+    },
+    {
+      "trading_date": "20260604",
+      "q_before": 0.7063755348233923,
+      "mean_x2_after_observation": 0.46657875660761233,
+      "q_next": 0.6753339769599553,
+      "n": 46
+    },
+    {
+      "trading_date": "20260605",
+      "q_before": 0.6753339769599553,
+      "mean_x2_after_observation": 0.42453157943924325,
+      "q_next": 0.6428677478769176,
+      "n": 46
+    },
+    {
+      "trading_date": "20260608",
+      "q_before": 0.6428677478769176,
+      "mean_x2_after_observation": 0.7908494038756019,
+      "q_next": 0.6620238898884541,
+      "n": 46
+    },
+    {
+      "trading_date": "20260609",
+      "q_before": 0.6620238898884541,
+      "mean_x2_after_observation": 0.48686469420228173,
+      "q_next": 0.6393496306733751,
+      "n": 46
+    },
+    {
+      "trading_date": "20260610",
+      "q_before": 0.6393496306733751,
+      "mean_x2_after_observation": 1.0714832018316096,
+      "q_next": 0.6952890780406429,
+      "n": 46
+    },
+    {
+      "trading_date": "20260611",
+      "q_before": 0.6952890780406429,
+      "mean_x2_after_observation": 0.8984145197869345,
+      "q_next": 0.7215835520549263,
+      "n": 46
+    },
+    {
+      "trading_date": "20260612",
+      "q_before": 0.7215835520549263,
+      "mean_x2_after_observation": 1.3157220787134531,
+      "q_next": 0.7984944496549433,
+      "n": 46
+    },
+    {
+      "trading_date": "20260615",
+      "q_before": 0.7984944496549433,
+      "mean_x2_after_observation": 1.0971669118451841,
+      "q_next": 0.8371574316444297,
+      "n": 46
+    },
+    {
+      "trading_date": "20260616",
+      "q_before": 0.8371574316444297,
+      "mean_x2_after_observation": 0.7103255791458085,
+      "q_next": 0.8207391197823741,
+      "n": 46
+    },
+    {
+      "trading_date": "20260617",
+      "q_before": 0.8207391197823741,
+      "mean_x2_after_observation": 0.5649872931787027,
+      "q_next": 0.7876321898925415,
+      "n": 46
+    },
+    {
+      "trading_date": "20260618",
+      "q_before": 0.7876321898925415,
+      "mean_x2_after_observation": 0.8023843979950659,
+      "q_next": 0.7895418549215516,
+      "n": 46
+    },
+    {
+      "trading_date": "20260622",
+      "q_before": 0.7895418549215516,
+      "mean_x2_after_observation": 2.569954167776059,
+      "q_next": 1.0200152259212125,
+      "n": 46
+    },
+    {
+      "trading_date": "20260623",
+      "q_before": 1.0200152259212125,
+      "mean_x2_after_observation": 1.855421391112689,
+      "q_next": 1.1281580834241942,
+      "n": 46
+    },
+    {
+      "trading_date": "20260624",
+      "q_before": 1.1281580834241942,
+      "mean_x2_after_observation": 1.1740162758318478,
+      "q_next": 1.134094400599623,
+      "n": 46
+    },
+    {
+      "trading_date": "20260625",
+      "q_before": 1.134094400599623,
+      "mean_x2_after_observation": 3.6762927174911004,
+      "q_next": 1.463180540710766,
+      "n": 46
+    },
+    {
+      "trading_date": "20260626",
+      "q_before": 1.463180540710766,
+      "mean_x2_after_observation": 1.3650037952270855,
+      "q_next": 1.4504716163104838,
+      "n": 46
+    },
+    {
+      "trading_date": "20260629",
+      "q_before": 1.4504716163104838,
+      "mean_x2_after_observation": 3.425462981812058,
+      "q_next": 1.7061331360696812,
+      "n": 46
+    },
+    {
+      "trading_date": "20260630",
+      "q_before": 1.7061331360696812,
+      "mean_x2_after_observation": 1.1714066740519642,
+      "q_next": 1.6369130967708312,
+      "n": 46
+    },
+    {
+      "trading_date": "20260701",
+      "q_before": 1.6369130967708312,
+      "mean_x2_after_observation": 2.3806541457342285,
+      "q_next": 1.7331899566126927,
+      "n": 46
+    },
+    {
+      "trading_date": "20260702",
+      "q_before": 1.7331899566126927,
+      "mean_x2_after_observation": 0.6278417468937468,
+      "q_next": 1.5901032535029376,
+      "n": 46
+    },
+    {
+      "trading_date": "20260703",
+      "q_before": 1.5901032535029376,
+      "mean_x2_after_observation": 1.130908483920228,
+      "q_next": 1.53066074924309,
+      "n": 46
+    },
+    {
+      "trading_date": "20260706",
+      "q_before": 1.53066074924309,
+      "mean_x2_after_observation": 0.9846109052719393,
+      "q_next": 1.459974904528785,
+      "n": 46
+    },
+    {
+      "trading_date": "20260707",
+      "q_before": 1.459974904528785,
+      "mean_x2_after_observation": 0.8244901405692103,
+      "q_next": 1.3777117598003228,
+      "n": 46
+    },
+    {
+      "trading_date": "20260708",
+      "q_before": 1.3777117598003228,
+      "mean_x2_after_observation": 1.0594546409359942,
+      "q_next": 1.336513555036337,
+      "n": 46
+    },
+    {
+      "trading_date": "20260709",
+      "q_before": 1.336513555036337,
+      "mean_x2_after_observation": 0.8433989072164497,
+      "q_next": 1.2726801416456224,
+      "n": 46
+    },
+    {
+      "trading_date": "20260710",
+      "q_before": 1.2726801416456224,
+      "mean_x2_after_observation": 0.5911468288359923,
+      "q_next": 1.1844560382074893,
+      "n": 46
+    },
+    {
+      "trading_date": "20260713",
+      "q_before": 1.1844560382074893,
+      "mean_x2_after_observation": 1.3982590677841353,
+      "q_next": 1.2121327199517682,
+      "n": 46
+    },
+    {
+      "trading_date": "20260714",
+      "q_before": 1.2121327199517682,
+      "mean_x2_after_observation": 0.9704825828502217,
+      "q_next": 1.1808512458245586,
+      "n": 46
+    },
+    {
+      "trading_date": "20260715",
+      "q_before": 1.1808512458245586,
+      "mean_x2_after_observation": 1.0146355571080905,
+      "q_next": 1.1593347185488652,
+      "n": 46
+    },
+    {
+      "trading_date": "20260716",
+      "q_before": 1.1593347185488652,
+      "mean_x2_after_observation": 0.500223541585134,
+      "q_next": 1.0740131479656816,
+      "n": 46
+    },
+    {
+      "trading_date": "20260717",
+      "q_before": 1.0740131479656816,
+      "mean_x2_after_observation": 1.2862183878594096,
+      "q_next": 1.1014829967355355,
+      "n": 46
+    },
+    {
+      "trading_date": "20260720",
+      "q_before": 1.1014829967355355,
+      "mean_x2_after_observation": 0.9428931256614621,
+      "q_next": 1.0809536272580564,
+      "n": 46
+    },
+    {
+      "trading_date": "20260721",
+      "q_before": 1.0809536272580564,
+      "mean_x2_after_observation": 0.6309319319900218,
+      "q_next": 1.0226985723010862,
+      "n": 46
+    },
+    {
+      "trading_date": "20260722",
+      "q_before": 1.0226985723010862,
+      "mean_x2_after_observation": 0.45861517467934904,
+      "q_next": 0.9496782942249439,
+      "n": 46
+    },
+    {
+      "trading_date": "20260723",
+      "q_before": 0.9496782942249439,
+      "mean_x2_after_observation": 0.3547166029931695,
+      "q_next": 0.8726608384346054,
+      "n": 46
+    },
+    {
+      "trading_date": "20260724",
+      "q_before": 0.8726608384346054,
+      "mean_x2_after_observation": 0.3814858542206963,
+      "q_next": 0.8090785134050797,
+      "n": 46
+    },
+    {
+      "trading_date": "20260727",
+      "q_before": 0.8090785134050797,
+      "mean_x2_after_observation": 0.42439087391878905,
+      "q_next": 0.7592809151666358,
+      "n": 46
+    },
+    {
+      "trading_date": "20260728",
+      "q_before": 0.7592809151666358,
+      "mean_x2_after_observation": 0.5606832302265304,
+      "q_next": 0.7335725567204453,
+      "n": 46
+    },
+    {
+      "trading_date": "20260729",
+      "q_before": 0.7335725567204453,
+      "mean_x2_after_observation": 0.2894455687305278,
+      "q_next": 0.6760805683001614,
+      "n": 46
+    },
+    {
+      "trading_date": "20260730",
+      "q_before": 0.6760805683001614,
+      "mean_x2_after_observation": 0.5874725242721586,
+      "q_next": 0.6646103069133042,
+      "n": 46
+    },
+    {
+      "trading_date": "20260731",
+      "q_before": 0.6646103069133042,
+      "mean_x2_after_observation": 0.38904068513442974,
+      "q_next": 0.6289379746013288,
+      "n": 46
+    },
+    {
+      "trading_date": "20260803",
+      "q_before": 0.6289379746013288,
+      "mean_x2_after_observation": 0.2002593796189651,
+      "q_next": 0.5734457719538529,
+      "n": 46
+    },
+    {
+      "trading_date": "20260804",
+      "q_before": 0.5734457719538529,
+      "mean_x2_after_observation": 0.13663438677131354,
+      "q_next": 0.5169007841961335,
+      "n": 46
+    },
+    {
+      "trading_date": "20260805",
+      "q_before": 0.5169007841961335,
+      "mean_x2_after_observation": 0.21957792896592251,
+      "q_next": 0.47841250806739466,
+      "n": 46
+    },
+    {
+      "trading_date": "20260806",
+      "q_before": 0.47841250806739466,
+      "mean_x2_after_observation": 0.11568236423607775,
+      "q_next": 0.4314572952729148,
+      "n": 46
+    },
+    {
+      "trading_date": "20260807",
+      "q_before": 0.4314572952729148,
+      "mean_x2_after_observation": 0.24202951466136782,
+      "q_next": 0.40693597577668467,
+      "n": 46
+    },
+    {
+      "trading_date": "20260810",
+      "q_before": 0.40693597577668467,
+      "mean_x2_after_observation": 0.10056346002155224,
+      "q_next": 0.36727622619063344,
+      "n": 46
+    },
+    {
+      "trading_date": "20260811",
+      "q_before": 0.36727622619063344,
+      "mean_x2_after_observation": 0.16448712699939608,
+      "q_next": 0.3410252915306413,
+      "n": 46
+    },
+    {
+      "trading_date": "20260812",
+      "q_before": 0.3410252915306413,
+      "mean_x2_after_observation": 0.14474091856373827,
+      "q_next": 0.3156163900163022,
+      "n": 46
+    },
+    {
+      "trading_date": "20260813",
+      "q_before": 0.3156163900163022,
+      "mean_x2_after_observation": 0.16698890999431396,
+      "q_next": 0.2963766464487393,
+      "n": 46
+    },
+    {
+      "trading_date": "20260814",
+      "q_before": 0.2963766464487393,
+      "mean_x2_after_observation": 0.17929644565270433,
+      "q_next": 0.2812206804065159,
+      "n": 46
+    },
+    {
+      "trading_date": "20260817",
+      "q_before": 0.2812206804065159,
+      "mean_x2_after_observation": 0.30622093217235397,
+      "q_next": 0.2844569489150587,
+      "n": 46
+    },
+    {
+      "trading_date": "20260818",
+      "q_before": 0.2844569489150587,
+      "mean_x2_after_observation": 0.19213769235821063,
+      "q_next": 0.2725062731568541,
+      "n": 46
+    },
+    {
+      "trading_date": "20260819",
+      "q_before": 0.2725062731568541,
+      "mean_x2_after_observation": 0.20565544638466912,
+      "q_next": 0.2638524712880064,
+      "n": 46
+    },
+    {
+      "trading_date": "20260820",
+      "q_before": 0.2638524712880064,
+      "mean_x2_after_observation": 0.22454461920767632,
+      "q_next": 0.25876409197816835,
+      "n": 46
+    },
+    {
+      "trading_date": "20260821",
+      "q_before": 0.25876409197816835,
+      "mean_x2_after_observation": 0.2351623828040022,
+      "q_next": 0.25570886402032383,
+      "n": 46
+    },
+    {
+      "trading_date": "20260824",
+      "q_before": 0.25570886402032383,
+      "mean_x2_after_observation": 0.2606320669329126,
+      "q_next": 0.25634616986413733,
+      "n": 46
+    },
+    {
+      "trading_date": "20260825",
+      "q_before": 0.25634616986413733,
+      "mean_x2_after_observation": 0.09476706898691578,
+      "q_next": 0.23542984627246225,
+      "n": 46
+    },
+    {
+      "trading_date": "20260826",
+      "q_before": 0.23542984627246225,
+      "mean_x2_after_observation": 0.3805874591073803,
+      "q_next": 0.2542204174872217,
+      "n": 46
+    },
+    {
+      "trading_date": "20260827",
+      "q_before": 0.2542204174872217,
+      "mean_x2_after_observation": 0.27120363947479814,
+      "q_next": 0.25641888600693036,
+      "n": 46
+    },
+    {
+      "trading_date": "20260828",
+      "q_before": 0.25641888600693036,
+      "mean_x2_after_observation": 0.22839061772301134,
+      "q_next": 0.25279064246579197,
+      "n": 46
+    },
+    {
+      "trading_date": "20260831",
+      "q_before": 0.25279064246579197,
+      "mean_x2_after_observation": 0.2873739898164892,
+      "q_next": 0.2572674372996742,
+      "n": 46
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "source_hashes_unchanged": true,
+  "training_scale_matches_main_fit": true,
+  "bootstrap_draws_and_session_counts_checked": 20,
+  "clock_independent_point_and_5day_ci_cases": 4,
+  "clock_ci_replicates_per_case": 2000,
+  "clock_max_abs_difference_numpy_corrcoef": 4.579669976578771e-16,
+  "intraday_group_count": 46,
+  "validator_sha256": "a61b57ebc80769fc2d0842df815de648e490675f5450819fb9bab6774102c3d0"
+}

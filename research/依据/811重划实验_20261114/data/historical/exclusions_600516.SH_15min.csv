@@ -1,0 +1,2 @@
+symbol,trading_date,session_id,frequency_minutes,bar_start,bar_end,reason,n_missing_labels,n_required_labels,n_bars_used,detail
+600516.SH,20170731,,15,,,empty_day_no_minute_bars,0,0,0,file carries 0 minute bars and 1 terminal row(s)
