@@ -2,8 +2,8 @@
   "format_version": 1,
   "submission_date": "2026-11-15",
   "project": "A股收益的分层波动模型：静态拟合与条件背景更新",
-  "file_count": 444,
-  "total_bytes": 204350733,
+  "file_count": 455,
+  "total_bytes": 234636552,
   "scope": "Tracked submission files. This manifest excludes itself, .git and generated verification/build output.",
   "files": {
     ".gitattributes": {
@@ -15,12 +15,56 @@
       "sha256": "30569fc1365054f7e586fce122c84600f4fc954631162c7074b5bb065ad00e26"
     },
     "README.md": {
-      "bytes": 4675,
-      "sha256": "29c244691b265093cc578a36e6240303be28fafb94c823cb31a3e12629c58de6"
+      "bytes": 4664,
+      "sha256": "01a4c64a387240b748a9b43786b304ec4875eed3f8f4e914d380ac1520d75303"
+    },
+    "data/raw-minute/600030.SH-1min.zip": {
+      "bytes": 3586342,
+      "sha256": "e2ebe1f797daf88bb8bb814da1dc7459055b2395bf5d0af7d45162ff117587a4"
+    },
+    "data/raw-minute/600036.SH-1min.zip": {
+      "bytes": 3694256,
+      "sha256": "c22e97c5ca43b46beb34ed18caa5c9436059413230926051f3300ee2f06bbf87"
+    },
+    "data/raw-minute/600516.SH-1min.zip": {
+      "bytes": 3502344,
+      "sha256": "63fd51058bdab414f7817a1797230dda67d5a891bdc0c89c84b1ba113ebb5d7b"
+    },
+    "data/raw-minute/600519.SH-1min.zip": {
+      "bytes": 4147933,
+      "sha256": "818b7dd5dfa6f5a094724a9fdd500eb3b750227877e83693feaab756a762a75e"
+    },
+    "data/raw-minute/600887.SH-1min.zip": {
+      "bytes": 3653663,
+      "sha256": "e7d59e34528f65d5e47db09ebf733e0a1fe1ccee83de76794f644b3043b89fc0"
+    },
+    "data/raw-minute/601318.SH-1min.zip": {
+      "bytes": 3952763,
+      "sha256": "4cf0a8c89483a6056af79c4515b68a466d1278628fd3485e91fc5bd6aeeb1eed"
+    },
+    "data/raw-minute/601668.SH-1min.zip": {
+      "bytes": 3222821,
+      "sha256": "225f32b1a5e790fd62b023a55d51f70a7307c8cce76294dca8d017787779dfde"
+    },
+    "data/raw-minute/603799.SH-1min.zip": {
+      "bytes": 3310908,
+      "sha256": "a3efd7d0ab49a3d8e87f8036d5b254357b15899ca5e461799cc1b49634d2d93c"
+    },
+    "data/raw-minute/README.md": {
+      "bytes": 1923,
+      "sha256": "ec26f443c5b51be49d595a57521faf6f409593e97837360dd29803feb70ffeeb"
+    },
+    "data/raw-minute/index.csv": {
+      "bytes": 1211952,
+      "sha256": "36480103a29a31b1428a0af0e142665aefbf8230f5ee6c1f1551fc672b1d5722"
+    },
+    "data/raw-minute/summary.csv": {
+      "bytes": 334,
+      "sha256": "61c78ff81b47047abd73608c969d571b6bc0b846907e2eb623aa79892f423ead"
     },
     "docs/DATA.md": {
-      "bytes": 1589,
-      "sha256": "47a13382b58d1f64e3bed090bf862571e0889f627d22ba8c30356469a4fd3e0c"
+      "bytes": 1680,
+      "sha256": "f2a177bac23b9d1db7b6a0f35d3a60e849e3aae4586028e0ec385fa2c82a5eca"
     },
     "docs/FIGURES.md": {
       "bytes": 3520,
@@ -31,8 +75,8 @@
       "sha256": "8c99d692d6783c1a4acf1ee2ea579f4f6947d5ec03e33e43788c4421464ea264"
     },
     "docs/submission_provenance.json": {
-      "bytes": 4058,
-      "sha256": "dbb9c542f3a899d8ab726d98ac875e2180e547db56ed4e034e49d92f720a667a"
+      "bytes": 4558,
+      "sha256": "bc16e73eb4e5bf6649a2acc0cf2e94d3ded934e496121a5acb6f6f67440f5719"
     },
     "docs/validation/conditional_portable_check.json": {
       "bytes": 24046,
@@ -1782,5 +1826,6 @@
       "bytes": 4478,
       "sha256": "89ebef21cbfffbc8486af7cd9a19449048dad1e984cec0644590089fa10c4953"
     }
-  }
+  },
+  "last_data_addendum": "2026-11-18"
 }

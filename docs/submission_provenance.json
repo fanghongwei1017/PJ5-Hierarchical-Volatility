@@ -42,8 +42,8 @@
     }
   ],
   "copied_without_modification": false,
-  "raw_market_bars_included": false,
-  "data_scope": "Empirical return inputs, screening statistics, model outputs and provenance.",
+  "raw_market_bars_included": true,
+  "data_scope": "Final eight-stock sample: original one-minute bars for the two study periods, derived returns, screening statistics, model outputs and provenance.",
   "approved_documents_scope": "Initial imported submission before the member-name correction; retained as historical provenance.",
   "experiment_files_unchanged": true,
   "current_documents": {
@@ -86,5 +86,23 @@
     "docs/validation/package_checks.json": "Initial package verification before the name correction.",
     "docs/validation/member_name_revision.json": "Historical member-name correction before the repository link was appended.",
     "docs/validation/repository_link_revision.json": "Current report repository link and final-page comparison."
+  },
+  "initial_submission_raw_market_bars_included": false,
+  "data_addendum": {
+    "date": "2026-11-18",
+    "path": "data/raw-minute/",
+    "symbols": [
+      "601318.SH",
+      "600519.SH",
+      "600030.SH",
+      "600887.SH",
+      "600036.SH",
+      "603799.SH",
+      "600516.SH",
+      "601668.SH"
+    ],
+    "history_source_files": 5844,
+    "subsequent_source_files": 1165,
+    "minute_rows": 1678159
   }
 }
