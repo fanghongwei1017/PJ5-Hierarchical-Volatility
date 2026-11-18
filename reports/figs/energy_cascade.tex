@@ -1,0 +1,10 @@
+\begin{tikzpicture}[arr/.style={-{Stealth[length=2.1mm]},semithick},every node/.style={font=\small,align=center}]
+\node (in) at (0,0) {外力输入\\大尺度 $L$};
+\node[draw,circle,minimum size=9.5mm,inner sep=0pt,blue!65!black] (a) at (2.5,0) {$\ell_1$};
+\node[draw,circle,minimum size=7mm,inner sep=0pt,blue!65!black] (b) at (4.5,0) {$\ell_2$};
+\node (dots) at (6.0,0) {$\cdots$};
+\node[draw,circle,minimum size=5.5mm,inner sep=0pt,blue!65!black] (c) at (7.6,0) {$\ell_n$};
+\node (out) at (10.15,0) {黏性耗散\\小尺度 $\eta$};
+\draw[arr] (in)--(a);\draw[arr] (a)--(b);\draw[arr] (b)--(dots);\draw[arr] (dots)--(c);\draw[arr] (c)--(out);
+\node at (5.0,-.73) {惯性区：动能平均由较大尺度传向较小尺度};
+\end{tikzpicture}

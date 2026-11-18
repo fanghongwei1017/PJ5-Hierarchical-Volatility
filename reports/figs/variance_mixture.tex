@@ -1,0 +1,13 @@
+\begin{tikzpicture}
+\begin{groupplot}[group style={group size=2 by 1,horizontal sep=1.7cm},width=.44\linewidth,height=6.3cm,
+grid=major,grid style={black!10},legend style={font=\scriptsize,draw=none,fill=white},tick label style={font=\small}]
+\nextgroupplot[title={(a) 背景方差的分布},xlabel={方差 $v$},ylabel={密度},xmode=log,ymode=log,ymin=.001,legend pos=south west]
+\addplot[only marks,black!65,mark=*,mark size=1.3pt] table[x=v,y=density,col sep=comma]{variance_empirical.csv};\addlegendentry{滚动窗口}
+\addplot[blue!70!black,semithick] table[x=v,y=n1,col sep=comma]{variance_theory.csv};\addlegendentry{单层}
+\addplot[orange!85!black,thick] table[x=v,y=n8,col sep=comma]{variance_theory.csv};\addlegendentry{八层}
+\nextgroupplot[title={(b) 方差给定时的收益分布},xlabel={归一化收益 $x$},ylabel={密度},xmin=-4.5,xmax=4.5,ymin=0,legend pos=north east]
+\addplot[cyan!60!black,dotted,thick] table[x=x,y=q10,col sep=comma]{variance_slices.csv};\addlegendentry{低方差}
+\addplot[black!65,dashed] table[x=x,y=q50,col sep=comma]{variance_slices.csv};\addlegendentry{中位方差}
+\addplot[purple!70!black,dashdotted] table[x=x,y=q90,col sep=comma]{variance_slices.csv};\addlegendentry{高方差}
+\addplot[orange!85!black,thick] table[x=x,y=mixture,col sep=comma]{variance_slices.csv};\addlegendentry{八层混合}
+\end{groupplot}\end{tikzpicture}

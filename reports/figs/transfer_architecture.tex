@@ -1,0 +1,15 @@
+\begin{tikzpicture}[node distance=4mm,
+b/.style={draw=blue!55!black,fill=blue!3,rounded corners=2pt,text width=6.25cm,align=left,inner sep=6pt,font=\small,minimum height=1.45cm},
+a/.style={-{Stealth[length=2mm]},semithick},wide/.style={b,text width=13.7cm,minimum height=1.1cm}]
+\node[wide] (price) {\textbf{分钟行情与交易日历}\quad 每只股票单独处理。先在同一交易时段内聚合价格，再计算 $r_t$；仅以训练收益确定尺度 $s_{\rm tr}$。};
+\node[b,below=5mm of price.south,xshift=-3.68cm] (sample) {\textbf{训练数据给出两种分布}\\直接统计 $x_t$；用连续 $M$ 个收益的样本方差构造 $\widehat v_{t,M}$。};
+\node[b,below=5mm of price.south,xshift=3.68cm] (theory) {\textbf{分层模型给出两种密度}\\方差乘子逐层相乘得到 $f_N(v)$，再按方差混合高斯密度得到 $P_N(x)$。};
+\node[wide,below=5mm of sample.south,xshift=3.68cm] (fit) {\textbf{把数据与理论对齐}\quad 在训练段选窗口 $M$，对每个 $N$ 拟合 $\beta$。固定窗口扩大层数范围，比较误差曲线和大层数极限。};
+\node[b,below=5mm of fit.south,xshift=-3.68cm] (s) {\textbf{静态对照}\\训练后整段采用固定方差背景；分别保留联合估计和同样本似然估计。};
+\node[b,below=5mm of fit.south,xshift=3.68cm,fill=orange!8] (d) {\textbf{逐日更新}\\训练估计 $\beta,c$，验证段选 $h$。开盘前给出当日密度；收盘后更新次日背景。};
+\node[wide,below=5mm of s.south,xshift=3.68cm] (eval) {\textbf{按同一批收益评分}\quad 比较平均对数评分、预测区间覆盖率和逐股差异。};
+\draw[a](price.south -| sample.north)--(sample.north);\draw[a](price.south -| theory.north)--(theory.north);
+\draw[a](sample.south)--(fit.north -| sample.south);\draw[a](theory.south)--(fit.north -| theory.south);
+\draw[a](fit.south -| s.north)--(s.north);\draw[a](fit.south -| d.north)--(d.north);
+\draw[a](s.south)--(eval.north -| s.south);\draw[a](d.south)--(eval.north -| d.south);
+\end{tikzpicture}

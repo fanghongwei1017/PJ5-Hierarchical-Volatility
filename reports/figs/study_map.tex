@@ -1,0 +1,7 @@
+\begin{tikzpicture}[box/.style={draw=blue!55!black,fill=blue!3,rounded corners=2pt,text width=3.24cm,align=center,font=\small,minimum height=1.52cm},arr/.style={-{Stealth[length=1.8mm]},thick}]
+\node[box] (a) at (0,0) {流体湍流\\大涡向小涡传递能量};
+\node[box] (b) at (4.02,0) {外汇模型\\慢方差调节快收益};
+\node[box] (c) at (8.04,0) {股票分钟行情\\收益与滚动方差};
+\node[box,fill=orange!8] (d) at (12.06,0) {逐日预测\\昨日波动更新背景};
+\draw[arr] (a)--(b);\draw[arr] (b)--(c);\draw[arr] (c)--(d);
+\end{tikzpicture}

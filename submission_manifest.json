@@ -1,9 +1,9 @@
 {
   "format_version": 1,
   "submission_date": "2026-11-15",
-  "project": "A股收益的分层波动模型：静态拟合与条件背景更新",
-  "file_count": 455,
-  "total_bytes": 234636552,
+  "project": "从湍流级联到 A 股分钟收益：分层波动模型的迁移与逐日预测",
+  "file_count": 470,
+  "total_bytes": 234647786,
   "scope": "Tracked submission files. This manifest excludes itself, .git and generated verification/build output.",
   "files": {
     ".gitattributes": {
@@ -15,8 +15,8 @@
       "sha256": "30569fc1365054f7e586fce122c84600f4fc954631162c7074b5bb065ad00e26"
     },
     "README.md": {
-      "bytes": 4664,
-      "sha256": "01a4c64a387240b748a9b43786b304ec4875eed3f8f4e914d380ac1520d75303"
+      "bytes": 4843,
+      "sha256": "721ff377a849afb62431f506c329569d8dede26caf0986dc3424ac0e41e601f0"
     },
     "data/raw-minute/600030.SH-1min.zip": {
       "bytes": 3586342,
@@ -63,20 +63,20 @@
       "sha256": "61c78ff81b47047abd73608c969d571b6bc0b846907e2eb623aa79892f423ead"
     },
     "docs/DATA.md": {
-      "bytes": 1680,
-      "sha256": "f2a177bac23b9d1db7b6a0f35d3a60e849e3aae4586028e0ec385fa2c82a5eca"
+      "bytes": 1666,
+      "sha256": "bd52ddbe07e41b0a86307abe23b495fe92f1b2f69aabf209a201cec86364e8d7"
     },
     "docs/FIGURES.md": {
-      "bytes": 3520,
-      "sha256": "9c5cf22bd5f4a72b4f9601078130534bf44ea214f6a09e702f55ed80b29c91fa"
+      "bytes": 4117,
+      "sha256": "744da1c8acf0eba0b41fcef5866d6dc600414df2ecc833c4e58a25951bbd7b3a"
     },
     "docs/REPRODUCING.md": {
-      "bytes": 3009,
-      "sha256": "8c99d692d6783c1a4acf1ee2ea579f4f6947d5ec03e33e43788c4421464ea264"
+      "bytes": 4217,
+      "sha256": "68cc410a09624dedbdcc26d1249337f12b18ae385727290b8e70c57841a3eaf5"
     },
     "docs/submission_provenance.json": {
-      "bytes": 4558,
-      "sha256": "bc16e73eb4e5bf6649a2acc0cf2e94d3ded934e496121a5acb6f6f67440f5719"
+      "bytes": 5259,
+      "sha256": "ff06d76c229bdacf8ab6201f40fff8d70412364aca8feccd17440d4a8b0d76c2"
     },
     "docs/validation/conditional_portable_check.json": {
       "bytes": 24046,
@@ -91,8 +91,8 @@
       "sha256": "1d8c926ab07d278581748cd40047dfc2553e4b083fb563171ebf455555bcddbe"
     },
     "docs/validation/package_checks.json": {
-      "bytes": 2080,
-      "sha256": "cadb0deb46d9e7df6fe766b6b38e8860c77b363353d032d5f690111a2aa41f4a"
+      "bytes": 2002,
+      "sha256": "cf8a2e6e89a4b0609aebb2ef706b6b69db2beb26895509ece0a9cdc43b0128f8"
     },
     "docs/validation/report_final_review.json": {
       "bytes": 11872,
@@ -101,6 +101,10 @@
     "docs/validation/repository_link_revision.json": {
       "bytes": 956,
       "sha256": "1f4bb48b6a577c94604674002576e1bd7db77bf12af582b8181ff72eb6b6e96a"
+    },
+    "docs/validation/turbulence_report_revision.json": {
+      "bytes": 1371,
+      "sha256": "9c010855c2355ae7ce57021fff48c85daff40ae960387c84b18afc829e05f7c9"
     },
     "environment.yml": {
       "bytes": 172,
@@ -402,6 +406,10 @@
       "bytes": 2601,
       "sha256": "bff526e5b197a3f9a2b778774dfcee72e13ad408bcbd446dedba77667b4c254e"
     },
+    "reports/figs/energy_cascade.tex": {
+      "bytes": 746,
+      "sha256": "34b6da4d2dbbd6828ff6213216127081dd8e90865f1421fe2559752a727019cf"
+    },
     "reports/figs/model_data_overview.csv": {
       "bytes": 20945,
       "sha256": "36887abf3d5dfdff75bd900d8e482b31f9d583a88b9516d925effea85c97bd5e"
@@ -490,9 +498,25 @@
       "bytes": 17444,
       "sha256": "727cac9a8b63b721a872cb25752b3106c1175addc99de375eb6e2580c39ed1ed"
     },
+    "reports/figs/persistence_forest.tex": {
+      "bytes": 1095,
+      "sha256": "2dc966cc4b60c0e21876877c50c2436f6f8972981e8639b521f0b250e90650f6"
+    },
     "reports/figs/selected_stocks_table.tex": {
       "bytes": 926,
       "sha256": "a01851192a19d7bb25de94489e348a994e2b65cfede6c46dce129cc9034d5279"
+    },
+    "reports/figs/session_persistence_plot.csv": {
+      "bytes": 894,
+      "sha256": "84bea89e981e3780116a80046baa5d76c39316a4c194f7a006034caa1a359a94"
+    },
+    "reports/figs/study_map.tex": {
+      "bytes": 567,
+      "sha256": "16e76b3f58f553163436e94d06e245592b7a869d3b55192afafbb935bacfcf72"
+    },
+    "reports/figs/transfer_architecture.tex": {
+      "bytes": 2025,
+      "sha256": "85491bb3b17678990299260ec822c63d42055881a4659b6df742c39ab98b7726"
     },
     "reports/figs/universe_all.csv": {
       "bytes": 46049,
@@ -510,17 +534,53 @@
       "bytes": 1432,
       "sha256": "3141f37ed0e3ed0905237e191a8aabf04877759d90fb15f176ca48aab081a023"
     },
+    "reports/figs/variance_empirical.csv": {
+      "bytes": 1073,
+      "sha256": "551c2a22d03b5013294ec227829856a57febb7b3715ba7fcae46e9c0beeea331"
+    },
+    "reports/figs/variance_mixture.tex": {
+      "bytes": 1382,
+      "sha256": "5215cf6d97399217003881714ced917bd365679fd08a072da8f794a50130128b"
+    },
+    "reports/figs/variance_slices.csv": {
+      "bytes": 21529,
+      "sha256": "83768f86591140a6c95e908e2ed5355bae0e28aee1a984319b5305d310bd5bcb"
+    },
+    "reports/figs/variance_theory.csv": {
+      "bytes": 11596,
+      "sha256": "d71e6163ee6366c9a9f2612a4032060612766aacd9e390d3c6c299a210f65584"
+    },
     "reports/report.pdf": {
-      "bytes": 787251,
-      "sha256": "26a4533d1977b39391b5fe38c43464a43d93c4f0ff5b80101cf3155b30c6c9de"
+      "bytes": 746054,
+      "sha256": "394ce6e1cd96771b632b50a2598dd6d3e58b477df71ceef218ae7b8856bf627a"
     },
     "reports/report.tex": {
-      "bytes": 52515,
-      "sha256": "ef72fe69175f8cb22778537be57e0a5ddc1672885e79c858e26d722239a0886c"
+      "bytes": 46557,
+      "sha256": "84cd6f1dabfb91f14727892aa6ccdbb6d50a5b8fd22834372c50a494b859be13"
     },
     "requirements.txt": {
       "bytes": 55,
       "sha256": "ecddb81fe52825d5ae3ca86270d65c17633c5fa88e4bd5b0384694e2e88a6b83"
+    },
+    "research/experiments/results/session_persistence/protocol.json": {
+      "bytes": 2080,
+      "sha256": "6fc712aa6f21e825631fda5ed7f562fa9ca08f76f92d7d357955276f2f8644ea"
+    },
+    "research/experiments/results/session_persistence/session_persistence.csv": {
+      "bytes": 2325,
+      "sha256": "933e0cb30a265249bf69ac109e65a493f84ae064f8b30469d7853f04e54e740b"
+    },
+    "research/experiments/results/session_persistence/session_persistence_plot.csv": {
+      "bytes": 894,
+      "sha256": "84bea89e981e3780116a80046baa5d76c39316a4c194f7a006034caa1a359a94"
+    },
+    "research/experiments/session_persistence.py": {
+      "bytes": 4799,
+      "sha256": "23c44db19db51ecd80089c89397084e25f81ec80abc1e168da602f7871da3406"
+    },
+    "research/experiments/variance_mixture.py": {
+      "bytes": 3420,
+      "sha256": "29b88bf1a089f082710bbe073857c8cee431c2283beb4e7916c0134c529f92bd"
     },
     "research/依据/811重划实验_20261114/README_复算.md": {
       "bytes": 6246,
@@ -1827,5 +1887,6 @@
       "sha256": "89ebef21cbfffbc8486af7cd9a19449048dad1e984cec0644590089fa10c4953"
     }
   },
-  "last_data_addendum": "2026-11-18"
+  "last_data_addendum": "2026-11-18",
+  "revision_date": "2026-11-18"
 }

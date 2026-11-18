@@ -1,0 +1,11 @@
+\begin{tikzpicture}
+\begin{groupplot}[group style={group size=2 by 1,horizontal sep=.85cm},width=.46\linewidth,height=7.3cm,
+xmin=-.1,xmax=.81,ymin=.5,ymax=8.5,ytick={1,2,3,4,5,6,7,8},xtick={0,.2,.4,.6,.8},
+tick label style={font=\small},grid=major,grid style={black!10},xlabel={相邻窗口的秩相关}]
+\nextgroupplot[title={2019 年测试段},yticklabels={中国建筑,方大炭素,华友钴业,招商银行,伊利股份,中信证券,贵州茅台,中国平安}]
+\draw[black!55,dashed] (axis cs:0,.5)--(axis cs:0,8.5);
+\addplot+[only marks,mark=*,color=blue!70!black,error bars/.cd,x dir=both,x explicit] table[x=test,y=row,x error minus=test_minus,x error plus=test_plus,col sep=comma]{session_persistence_plot.csv};
+\nextgroupplot[title={2026 年跨期检验},yticklabels=\empty]
+\draw[black!55,dashed] (axis cs:0,.5)--(axis cs:0,8.5);
+\addplot+[only marks,mark=square*,color=orange!80!black,error bars/.cd,x dir=both,x explicit] table[x=later,y=row,x error minus=later_minus,x error plus=later_plus,col sep=comma]{session_persistence_plot.csv};
+\end{groupplot}\end{tikzpicture}

@@ -48,10 +48,10 @@
   "experiment_files_unchanged": true,
   "current_documents": {
     "reports/report.pdf": {
-      "sha256": "26a4533d1977b39391b5fe38c43464a43d93c4f0ff5b80101cf3155b30c6c9de"
+      "sha256": "394ce6e1cd96771b632b50a2598dd6d3e58b477df71ceef218ae7b8856bf627a"
     },
     "reports/report.tex": {
-      "sha256": "ef72fe69175f8cb22778537be57e0a5ddc1672885e79c858e26d722239a0886c"
+      "sha256": "84cd6f1dabfb91f14727892aa6ccdbb6d50a5b8fd22834372c50a494b859be13"
     },
     "reports/data_supplement.pdf": {
       "sha256": "7069639a059de7d64a7b6d3b3fb5c8b6a12db98e09a438b46e6a8720a09e533c"
@@ -79,13 +79,20 @@
       "repository_url": "https://github.com/fanghongwei1017/PJ5-Hierarchical-Volatility",
       "validation": "docs/validation/repository_link_revision.json",
       "previous_commit": "93d34afa6db867f3f05f38d3e94bf222b193c06d"
+    },
+    {
+      "date": "2026-11-18",
+      "change": "Rewrite the main report around turbulence, the forex model, transfer to equity minutes, and daily conditional prediction. Add the nonoverlapping-window experiment and the variance-mixture reconstruction.",
+      "validation": "docs/validation/turbulence_report_revision.json",
+      "previous_commit": "10519a3e2968c8bf671fe180a5eebf1b68b0ab10"
     }
   ],
   "validation_scope": {
     "docs/validation/report_final_review.json": "Historical review before the name correction.",
     "docs/validation/package_checks.json": "Initial package verification before the name correction.",
     "docs/validation/member_name_revision.json": "Historical member-name correction before the repository link was appended.",
-    "docs/validation/repository_link_revision.json": "Current report repository link and final-page comparison."
+    "docs/validation/repository_link_revision.json": "Historical link revision of the earlier report.",
+    "docs/validation/turbulence_report_revision.json": "Current theory-led report with two reproducible figure calculations and independent raw-minute replay."
   },
   "initial_submission_raw_market_bars_included": false,
   "data_addendum": {
@@ -104,5 +111,7 @@
     "history_source_files": 5844,
     "subsequent_source_files": 1165,
     "minute_rows": 1678159
-  }
+  },
+  "current_project_title": "从湍流级联到 A 股分钟收益：分层波动模型的迁移与逐日预测",
+  "experiment_files_unchanged_scope": "Frozen historical static and conditional experimental files; the 2026-11-18 experiments are separate."
 }

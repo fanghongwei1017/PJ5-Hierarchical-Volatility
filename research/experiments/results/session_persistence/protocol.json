@@ -1,0 +1,26 @@
+{
+  "window_returns": 8,
+  "minutes_per_return": 5,
+  "block_days": 5,
+  "draws": 2000,
+  "seed": 20261118,
+  "statistic": "mean of two within-session Spearman correlations across complete days",
+  "source_sha256": {
+    "historical/returns_601318.SH_5min.csv.gz": "19cb546b021bf458ecf5c08dd0763be3d8b3ec68aad63a9602fc0687b2af6c80",
+    "oos2026/returns_601318.SH_5min.csv.gz": "e48c7174d6efea9bcd0cc50a6257a1656786ceaff1e7481a607af75f4c7e4bd5",
+    "historical/returns_600519.SH_5min.csv.gz": "5eca6d5e20ef58adc25011a7ffdf3998419664c35796092f182d9ca6c05d316e",
+    "oos2026/returns_600519.SH_5min.csv.gz": "411946a4bc733ce00ed1c7a2518c3e9c6ca895be3f4496cd977f1874fa4a2d0a",
+    "historical/returns_600030.SH_5min.csv.gz": "b4afabe88052897ccf1a808c17d73358b0ee0416d6b59aa39ab1a57f9efba78e",
+    "oos2026/returns_600030.SH_5min.csv.gz": "76032ef37341775630000825f19e3e05a5eed26762da4093d5822b7d94b6cb64",
+    "historical/returns_600887.SH_5min.csv.gz": "408c6e6580bc8c3420733b9645c4ad2cc58323f0c292027c0d1656e846114236",
+    "oos2026/returns_600887.SH_5min.csv.gz": "685e949756529213f620623cfe5d74cc6396184bcc3ec67165ffb03a469f49ad",
+    "historical/returns_600036.SH_5min.csv.gz": "a17eb4064f9a65dff1608c89bc547ee5eefb14fd5003f0ed6facffdcec590e51",
+    "oos2026/returns_600036.SH_5min.csv.gz": "e894e63356a6f5d0a0fe675789d885ace4cb111a3e3dcc6b2e2b9630956f0ab8",
+    "historical/returns_603799.SH_5min.csv.gz": "c4d7b1d3db4728c5ae7b8eb794e0c704b6ee155c98bc36b379a02b1f26d5441e",
+    "oos2026/returns_603799.SH_5min.csv.gz": "dfb35ebf65cd68dbc287e47a4b8b3c24a219b1d46b14335ed6826ea1b5f3fb2f",
+    "historical/returns_600516.SH_5min.csv.gz": "c519a682e6a4462909e49c38af8e78a3d1f156d937ed922b1e62e36b5fe75da1",
+    "oos2026/returns_600516.SH_5min.csv.gz": "c7d7546d81fbfd875ac2c5e480823e599ccbd50c17da8c485dc22177040e42db",
+    "historical/returns_601668.SH_5min.csv.gz": "90760a368ec9389d6f0720769e52b877f599245ab107e0f41d1c5b68a2e3ec17",
+    "oos2026/returns_601668.SH_5min.csv.gz": "0022b2c60ebe90df191e52e266bb2bf8846245d50f7981b3d3e641da67446af2"
+  }
+}

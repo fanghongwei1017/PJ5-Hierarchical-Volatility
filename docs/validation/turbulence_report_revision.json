@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-18",
+  "report_pages": 18,
+  "figures": 12,
+  "assessment": "18 pages rendered and inspected; two-pass XeLaTeX, no unresolved references, missing glyphs or overfull boxes.",
+  "original_article": "https://doi.org/10.1103/PhysRevE.109.044313",
+  "report_sha256": "394ce6e1cd96771b632b50a2598dd6d3e58b477df71ceef218ae7b8856bf627a",
+  "source_sha256": "84cd6f1dabfb91f14727892aa6ccdbb6d50a5b8fd22834372c50a494b859be13",
+  "scientific_checks": {
+    "static_cases_checked": 12,
+    "conditional_stocks_checked": 8,
+    "conditional_input_files_checked": 16,
+    "auxiliary_checks": "20 training-day resamples; four market-clock comparisons and 46 intraday bins",
+    "new_session_persistence": "24 stock-periods; 2000 five-day block resamples each; independent rerun returned byte-identical tables and protocol",
+    "raw_minute_replay": {
+      "stock_periods": 24,
+      "max_return_error": 0,
+      "total_stock_days": 6321,
+      "max_rho_difference": 3.298214847916037e-05
+    },
+    "variance_mixture": "18528 training windows; 18342 positive windows in central histogram range; three CSVs reproduced; single-level density checked against the analytical inverse-gamma",
+    "core_estimation": "Existing static and conditional fit parameters retained; new work recomputed intraday persistence, variance distributions, and mixture components."
+  }
+}

@@ -76,5 +76,5 @@
   "conditional_check": "conditional_portable_check.json",
   "scope": "Reorganized package: static and auxiliary independent validators, conditional package verification, eight-stock figure regeneration, and isolated XeLaTeX compilation with all-page pixel comparison. No new model training.",
   "applies_to_commit": "5baeecdd10ef9e6e7ccf5867192f247045b8a0f1",
-  "later_report_revision": "repository_link_revision.json"
+  "later_report_revision": "turbulence_report_revision.json"
 }
